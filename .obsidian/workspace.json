@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability/PMF and CMF interconvertibility.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PMF and CMF interconvertibility"
+              "title": "README"
             }
           }
         ]
@@ -160,6 +160,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "856e57a45af90c8f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 4
@@ -184,8 +194,8 @@
   },
   "active": "1d8fcd24854f1364",
   "lastOpenFiles": [
-    "Untitled/Untitled.md",
     "Probability/PMF and CMF interconvertibility.md",
+    "Untitled/Untitled.md",
     "Probability/Distribution Deepseek.md",
     "Probability",
     "IOT/Introduction.md",
