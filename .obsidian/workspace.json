@@ -1,56 +1,37 @@
 {
   "main": {
-    "id": "25363999ac7c4dc7",
+    "id": "0a7f26b02af7f0a3",
     "type": "split",
     "children": [
       {
-        "id": "b2d20ab95020b455",
+        "id": "2927b679cf78cf0d",
         "type": "tabs",
         "children": [
           {
-            "id": "1d8fcd24854f1364",
+            "id": "cb7208aeca912b01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IOT/BIG Data.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "BIG Data"
-            }
-          },
-          {
-            "id": "560befaf3d449bd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/(TEMPLATE) Daily.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(TEMPLATE) Daily"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4812ddaf9a7c2773",
+    "id": "8b17266d00256cf2",
     "type": "split",
     "children": [
       {
-        "id": "8dcf46310753eaad",
+        "id": "58dcd3d7b6cc0c59",
         "type": "tabs",
         "children": [
           {
-            "id": "514d6ef99a32fabe",
+            "id": "519c5e5f134d2a11",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +44,7 @@
             }
           },
           {
-            "id": "bab8c09727b7c0d9",
+            "id": "95e5caac71d0d672",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +61,7 @@
             }
           },
           {
-            "id": "a07e374d32d87a92",
+            "id": "f11c6abb13eb784a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,28 +69,38 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "f78b1966b996512b",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "daf920e37259ad8b",
+    "id": "a5eb797b129e6f88",
     "type": "split",
     "children": [
       {
-        "id": "e00ad9efad19d70b",
+        "id": "6c007c54bd3b216e",
         "type": "tabs",
         "children": [
           {
-            "id": "2330a0c2d94f1ab1",
+            "id": "d24a6f00ad1ab4e4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +110,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "12d8fb1706b3c51b",
+            "id": "054f69c847fbafae",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "03004723fc807a12",
+            "id": "5f412a05be4ee276",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,22 +142,45 @@
             }
           },
           {
-            "id": "84502dc952498e70",
+            "id": "31352707df104b3c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "bd246af6ca7078eb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           },
           {
-            "id": "13bea034385e83ca",
+            "id": "1245cc97a38573ae",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "d346d054fad2a195",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -175,64 +188,64 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "856e57a45af90c8f",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "homepage:Open homepage": false,
+      "switcher:Open quick switcher": true,
+      "command-palette:Open command palette": true,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": true,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-importer:Open Importer": true,
+      "templater-obsidian:Templater": true,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "514d6ef99a32fabe",
+  "active": "cb7208aeca912b01",
   "lastOpenFiles": [
-    "Data Structure/Untitled.md",
+    "workspace.json",
+    "core-plugins.json",
+    "community-plugins.json",
+    "appearance.json",
+    "app.json",
+    "themes/Cyber Glow/theme.css",
+    "themes/Cyber Glow/manifest.json",
+    "themes/Dracula for Obsidian/manifest.json",
+    "themes/Dracula for Obsidian/theme.css",
+    "themes/Obsidianite/theme.css",
+    "themes/Obsidianite/manifest.json",
+    "202510061843.md",
+    "ED-202510061842.excalidraw.md",
     "README.md",
-    "Templates/Untitled.md",
+    "01 - Projects/Placeholder.md",
+    "06 - Daily/20251006.md",
+    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "Templates/(TEMPLATE) Daily.md",
-    "IOT/BIG Data.md",
-    "Data Structure/Linked List.md",
-    "Templates",
-    "Probability/PMF and CMF interconvertibility.md",
-    "Untitled/Untitled.md",
-    "Probability/Distribution Deepseek.md",
-    "Probability",
-    "IOT/Introduction.md",
-    "IOT/Industry 4.0 Environment & Design Principles.md",
-    "IOT/Core Technology- Cyber-Physical Systems (CPS).md",
-    "IOT/Cloud computing and FOG computing.md",
-    "IOT/AI.md",
-    "IOT",
-    "DSD Verilog",
-    "Data Structure/Stack.md",
-    "Data Structure/Pointer and Structure.md",
-    "Data Structure/PYQs.md",
-    "Data Structure/Miscellaneous.md",
-    "Data Structure/Array.md",
-    "Data Structure"
+    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
+    "07 - Archives/Placeholder.md",
+    "06 - Daily/Placeholder.md",
+    "05 - Fleeting/Placeholder.md",
+    "04 - Permanent/Placeholder.md",
+    "03 - Resources/Placeholder.md",
+    "02 - Areas/Placeholder.md",
+    "00 - Maps of Content/Placeholder.md"
   ]
 }
