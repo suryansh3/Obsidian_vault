@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20251006",
+      "path": "06 - Daily/20251006.md"
+    },
+    {
       "basename": "202510061843",
       "path": "202510061843.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Placeholder",
       "path": "01 - Projects/Placeholder.md"
-    },
-    {
-      "basename": "20251006",
-      "path": "06 - Daily/20251006.md"
     },
     {
       "basename": "202403091325 General Tweaks CSS Classes",
@@ -30,6 +30,9 @@
     }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
   "maxLength": null,
   "openType": "tab"
 }
