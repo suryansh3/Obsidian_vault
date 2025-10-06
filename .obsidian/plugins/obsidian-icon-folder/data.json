@@ -5,7 +5,10 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "BoBxData",
+      "LiCalendar"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
@@ -88,5 +91,7 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "01 - Daily": "LiCalendar",
+  "02 - Data Structure": "BoBxData"
 }

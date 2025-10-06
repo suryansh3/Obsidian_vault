@@ -1,20 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "202510061843",
-      "path": "202510061843.md"
-    },
-    {
-      "basename": "20251006",
-      "path": "06 - Daily/20251006.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Placeholder",
-      "path": "01 - Projects/Placeholder.md"
+      "basename": "Distribution Deepseek",
+      "path": "04 - Probability/Distribution Deepseek.md"
     },
     {
       "basename": "202403091325 General Tweaks CSS Classes",
@@ -26,7 +14,19 @@
     },
     {
       "basename": "(TEMPLATE) Daily",
-      "path": "Templates/(TEMPLATE) Daily.md"
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
+    },
+    {
+      "basename": "Placeholder",
+      "path": "00 - Maps of Content/Placeholder.md"
+    },
+    {
+      "basename": "20251006",
+      "path": "01 - Daily/20251006.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     }
   ],
   "omittedPaths": [],
