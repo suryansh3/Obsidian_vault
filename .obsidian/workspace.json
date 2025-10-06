@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Probability/PMF and CMF interconvertibility.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "a68b4c558b59afc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "PMF and CMF interconvertibility"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,8 +182,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a68b4c558b59afc7",
+  "active": "1d8fcd24854f1364",
   "lastOpenFiles": [
+    "Untitled/Untitled.md",
     "Probability/PMF and CMF interconvertibility.md",
     "Probability/Distribution Deepseek.md",
     "Probability",
@@ -218,7 +204,6 @@
     "Data Structure/Array.md",
     "Data Structure",
     "README.md",
-    "Untitled/Untitled.md",
     "Untitled"
   ]
 }
