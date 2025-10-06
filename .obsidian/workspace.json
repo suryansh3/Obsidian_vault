@@ -80,8 +80,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -216,7 +215,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cb7208aeca912b01",
+  "active": "519c5e5f134d2a11",
   "lastOpenFiles": [
     "workspace.json",
     "core-plugins.json",
