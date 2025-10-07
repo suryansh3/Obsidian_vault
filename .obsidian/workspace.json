@@ -11,15 +11,14 @@
             "id": "d39f20595528a213",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "02 - Areas/Placeholder.md",
-                "bFile": "08 - Resources/Placeholder.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "08 - Resources/Placeholder.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Placeholder"
+              "icon": "lucide-file",
+              "title": "Placeholder"
             }
           }
         ]
@@ -219,8 +218,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d346d054fad2a195",
+  "active": "d39f20595528a213",
   "lastOpenFiles": [
+    "01 - Daily/20251007.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "01 - Daily/Untitled.md",
+    "01 - Daily/Untitled 1.md",
+    "Untitled.md",
+    "01 - Daily/20251006.md",
+    "02 - Data Structure/Miscellaneous.md",
+    "02 - Data Structure/Linked List.md",
+    "02 - Data Structure/Array.md",
     "conflict-files-obsidian-git.md",
     "06 - Daily/20251007.md",
     "08 - Resources/Placeholder.md",
@@ -238,24 +247,14 @@
     "02 - Data Structure/Stack.md",
     "02 - Data Structure/Pointer and Structure.md",
     "02 - Data Structure/PYQs.md",
-    "02 - Data Structure/Miscellaneous.md",
-    "02 - Data Structure/Linked List.md",
-    "02 - Data Structure/Array.md",
     "02 - Data Structure",
     "01 - Daily/Placeholder.md",
-    "01 - Daily/20251007.md",
-    "01 - Daily/20251006.md",
     "01 - Daily",
     "workspace.json",
     "core-plugins.json",
     "community-plugins.json",
     "appearance.json",
     "app.json",
-    "202510061843.md",
-    "ED-202510061842.excalidraw.md",
-    "README.md",
-    "01 - Projects/Placeholder.md",
-    "06 - Daily/20251006.md",
-    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
+    "202510061843.md"
   ]
 }
