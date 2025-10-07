@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2927b679cf78cf0d",
+        "id": "050950b0340e5d8b",
         "type": "tabs",
         "children": [
           {
-            "id": "cb7208aeca912b01",
+            "id": "d39f20595528a213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "06 - Daily/20251007.md",
-                "mode": "source",
-                "source": false
+                "aFile": "02 - Areas/Placeholder.md",
+                "bFile": "08 - Resources/Placeholder.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "20251007"
+              "icon": "diff",
+              "title": "Diff: Placeholder"
             }
           }
         ]
@@ -218,36 +219,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cb7208aeca912b01",
+  "active": "d346d054fad2a195",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "06 - Daily/20251007.md",
+    "08 - Resources/Placeholder.md",
+    "08 - Resources",
+    "04 - Probability/PMF and CMF interconvertibility.md",
+    "04 - Probability/Distribution Deepseek.md",
+    "04 - Probability",
+    "03 - IOT/Introduction.md",
+    "03 - IOT/Industry 4.0 Environment & Design Principles.md",
+    "03 - IOT/Core Technology- Cyber-Physical Systems (CPS).md",
+    "03 - IOT/Cloud computing and FOG computing.md",
+    "03 - IOT/BIG Data.md",
+    "03 - IOT/AI.md",
+    "03 - IOT",
+    "02 - Data Structure/Stack.md",
+    "02 - Data Structure/Pointer and Structure.md",
+    "02 - Data Structure/PYQs.md",
+    "02 - Data Structure/Miscellaneous.md",
+    "02 - Data Structure/Linked List.md",
+    "02 - Data Structure/Array.md",
+    "02 - Data Structure",
+    "01 - Daily/Placeholder.md",
+    "01 - Daily/20251007.md",
+    "01 - Daily/20251006.md",
+    "01 - Daily",
     "workspace.json",
     "core-plugins.json",
     "community-plugins.json",
     "appearance.json",
     "app.json",
-    "themes/Cyber Glow/theme.css",
-    "themes/Cyber Glow/manifest.json",
-    "themes/Dracula for Obsidian/manifest.json",
-    "themes/Dracula for Obsidian/theme.css",
-    "themes/Obsidianite/theme.css",
     "202510061843.md",
     "ED-202510061842.excalidraw.md",
     "README.md",
     "01 - Projects/Placeholder.md",
     "06 - Daily/20251006.md",
-    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
-    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
-    "Templates/(TEMPLATE) Daily.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
-    "07 - Archives/Placeholder.md",
-    "06 - Daily/Placeholder.md",
-    "05 - Fleeting/Placeholder.md",
-    "04 - Permanent/Placeholder.md",
-    "03 - Resources/Placeholder.md",
-    "02 - Areas/Placeholder.md",
-    "00 - Maps of Content/Placeholder.md"
+    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
   ]
 }

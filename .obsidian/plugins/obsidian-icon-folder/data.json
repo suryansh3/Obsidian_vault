@@ -5,7 +5,10 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "BoBxData",
+      "LiCalendar"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
@@ -13,30 +16,6 @@
         "icon": "BoBxGlobeAlt",
         "for": "everything",
         "order": 0
-      },
-      {
-        "rule": " - Projects",
-        "icon": "BoBxsPen",
-        "for": "folders",
-        "order": 1
-      },
-      {
-        "rule": " - Areas",
-        "icon": "BoBxsPackage",
-        "for": "folders",
-        "order": 2
-      },
-      {
-        "rule": " - Resources",
-        "icon": "BoBxsBook",
-        "for": "folders",
-        "order": 3
-      },
-      {
-        "rule": " - Fleeting",
-        "icon": "BoBxsPencil",
-        "for": "folders",
-        "order": 4
       },
       {
         "rule": "- Daily",
@@ -55,12 +34,6 @@
         "icon": "BoBxRuler",
         "for": "everything",
         "order": 7
-      },
-      {
-        "rule": "- Permanent",
-        "icon": "BoBxsFile",
-        "for": "everything",
-        "order": 8
       },
       {
         "rule": "- Archives",
@@ -88,5 +61,7 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "01 - Daily": "LiCalendar",
+  "02 - Data Structure": "BoBxData"
 }
