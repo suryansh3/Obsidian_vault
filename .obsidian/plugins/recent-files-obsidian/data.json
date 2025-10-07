@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20251007",
+      "path": "06 - Daily/20251007.md"
+    },
+    {
       "basename": "202510061843",
       "path": "202510061843.md"
     },
@@ -30,6 +34,9 @@
     }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
   "maxLength": null,
   "openType": "tab"
 }
