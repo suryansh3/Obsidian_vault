@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Distribution Deepseek",
       "path": "04 - Probability/Distribution Deepseek.md"
+    },
+    {
+      "basename": "PMF and CMF interconvertibility",
+      "path": "04 - Probability/PMF and CMF interconvertibility.md"
+    },
+    {
+      "basename": "BIG Data",
+      "path": "03 - IOT/BIG Data.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
     },
     {
       "basename": "20251007",
@@ -39,10 +55,6 @@
     {
       "basename": "Array",
       "path": "02 - Data Structure/Array.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
