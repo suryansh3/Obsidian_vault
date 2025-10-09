@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "20251009",
+      "path": "01 - Daily/20251009.md"
+    },
+    {
+      "basename": "202403091325 General Tweaks CSS Classes",
+      "path": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
+    },
+    {
+      "basename": "202401211512 Notebook CSS Classes",
+      "path": "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md"
+    },
+    {
       "basename": "Placeholder",
       "path": "08 - Resources/Placeholder.md"
     },
@@ -31,14 +43,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "202403091325 General Tweaks CSS Classes",
-      "path": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
-    },
-    {
-      "basename": "202401211512 Notebook CSS Classes",
-      "path": "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md"
     }
   ],
   "omittedPaths": [],

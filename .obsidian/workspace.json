@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08 - Resources/Placeholder.md",
+                "file": "01 - Daily/20251009.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Placeholder"
+              "title": "20251009"
             }
           }
         ]
@@ -220,6 +220,10 @@
   },
   "active": "d39f20595528a213",
   "lastOpenFiles": [
+    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+    "01 - Daily/20251009.md",
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
+    "08 - Resources/Placeholder.md",
     "01 - Daily/20251007.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
@@ -232,7 +236,6 @@
     "02 - Data Structure/Array.md",
     "conflict-files-obsidian-git.md",
     "06 - Daily/20251007.md",
-    "08 - Resources/Placeholder.md",
     "08 - Resources",
     "04 - Probability/PMF and CMF interconvertibility.md",
     "04 - Probability/Distribution Deepseek.md",
@@ -246,15 +249,12 @@
     "03 - IOT",
     "02 - Data Structure/Stack.md",
     "02 - Data Structure/Pointer and Structure.md",
-    "02 - Data Structure/PYQs.md",
     "02 - Data Structure",
-    "01 - Daily/Placeholder.md",
     "01 - Daily",
     "workspace.json",
     "core-plugins.json",
     "community-plugins.json",
     "appearance.json",
-    "app.json",
-    "202510061843.md"
+    "app.json"
   ]
 }
