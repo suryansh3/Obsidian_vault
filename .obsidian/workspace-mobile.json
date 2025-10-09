@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20251009.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20251009"
+              "title": "Untitled"
             }
           }
         ]
@@ -197,6 +197,8 @@
   },
   "active": "7262424942824a01",
   "lastOpenFiles": [
-    "01 - Daily/20251009.md"
+    "README.md",
+    "01 - Daily/20251009.md",
+    "Untitled.md"
   ]
 }
