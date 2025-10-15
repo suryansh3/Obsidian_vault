@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Probability/PMF and CMF interconvertibility.md",
-                "mode": "source",
+                "file": "04 - Probability/Probability Density and rest topics.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PMF and CMF interconvertibility"
+              "title": "Probability Density and rest topics"
             }
           }
         ]
@@ -220,8 +220,8 @@
   },
   "active": "f4de3f75cef8a0a9",
   "lastOpenFiles": [
-    "04 - Probability/Probability Density and rest topics.md",
     "04 - Probability/PMF and CMF interconvertibility.md",
+    "04 - Probability/Probability Density and rest topics.md",
     "04 - Probability/Distribution Deepseek.md",
     "01 - Daily/20251015.md",
     "01 - Daily/20251010.md",
