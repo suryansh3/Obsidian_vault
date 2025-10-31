@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20251031.md",
+                "file": "02 - Data Structure/Viva Concept queue and trees..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20251031"
+              "title": "Viva Concept queue and trees."
             }
           }
         ],
@@ -193,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Daily/20251006.md",
+                "file": "02 - Data Structure/Viva Concept queue and trees..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20251006"
+              "title": "Outline of Viva Concept queue and trees."
             }
           },
           {
@@ -218,14 +218,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01 - Daily/20251031.md"
+                "file": "02 - Data Structure/Viva Concept queue and trees..md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 20251031"
+              "title": "File properties for Viva Concept queue and trees."
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       },
       {
         "id": "78982c0501f30aa9",
@@ -245,7 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 379.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,10 +266,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2664a5b053fa3c0e",
+  "active": "31352707df104b3c",
   "lastOpenFiles": [
-    "01 - Daily/20251006.md",
+    "02 - Data Structure/PYQs.md",
+    "02 - Data Structure/Viva Concept queue and trees..md",
     "01 - Daily/20251031.md",
+    "01 - Daily/20251006.md",
     "04 - Probability/Distribution Deepseek.md",
     "Untitled.base",
     "202510061519.md",
