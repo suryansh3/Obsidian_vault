@@ -93,32 +93,18 @@
             "id": "f22ad84f246e111a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "02 - Data Structure/Viva Concept queue and trees..md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "bFile": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Viva Concept queue and trees."
-            }
-          },
-          {
-            "id": "6af3fbdae8901476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "diff",
+              "title": "Diff: data.json"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -336,10 +322,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6af3fbdae8901476",
+  "active": "f22ad84f246e111a",
   "lastOpenFiles": [
-    "02 - Data Structure/Viva Concept queue and trees..md",
     "conflict-files-obsidian-git.md",
+    "02 - Data Structure/Viva Concept queue and trees..md",
     "01 - Daily/20251031.md",
     "Untitled.md",
     "06- Digital System Design/Untitled 1.md",
