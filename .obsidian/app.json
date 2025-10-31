@@ -11,5 +11,12 @@
   "propertiesInDocument": "visible",
   "autoPairBrackets": false,
   "readableLineLength": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "vimMode": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
 }
