@@ -8,7 +8,7 @@ Good luck!
 
 **(Speaker starts)**
 
-"Thank you, [Name of previous speaker].
+"Thank you, [Vineet Sharma].
 
 So, where did this powerful idea come from? It wasn't born in a factory. It was born 60,000 miles from Earth.
 

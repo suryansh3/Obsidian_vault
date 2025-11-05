@@ -109,12 +109,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "PPT - Suryansh Mithu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "PPT - Suryansh Mithu"
             }
           }
         ],
@@ -338,13 +338,14 @@
   },
   "active": "438697eaec33f345",
   "lastOpenFiles": [
+    "Untitled.md",
+    "README.md",
+    "PPT - Suryansh Mithu.md",
     "01 - Daily/20251105.md",
-    "Untitled 1.md",
     "02 - Data Structure/Viva Concept queue and trees..md",
     "02 - Data Structure/Stack.md",
     "conflict-files-obsidian-git.md",
     "01 - Daily/20251031.md",
-    "Untitled.md",
     "06- Digital System Design/Untitled 1.md",
     "06- Digital System Design",
     "04 - Probability/Probability Density and rest topics.md",
@@ -372,7 +373,6 @@
     "themes/Cyber Glow/manifest.json",
     "themes/Dracula for Obsidian/manifest.json",
     "ED-202510061842.excalidraw.md",
-    "README.md",
     "01 - Projects/Placeholder.md",
     "Templates/(TEMPLATE) Daily.md"
   ]
