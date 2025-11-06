@@ -123,12 +123,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA 16 question co-pilot.md",
+                "file": "01 - Daily/20251107.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSA 16 question co-pilot"
+              "title": "20251107"
             }
           }
         ],
@@ -331,8 +331,8 @@
   },
   "active": "bd8b424b871aff32",
   "lastOpenFiles": [
-    "DSA 16 Question - Deepseek.md",
     "DSA 16 question co-pilot.md",
+    "DSA 16 Question - Deepseek.md",
     "06- Digital System Design/Untitled 1.md",
     "PPT - Suryansh Mithu.md",
     "conflict-files-obsidian-git.md",
