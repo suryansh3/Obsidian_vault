@@ -164,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#include",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,7 +195,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -350,7 +351,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b68780973a79b7a",
+  "active": "95e5caac71d0d672",
   "lastOpenFiles": [
     "01 - Daily/20251107.md",
     "Untitled 1.md",
