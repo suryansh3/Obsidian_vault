@@ -215,13 +215,16 @@
       "templater-obsidian:Templater": true,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "workspaces:Manage workspace layouts": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "bd8b424b871aff32",
   "lastOpenFiles": [
-    "DSA 16 Question - Deepseek.md",
+    "Untitled.canvas",
     "01 - Daily/20251110.md",
+    "DSA 16 Question - Deepseek.md",
     "DSA 16 question co-pilot.md",
     "01 - Daily/20251108.md",
     "02 - Data Structure/Bubble sort.md",
@@ -247,7 +250,6 @@
     "08 - Resources/Placeholder.md",
     "01 - Daily/20251022.md",
     "06- Digital System Design",
-    "04 - Probability/Probability Density and rest topics.md",
     "08 - Resources",
     "04 - Probability",
     "03 - IOT",
