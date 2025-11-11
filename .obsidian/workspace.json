@@ -137,13 +137,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "01 - Daily/20251016.md",
-                "bFile": "01 - Daily/20251016.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aFile": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "bFile": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: 20251016"
+              "title": "Diff: data.json"
             }
           }
         ],
@@ -362,20 +361,21 @@
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "3fe4a5928ce307e2",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Untitled 1.md",
     "Untitled.md",
+    "DSA 16 question co-pilot.md",
+    "conflict-files-obsidian-git.md",
     "01 - Daily/20251110.md",
     "01 - Daily/20251108.md",
     "01 - Daily/20251016.md",
     "01 - Daily/20251009.md",
-    "DSA 16 question co-pilot.md",
     "README.md",
-    "Untitled 1.md",
     "01 - Daily/20251107.md",
     "Clippings/Covariance  Correlation  Variance of a sum  Correlation Coefficient.md",
     "01 - Daily/20251111.md",
