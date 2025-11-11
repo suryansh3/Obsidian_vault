@@ -8,4 +8,4 @@
 | OR                 | 7432        | ![[Pasted image 20251111230949.png]] |
 | XOR                | 7486        | ![[Pasted image 20251111231039.png]] |
 | Active low Decoder | 74138       | ![[Pasted image 20251111232750.png]] |
-|                    |             |                                      |
+| Active low Mux     | 74151       |                                      |
