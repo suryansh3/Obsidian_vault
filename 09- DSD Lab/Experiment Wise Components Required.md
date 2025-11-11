@@ -12,3 +12,5 @@
 | Active low Mux (2x1) | 74157       |                                      |
 | J-K flipflop         | 7476        |                                      |
 | D Flipflop           | 7474        |                                      |
+|                      | 7490        |                                      |
+|                      | 7497        |                                      |
