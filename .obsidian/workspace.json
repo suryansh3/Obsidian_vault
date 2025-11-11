@@ -90,45 +90,45 @@
             }
           },
           {
-            "id": "f22ad84f246e111a",
+            "id": "108603361765bcc6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "01 - Daily/20251105.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "20251105"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           },
           {
-            "id": "438697eaec33f345",
+            "id": "1aaeb8845b68df14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "01 - Daily/20251107.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "20251107"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           },
           {
-            "id": "7b68780973a79b7a",
+            "id": "3fdfd4d6d9f954f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Clippings/Covariance  Correlation  Variance of a sum  Correlation Coefficient.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Covariance  Correlation  Variance of a sum  Correlation Coefficient"
             }
           }
         ],
@@ -164,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,8 +195,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -351,17 +350,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95e5caac71d0d672",
+  "active": "d346d054fad2a195",
   "lastOpenFiles": [
-    "01 - Daily/20251107.md",
+    "DSA 16 question co-pilot.md",
+    "README.md",
     "Untitled 1.md",
+    "01 - Daily/20251107.md",
+    "conflict-files-obsidian-git.md",
+    "Clippings/Covariance  Correlation  Variance of a sum  Correlation Coefficient.md",
+    "01 - Daily/20251111.md",
+    "Clippings",
+    "Untitled.base",
+    "DSA 16 Question - Deepseek.md",
+    "05 - Handwritten Notes/ED-202510290510.excalidraw.md",
+    "05 - Handwritten Notes",
+    "02 - Data Structure/Bubble sort.md",
+    "01 - Daily/20251029.md",
+    "01 - Daily/20251028.md",
+    "01 - Daily/20251026.md",
     "PPT - Suryansh Mithu.md",
     "Untitled.md",
-    "README.md",
     "01 - Daily/20251105.md",
     "02 - Data Structure/Viva Concept queue and trees..md",
     "02 - Data Structure/Stack.md",
-    "conflict-files-obsidian-git.md",
     "01 - Daily/20251031.md",
     "06- Digital System Design/Untitled 1.md",
     "06- Digital System Design",
@@ -371,24 +382,12 @@
     "01 - Daily/20251010.md",
     "01 - Daily/20251007.md",
     "02 - Data Structure/PYQs.md",
-    "01 - Daily/20251006.md",
-    "04 - Probability/Distribution Deepseek.md",
-    "Untitled.base",
-    "202510061519.md",
     "Untitled.canvas",
-    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
-    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
-    "00 - Maps of Content/Placeholder.md",
-    "202510061843.md",
     "workspace.json",
     "core-plugins.json",
     "community-plugins.json",
     "appearance.json",
     "app.json",
-    "themes/Cyber Glow/theme.css",
-    "themes/Cyber Glow/manifest.json",
-    "themes/Dracula for Obsidian/manifest.json",
-    "ED-202510061842.excalidraw.md"
+    "themes/Cyber Glow/theme.css"
   ]
 }
