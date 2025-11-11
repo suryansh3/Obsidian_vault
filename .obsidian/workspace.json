@@ -247,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -272,8 +273,18 @@
   },
   "active": "6f5d21ba7d58291c",
   "lastOpenFiles": [
-    "09- DSD Lab/Untitled 2.md",
+    "09- DSD Lab/Experiment.md",
+    "99 - Meta/attachments/Pasted image 20251111231536.png",
     "09- DSD Lab/Experiment Wise Components Required.md",
+    "99 - Meta/attachments/Pasted image 20251111231218.png",
+    "99 - Meta/attachments/Pasted image 20251111231039.png",
+    "99 - Meta/attachments/Pasted image 20251111231024.png",
+    "99 - Meta/attachments/Pasted image 20251111231006.png",
+    "99 - Meta/attachments/Pasted image 20251111230949.png",
+    "99 - Meta/attachments/Pasted image 20251111230904.png",
+    "99 - Meta/attachments/Pasted image 20251111230838.png",
+    "99 - Meta/attachments/Pasted image 20251111230831.png",
+    "99 - Meta/attachments",
     "09- DSD Lab",
     "Untitled 1.md",
     "README.md",
@@ -301,13 +312,11 @@
     "02 - Data Structure/Viva Concept queue and trees..md",
     "02 - Data Structure/Stack.md",
     "01 - Daily/20251031.md",
-    "06- Digital System Design/Untitled 1.md",
     "06- Digital System Design",
     "Untitled.canvas",
     "workspace.json",
     "core-plugins.json",
     "community-plugins.json",
-    "appearance.json",
-    "app.json"
+    "appearance.json"
   ]
 }
