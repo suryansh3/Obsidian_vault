@@ -130,9 +130,24 @@
               "icon": "lucide-file",
               "title": "Covariance  Correlation  Variance of a sum  Correlation Coefficient"
             }
+          },
+          {
+            "id": "3fe4a5928ce307e2",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "01 - Daily/20251016.md",
+                "bFile": "01 - Daily/20251016.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 20251016"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -350,13 +365,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d346d054fad2a195",
+  "active": "3fe4a5928ce307e2",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Untitled.md",
+    "01 - Daily/20251110.md",
+    "01 - Daily/20251108.md",
+    "01 - Daily/20251016.md",
+    "01 - Daily/20251009.md",
     "DSA 16 question co-pilot.md",
     "README.md",
     "Untitled 1.md",
     "01 - Daily/20251107.md",
-    "conflict-files-obsidian-git.md",
     "Clippings/Covariance  Correlation  Variance of a sum  Correlation Coefficient.md",
     "01 - Daily/20251111.md",
     "Clippings",
@@ -369,7 +389,6 @@
     "01 - Daily/20251028.md",
     "01 - Daily/20251026.md",
     "PPT - Suryansh Mithu.md",
-    "Untitled.md",
     "01 - Daily/20251105.md",
     "02 - Data Structure/Viva Concept queue and trees..md",
     "02 - Data Structure/Stack.md",
@@ -378,10 +397,6 @@
     "06- Digital System Design",
     "04 - Probability/Probability Density and rest topics.md",
     "01 - Daily/20251022.md",
-    "01 - Daily/20251015.md",
-    "01 - Daily/20251010.md",
-    "01 - Daily/20251007.md",
-    "02 - Data Structure/PYQs.md",
     "Untitled.canvas",
     "workspace.json",
     "core-plugins.json",
