@@ -41,12 +41,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "09- DSD Lab/Experiment Wise Components Required.md",
+                "file": "01 - Daily/20251112.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Experiment Wise Components Required"
+              "title": "20251112"
+            }
+          },
+          {
+            "id": "b7c62354ed99ff0c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
             }
           }
         ],
@@ -273,10 +285,23 @@
   },
   "active": "6f5d21ba7d58291c",
   "lastOpenFiles": [
+    "01 - Daily/20251007.md",
+    "01 - Daily/20251112.md",
+    "01 - Daily/20251015.md",
+    "01 - Daily/20251110.md",
+    "01 - Daily/20251107.md",
+    "01 - Daily/20251031.md",
+    "01 - Daily/20251028.md",
+    "01 - Daily/20251016.md",
+    "01 - Daily/20251009.md",
+    "01 - Daily/20251026.md",
+    "01 - Daily/20251010.md",
+    "01 - Daily/20251022.md",
+    "06- Digital System Design/Untitled 1.md",
+    "09- DSD Lab/Experiment Wise Components Required.md",
     "99 - Meta/attachments/Pasted image 20251111232750.png",
     "09- DSD Lab/Experiment.md",
     "99 - Meta/attachments/Pasted image 20251111231536.png",
-    "09- DSD Lab/Experiment Wise Components Required.md",
     "99 - Meta/attachments/Pasted image 20251111231218.png",
     "99 - Meta/attachments/Pasted image 20251111231039.png",
     "99 - Meta/attachments/Pasted image 20251111231024.png",
@@ -295,24 +320,12 @@
     "DSA 16 question co-pilot.md",
     "conflict-files-obsidian-git.md",
     "04 - Probability/Distribution Deepseek 1.md",
-    "01 - Daily/20251110.md",
     "01 - Daily/20251108.md",
-    "01 - Daily/20251016.md",
-    "01 - Daily/20251009.md",
-    "01 - Daily/20251107.md",
     "Clippings",
     "Untitled.base",
     "05 - Handwritten Notes/ED-202510290510.excalidraw.md",
     "05 - Handwritten Notes",
     "02 - Data Structure/Bubble sort.md",
-    "01 - Daily/20251029.md",
-    "01 - Daily/20251028.md",
-    "01 - Daily/20251026.md",
-    "PPT - Suryansh Mithu.md",
-    "01 - Daily/20251105.md",
-    "02 - Data Structure/Viva Concept queue and trees..md",
-    "02 - Data Structure/Stack.md",
-    "01 - Daily/20251031.md",
     "06- Digital System Design",
     "Untitled.canvas",
     "workspace.json",
