@@ -50,6 +50,18 @@
             }
           },
           {
+            "id": "560afffe5c999af5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "ED-202511122218.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ED-202511122218.excalidraw"
+            }
+          },
+          {
             "id": "b7c62354ed99ff0c",
             "type": "leaf",
             "state": {
@@ -62,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -283,10 +295,16 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6f5d21ba7d58291c",
+  "active": "560afffe5c999af5",
   "lastOpenFiles": [
-    "01 - Daily/20251007.md",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
     "01 - Daily/20251112.md",
+    "ED-202511122218.excalidraw.md",
+    "01 - Daily/20251007.md",
     "01 - Daily/20251015.md",
     "01 - Daily/20251110.md",
     "01 - Daily/20251107.md",
@@ -320,17 +338,11 @@
     "DSA 16 question co-pilot.md",
     "conflict-files-obsidian-git.md",
     "04 - Probability/Distribution Deepseek 1.md",
-    "01 - Daily/20251108.md",
     "Clippings",
     "Untitled.base",
-    "05 - Handwritten Notes/ED-202510290510.excalidraw.md",
     "05 - Handwritten Notes",
-    "02 - Data Structure/Bubble sort.md",
     "06- Digital System Design",
     "Untitled.canvas",
-    "workspace.json",
-    "core-plugins.json",
-    "community-plugins.json",
-    "appearance.json"
+    "workspace.json"
   ]
 }
