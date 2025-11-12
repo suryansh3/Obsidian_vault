@@ -67,12 +67,14 @@
             "id": "3cfe72605e6ec82b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "ED-202511122218.excalidraw.md"
+                "file": "04 - Probability/Probability Density and rest topics.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "ED-202511122218.excalidraw"
+              "icon": "lucide-file",
+              "title": "Probability Density and rest topics"
             }
           },
           {
@@ -312,8 +314,8 @@
   },
   "active": "3cfe72605e6ec82b",
   "lastOpenFiles": [
-    "04 - Probability/Distribution Deepseek.md",
     "ED-202511122218.excalidraw.md",
+    "04 - Probability/Distribution Deepseek.md",
     "Untitled.md",
     "handwritten-notes/New note.pdf",
     "handwritten-notes",
