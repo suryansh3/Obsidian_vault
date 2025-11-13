@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "20251113"
             }
+          },
+          {
+            "id": "27f2264ffd262fe7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298.5
   },
   "right": {
     "id": "a5eb797b129e6f88",
@@ -220,10 +233,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "bd8b424b871aff32",
+  "active": "27f2264ffd262fe7",
   "lastOpenFiles": [
-    "DSA 16 Question - Deepseek.md",
     "01 - Daily/20251113.md",
+    "02 - Data Structure/PYQs.md",
+    "02 - Data Structure/Pointer and Structure.md",
+    "02 - Data Structure/Bubble sort.md",
+    "02 - Data Structure/Linked List.md",
+    "02 - Data Structure/Miscellaneous.md",
+    "DSA 16 Question - Deepseek.md",
     "conflict-files-obsidian-git.md",
     "DSA 16 question co-pilot.md",
     "01 - Daily/20251110.md",
@@ -232,16 +250,12 @@
     "01 - Daily/20251009.md",
     "Untitled.canvas",
     "01 - Daily/20251108.md",
-    "02 - Data Structure/Bubble sort.md",
     "01 - Daily/20251107.md",
     "06- Digital System Design/Untitled 1.md",
     "PPT - Suryansh Mithu.md",
     "02 - Data Structure/Viva Concept queue and trees..md",
     "01 - Daily/20251105.md",
     "01 - Daily/20251031.md",
-    "02 - Data Structure/Miscellaneous.md",
-    "02 - Data Structure/Pointer and Structure.md",
-    "02 - Data Structure/Linked List.md",
     "05 - Handwritten Notes/ED-202510290510.excalidraw.md",
     "01 - Daily/20251028.md",
     "01 - Daily/20251029.md",
@@ -249,7 +263,6 @@
     "01 - Daily/20251026.md",
     "README.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
     "06- Digital System Design",
     "08 - Resources",
     "04 - Probability",
