@@ -32,9 +32,112 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.10.3"
             }
+          },
+          {
+            "id": "16f296b885b08a0d",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore"
+            }
+          },
+          {
+            "id": "9375b2061b3e302f",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore"
+            }
+          },
+          {
+            "id": "5ae8a46fb37fe0ee",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore"
+            }
+          },
+          {
+            "id": "af7446d57fb006ee",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "01 - Daily/20251113.md",
+                "bFile": "01 - Daily/20251113.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 20251113"
+            }
+          },
+          {
+            "id": "aa7e70489e5ffa73",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/plugins/obsidian-advanced-slides/plugin/math/mathjax/output/chtml/fonts/tex.js",
+                "bFile": ".obsidian/plugins/obsidian-advanced-slides/plugin/math/mathjax/output/chtml/fonts/tex.js",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: tex.js"
+            }
+          },
+          {
+            "id": "7eca6e14d278867c",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "b55a449e8ff2774e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -135,11 +238,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from conflict-files-obsidian-git"
             }
           },
           {
@@ -233,8 +337,38 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "27f2264ffd262fe7",
+  "active": "b55a449e8ff2774e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Untitled 1.md",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "Clippings/Covariance  Correlation  Variance of a sum  Correlation Coefficient.md",
+    "Clippings",
+    "99 - Meta/attachments/Pasted image 20251111232750.png",
+    "99 - Meta/attachments/Pasted image 20251111231536.png",
+    "99 - Meta/attachments/Pasted image 20251111231218.png",
+    "99 - Meta/attachments/Pasted image 20251111231039.png",
+    "99 - Meta/attachments/Pasted image 20251111231024.png",
+    "99 - Meta/attachments/Pasted image 20251111231006.png",
+    "99 - Meta/attachments/Pasted image 20251111230949.png",
+    "99 - Meta/attachments/Pasted image 20251111230904.png",
+    "99 - Meta/attachments/Pasted image 20251111230838.png",
+    "99 - Meta/attachments/ED-202511130109.excalidraw.md",
+    "99 - Meta/attachments/DocScanner 12 Nov 2025 8-37 pm.pdf",
+    "99 - Meta/attachments/Devore Solutions Ed9.pdf",
+    "99 - Meta/attachments",
+    "09- DSD Lab/Experiment.md",
+    "09- DSD Lab/Experiment Wise Components Required.md",
+    "09- DSD Lab",
+    "04 - Probability/Untitled.md",
+    "04 - Probability/Statistics.md",
+    "04 - Probability/Distribution Deepseek 1.md",
+    "01 - Daily/20251112.md",
+    "01 - Daily/20251111.md",
     "01 - Daily/20251113.md",
     "02 - Data Structure/PYQs.md",
     "02 - Data Structure/Pointer and Structure.md",
@@ -242,7 +376,6 @@
     "02 - Data Structure/Linked List.md",
     "02 - Data Structure/Miscellaneous.md",
     "DSA 16 Question - Deepseek.md",
-    "conflict-files-obsidian-git.md",
     "DSA 16 question co-pilot.md",
     "01 - Daily/20251110.md",
     "Untitled.md",
@@ -251,26 +384,7 @@
     "Untitled.canvas",
     "01 - Daily/20251108.md",
     "01 - Daily/20251107.md",
-    "06- Digital System Design/Untitled 1.md",
-    "PPT - Suryansh Mithu.md",
-    "02 - Data Structure/Viva Concept queue and trees..md",
-    "01 - Daily/20251105.md",
-    "01 - Daily/20251031.md",
-    "05 - Handwritten Notes/ED-202510290510.excalidraw.md",
-    "01 - Daily/20251028.md",
-    "01 - Daily/20251029.md",
     "05 - Handwritten Notes",
-    "01 - Daily/20251026.md",
-    "README.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
-    "06- Digital System Design",
-    "08 - Resources",
-    "04 - Probability",
-    "03 - IOT",
-    "02 - Data Structure",
-    "01 - Daily",
-    "workspace.json",
-    "core-plugins.json",
-    "community-plugins.json"
+    "06- Digital System Design"
   ]
 }
