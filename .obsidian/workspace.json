@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA 16 Question - Deepseek.md",
+                "file": "01 - Daily/20251113.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSA 16 Question - Deepseek"
+              "title": "20251113"
             }
           }
         ]
@@ -222,8 +222,9 @@
   },
   "active": "bd8b424b871aff32",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "DSA 16 Question - Deepseek.md",
+    "01 - Daily/20251113.md",
+    "conflict-files-obsidian-git.md",
     "DSA 16 question co-pilot.md",
     "01 - Daily/20251110.md",
     "Untitled.md",
@@ -249,7 +250,6 @@
     "README.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "06- Digital System Design",
     "08 - Resources",
     "04 - Probability",
