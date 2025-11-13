@@ -8,152 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3fe4a5928ce307e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          },
-          {
-            "id": "b4bab94e4b1a35f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "09- DSD Lab/Experiment Wise Components Required.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Experiment Wise Components Required"
-            }
-          },
-          {
-            "id": "6f5d21ba7d58291c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251112.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20251112"
-            }
-          },
-          {
-            "id": "560afffe5c999af5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 - Probability/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "3cfe72605e6ec82b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 - Probability/Statistics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Statistics"
-            }
-          },
-          {
-            "id": "71392f8e08b0e498",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251113.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20251113"
-            }
-          },
-          {
-            "id": "b7c62354ed99ff0c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "05 - Handwritten Notes/ED-202511122218.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ED-202511122218.excalidraw"
-            }
-          },
-          {
-            "id": "c92a6d998fcb09c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251105.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20251105"
-            }
-          },
-          {
-            "id": "e7dfbb1605710ec6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "05 - Handwritten Notes/ED-202511122218.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ED-202511122218.excalidraw"
-            }
-          },
-          {
-            "id": "248d8e00ac7f801d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "05 - Handwritten Notes/ED-202511122218.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ED-202511122218.excalidraw"
-            }
-          },
-          {
-            "id": "7493781f6014f063",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "05 - Handwritten Notes/ED-202511122218.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ED-202511122218.excalidraw"
-            }
-          },
-          {
             "id": "0a62c6f9c5da7a98",
             "type": "leaf",
             "state": {
@@ -165,8 +19,7 @@
               "title": "ED-202511122218.excalidraw"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -386,16 +239,16 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "519c5e5f134d2a11",
+  "active": "0a62c6f9c5da7a98",
   "lastOpenFiles": [
-    "01 - Daily/20251105.md",
+    "01 - Daily/20251113.md",
+    "Untitled.md",
     "05 - Handwritten Notes/ED-202511122218.excalidraw.md",
+    "01 - Daily/20251105.md",
     "01 - Daily/20251111.md",
     "01 - Daily/Placeholder.md",
-    "01 - Daily/20251113.md",
     "01 - Daily/20251010.md",
     "conflict-files-obsidian-git.md",
-    "Untitled.md",
     "README.md",
     "Untitled 1.md",
     "05 - Handwritten Notes/ED-202510290510.excalidraw.md",
