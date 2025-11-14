@@ -11,12 +11,14 @@
             "id": "0a62c6f9c5da7a98",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "05 - Handwritten Notes/ED-202511122218.excalidraw.md"
+                "file": "04 - Probability/Distribution Deepseek 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "ED-202511122218.excalidraw"
+              "icon": "lucide-file",
+              "title": "Distribution Deepseek 1"
             }
           }
         ]
@@ -241,9 +243,10 @@
   },
   "active": "0a62c6f9c5da7a98",
   "lastOpenFiles": [
+    "01 - Daily/20251114.md",
+    "05 - Handwritten Notes/ED-202511122218.excalidraw.md",
     "01 - Daily/20251113.md",
     "Untitled.md",
-    "05 - Handwritten Notes/ED-202511122218.excalidraw.md",
     "01 - Daily/20251105.md",
     "01 - Daily/20251111.md",
     "01 - Daily/Placeholder.md",
@@ -277,7 +280,6 @@
     "01 - Daily/20251028.md",
     "01 - Daily/20251016.md",
     "01 - Daily/20251009.md",
-    "01 - Daily/20251026.md",
     "99 - Meta/attachments/Pasted image 20251111232750.png",
     "99 - Meta/attachments/Pasted image 20251111231536.png",
     "99 - Meta/attachments/Pasted image 20251111231218.png",
