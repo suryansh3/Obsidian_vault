@@ -60,23 +60,9 @@
               "icon": "lucide-file",
               "title": "CSE-lesson Plan"
             }
-          },
-          {
-            "id": "15e271b8d555663c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -275,7 +261,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "15e271b8d555663c",
+  "active": "ff286f9b0e992144",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "CSE-lesson Plan.md",
