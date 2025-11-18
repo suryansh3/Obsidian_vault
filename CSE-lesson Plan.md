@@ -16,13 +16,13 @@ These topics appear in **every single exam**, often in _both_ Section A and as a
         
     - **Key Subtopics:**
         
-        - **Operations:** Reversing a list (SLL/DLL) 111111111111, merging two lists (alternating or sorted) 222, finding the merge point of two lists 3, and rotating a list444444444444.
+        - **Operations:** Reversing a list (SLL/DLL), merging two lists (alternating or sorted) , finding the merge point of two lists, and rotating a list.
             
         - **Implementation:** C-code or algorithms for insertion, deletion, and traversal.
             
-        - **Problem Solving:** Deleting alternate nodes 5, finding the middle element 6, or separating odd/even numbers7.
+        - **Problem Solving:** Deleting alternate nodes, finding the middle element, or separating odd/even numbers.
             
-        - **Representation:** Using linked lists to represent polynomials 88888888888or sparse matrices999.
+        - **Representation:** Using linked lists to represent polynomials  sparse matrices.
             
 - **2. Trees (Binary, BST, & AVL)**
     
@@ -30,13 +30,13 @@ These topics appear in **every single exam**, often in _both_ Section A and as a
         
     - **Key Subtopics:**
         
-        - **AVL Trees:** This is the most critical. You **must** know how to construct an AVL tree by inserting nodes one-by-one, including performing all four rotation types (LL, RR, LR, RL) to maintain balance101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010. AVL deletion also appears11.
+        - **AVL Trees:** This is the most critical. You **must** know how to construct an AVL tree by inserting nodes one-by-one, including performing all four rotation types (LL, RR, LR, RL) to maintain . AVL deletion also appears.
             
-        - **Tree Construction:** Building a binary tree from its traversal sequences (e.g., given In-order and Post-order, find Pre-order)121212121212121212121212121212121212121212121212121212121212121212.
+        - **Tree Construction:** Building a binary tree from its traversal sequences (e.g., given In-order and Post-order, find Pre-order).
             
-        - **Traversals:** Writing or tracing In-order, Pre-order, and Post-order traversals (both recursive and non-recursive/iterative methods)131313131313131313131313131313131313.
+        - **Traversals:** Writing or tracing In-order, Pre-order, and Post-order traversals (both recursive and non-recursive/iterative methods).
             
-        - **Binary Search Trees (BST):** Basic insertion 14, finding min/max elements 15, and checking if two trees are identical16.
+        - **Binary Search Trees (BST):** Basic insertion 14, finding min/max elements , and checking if two trees are identical16.
             
 - **3. Stacks & Queues (Applications)**
     
@@ -44,15 +44,15 @@ These topics appear in **every single exam**, often in _both_ Section A and as a
         
     - **Key Subtopics:**
         
-        - **Expression Conversion:** Infix to Postfix 171717171717171717171717171717171717171717171717and Infix to Prefix181818181818181818181818. This is a frequent, algorithmic question.
+        - **Expression Conversion:** Infix to Postfix  Infix to . This is a frequent, algorithmic question.
             
-        - **Expression Evaluation:** Evaluating a Postfix expression using a stack19191919191919191919191919.
+        - **Expression Evaluation:** Evaluating a Postfix expression using a .
             
-        - **Queues:** Circular Queue implementation (especially overflow/underflow conditions)2020202020202020202020202020.
+        - **Queues:** Circular Queue implementation (especially overflow/underflow conditions).
             
-        - **Deques:** Input-restricted and output-restricted deques21212121.
+        - **Deques:** Input-restricted and output-restricted deques.
             
-        - **Implementations:** Using a single array to implement two stacks22.
+        - **Implementations:** Using a single array to implement two stacks.
             
 
 #### Tier 2: Common Topics (High Weightage)
@@ -67,15 +67,15 @@ These topics appear in almost every exam and are common choices for long-answer 
         
         - **Collision Resolution:** You must be able to manually insert keys into a hash table and show the final state using:
             
-            - **Separate Chaining** 232323232323232323232323232323232323232323232323
+            - **Separate Chaining** 
                 
-            - **Linear Probing** 24242424242424242424242424242424242424242424
+            - **Linear Probing** 
                 
-            - **Quadratic Probing** 2525252525252525252525252525
+            - **Quadratic Probing** 
                 
-            - **Double Hashing** 262626262626262626262626
+            - **Double Hashing** 
                 
-        - **Hash Functions:** Understanding the simple division method (e.g., `k % 10`)272727272727272727272727.
+        - **Hash Functions:** Understanding the simple division method (e.g., `k % 10`).
             
 - **5. Sorting**
     
@@ -83,15 +83,15 @@ These topics appear in almost every exam and are common choices for long-answer 
         
     - **Key Subtopics:**
         
-        - **Insertion Sort:** Tracing the steps/passes28282828.
+        - **Insertion Sort:** Tracing the steps/passes.
             
-        - **Bubble Sort:** Tracing the steps and understanding the optimized version (for an already-sorted list)292929292929292929.
+        - **Bubble Sort:** Tracing the steps and understanding the optimized version (for an already-sorted list).
             
-        - **Heap Sort:** Tracing the steps (building the max-heap, then deleting)30.
+        - **Heap Sort:** Tracing the steps (building the max-heap, then deleting).
             
-        - **Merge Sort:** Explaining the divide and conquer principle31.
+        - **Merge Sort:** Explaining the divide and conquer principle.
             
-        - **Quick Sort:** Understanding the pivot and partition concept32.
+        - **Quick Sort:** Understanding the pivot and partition concept.
             
 - **6. Graphs**
     
@@ -99,9 +99,9 @@ These topics appear in almost every exam and are common choices for long-answer 
         
     - **Key Subtopics:**
         
-        - **Traversals:** Tracing **Breadth-First Search (BFS)** 33333333and **Depth-First Search (DFS)** 34343434 starting from a given node.
+        - **Traversals:** Tracing **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** starting from a given node.
             
-        - **Representation:** Drawing a graph from an adjacency matrix 35or writing the adjacency list/matrix for a given graph36363636.
+        - **Representation:** Drawing a graph from an adjacency matrix or writing the adjacency list/matrix for a given graph.
             
 
 #### Tier 3: Supporting Topics (Medium to Low Weightage)
@@ -114,11 +114,11 @@ These are either components of larger questions or appear as smaller, compulsory
         
     - **Key Subtopics:**
         
-        - **Sparse Matrix:** Understanding the 3-tuple (row-triplet) representation and writing functions for addition or subtraction373737373737373737373737373737373737373737373737373737.
+        - **Sparse Matrix:** Understanding the 3-tuple (row-triplet) representation and writing functions for addition or subtraction.
             
-        - **Address Calculation:** Finding the memory address of an element in a 2D array using row-major or column-major order38383838.
+        - **Address Calculation:** Finding the memory address of an element in a 2D array using row-major or column-major order.
             
-        - **Array Problems:** Max sub-array sum 39, code tracing40.
+        - **Array Problems:** Max sub-array sum, code tracing40.
             
 - **8. Heaps**
     
@@ -126,13 +126,13 @@ These are either components of larger questions or appear as smaller, compulsory
         
     - **Key Subtopics:**
         
-        - **Priority Queue:** Implementation using a binary heap41.
+        - **Priority Queue:** Implementation using a binary heap.
             
-        - **Heap Operations:** Complexity of extracting max and inserting42.
+        - **Heap Operations:** Complexity of extracting max and inserting.
             
 - **9. B-Trees**
     
-    - **Weightage:** Very Low. Appeared only once as a 3-way B-Tree construction43.
+    - **Weightage:** Very Low. Appeared only once as a 3-way B-Tree construction.
         
 
 ---
@@ -156,9 +156,9 @@ Your goal is to become an expert on **4 core topics** that are guaranteed to app
 
 #### Why this plan works:
 
-- **Guaranteed Long Questions:** These four topics consistently appear as dedicated 4, 5, or 12-mark questions in the choice-based sections444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444. You will be able to select your required number of questions just from this list.
+- **Guaranteed Long Questions:** These four topics consistently appear as dedicated 4, 5, or 12-mark questions in the choice-based . You will be able to select your required number of questions just from this list.
     
-- **High-Scoring in Section A:** These topics are also the most common in the compulsory short-answer section45454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545.
+- **High-Scoring in Section A:** These topics are also the most common in the compulsory short-answer.
     
 
 #### If You Have More Time (The "Insurance" Topics):
