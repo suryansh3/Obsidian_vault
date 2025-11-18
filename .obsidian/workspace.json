@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "CSE-lesson Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 2"
+              "title": "CSE-lesson Plan"
             }
           }
         ],
@@ -235,8 +235,9 @@
   },
   "active": "188a49ede281676c",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "CSE-lesson Plan.md",
     "05 - Handwritten Notes/ED-202511122218.excalidraw.md",
-    "Untitled 2.md",
     "01 - Daily/20251118.md",
     "DSA 16 Question - Deepseek.md",
     "01 - Daily/20251114.md",
@@ -246,7 +247,6 @@
     "02 - Data Structure/PYQs.md",
     "02 - Data Structure/Viva Concept queue and trees..md",
     "conflict-files-obsidian-git.md",
-    "Untitled 1.md",
     "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
     "Excalidraw/Scripts/Downloaded/Set Font Family.md",
     "Excalidraw/Scripts/Downloaded",
