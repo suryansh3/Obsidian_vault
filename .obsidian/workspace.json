@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "stw after mid sem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "stw after mid sem"
+            }
+          },
+          {
+            "id": "ef0129e9e684b15d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "stw before mid sem.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "stw before mid sem"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,8 +256,10 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "dba5409e9225fb75",
+  "active": "ef0129e9e684b15d",
   "lastOpenFiles": [
+    "stw after mid sem.md",
+    "stw before mid sem.md",
     "ED-202511220650.excalidraw.md",
     "05 - Handwritten Notes/ED-202511122218.excalidraw.md",
     "01 - Daily/20251124.md",
@@ -251,7 +268,6 @@
     "Most Important question (Year wise).md",
     "01 - Daily/20251121.md",
     "IND-4.0 assignment question.md",
-    "Untitled 1.md",
     "README.md",
     "CSE-lesson Plan.md",
     "conflict-files-obsidian-git.md",
@@ -268,7 +284,6 @@
     "01 - Daily/20251105.md",
     "01 - Daily/20251111.md",
     "01 - Daily/Placeholder.md",
-    "01 - Daily/20251010.md",
     "99 - Meta/attachments/DocScanner 12 Nov 2025 8-37 pm.pdf",
     "99 - Meta/attachments/Devore Solutions Ed9.pdf",
     "FieldNotes/field-note-20251113-b27f672d.png",
