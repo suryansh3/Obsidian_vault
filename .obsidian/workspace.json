@@ -11,12 +11,14 @@
             "id": "dba5409e9225fb75",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "05 - Handwritten Notes/ED-202511122218.excalidraw.md"
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "ED-202511122218.excalidraw"
+              "icon": "lucide-file",
+              "title": "Untitled 1"
             }
           }
         ]
@@ -241,8 +243,9 @@
   },
   "active": "dba5409e9225fb75",
   "lastOpenFiles": [
-    "01 - Daily/20251124.md",
     "ED-202511220650.excalidraw.md",
+    "05 - Handwritten Notes/ED-202511122218.excalidraw.md",
+    "01 - Daily/20251124.md",
     "06- Digital System Design/Untitled 1.md",
     "01 - Daily/20251122.md",
     "Most Important question (Year wise).md",
@@ -261,7 +264,6 @@
     "04 - Probability/Distribution Deepseek 1.md",
     "01 - Daily/20251115.md",
     "01 - Daily/20251114.md",
-    "05 - Handwritten Notes/ED-202511122218.excalidraw.md",
     "01 - Daily/20251113.md",
     "01 - Daily/20251105.md",
     "01 - Daily/20251111.md",
