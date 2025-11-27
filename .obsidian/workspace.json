@@ -55,12 +55,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "01 - Daily/20251127.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "20251127"
+            }
+          },
+          {
+            "id": "bd03468ca0659e03",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
             }
           }
         ],
@@ -286,8 +298,9 @@
   },
   "active": "b0f0758716d9d001",
   "lastOpenFiles": [
-    "01 - Daily/20251125.md",
     "Untitled 1.md",
+    "01 - Daily/20251127.md",
+    "01 - Daily/20251125.md",
     "Untitled.md",
     "stw before mid sem.md",
     "stw after mid sem.md",
@@ -311,7 +324,6 @@
     "04 - Probability/Distribution Deepseek 1.md",
     "01 - Daily/20251115.md",
     "01 - Daily/20251114.md",
-    "01 - Daily/20251113.md",
     "99 - Meta/attachments/DocScanner 12 Nov 2025 8-37 pm.pdf",
     "99 - Meta/attachments/Devore Solutions Ed9.pdf",
     "FieldNotes/field-note-20251113-b27f672d.png",
