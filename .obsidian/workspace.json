@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE-lesson Plan.md",
+                "file": "01 - Daily/20251130.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSE-lesson Plan"
+              "title": "20251130"
             }
           }
         ],
@@ -263,8 +263,9 @@
   },
   "active": "ff286f9b0e992144",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "CSE-lesson Plan.md",
+    "01 - Daily/20251130.md",
+    "conflict-files-obsidian-git.md",
     "Untitled.md",
     "Untitled 1.md",
     "DSA 16 question co-pilot.md",
@@ -306,7 +307,6 @@
     "04 - Probability/Distribution Deepseek 1.md",
     "01 - Daily/20251112.md",
     "01 - Daily/20251111.md",
-    "01 - Daily/20251113.md",
     "Untitled.canvas",
     "05 - Handwritten Notes",
     "06- Digital System Design"
