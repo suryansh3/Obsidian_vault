@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04. Semester 4/4. Operating System (OS)/OS Intro.md",
+                "file": "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OS Intro"
+              "title": "INTRODUCTION"
             }
           },
           {
@@ -270,8 +270,9 @@
   },
   "active": "b0f0758716d9d001",
   "lastOpenFiles": [
-    "01 - Daily/20251129.md",
     "04. Semester 4/4. Operating System (OS)/OS Intro.md",
+    "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
+    "01 - Daily/20251129.md",
     "04. Semester 4/4. Operating System (OS)",
     "01 - Daily/20251128.md",
     "04. Semester 4/3. OOPJ (Java)",
@@ -301,7 +302,6 @@
     "Clippings/DeepSeek.md",
     "03. Semester 3rd/04 - Probability/Untitled.md",
     "03. Semester 3rd/04 - Probability/Statistics.md",
-    "03. Semester 3rd/04 - Probability/PMF and CMF interconvertibility.md",
     "99 - Meta/attachments/DocScanner 12 Nov 2025 8-37 pm.pdf",
     "99 - Meta/attachments/Devore Solutions Ed9.pdf",
     "FieldNotes/field-note-20251113-b27f672d.png",
