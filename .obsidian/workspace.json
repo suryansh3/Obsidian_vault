@@ -35,12 +35,14 @@
             "id": "04045ebf2a19237c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "ED-202511220650.excalidraw.restored.md"
+                "file": "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "ED-202511220650.excalidraw.restored"
+              "icon": "lucide-file",
+              "title": "INTRODUCTION"
             }
           },
           {
@@ -278,8 +280,8 @@
   },
   "active": "04045ebf2a19237c",
   "lastOpenFiles": [
-    "ED-202511220650.excalidraw.md",
     "ED-202511220650.excalidraw.restored.md",
+    "ED-202511220650.excalidraw.md",
     "04. Semester 4/4. Operating System (OS)/OS Intro.md",
     "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
     "01 - Daily/20251129.md",
