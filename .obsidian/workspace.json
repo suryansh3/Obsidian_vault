@@ -25,14 +25,22 @@
             "id": "b0f0758716d9d001",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "INTRODUCTION"
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "04045ebf2a19237c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "ED-202511220650.excalidraw.restored.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ED-202511220650.excalidraw.restored"
             }
           },
           {
@@ -48,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -245,7 +253,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 305.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,8 +276,10 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "b0f0758716d9d001",
+  "active": "04045ebf2a19237c",
   "lastOpenFiles": [
+    "ED-202511220650.excalidraw.md",
+    "ED-202511220650.excalidraw.restored.md",
     "04. Semester 4/4. Operating System (OS)/OS Intro.md",
     "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
     "01 - Daily/20251129.md",
@@ -287,7 +297,6 @@
     "01 - Daily/20251125.md",
     "Untitled 1.md",
     "stw after mid sem.md",
-    "ED-202511220650.excalidraw.md",
     "01 - Daily/20251124.md",
     "03. Semester 3rd/06- Digital System Design/Untitled 1.md",
     "01 - Daily/20251122.md",
@@ -301,7 +310,6 @@
     "01 - Daily/20251119.md",
     "Clippings/DeepSeek.md",
     "03. Semester 3rd/04 - Probability/Untitled.md",
-    "03. Semester 3rd/04 - Probability/Statistics.md",
     "99 - Meta/attachments/DocScanner 12 Nov 2025 8-37 pm.pdf",
     "99 - Meta/attachments/Devore Solutions Ed9.pdf",
     "FieldNotes/field-note-20251113-b27f672d.png",
