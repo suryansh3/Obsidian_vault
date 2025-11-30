@@ -37,40 +37,8 @@
       "path": "01 - Daily/20251114.md"
     },
     {
-      "basename": "Untitled 1",
-      "path": "06- Digital System Design/Untitled 1.md"
-    },
-    {
-      "basename": "Statistics",
-      "path": "04 - Probability/Statistics.md"
-    },
-    {
-      "basename": "Pointer and Structure",
-      "path": "02 - Data Structure/Pointer and Structure.md"
-    },
-    {
-      "basename": "PYQs",
-      "path": "02 - Data Structure/PYQs.md"
-    },
-    {
-      "basename": "Viva Concept queue and trees.",
-      "path": "02 - Data Structure/Viva Concept queue and trees..md"
-    },
-    {
       "basename": "20251113",
       "path": "01 - Daily/20251113.md"
-    },
-    {
-      "basename": "Bubble sort",
-      "path": "02 - Data Structure/Bubble sort.md"
-    },
-    {
-      "basename": "Linked List",
-      "path": "02 - Data Structure/Linked List.md"
-    },
-    {
-      "basename": "Miscellaneous",
-      "path": "02 - Data Structure/Miscellaneous.md"
     },
     {
       "basename": "README",
@@ -93,28 +61,12 @@
       "path": "08 - Resources/Placeholder.md"
     },
     {
-      "basename": "PMF and CMF interconvertibility",
-      "path": "04 - Probability/PMF and CMF interconvertibility.md"
-    },
-    {
-      "basename": "Distribution Deepseek",
-      "path": "04 - Probability/Distribution Deepseek.md"
-    },
-    {
-      "basename": "BIG Data",
-      "path": "03 - IOT/BIG Data.md"
-    },
-    {
       "basename": "202403091325 General Tweaks CSS Classes",
       "path": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
     },
     {
       "basename": "202401211512 Notebook CSS Classes",
       "path": "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md"
-    },
-    {
-      "basename": "Array",
-      "path": "02 - Data Structure/Array.md"
     }
   ],
   "omittedPaths": [],

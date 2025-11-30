@@ -62,6 +62,5 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "01 - Daily": "LiCalendar",
-  "02 - Data Structure": "BoBxData"
+  "01 - Daily": "LiCalendar"
 }
