@@ -9,12 +9,16 @@
 class Main {
     public static void main(String[] args) {
         System.out.println("Name: Suryansh Mithu");
-        System.out.println("ROll: 24155060")
+        System.out.println("ROll: 24155060");
         System.out.println("University: KIIT University");
         System.out.println("Branch: CSE AIML");
     }
 }
 ```
+
+###  Output:
+
+![[Pasted image 20251202080850.png]]
 
 ---
 
@@ -34,6 +38,9 @@ class Main {
     }
 }
 ```
+### Output
+
+![[Pasted image 20251202081035.png]]
 
 ---
 
@@ -44,14 +51,19 @@ class Main {
     public static void main(String[] args) {
     System.out.println("Name: Suryansh Mithu");
     System.out.println("ROll: 24155060");
-        int a = 10, b = 5;
+        int a = 11, b = 5;
         System.out.println("Sum: " + (a + b));
         System.out.println("Difference: " + (a - b));
         System.out.println("Product: " + (a * b));
         System.out.println("Quotient: " + (a / b));
+        System.out.println("Remainder: " +(a%b));
     }
 }
 ```
+
+### Output
+
+![[Pasted image 20251202081219.png]]
 
 ---
 
@@ -68,6 +80,10 @@ class Main {
 }
 ```
 
+### Output
+
+![[Pasted image 20251202081351.png]]
+
 ---
 
 ### 5. ASCII value
@@ -83,6 +99,10 @@ class Main {
     }
 }
 ```
+
+### Output 
+
+![[Pasted image 20251202081442.png]]
 
 ---
 
@@ -102,6 +122,10 @@ class Main {
 }
 ```
 
+### Output
+
+![[Pasted image 20251202081544.png]]
+
 ---
 
 ### 7. Area of circle
@@ -119,6 +143,10 @@ class Main {
     }
 }
 ```
+
+### Output
+
+![[Pasted image 20251202081651.png]]
 
 ---
 
@@ -138,6 +166,11 @@ class Main {
 }
 ```
 
+### Output
+
+![[Pasted image 20251202081737.png]]
+
+
 ---
 
 ### 9. Swap using third variable
@@ -156,6 +189,10 @@ class Main {
 }
 ```
 
+### Output 
+
+![[Pasted image 20251202081816.png]]
+
 ---
 
 ### 10. Swap without third variable
@@ -165,7 +202,7 @@ class Main {
     public static void main(String[] args) {
     System.out.println("Name: Suryansh Mithu");
     System.out.println("ROll: 24155060");
-        int a = 10, b = 20;
+        int a = 30, b = 24;
         a = a + b;
         b = a - b;
         a = a - b;
@@ -173,6 +210,10 @@ class Main {
     }
 }
 ```
+
+### Output
+
+![[Pasted image 20251202081925.png]]
 
 ---
 
@@ -194,6 +235,12 @@ class Main {
 }
 ```
 
+### Output
+
+![[Pasted image 20251202082044.png]]
+
+![[Pasted image 20251202082051.png]]
+
 ---
 
 ### 12. Larger of two numbers
@@ -213,6 +260,10 @@ class Main {
     }
 }
 ```
+
+### Output
+
+![[Pasted image 20251202082130.png]]
 
 ---
 
@@ -234,6 +285,14 @@ class Main {
 }
 ```
 
+### Output 
+
+
+![[Pasted image 20251202082254.png]]
+
+
+![[Pasted image 20251202082224.png]]
+
 ---
 
 ### 14. Simple interest
@@ -248,9 +307,14 @@ class Main {
         double p = sc.nextDouble(), r = sc.nextDouble(), t = sc.nextDouble();
         double si = (p * r * t) / 100;
         System.out.println("Simple Interest: " + si);
+        System.out.println("Amount " +(p+si));
     }
 }
 ```
+
+### Output
+
+![[Pasted image 20251202082430.png]]
 
 ---
 
@@ -274,6 +338,10 @@ class Main {
 }
 ```
 
+### Output
+
+![[Pasted image 20251202082608.png]]
+
 ---
 
 ### 16. Leap year
@@ -293,6 +361,16 @@ class Main {
     }
 }
 ```
+
+### Output
+
+![[Pasted image 20251202082712.png]]
+
+![[Pasted image 20251202082729.png]]
+
+![[Pasted image 20251202082745.png]]
+
+
 
 ---
 
