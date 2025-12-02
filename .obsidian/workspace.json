@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20251202.md",
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20251202"
+              "title": "(TEMPLATE) Daily"
             }
           }
         ]
@@ -222,9 +222,13 @@
   },
   "active": "544ff17c457e6c1a",
   "lastOpenFiles": [
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "08 - Resources/Placeholder.md",
+    "01 - Daily/20251202.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/Java In Y Minutes.md",
-    "01 - Daily/20251202.md",
     "Untitled 1.md",
     "Untitled.md",
     "conflict-files-obsidian-git.md",
@@ -259,10 +263,6 @@
     "03. Semester 3rd/04 - Probability/Distribution Deepseek 1.md",
     "03. Semester 3rd/03 - IOT/Introduction.md",
     "03. Semester 3rd/03 - IOT/Industry 4.0 Environment & Design Principles.md",
-    "03. Semester 3rd/03 - IOT/Core Technology- Cyber-Physical Systems (CPS).md",
-    "03. Semester 3rd/03 - IOT/Cloud computing and FOG computing.md",
-    "03. Semester 3rd/03 - IOT/BIG Data.md",
-    "03. Semester 3rd/03 - IOT/AI.md",
     "03. Semester 3rd/06- Digital System Design",
     "03. Semester 3rd/04 - Probability",
     "03. Semester 3rd/03 - IOT",
