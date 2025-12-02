@@ -5,69 +5,27 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [
-      "TiCode",
-      "BoBxData",
-      "LiCalendar"
-    ],
+    "recentlyUsedIcons": [],
     "recentlyUsedIconsSize": 5,
-    "rules": [
-      {
-        "rule": " - Maps of Content",
-        "icon": "BoBxGlobeAlt",
-        "for": "everything",
-        "order": 0
-      },
-      {
-        "rule": "- Daily",
-        "icon": "BoBxCalendarEvent",
-        "for": "folders",
-        "order": 5
-      },
-      {
-        "rule": "- Meta",
-        "icon": "BoBxSelection",
-        "for": "folders",
-        "order": 6
-      },
-      {
-        "rule": "- Templates",
-        "icon": "BoBxRuler",
-        "for": "everything",
-        "order": 7
-      },
-      {
-        "rule": "- Archives",
-        "icon": "BoBxsArchive",
-        "for": "folders",
-        "order": 9
-      }
-    ],
+    "rules": [],
     "extraMargin": {
       "top": 0,
-      "right": 2,
+      "right": 4,
       "bottom": 0,
       "left": 0
     },
     "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
-    "iconInFrontmatterEnabled": false,
-    "iconsBackgroundCheckEnabled": false,
-    "iconsInNotesEnabled": true,
     "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  },
-<<<<<<< HEAD
-  "01 - Daily": "LiCalendar"
-=======
-  "01 - Daily": "LiCalendar",
-  "03. Semester 3rd/02 - Data Structure": "BoBxData",
-  "04. Semester 4/3. OOPJ (Java)/LAB/Java In Y Minutes.md": "TiCode"
->>>>>>> origin/main
+  }
 }
