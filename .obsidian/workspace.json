@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -273,11 +273,25 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "ff286f9b0e992144",
+  "active": "544ff17c457e6c1a",
   "lastOpenFiles": [
-    "01 - Daily/20251202.md",
-    "01 - Daily/20251130.md",
     "conflict-files-obsidian-git.md",
+    "01 - Daily/20251202.md",
+    "99 - Meta/attachments/Pasted image 20251202093104.png",
+    "99 - Meta/attachments/Pasted image 20251202092959.png",
+    "99 - Meta/attachments/Pasted image 20251202092954.png",
+    "99 - Meta/attachments/Pasted image 20251202092917.png",
+    "99 - Meta/attachments/Pasted image 20251202092815.png",
+    "99 - Meta/attachments/Pasted image 20251202082745.png",
+    "99 - Meta/attachments/Pasted image 20251202082729.png",
+    "99 - Meta/attachments/Pasted image 20251202082712.png",
+    "99 - Meta/attachments/Pasted image 20251202082608.png",
+    "99 - Meta/attachments/Pasted image 20251202082430.png",
+    "04. Semester 4/3. OOPJ (Java)/LAB/Java In Y Minutes.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB",
+    "04. Semester 4/3. OOPJ (Java)",
+    "01 - Daily/20251130.md",
     "stw before mid sem.md",
     "stw after mid sem.md",
     "Most Important question (Year wise).md",
@@ -301,26 +315,11 @@
     "03. Semester 3rd/03 - IOT/BIG Data.md",
     "03. Semester 3rd/03 - IOT/AI.md",
     "03. Semester 3rd/02 - Data Structure/Viva Concept queue and trees..md",
-    "03. Semester 3rd/02 - Data Structure/Stack.md",
-    "03. Semester 3rd/02 - Data Structure/Pointer and Structure.md",
-    "03. Semester 3rd/02 - Data Structure/PYQs.md",
     "03. Semester 3rd/06- Digital System Design",
     "03. Semester 3rd/04 - Probability",
     "03. Semester 3rd/03 - IOT",
     "03. Semester 3rd/02 - Data Structure",
     "03. Semester 3rd",
-    "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "99 - Meta/attachments/Pasted image 20251111232750.png",
-    "99 - Meta/attachments/Pasted image 20251111231536.png",
-    "99 - Meta/attachments/Pasted image 20251111231218.png",
-    "99 - Meta/attachments/Pasted image 20251111231039.png",
-    "99 - Meta/attachments/Pasted image 20251111231024.png",
-    "99 - Meta/attachments/Pasted image 20251111231006.png",
-    "99 - Meta/attachments/Pasted image 20251111230949.png",
-    "99 - Meta/attachments/Pasted image 20251111230904.png",
-    "99 - Meta/attachments/Pasted image 20251111230838.png",
     "Untitled.canvas"
   ]
 }
