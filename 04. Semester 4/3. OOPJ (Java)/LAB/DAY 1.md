@@ -476,3 +476,7 @@ class Main {
 ![[Pasted image 20251202093104.png]]
 
 
+``` python
+print("hwllo world")
+
+```
