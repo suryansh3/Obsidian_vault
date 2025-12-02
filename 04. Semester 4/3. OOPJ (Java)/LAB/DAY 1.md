@@ -1,3 +1,5 @@
+The code is written using https://www.onlinegdb.com/ compiler.
+The the code in the block space format pdf is written using obsidian 
 
 ---
 
@@ -393,6 +395,10 @@ class Main {
 }
 ```
 
+### Output
+
+![[Pasted image 20251202092815.png]]
+
 ---
 
 ### 18. Numbers divisible by 7
@@ -412,6 +418,10 @@ class Main {
     }
 }
 ```
+
+### Output
+
+![[Pasted image 20251202092917.png]]
 
 ---
 
@@ -434,6 +444,11 @@ class Main {
 }
 ```
 
+### Output
+
+![[Pasted image 20251202092959.png]]
+
+
 ---
 
 ### 20. Largest among three numbers
@@ -455,4 +470,9 @@ class Main {
     }
 }
 ```
+
+### Output
+
+![[Pasted image 20251202093104.png]]
+
 
