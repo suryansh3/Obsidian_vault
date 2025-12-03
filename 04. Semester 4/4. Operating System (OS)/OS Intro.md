@@ -198,42 +198,6 @@ This note covers **Operating System** and was created from the [CS162 Lecture 2:
 - Trade‑off: running a thread to completion maximizes efficiency but harms responsiveness for other tasks.
     
 
-## **📚 Project & Course Administration**
-
-> **Project Zero** – First Pintos assignment; introduces kernel‑level thread implementation.
-
-- Examine **thread.h** and **thread.c** to see how Pintos creates and manages threads.
-    
-- **Homework 0** (due Thursday) covers:
-    
-    1. **GDB** debugging basics.
-        
-    2. Compilation workflow.
-        
-    3. Git usage.
-        
-    4. Setting up the virtual machine environment.
-        
-- **Slip days**: ↑ to **four** for both homework and projects.
-    
-    - _Strategy_: conserve early; use later for larger deadlines.
-        
-- **Optional C / C++ review** (Zoom, recorded).
-    
-    - Primary language for Pintos is **C**; C++ not required but useful background.
-        
-- **Drop deadline**: Friday (four days away).
-    
-    - Late drops are difficult; decide early to free wait‑list spots.
-        
-- **Collaboration policy**:
-    
-    |   |   |
-    |---|---|
-    |Allowed|Prohibited|
-    |Discuss algorithms, testing ideas, debugging strategies at a high level|Share code, test cases, or detailed debug traces with other groups|
-    |Search for generic data‑structure implementations (e.g., hash tables)|Copy or read another group's code, prior‑year solutions, or online submissions|
-    
 
 ---
 
@@ -276,7 +240,7 @@ This note covers **Operating System** and was created from the [CS162 Lecture 2:
 |**Stack**|Local variables, return addresses|Grows downward, grows on demand via page faults|
 |**Heap**|Dynamically allocated objects (malloc)|Grows upward, expands via page faults|
 
-- **Stack & heap growth**: start with a few pages; on a fault the OS allocates additional physical pages.
+- **Stack & heap growth**: start with a few pages; on a fault and here fault means as the stack and heap grow they require more memory the OS allocates additional physical pages.
     
 
 ---
