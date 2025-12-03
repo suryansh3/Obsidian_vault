@@ -136,6 +136,9 @@ This note covers **Operating System** and was created from the [CS162 Lecture 2:
 
 ---
 
+![[Pasted image 20251203201004.png]]
+
+---
 ## **⏱️ Context Switching**
 
 ### **📋 Thread Control Block (TCB)**
