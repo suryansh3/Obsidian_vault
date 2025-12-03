@@ -92,6 +92,12 @@ This note covers **Operating System** and was created from the [CS162 Lecture 2:
 
 ---
 
+## Instruction fetch/decode/execute.
+
+![[Pasted image 20251203200551.png]]
+
+---
+
 ## **🌐 Virtualization Concepts**
 
 ### **🧵 Threads**
