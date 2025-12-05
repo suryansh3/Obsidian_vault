@@ -13,14 +13,14 @@ class Main {
         System.out.println("Name: Vineet Sharma");
         System.out.println("ROll: 24052339");
         System.out.println("University: KIIT University");
-        System.out.println("Branch: CSE AIML");
+        System.out.println("Branch: CSE");
     }
 }
 ```
 
 ###  Output:
+![[Pasted image 20251205211100.png]]
 
-![[Pasted image 20251202080850.png]]
 
 ---
 
@@ -41,8 +41,7 @@ class Main {
 }
 ```
 ### Output
-
-![[Pasted image 20251202081035.png]]
+![[Pasted image 20251205211124.png]]
 
 ---
 
@@ -65,7 +64,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081219.png]]
+![[Pasted image 20251205211204.png]]
 
 ---
 
@@ -84,7 +83,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081351.png]]
+![[Pasted image 20251205211225.png]]
 
 ---
 
@@ -104,7 +103,7 @@ class Main {
 
 ### Output 
 
-![[Pasted image 20251202081442.png]]
+![[Pasted image 20251205211249.png]]
 
 ---
 
@@ -126,7 +125,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081544.png]]
+![[Pasted image 20251205211332.png]]
 
 ---
 
@@ -148,7 +147,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081651.png]]
+![[Pasted image 20251205211432.png]]
 
 ---
 
@@ -170,7 +169,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081737.png]]
+![[Pasted image 20251205211500.png]]
 
 
 ---
@@ -193,7 +192,7 @@ class Main {
 
 ### Output 
 
-![[Pasted image 20251202081816.png]]
+![[Pasted image 20251205211524.png]]
 
 ---
 
@@ -215,7 +214,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081925.png]]
+![[Pasted image 20251205211549.png]]
 
 ---
 
@@ -239,9 +238,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082044.png]]
-
-![[Pasted image 20251202082051.png]]
+![[Pasted image 20251205211715.png]]
 
 ---
 
@@ -265,7 +262,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082130.png]]
+![[Pasted image 20251205211754.png]]
 
 ---
 
@@ -289,11 +286,8 @@ class Main {
 
 ### Output 
 
+![[Pasted image 20251205211819.png]]
 
-![[Pasted image 20251202082254.png]]
-
-
-![[Pasted image 20251202082224.png]]
 
 ---
 
@@ -316,7 +310,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082430.png]]
+![[Pasted image 20251205211903.png]]
 
 ---
 
@@ -342,7 +336,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082608.png]]
+![[Pasted image 20251205211934.png]]
 
 ---
 
@@ -366,13 +360,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082712.png]]
-
-![[Pasted image 20251202082729.png]]
-
-![[Pasted image 20251202082745.png]]
-
-
+![[Pasted image 20251205211953.png]]
 
 ---
 
@@ -397,7 +385,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202092815.png]]
+![[Pasted image 20251205212037.png]]
 
 ---
 
@@ -421,7 +409,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202092917.png]]
+![[Pasted image 20251205212100.png]]
 
 ---
 
@@ -446,8 +434,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202092959.png]]
-
+![[Pasted image 20251205212141.png]]
 
 ---
 
@@ -473,7 +460,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202093104.png]]
+![[Pasted image 20251205212209.png]]
 
 
 
