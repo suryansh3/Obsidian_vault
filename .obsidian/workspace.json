@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04. Semester 4/4. Operating System (OS)/OS Intro.md",
+                "file": "01 - Daily/20251206.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OS Intro"
+              "title": "20251206"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "a5eb797b129e6f88",
@@ -198,8 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320,
-    "collapsed": true
+    "width": 320
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,8 +220,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "544ff17c457e6c1a",
+  "active": "519c5e5f134d2a11",
   "lastOpenFiles": [
+    "04. Semester 4/4. Operating System (OS)/OS Intro.md",
+    "01 - Daily/20251206.md",
     "99 - Meta/attachments/Pasted image 20251203201004.png",
     "99 - Meta/attachments/Pasted image 20251203200551.png",
     "Untitled.base",
@@ -250,7 +250,6 @@
     "99 - Meta/attachments/Pasted image 20251202082745.png",
     "99 - Meta/attachments/Pasted image 20251202082729.png",
     "99 - Meta/attachments/Pasted image 20251202082712.png",
-    "99 - Meta/attachments/Pasted image 20251202082608.png",
     "04. Semester 4/3. OOPJ (Java)/LAB",
     "04. Semester 4/3. OOPJ (Java)",
     "01 - Daily/20251130.md",
@@ -258,7 +257,6 @@
     "Most Important question (Year wise).md",
     "IND-4.0 assignment question.md",
     "ED-202511220650.excalidraw.restored.md",
-    "04. Semester 4/4. Operating System (OS)/OS Intro.md",
     "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
     "04. Semester 4/4. Operating System (OS)",
     "04. Semester 4/2. DM (Discrete Mathematics )",
