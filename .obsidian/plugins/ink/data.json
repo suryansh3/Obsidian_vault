@@ -16,6 +16,6 @@
   "writingLinesWhenLocked": true,
   "writingBackgroundWhenLocked": true,
   "drawingEnabled": true,
-  "drawingFrameWhenLocked": false,
-  "drawingBackgroundWhenLocked": false
+  "drawingFrameWhenLocked": true,
+  "drawingBackgroundWhenLocked": true
 }

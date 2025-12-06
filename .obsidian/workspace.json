@@ -11,14 +11,10 @@
             "id": "dba5409e9225fb75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20251206.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "20251206"
+              "title": "New tab"
             }
           }
         ]
@@ -241,12 +237,22 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "dba5409e9225fb75",
+  "active": "519c5e5f134d2a11",
   "lastOpenFiles": [
-    "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
+    "01 - Daily/Untitled.md",
     "01 - Daily/20251206.md",
-    "04. Semester 4/3. OOPJ (Java)/LAB/Java In Y Minutes.md",
     "01 - Daily/20251205.md",
+    "01 - Daily/20251119.md",
+    "01 - Daily/20251202.md",
+    "01 - Daily/20251124.md",
+    "01 - Daily/20251113.md",
+    "01 - Daily/20251129.md",
+    "01 - Daily/20251130.md",
+    "01 - Daily/20251115.md",
+    "Untitled.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/Untitled.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/Java In Y Minutes.md",
     "99 - Meta/attachments/Pasted image 20251205225508.png",
     "99 - Meta/attachments/Pasted image 20251205212209.png",
     "99 - Meta/attachments/Pasted image 20251205212141.png",
@@ -262,19 +268,15 @@
     "Untitled.base",
     "01 - Daily/20251203.md",
     "conflict-files-obsidian-git.md",
-    "01 - Daily/20251130.md",
     "ED-202511220650.excalidraw.restored.md",
-    "Untitled.md",
     "stw after mid sem.md",
     "stw before mid sem.md",
     "Untitled 1.md",
-    "01 - Daily/20251202.md",
     "04. Semester 4/4. Operating System (OS)/OS Intro.md",
     "04. Semester 4/3. OOPJ (Java)/LAB",
     "04. Semester 4/3. OOPJ (Java)/THEORY",
     "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
     "ED-202511220650.excalidraw.md",
-    "01 - Daily/20251129.md",
     "04. Semester 4/4. Operating System (OS)",
     "01 - Daily/20251128.md",
     "04. Semester 4/3. OOPJ (Java)",
@@ -282,12 +284,6 @@
     "04. Semester 4/1. COA (Computer Organization and Architecture)",
     "04. Semester 4",
     "03. Semester 3rd",
-    "01 - Daily/20251127.md",
-    "05 - Handwritten Notes/ED-202511122218.excalidraw.md",
-    "01 - Daily/20251125.md",
-    "01 - Daily/20251124.md",
-    "03. Semester 3rd/06- Digital System Design/Untitled 1.md",
-    "01 - Daily/20251122.md",
     "99 - Meta/attachments/DocScanner 12 Nov 2025 8-37 pm.pdf",
     "Untitled.canvas"
   ]
