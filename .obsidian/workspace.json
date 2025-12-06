@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -241,10 +241,13 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "dba5409e9225fb75",
+  "active": "519c5e5f134d2a11",
   "lastOpenFiles": [
-    "01 - Daily/20251206.md",
+    "99 - Meta/attachments/Stranger_Danger.epub",
+    "Untitled.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
+    "99 - Meta/attachments/Stranger_Danger.md",
+    "01 - Daily/20251206.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/Main.java.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/runjava.bat",
     "04. Semester 4/3. OOPJ (Java)/LAB/New Text Document.txt",
@@ -259,7 +262,6 @@
     "01 - Daily/20251129.md",
     "01 - Daily/20251130.md",
     "01 - Daily/20251115.md",
-    "Untitled.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/Java In Y Minutes.md",
     "99 - Meta/attachments/Pasted image 20251205225508.png",
     "99 - Meta/attachments/Pasted image 20251205212209.png",
@@ -282,12 +284,10 @@
     "04. Semester 4/4. Operating System (OS)/OS Intro.md",
     "04. Semester 4/3. OOPJ (Java)/LAB",
     "04. Semester 4/3. OOPJ (Java)/THEORY",
-    "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
     "04. Semester 4/4. Operating System (OS)",
     "04. Semester 4/3. OOPJ (Java)",
     "04. Semester 4/2. DM (Discrete Mathematics )",
     "04. Semester 4/1. COA (Computer Organization and Architecture)",
-    "04. Semester 4",
     "Untitled.canvas"
   ]
 }
