@@ -8,19 +8,16 @@ The the code in the block space format pdf is written using obsidian
 ### 1. Print name, university, branch
 
 ```java
-class Main {
-    public static void main(String[] args) {
-        System.out.println("Name: Suryansh Mithu");
-        System.out.println("ROll: 24155060");
+[[Main.java]]
         System.out.println("University: KIIT University");
-        System.out.println("Branch: CSE AIML");
-    }
-}
+        System.out.println("Branch: CSE");
+    }}
+
 ```
 
 ###  Output:
+![[Pasted image 20251205211100.png]]
 
-![[Pasted image 20251202080850.png]]
 
 ---
 
@@ -29,8 +26,8 @@ class Main {
 ```java
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         for (int i = 1; i <= 4; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
@@ -41,8 +38,7 @@ class Main {
 }
 ```
 ### Output
-
-![[Pasted image 20251202081035.png]]
+![[Pasted image 20251205211124.png]]
 
 ---
 
@@ -51,8 +47,8 @@ class Main {
 ```java
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         int a = 11, b = 5;
         System.out.println("Sum: " + (a + b));
         System.out.println("Difference: " + (a - b));
@@ -65,7 +61,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081219.png]]
+![[Pasted image 20251205211204.png]]
 
 ---
 
@@ -74,8 +70,8 @@ class Main {
 ```java
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");    
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339"); 
         System.out.println("\"Hello Java\"");
         System.out.println("Welcome to Programming");
     }
@@ -84,7 +80,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081351.png]]
+![[Pasted image 20251205211225.png]]
 
 ---
 
@@ -93,8 +89,8 @@ class Main {
 ```java
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
     char ch = 'A';
     int ascii = (int) ch;
     System.out.println("ASCII value of " + ch + " is " + ascii);
@@ -104,7 +100,7 @@ class Main {
 
 ### Output 
 
-![[Pasted image 20251202081442.png]]
+![[Pasted image 20251205211249.png]]
 
 ---
 
@@ -112,10 +108,10 @@ class Main {
 
 ```java
 import java.util.Scanner;
-class Main {
+public class Main {
     public static void main(String[] args) {
-	System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine(); //next scans till you get the next white      space meaning if you write "Suryansh Mithu" it will show error but in         nextLine is use to scan till \n hence used nextLine instead of next in        scanner.
         int age = sc.nextInt();
@@ -126,7 +122,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081544.png]]
+![[Pasted image 20251205211332.png]]
 
 ---
 
@@ -136,8 +132,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         double r = sc.nextDouble();
         double area = Math.PI * r * r;
@@ -148,7 +144,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081651.png]]
+![[Pasted image 20251205211432.png]]
 
 ---
 
@@ -158,8 +154,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         double c = sc.nextDouble();
         double f = (c * 9/5) + 32;
@@ -170,7 +166,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081737.png]]
+![[Pasted image 20251205211500.png]]
 
 
 ---
@@ -180,8 +176,8 @@ class Main {
 ```java
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         int a = 10, b = 20, temp;
         temp = a;
         a = b;
@@ -193,7 +189,7 @@ class Main {
 
 ### Output 
 
-![[Pasted image 20251202081816.png]]
+![[Pasted image 20251205211524.png]]
 
 ---
 
@@ -202,8 +198,8 @@ class Main {
 ```java
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         int a = 30, b = 24;
         a = a + b;
         b = a - b;
@@ -215,7 +211,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202081925.png]]
+![[Pasted image 20251205211549.png]]
 
 ---
 
@@ -225,8 +221,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         if (n % 2 == 0)
@@ -239,9 +235,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082044.png]]
-
-![[Pasted image 20251202082051.png]]
+![[Pasted image 20251205211715.png]]
 
 ---
 
@@ -251,8 +245,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(), b = sc.nextInt();
         if (a > b)
@@ -265,7 +259,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082130.png]]
+![[Pasted image 20251205211754.png]]
 
 ---
 
@@ -275,8 +269,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         if (n % 3 == 0 && n % 5 == 0)
@@ -289,11 +283,8 @@ class Main {
 
 ### Output 
 
+![[Pasted image 20251205211819.png]]
 
-![[Pasted image 20251202082254.png]]
-
-
-![[Pasted image 20251202082224.png]]
 
 ---
 
@@ -303,8 +294,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         double p = sc.nextDouble(), r = sc.nextDouble(), t = sc.nextDouble();
         double si = (p * r * t) / 100;
@@ -316,7 +307,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082430.png]]
+![[Pasted image 20251205211903.png]]
 
 ---
 
@@ -326,8 +317,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         int total = 0;
         for (int i = 0; i < 5; i++) {
@@ -342,7 +333,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082608.png]]
+![[Pasted image 20251205211934.png]]
 
 ---
 
@@ -352,8 +343,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         int year = sc.nextInt();
         if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
@@ -366,13 +357,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202082712.png]]
-
-![[Pasted image 20251202082729.png]]
-
-![[Pasted image 20251202082745.png]]
-
-
+![[Pasted image 20251205211953.png]]
 
 ---
 
@@ -382,8 +367,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         long fact = 1;
@@ -397,7 +382,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202092815.png]]
+![[Pasted image 20251205212037.png]]
 
 ---
 
@@ -407,8 +392,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         for (int i = 1; i <= N; i++) {
@@ -421,7 +406,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202092917.png]]
+![[Pasted image 20251205212100.png]]
 
 ---
 
@@ -431,8 +416,8 @@ class Main {
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+        System.out.println("Name: Vineet Sharma");
+        System.out.println("ROll: 24052339");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(), rev = 0;
         while (n != 0) {
@@ -446,8 +431,7 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202092959.png]]
-
+![[Pasted image 20251205212141.png]]
 
 ---
 
@@ -455,10 +439,7 @@ class Main {
 
 ```java
 import java.util.Scanner;
-class Main {
-    public static void main(String[] args) {
-    System.out.println("Name: Suryansh Mithu");
-    System.out.println("ROll: 24155060");
+[[Main.java]]
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
         if (a >= b && a >= c)
@@ -473,10 +454,12 @@ class Main {
 
 ### Output
 
-![[Pasted image 20251202093104.png]]
+![[Pasted image 20251205212209.png]]
 
 
 ``` python
-print("hwllo world")
-
+print("Hello world")
+print("Shreyash fudi")
 ```
+
+
