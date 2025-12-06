@@ -8,7 +8,7 @@ The the code in the block space format pdf is written using obsidian
 ### 1. Print name, university, branch
 
 ```java
-class Main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("Name: Vineet Sharma");
         System.out.println("ROll: 24052339");
@@ -462,5 +462,9 @@ class Main {
 
 ![[Pasted image 20251205212209.png]]
 
+
+``` python
+print("Hello world")
+```
 
 

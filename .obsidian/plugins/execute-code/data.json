@@ -82,7 +82,7 @@
   "javaPath": "java",
   "javaArgs": "-ea",
   "javaFileExtension": "java",
-  "javaInject": "",
+  "javaInject": "java Main",
   "maxPrologAnswers": 15,
   "prologInject": "",
   "powershellPath": "powershell",
