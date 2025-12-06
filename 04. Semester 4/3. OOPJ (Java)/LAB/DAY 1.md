@@ -11,8 +11,8 @@ The the code in the block space format pdf is written using obsidian
 [[Main.java]]
         System.out.println("University: KIIT University");
         System.out.println("Branch: CSE");
-    }
-}
+    }}
+
 ```
 
 ###  Output:
