@@ -1,30 +1,37 @@
 # 1.
 ``` Java
-
-
+import java.util.Scanner;
+public class ReadusingMethod {
+    public static void readRecord() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("=== Enter Student Details ===");
+        System.out.print("Enter Student ID: ");
+        String studentId = scanner.nextLine();
+        System.out.print("Enter Student Name: ");
+        String name = scanner.nextLine();
+        displayStudentRecord(studentId, name);
+        scanner.close();
+    }
+    public static void displayRecord(String id, String name) {
+        System.out.println("\n=== Student Record ===");
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+    }
+    public static void main(String[] args) {
+        readRecord();
+    }
+}
 ```
 
+# OUTPUT
 
+--- Enter Student Details ---
+Enter Student ID: 240552339
+Enter Student Name: Vineet Sharma
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--- Student Record ---
+ID: 24052323
+Name: Vineet Sharma
 
 ---
 # 2. 
@@ -163,9 +170,3 @@ Name: Aditya Pranjal
 ----- Student Record -----
 ID: 24155059
 Name: Suryakant Sasmal
-
-
-## Screenshot
-
-![[Pasted image 20251208175051.png]]
-![[Pasted image 20251208175111.png]]
