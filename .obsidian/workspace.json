@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20251207.md",
+                "file": "01 - Daily/20251208.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20251207"
+              "title": "20251208"
             }
           }
         ]
@@ -241,10 +241,11 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "d346d054fad2a195",
+  "active": "dba5409e9225fb75",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "01 - Daily/20251207.md",
+    "01 - Daily/20251208.md",
+    "conflict-files-obsidian-git.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
     "99 - Meta/attachments/Stranger_Danger.epub",
     "Untitled.md",
@@ -282,7 +283,6 @@
     "stw after mid sem.md",
     "stw before mid sem.md",
     "Untitled 1.md",
-    "04. Semester 4/4. Operating System (OS)/OS Intro.md",
     "04. Semester 4/3. OOPJ (Java)/LAB",
     "04. Semester 4/3. OOPJ (Java)/THEORY",
     "04. Semester 4/4. Operating System (OS)",
