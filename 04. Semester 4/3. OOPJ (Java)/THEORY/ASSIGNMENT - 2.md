@@ -24,14 +24,13 @@ public class ReadusingMethod {
 ```
 
 # OUTPUT
-
---- Enter Student Details ---
+![[Pasted image 20251208184108.png]]
 Enter Student ID: 24052323
 Enter Student Name: Shivam Raj
 
---- Student Record ---
+Student Record 
 ID: 24052323
-Name: Vineet Sharma
+Name: Shivam Raj
 
 ---
 # 2. 
@@ -90,16 +89,16 @@ public class StudentRecordWithClass {
 How many students do you want to enter? 10
 
   Enter details for Student 1
-Enter Student ID: 24155060
-Enter Full Name: Suryansh Mithu
+Enter Student ID: 24042323
+Enter Full Name: Shivam Raj
 
   Enter details for Student 2
 Enter Student ID: 24155220
 Enter Full Name: Vivek Singh
 
   Enter details for Student 3
-Enter Student ID: 24052323
-Enter Full Name: Shivam Raj
+Enter Student ID: 24155060
+Enter Full Name: Suryansh
 
   Enter details for Student 4
 Enter Student ID: 24052324
@@ -107,7 +106,7 @@ Enter Full Name: Shreyash
 
   Enter details for Student 5
 Enter Student ID: 24052339
-Enter Full Name: Vineet Sharma 
+Enter Full Name: Aditya Pranjal
 
   Enter details for Student 6
 Enter Student ID: 24054823
@@ -123,50 +122,50 @@ Enter Full Name: Aditya Kumar
 
   Enter details for Student 9
 Enter Student ID: 2405005
-Enter Full Name: Aditya Pranjal
+Enter Full Name: Shreyash Raj
 
   Enter details for Student 10
 Enter Student ID: 24155059
-Enter Full Name: Suryakant Sasmal
+Enter Full Name: Suryakant 
 
 --- All Student Records ----2
 
------ Student Record -----
-ID: 24155060
-Name: Suryansh Mithu
-
------ Student Record -----
-ID: 24155220
-Name: Vivek Singh
-
------ Student Record -----
+Student Record 
 ID: 24052323
 Name: Shivam Raj
 
------ Student Record -----
+ Student Record 
+ID: 24155220
+Name: Vivek Singh
+
+Student Record 
+ID: 24155060
+Name:  Suryansh
+
+Student Record 
 ID: 24052324
 Name: Shreyash
 
------ Student Record -----
+Student Record 
 ID: 24052339
-Name: Vineet Sharma
+Name: Aditya Pranjal
 
------ Student Record -----
+Student Record 
 ID: 24054823
 Name: Keshav
 
------ Student Record -----
+ Student Record 
 ID: 24155006
 Name: Aditya Raj
 
------ Student Record -----
+ Student Record 
 ID: 24055004
 Name: Aditya Kumar
 
------ Student Record -----
+ Student Record 
 ID: 2405005
-Name: Aditya Pranjal
+Name: Shreyash Raj
 
------ Student Record -----
+Student Record 
 ID: 24155059
-Name: Suryakant Sasmal
+Name: Suryakant 
