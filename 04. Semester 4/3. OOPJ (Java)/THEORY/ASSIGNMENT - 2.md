@@ -26,8 +26,8 @@ public class ReadusingMethod {
 # OUTPUT
 
 --- Enter Student Details ---
-Enter Student ID: 240552339
-Enter Student Name: Vineet Sharma
+Enter Student ID: 24052323
+Enter Student Name: Shivam Raj
 
 --- Student Record ---
 ID: 24052323
