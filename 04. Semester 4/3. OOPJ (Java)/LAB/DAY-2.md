@@ -79,3 +79,32 @@ public class Day2_3 {
 //**4. Write a Java program to merge two sorted arrays into a new sorted array (without using built-in sort).**
 
 ```
+
+
+
+
+
+
+
+
+
+
+---
+# 5. 
+
+``` Java
+//5. Write a Java program to count the frequency of each element in an array (using another array/map logic).  
+import java.util.*;  
+  
+public class Day2_5 {  
+    public static void main(String[] args) {  
+        int[] arr = {1,12,23,12,45,23,23,31,31,31,45};  
+        Map<Integer,Integer> freq = new HashMap<>();  
+        for(int num: arr)  
+        {freq.put(num, freq.getOrDefault(num,0)+1);}  
+  
+        for(Map.Entry<Integer,Integer> e: freq.entrySet())  
+            System.out.println(e.getKey()+" -> "+e.getValue());  
+    }}
+```
+
