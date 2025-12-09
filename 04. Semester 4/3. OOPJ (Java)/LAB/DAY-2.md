@@ -90,7 +90,7 @@ public class Day2_3 {
 
 
 ---
-# 5. 
+# 5. Count the frequency of each element in an array  
 
 ``` Java
 //5. Write a Java program to count the frequency of each element in an array (using another array/map logic).  
@@ -98,13 +98,19 @@ import java.util.*;
   
 public class Day2_5 {  
     public static void main(String[] args) {  
+        System.out.println("Name : Suryansh Mithu");  
+        System.out.println("Roll : 24155060");  
         int[] arr = {1,12,23,12,45,23,23,31,31,31,45};  
         Map<Integer,Integer> freq = new HashMap<>();  
         for(int num: arr)  
         {freq.put(num, freq.getOrDefault(num,0)+1);}  
-  
+        System.out.println("Element" + "  " + "Frequency");  
         for(Map.Entry<Integer,Integer> e: freq.entrySet())  
-            System.out.println(e.getKey()+" -> "+e.getValue());  
+            System.out.println(e.getKey()+"   =    "+e.getValue());  
     }}
 ```
+
+## Output :
+
+![[Pasted image 20251209134825.png]]
 
