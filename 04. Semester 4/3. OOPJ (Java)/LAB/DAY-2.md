@@ -19,8 +19,11 @@ public class Day2_1{
                 first = num;  
             } else if (num > second && num != first) {  
                 second = num;  
-            }        }        System.out.println("Second Largest: " + second);  
-    }}
+            }        
+        }  
+    System.out.println("Second Largest: " + second);  
+    }
+    }
 ```
 
 ## Output
@@ -31,3 +34,48 @@ public class Day2_1{
 ---
 # 2.  Remove duplicate elements from array and print new array size
 
+
+
+
+
+
+
+
+
+
+
+---
+# 3. Rotation of array by k position (Right Rotation)
+
+``` Java
+//3. Write a Java program to rotate an array by K positions to the right (user inputs K).  
+import java.util.*;  
+  
+public class Day2_3 {  
+    public static void main(String[] args) {  
+        int[] arr = {12,23,56,78,234,13};  
+        Scanner sc = new Scanner(System.in);  
+        System.out.println("Enter postion to rotate");  
+        int k = sc.nextInt();  
+        int n = arr.length;  
+        k = k % n;  
+  
+        int[] temp = new int[n];  
+        for (int i = 0; i < n; i++) {  
+            temp[(i + k) % n] = arr[i];  
+        }        System.out.println(Arrays.toString(temp));  
+    }}
+
+```
+
+## Output
+
+![[Pasted image 20251209131003.png]]
+
+---
+# 4. Merge 2 sorted array into new sorted array
+
+```
+//**4. Write a Java program to merge two sorted arrays into a new sorted array (without using built-in sort).**
+
+```
