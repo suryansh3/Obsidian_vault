@@ -1,7 +1,9 @@
+
+
 # OOPJ - ASSIGNMENT 4
 
-## Name - Suryansh Mithu
-## Roll - 24155060
+## Name - Shivam Raj
+## Roll - 24052323
 
 ## CSE - 25
 
@@ -365,3 +367,98 @@ System.out.println(i);
 ## Output 
 
 ![[Pasted image 20251211153439.png]]
+
+---
+# 14.
+
+```JAVA
+class BreakExample2 {
+
+public static void main(String[] args) {
+
+for(int i=1;i<=3;i++){
+
+for(int j=1;j<=3;j++){
+
+if(i==2&&j==2){
+
+break;
+
+}
+
+System.out.println(i+" "+j);
+
+}
+
+}
+
+}
+
+}
+```
+
+## Output
+
+![[Pasted image 20251211153944.png]]
+
+---
+# 15.
+
+```JAVA
+class ContinueExample {
+
+public static void main(String[] args) {
+
+for(int i=1;i<=10;i++){
+
+if(i==5){
+
+continue;
+
+}
+
+System.out.println(i);
+
+}
+
+}
+
+}
+```
+
+## Output
+
+![[Pasted image 20251211154048.png]]
+
+---
+# 16.
+
+```JAVA
+class ContinueExample2 {
+
+public static void main(String[] args) {
+
+for(int i=1;i<=3;i++){
+
+for(int j=1;j<=3;j++){
+
+if(i==2&&j==2){
+
+continue;
+
+}
+
+System.out.println(i+" "+j);
+
+}
+
+}
+
+}
+
+}
+```
+
+## Output
+
+![[Pasted image 20251211154146.png]]
