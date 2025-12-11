@@ -30,7 +30,7 @@ System.out.println(--x);
 
 ## Output
 
-![[Pasted image 20251211151449.png]]
+![[Pasted image 20251211155626.png]]
 
 ---
 # 2
@@ -58,7 +58,7 @@ System.out.println(b++ + b++);
 
 ## Output
 
-![[Pasted image 20251211151554.png]]
+![[Pasted image 20251211155643.png]]
 
 ---
 # 3.
@@ -90,7 +90,7 @@ System.out.println(!d);
 
 ## Output 
 
-![[Pasted image 20251211151756.png]]
+![[Pasted image 20251211155703.png]]
 
 ---
 # 4.
@@ -113,7 +113,7 @@ System.out.println(15<<4);
 
 ## Output
 
-![[Pasted image 20251211151908.png]]
+![[Pasted image 20251211155736.png]]
 
 ---
 # 5.
@@ -138,7 +138,7 @@ System.out.println(20>>3);
 
 ## Output
 
-![[Pasted image 20251211152025.png]]
+![[Pasted image 20251211155755.png]]
 
 ---
 # 6.
@@ -165,7 +165,7 @@ System.out.println(-20>>>2);
 
 ## Output
 
-![[Pasted image 20251211152132.png]]
+![[Pasted image 20251211155813.png]]
 
 ---
 # 7.
@@ -190,7 +190,7 @@ System.out.println(a<b&a<c);//false & true = false
 
 ## Output
 
-![[Pasted image 20251211152230.png]]
+![[Pasted image 20251211155832.png]]
 
 ---
 # 8.
@@ -219,7 +219,7 @@ System.out.println(a);
 
 ## Output
 
-![[Pasted image 20251211152327.png]]
+![[Pasted image 20251211155849.png]]
 
 ---
 # 9.
@@ -254,7 +254,7 @@ System.out.println(a);
 
 ## Output 
 
-![[Pasted image 20251211152444.png]]
+![[Pasted image 20251211155911.png]]
 
 ---
 # 10.
@@ -277,13 +277,13 @@ System.out.println(min);
 
 ## Output
 
-![[Pasted image 20251211152542.png]]
+![[Pasted image 20251211155934.png]]
 
 ---
 # 11.
 
 ```JAVA
-public class LabeledForExample {
+class LabeledForExample {
 
 public static void main(String[] args) {
 
@@ -306,7 +306,7 @@ System.out.println(i+" "+j);}}}}
 
 ## Output
 
-![[Pasted image 20251211152800.png]]
+![[Pasted image 20251211160011.png]]
 
 ---
 # 12.
@@ -337,7 +337,7 @@ System.out.println(i+" "+j);
 
 ## Output :
 
-![[Pasted image 20251211153330.png]]
+![[Pasted image 20251211160029.png]]
 
 ---
 # 13.
@@ -366,7 +366,7 @@ System.out.println(i);
 
 ## Output 
 
-![[Pasted image 20251211153439.png]]
+![[Pasted image 20251211160045.png]]
 
 ---
 # 14.
@@ -399,7 +399,7 @@ System.out.println(i+" "+j);
 
 ## Output
 
-![[Pasted image 20251211153944.png]]
+![[Pasted image 20251211160107.png]]
 
 ---
 # 15.
@@ -428,7 +428,7 @@ System.out.println(i);
 
 ## Output
 
-![[Pasted image 20251211154048.png]]
+![[Pasted image 20251211160124.png]]
 
 ---
 # 16.
@@ -461,4 +461,4 @@ System.out.println(i+" "+j);
 
 ## Output
 
-![[Pasted image 20251211154146.png]]
+![[Pasted image 20251211160141.png]]
