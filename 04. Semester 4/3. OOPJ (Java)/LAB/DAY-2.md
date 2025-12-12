@@ -265,5 +265,29 @@ public class Day2_5 {
 # Output :
 
 ---
-# 20. 
+# 20. **Input an array and shift all zeroes to the end while maintaining order of non-zero elements.**
 
+```JAVA
+//**Write a Java program to input an array and shift all zeroes to the end while maintaining order of non-zero elements.**
+```
+
+# Output :
+
+---
+# 21. Input details, calculate percentage, and display all details (for student)
+
+```JAVA
+//Create a class Student with data members (name, roll, marks of 3 subjects).Write methods to input details, calculate percentage, and display all details.
+
+```
+
+# Output :
+
+
+---
+# 22. Compute **area**, **perimeter** and display them for rectangle.
+
+```JAVA
+//**Create a class Rectangle with length & breadth.**  
+Write methods to compute **area**, **perimeter** and display them
+```
