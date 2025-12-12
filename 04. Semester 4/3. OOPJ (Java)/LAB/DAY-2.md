@@ -204,4 +204,38 @@ public class Day2_5 {
 
 
 ---
-# 14.
+# 14. **Multiply two matrices.**
+
+```JAVA
+//**Write a Java program to multiply two matrices (check dimension validity).**
+
+
+```
+
+# Output :
+
+---
+# 15. **Find the row with the maximum sum in a 2D matrix.**
+
+```JAVA
+//**Write a Java program to find the row with the maximum sum in a 2D matrix.**
+
+```
+
+# Output :
+
+---
+# 16. **Check whether a 2D matrix is symmetric.**
+
+```JAVA
+//**Write a Java program to check whether a 2D matrix is symmetric.**
+```
+
+# Output :
+
+---
+# 17. 
+
+```JAVA
+//
+```
