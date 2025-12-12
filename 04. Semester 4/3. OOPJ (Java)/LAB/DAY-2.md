@@ -234,8 +234,36 @@ public class Day2_5 {
 # Output :
 
 ---
-# 17. 
+# 17. **Print the boundary elements of a 2D matrix.**
 
 ```JAVA
-//
+//**Write a Java program to print the boundary elements of a 2D matrix.**
+
 ```
+
+# Output :
+
+
+---
+# 18. **Find the transpose of a matrix without using an extra array.**
+
+```JAVA
+//**Write a Java program to find the transpose of a matrix without using an extra array (in-place transpose).**
+```
+
+# Output :
+
+
+---
+# 19. **Sort each row of a 2D matrix individually.**
+
+```JAVA
+//**Write a Java program to sort each row of a 2D matrix individually.**
+
+```
+
+# Output :
+
+---
+# 20. 
+
