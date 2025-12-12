@@ -114,3 +114,32 @@ public class Day2_5 {
 
 ![[Pasted image 20251209134825.png]]
 
+# 6.  Java program to find all pairs of elements whose sum equals a given target 
+
+```JAVA
+//**Write a Java program to find all pairs of elements whose sum equals a given target (avoid duplicates).**
+
+
+```
+
+## Output :
+
+
+
+
+
+
+
+
+
+
+---
+
+# 7. **Java program to check whether two arrays are equal**
+
+```JAVA
+//**Write a Java program to check whether two arrays are equal (same elements in same order).**
+```
+
+
+
