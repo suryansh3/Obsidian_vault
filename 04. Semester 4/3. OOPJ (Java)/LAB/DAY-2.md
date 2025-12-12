@@ -288,6 +288,27 @@ public class Day2_5 {
 # 22. Compute **area**, **perimeter** and display them for rectangle.
 
 ```JAVA
-//**Create a class Rectangle with length & breadth.**  
-Write methods to compute **area**, **perimeter** and display them
+//**Create a class Rectangle with length & breadth.Write methods to compute **area**,perimeter and display them**
+
 ```
+
+# Output :
+
+
+---
+# 23. **Functions to deposit, withdraw, and display balance**
+
+```JAVA
+// **Create a class Account with accountNo, name, balance.Write functions to deposit, withdraw, and display balance
+
+
+```
+
+# Output :
+
+
+---
+
+# 24. 
+
+
