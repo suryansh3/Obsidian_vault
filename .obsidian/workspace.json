@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20251206.md",
+                "file": "01 - Daily/20251212.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20251206"
+              "title": "20251212"
             }
           }
         ]
@@ -220,8 +220,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d346d054fad2a195",
+  "active": "544ff17c457e6c1a",
   "lastOpenFiles": [
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
+    "01 - Daily/20251212.md",
     "01 - Daily/20251206.md",
     "conflict-files-obsidian-git.md",
     "99 - Meta/attachments/Stranger_Danger.md",
@@ -238,7 +240,6 @@
     "99 - Meta/attachments/Pasted image 20251205211754.png",
     "04. Semester 4/3. OOPJ (Java)/LAB/runjava.bat",
     "04. Semester 4/3. OOPJ (Java)/LAB/Main.java.md",
-    "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
     "Most Important question (Year wise).md",
     "Untitled.base",
     "04. Semester 4/4. Operating System (OS)/OS Intro.md",
@@ -266,7 +267,6 @@
     "04. Semester 4/2. DM (Discrete Mathematics )",
     "04. Semester 4",
     "03. Semester 3rd/06- Digital System Design/Untitled 1.md",
-    "03. Semester 3rd/04 - Probability/Untitled.md",
     "03. Semester 3rd/06- Digital System Design",
     "03. Semester 3rd/04 - Probability"
   ]
