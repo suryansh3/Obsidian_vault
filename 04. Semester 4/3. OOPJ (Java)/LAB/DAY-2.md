@@ -155,3 +155,37 @@ public class Day2_5 {
 ```JAVA
 // **Write a Java program to sort an array using Bubble Sort and print each pass.**
 ```
+
+# Output :
+
+
+
+
+
+
+
+
+
+----
+
+# 9. **Separate even and odd numbers into two different arrays.**
+
+```JAVA
+//**Write a Java program to separate even and odd numbers into two different arrays.**
+
+```
+
+# Output:
+
+
+
+
+
+
+
+
+
+
+
+----
+# 10. 
