@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20251212.md",
+                "file": "04. Semester 4/4. Operating System (OS)/LAB/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20251212"
+              "title": "Untitled"
             }
           }
         ]
@@ -220,9 +220,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d346d054fad2a195",
+  "active": "544ff17c457e6c1a",
   "lastOpenFiles": [
     "01 - Daily/20251212.md",
+    "04. Semester 4/4. Operating System (OS)/LAB/Untitled.md",
+    "04. Semester 4/4. Operating System (OS)/LAB",
     "conflict-files-obsidian-git.md",
     "99 - Meta/attachments/Pasted image 20251211160141.png",
     "99 - Meta/attachments/Pasted image 20251211160124.png",
@@ -266,7 +268,6 @@
     "04. Semester 4/3. OOPJ (Java)/LAB",
     "04. Semester 4/3. OOPJ (Java)",
     "04. Semester 4/4. Operating System (OS)",
-    "04. Semester 4/2. DM (Discrete Mathematics )",
-    "04. Semester 4"
+    "04. Semester 4/2. DM (Discrete Mathematics )"
   ]
 }
