@@ -125,14 +125,6 @@ public class Day2_5 {
 ## Output :
 
 
-
-
-
-
-
-
-
-
 ---
 
 # 7. **Java program to check whether two arrays are equal**
@@ -144,10 +136,6 @@ public class Day2_5 {
 # Output :
 
 
-
-
-
-
 ---
 
 # 8.  **Sort an array using Bubble Sort and print each pass**
@@ -157,13 +145,6 @@ public class Day2_5 {
 ```
 
 # Output :
-
-
-
-
-
-
-
 
 
 ----
@@ -178,14 +159,16 @@ public class Day2_5 {
 # Output:
 
 
-
-
-
-
-
-
-
-
-
 ----
-# 10. 
+# 10. **Find the longest increasing subsequence (LIS)**
+
+```JAVA
+//**Write a Java program to find the longest increasing subsequence (LIS) (basic LIS logic allowed).**
+
+
+```
+
+# Output:
+
+
+---
