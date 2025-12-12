@@ -141,5 +141,17 @@ public class Day2_5 {
 //**Write a Java program to check whether two arrays are equal (same elements in same order).**
 ```
 
+# Output :
 
 
+
+
+
+
+---
+
+# 8.  **Sort an array using Bubble Sort and print each pass**
+
+```JAVA
+// **Write a Java program to sort an array using Bubble Sort and print each pass.**
+```
