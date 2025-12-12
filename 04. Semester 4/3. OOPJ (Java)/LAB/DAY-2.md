@@ -172,3 +172,36 @@ public class Day2_5 {
 
 
 ---
+# 11. **Find the maximum sum subarray using Kadane’s algorithm.**
+
+```JAVA
+//**Write a Java program to find the maximum sum subarray using Kadane’s algorithm.**
+
+```
+
+# Output :
+
+
+---
+# 12. **Input a 2D matrix and check whether it is a sparse matrix.**
+
+```JAVA
+//**Write a Java program to input a 2D matrix and check whether it is a sparse matrix.**
+```
+
+# Output :
+
+
+---
+# 13. **Add two 2D matrices of user-given size.**
+
+```JAVA
+//**Write a Java program to add two 2D matrices of user-given size.**
+
+```
+
+# Output :
+
+
+---
+# 14.
