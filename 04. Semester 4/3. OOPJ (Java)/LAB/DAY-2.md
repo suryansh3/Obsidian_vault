@@ -309,6 +309,14 @@ public class Day2_5 {
 
 ---
 
-# 24. 
+# 24. **Box with (height, width, depth) and compute volume.**
+
+```JAVA
+//**Create a class Box with (height, width, depth) and compute volume.Create two objects and compare which box has larger volume.
+
+
+```
+
+
 
 
