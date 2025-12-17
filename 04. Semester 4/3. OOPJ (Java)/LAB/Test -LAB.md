@@ -1,82 +1,101 @@
 ```JAVA
- import java.util.Scanner;   
-class Student {   
-    int rollNo;   
-    String name;   
-    int m1, m2, m3;   
-    double percentage;   
-    char grade;   
-    void calculatePercentage() {   
-        percentage = (m1 + m2 + m3) / 3.0;   
-    }   
-    void assignGrade() {   
-        if (percentage >= 75)   
-            grade = 'A';   
-        else if (percentage >= 60)   
-            grade = 'B';   
-        else if (percentage >= 40)   
-            grade = 'C';   
-        else   
-grade = 'F';   
-    }   
-    void display() {   
-        System.out.println("Roll No: " + rollNo);   
-        System.out.println("Name: " + name);   
-        System.out.println("Percentage: " + percentage);   
-        System.out.println("Grade: " + grade);   
-    }   
-}   
-public class Day3_1 {  
-    public static void main(String[] args) {   
-        Scanner sc = new Scanner(System.in);   
-        System.out.print("Enter number of students: ");   
-        int n = sc.nextInt();   
-        Student[] s = new Student[n];   
-        for (int i = 0; i < n; i++) {   
-            s[i] = new Student();   
-            System.out.println("\nEnter details of student " + (i + 1));   
-            System.out.print("Roll No: ");   
-            s[i].rollNo = sc.nextInt();   
-            System.out.print("Name: ");   
-            s[i].name = sc.next();   
-            System.out.print("Marks of 3 subjects: ");   
-            s[i].m1 = sc.nextInt();   
-            s[i].m2 = sc.nextInt();   
-            s[i].m3 = sc.nextInt();   
-   
-            s[i].calculatePercentage();   
-            s[i].assignGrade();   
-        }   
-        for (int i = 0; i < n - 1; i++) {   
-            for (int j = 0; j < n - i - 1; j++) {   
-                if (s[j].percentage < s[j + 1].percentage) {   
-                    Student temp = s[j];   
-                    s[j] = s[j + 1];   
-                    s[j + 1] = temp;   
-                }   
-            }   
-        }   
-        System.out.println("\nTopper Details:");   
-        s[0].display();   
-        int countA = 0, countB = 0, countC = 0, countF = 0;   
-        for (int i = 0; i < n; i++) {   
-            if (s[i].grade == 'A')   
-                countA++;   
-            else if (s[i].grade == 'B')   
-                countB++;   
-            else if (s[i].grade == 'C')   
-                countC++;   
-            else   
-countF++;   
-        }   
-        System.out.println("\nGrade Count:");   
-        System.out.println("Grade A: " + countA);   
-        System.out.println("Grade B: " + countB);   
-        System.out.println("Grade C: " + countC);   
-        System.out.println("Grade F: " + countF);   
-       sc.close();   
-    }   
+```java
+import java.util.Scanner;
+
+class Student {
+    int studentId;
+    String studentName;
+    int subject1Score;
+    int subject2Score;
+    int subject3Score;
+    double studentPercentage;
+    char studentGrade;
+
+    void computePercentage() {
+        studentPercentage = (subject1Score + subject2Score + subject3Score) / 3.0;
+    }
+
+    void determineGrade() {
+        if (studentPercentage >= 75)
+            studentGrade = 'A';
+        else if (studentPercentage >= 60)
+            studentGrade = 'B';
+        else if (studentPercentage >= 40)
+            studentGrade = 'C';
+        else
+            studentGrade = 'F';
+    }
+
+    void showStudentInfo() {
+        System.out.println("Roll Number: " + studentId);
+        System.out.println("Name: " + studentName);
+        System.out.println("Percentage: " + studentPercentage);
+        System.out.println("Grade: " + studentGrade);
+    }
+}
+
+public class StudentResultSystem {
+    public static void main(String[] args) {
+        Scanner inputReader = new Scanner(System.in);
+        System.out.print("Enter number of students: ");
+        int studentCount = inputReader.nextInt();
+        Student[] studentRecords = new Student[studentCount];
+
+        for (int index = 0; index < studentCount; index++) {
+            studentRecords[index] = new Student();
+            System.out.println("\nEnter details of student " + (index + 1));
+            System.out.print("Roll Number: ");
+            studentRecords[index].studentId = inputReader.nextInt();
+            System.out.print("Name: ");
+            studentRecords[index].studentName = inputReader.next();
+            System.out.print("Marks of 3 subjects: ");
+            studentRecords[index].subject1Score = inputReader.nextInt();
+            studentRecords[index].subject2Score = inputReader.nextInt();
+            studentRecords[index].subject3Score = inputReader.nextInt();
+
+            studentRecords[index].computePercentage();
+            studentRecords[index].determineGrade();
+        }
+
+        for (int firstIndex = 0; firstIndex < studentCount - 1; firstIndex++) {
+            for (int secondIndex = 0; secondIndex < studentCount - firstIndex - 1; secondIndex++) {
+                if (studentRecords[secondIndex].studentPercentage < studentRecords[secondIndex + 1].studentPercentage) {
+                    Student temporaryHolder = studentRecords[secondIndex];
+                    studentRecords[secondIndex] = studentRecords[secondIndex + 1];
+                    studentRecords[secondIndex + 1] = temporaryHolder;
+                }
+            }
+        }
+
+        System.out.println("\nTopper Details:");
+        studentRecords[0].showStudentInfo();
+
+        int gradeACount = 0;
+        int gradeBCount = 0;
+        int gradeCCount = 0;
+        int gradeFCount = 0;
+
+        for (int index = 0; index < studentCount; index++) {
+            if (studentRecords[index].studentGrade == 'A')
+                gradeACount++;
+            else if (studentRecords[index].studentGrade == 'B')
+                gradeBCount++;
+            else if (studentRecords[index].studentGrade == 'C')
+                gradeCCount++;
+            else
+                gradeFCount++;
+        }
+
+        System.out.println("\nGrade Count:");
+        System.out.println("Grade A: " + gradeACount);
+        System.out.println("Grade B: " + gradeBCount);
+        System.out.println("Grade C: " + gradeCCount);
+        System.out.println("Grade F: " + gradeFCount);
+
+        inputReader.close();
+    }
 }
 ```
+
 
 ![[Pasted image 20251216233324.png]]

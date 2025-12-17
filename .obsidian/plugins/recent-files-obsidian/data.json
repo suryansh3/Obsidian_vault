@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled 1",
+      "path": "04. Semester 4/3. OOPJ (Java)/THEORY/Untitled 1.md"
+    },
+    {
+      "basename": "20251217",
+      "path": "01 - Daily/20251217.md"
+    },
+    {
       "basename": "Test -LAB",
       "path": "04. Semester 4/3. OOPJ (Java)/LAB/Test -LAB.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "202401211512 Notebook CSS Classes",
       "path": "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md"
-    },
-    {
-      "basename": "(TEMPLATE) Daily",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
-    },
-    {
-      "basename": "Placeholder",
-      "path": "00 - Maps of Content/Placeholder.md"
     }
   ],
   "omittedPaths": [],
