@@ -1,12 +1,14 @@
 
 # Assignment : 7
-# Name : Suryansh Mithu
+# Name : Aryan Veer
 
 
 ![[Pasted image 20251218224956.png]]
 
 
+![[Pasted image 20251218225319.png]]
 
+# Executions : 
 
 ```JAVA
 class Student{  
