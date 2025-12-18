@@ -2,6 +2,12 @@
 # Assignment : 7
 # Name : Suryansh Mithu
 
+
+![[Pasted image 20251218224956.png]]
+
+
+
+
 ```JAVA
 class Student{  
 int rollno;  
