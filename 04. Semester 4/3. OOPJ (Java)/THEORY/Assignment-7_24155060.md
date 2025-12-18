@@ -168,3 +168,43 @@ s1.p();
 ![[Pasted image 20251218223651.png]]
 
 ---
+```JAVA
+class B{  
+A obj;  
+B(A obj){  
+this.obj=obj;  
+}  
+void display(){  
+System.out.println(obj.data);//using data member of A class  
+}  
+}  
+public class A{  
+int data=10;  
+A(){  
+B b=new B(this);  
+b.display();  
+}  
+public static void main(String args[]){  
+A a=new A();  
+} }
+```
+
+![[Pasted image 20251218224127.png]]
+
+---
+
+```JAVA
+class A{  
+A getA(){  
+return this;  
+}  
+void msg(){System.out.println("Hello java");}  
+}  
+class Test1{  
+public static void main(String args[]){  
+new A().getA().msg();  
+}  
+}
+```
+
+![[Pasted image 20251218224331.png]]
