@@ -1,12 +1,4 @@
-
-# Assignment : 7
-# Name : Aryan Veer
-
-
-![[Pasted image 20251218224956.png]]
-
-
-![[Pasted image 20251218225319.png]]
+# Name : Suryansh Mithu
 
 # Executions : 
 
@@ -216,3 +208,5 @@ new A().getA().msg();
 ```
 
 ![[Pasted image 20251218224331.png]]
+
+
