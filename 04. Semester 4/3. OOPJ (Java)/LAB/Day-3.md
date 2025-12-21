@@ -61,38 +61,8 @@ public class Program1 {
 }
 ```
 
-**Sample Output:**
-```
-Enter number of students: 
-3
-Enter name for student 1: 
-Raj
-Enter roll number: 
-101
-Enter marks for 3 subjects: 
-85 90 88
-Enter name for student 2: 
-Priya
-Enter roll number: 
-102
-Enter marks for 3 subjects: 
-92 89 94
-Enter name for student 3: 
-Amit
-Enter roll number: 
-103
-Enter marks for 3 subjects: 
-78 85 80
-
-Student with highest average marks:
-Name: Priya
-Roll Number: 102
-Average Marks: 91.66666666666667
-
-Name : Suryansh Mithu
-Roll : 24155060
-```
-
+**Output:**
+![[Pasted image 20251221135608.png]]
 ## **Program 2: Sort Employees by Salary**
 
 ```java
@@ -151,45 +121,9 @@ public class Program2 {
 }
 ```
 
-**Sample Output:**
-```
-How many employees? 
-4
-Enter name: 
-Rahul
-Enter ID: 
-101
-Enter salary: 
-45000
-Enter name: 
-Sneha
-Enter ID: 
-102
-Enter salary: 
-38000
-Enter name: 
-Arun
-Enter ID: 
-103
-Enter salary: 
-52000
-Enter name: 
-Meera
-Enter ID: 
-104
-Enter salary: 
-41000
+**Output:**
 
-Employees sorted by salary:
-Sneha - 38000.0
-Meera - 41000.0
-Rahul - 45000.0
-Arun - 52000.0
-
-Name : Suryansh Mithu
-Roll : 24155060
-```
-
+![[Pasted image 20251221135405.png]]
 ## **Program 3: BankAccount Total Balance**
 
 ```java
@@ -242,46 +176,10 @@ public class Program3 {
 }
 ```
 
-**Sample Output:**
-```
-Enter number of accounts: 
-5
-Enter account number: 
-SB1001
-Enter account type (savings/current): 
-savings
-Enter balance: 
-50000
-Enter account number: 
-CU2001
-Enter account type (savings/current): 
-current
-Enter balance: 
-100000
-Enter account number: 
-SB1002
-Enter account type (savings/current): 
-savings
-Enter balance: 
-75000
-Enter account number: 
-SB1003
-Enter account type (savings/current): 
-savings
-Enter balance: 
-30000
-Enter account number: 
-CU2002
-Enter account type (savings/current): 
-current
-Enter balance: 
-80000
+**Output:**
 
-Total balance of all savings accounts: 155000.0
+![[Pasted image 20251221135810.png]]
 
-Name : Suryansh Mithu
-Roll : 24155060
-```
 
 ## **Program 4: Books Published After Year**
 
