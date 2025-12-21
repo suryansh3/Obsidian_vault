@@ -296,58 +296,12 @@ public class Program5 {
 }
 ```
 
-**Sample Output:**
-```
-Enter number of cars: 
-5
-Enter brand: 
-Toyota
-Enter model: 
-Camry
-Enter year: 
-2020
-Enter price: 
-25000
-Enter brand: 
-Honda
-Enter model: 
-Civic
-Enter year: 
-2021
-Enter price: 
-22000
-Enter brand: 
-Toyota
-Enter model: 
-Corolla
-Enter year: 
-2019
-Enter price: 
-20000
-Enter brand: 
-Ford
-Enter model: 
-Focus
-Enter year: 
-2022
-Enter price: 
-23000
-Enter brand: 
-Toyota
-Enter model: 
-RAV4
-Enter year: 
-2023
-Enter price: 
-28000
-Enter brand to count: 
-Toyota
+**Output:**
+![[Pasted image 20251221140739.png]]
 
-Number of Toyota cars: 3
+![[Pasted image 20251221140754.png]]
 
-Name : Suryansh Mithu
-Roll : 24155060
-```
+
 
 ## **Program 6: Detect Duplicate Product IDs**
 
@@ -409,49 +363,9 @@ public class Program6 {
 }
 ```
 
-**Sample Output:**
-```
-Enter number of products: 
-5
-Enter product ID: 
-101
-Enter product name: 
-Laptop
-Enter price: 
-50000
-Enter product ID: 
-102
-Enter product name: 
-Mouse
-Enter price: 
-500
-Enter product ID: 
-101
-Enter product name: 
-Keyboard
-Enter price: 
-1500
-Enter product ID: 
-104
-Enter product name: 
-Monitor
-Enter price: 
-8000
-Enter product ID: 
-102
-Enter product name: 
-Speaker
-Enter price: 
-2000
-
-Duplicate Product IDs found:
-ID: 101 - Laptop and Keyboard
-ID: 102 - Mouse and Speaker
-
-Name : Suryansh Mithu
-Roll : 24155060
-```
-
+**Output:**
+![[Pasted image 20251221141539.png]]
+![[Pasted image 20251221141603.png]]
 ## **Program 7: Rectangle with Maximum Area**
 
 ```java
@@ -505,36 +419,8 @@ public class Program7 {
 }
 ```
 
-**Sample Output:**
-```
-Enter number of rectangles: 
-4
-Enter length for rectangle 1: 
-10
-Enter width for rectangle 1: 
-5
-Enter length for rectangle 2: 
-8
-Enter width for rectangle 2: 
-6
-Enter length for rectangle 3: 
-12
-Enter width for rectangle 3: 
-7
-Enter length for rectangle 4: 
-9
-Enter width for rectangle 4: 
-9
-
-Rectangle with maximum area:
-Length: 12.0
-Width: 7.0
-Area: 84.0
-
-Name : Suryansh Mithu
-Roll : 24155060
-```
-
+**Output:**
+![[Pasted image 20251221141720.png]]
 ## **Program 8: Remove Student by Roll Number**
 
 ```java
@@ -596,46 +482,11 @@ public class Program8 {
 }
 ```
 
-**Sample Output:**
-```
-Enter number of students: 
-4
-Enter name: 
-Rahul
-Enter roll number: 
-101
-Enter marks: 
-85
-Enter name: 
-Priya
-Enter roll number: 
-102
-Enter marks: 
-90
-Enter name: 
-Amit
-Enter roll number: 
-103
-Enter marks: 
-78
-Enter name: 
-Sneha
-Enter roll number: 
-104
-Enter marks: 
-92
-Enter roll number to remove: 
-103
+**Output:**
 
-Students after removal:
-Rahul - Roll: 101 - Marks: 85.0
-Priya - Roll: 102 - Marks: 90.0
-Sneha - Roll: 104 - Marks: 92.0
+![[Pasted image 20251221141944.png]]
 
-Name : Suryansh Mithu
-Roll : 24155060
-```
-
+![[Pasted image 20251221141956.png]]
 ## **Program 9: Movies with Rating > 8.5**
 
 ```java
@@ -872,6 +723,10 @@ Apple MacBook Pro - RAM: 32GB
 Name : Suryansh Mithu
 Roll : 24155060
 ```
+
+
+# ***From here the output is in the text block form in obsidian as outputs are in screenshot is very difficult to maintain as the output are longer and I can’t take screenshot as single image so its very tedious to do so I have given the output in the text block form in obsidian.***
+
 
 ## **Program 11: Oldest and Youngest Person**
 
