@@ -620,59 +620,9 @@ public class Program10 {
 ```
 
 **Sample Output:**
-```
-Enter number of laptops: 
-4
-Enter brand: 
-Dell
-Enter model: 
-Inspiron
-Enter price: 
-45000
-Enter RAM (GB): 
-8
-Enter storage (GB): 
-512
-Enter brand: 
-HP
-Enter model: 
-Pavilion
-Enter price: 
-52000
-Enter RAM (GB): 
-16
-Enter storage (GB): 
-1024
-Enter brand: 
-Lenovo
-Enter model: 
-ThinkPad
-Enter price: 
-38000
-Enter RAM (GB): 
-8
-Enter storage (GB): 
-256
-Enter brand: 
-Apple
-Enter model: 
-MacBook Pro
-Enter price: 
-120000
-Enter RAM (GB): 
-32
-Enter storage (GB): 
-1024
 
-Laptop with minimum price:
-Lenovo ThinkPad - Price: 38000.0
-
-Laptop with maximum RAM:
-Apple MacBook Pro - RAM: 32GB
-
-Name : Suryansh Mithu
-Roll : 24155060
-```
+![[Pasted image 20251221142841.png]]
+![[Pasted image 20251221142907.png]]
 
 
 # ***From here the output is in the text block form in obsidian as outputs are in screenshot is very difficult to maintain as the output are longer and I can’t take screenshot as single image so its very tedious to do so I have given the output in the text block form in obsidian.***
@@ -688,7 +638,7 @@ class Person {
     int age;
 }
 
-public class Program11 {
+public class Program2 {
     public static void main(String[] args) {
         Scanner abc = new Scanner(System.in);
         
@@ -732,33 +682,33 @@ public class Program11 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of persons: 
 5
 Enter name: 
-Rahul
+Suryansh
 Enter age: 
-25
+20
 Enter name: 
-Priya
+Raj Aryan
 Enter age: 
 32
 Enter name: 
-Amit
+Aditya Kumar
 Enter age: 
-19
+76
 Enter name: 
 Sneha
 Enter age: 
 28
 Enter name: 
-Raj
+Shreyash
 Enter age: 
-45
+12
 
-Oldest person: Raj (45 years)
-Youngest person: Amit (19 years)
+Oldest person: Aditya Kumar (76 years)
+Youngest person: Shreyash (12 years)
 
 Name : Suryansh Mithu
 Roll : 24155060
@@ -825,20 +775,20 @@ public class Program12 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of customers: 
 4
 Enter name: 
-Rahul Sharma
+Suryansh
 Enter email: 
-rahul@gmail.com
+suryanshmithu3@gmail.com
 Enter phone: 
-9876543210
+9434635463
 Enter name: 
-Priya Patel
+Shivam Raj
 Enter email: 
-priya@yahoo.com
+shivam@yahoo.com
 Enter phone: 
 9876543211
 Enter name: 
@@ -850,16 +800,16 @@ Enter phone:
 Enter name: 
 Sneha Singh
 Enter email: 
-sneha@gmail.com
+snehasingh321@gmail.com
 Enter phone: 
 9876543213
 Enter email to search: 
-amit@hotmail.com
+suryanshmithu3@gmail.com
 
 Customer found:
-Name: Amit Kumar
-Email: amit@hotmail.com
-Phone: 9876543212
+Name: Suryansh Mithu
+Email: suryasnhmithu3@gmial.com
+Phone: 9434635463
 
 Name : Suryansh Mithu
 Roll : 24155060
@@ -925,28 +875,28 @@ public class Program13 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of students: 
 5
 Enter name: 
-Rahul
+Suryansh
 Enter marks: 
 85
 Enter name: 
-Priya
+Shivam
 Enter marks: 
 92
 Enter name: 
-Amit
+Vivek
 Enter marks: 
 78
 Enter name: 
-Sneha
+Shreyash
 Enter marks: 
 88
 Enter name: 
-Raj
+Vineet
 Enter marks: 
 65
 
@@ -1027,7 +977,7 @@ public class Program14 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of trains: 
 5
@@ -1038,7 +988,7 @@ Delhi
 Enter destination: 
 Mumbai
 Enter train number: 
-12951
+13242
 Enter train name: 
 Shatabdi Express
 Enter source: 
@@ -1046,7 +996,7 @@ Delhi
 Enter destination: 
 Chennai
 Enter train number: 
-12001
+12045
 Enter train name: 
 Duronto Express
 Enter source: 
@@ -1054,7 +1004,7 @@ Kolkata
 Enter destination: 
 Delhi
 Enter train number: 
-12259
+12267
 Enter train name: 
 Garib Rath
 Enter source: 
@@ -1062,7 +1012,7 @@ Delhi
 Enter destination: 
 Mumbai
 Enter train number: 
-12213
+12234
 Enter train name: 
 Tejas Express
 Enter source: 
@@ -1077,8 +1027,8 @@ Enter destination to search:
 Mumbai
 
 Trains from Delhi to Mumbai:
-Rajdhani Express (Train No: 12951)
-Garib Rath (Train No: 12213)
+Rajdhani Express (Train No: 13242)
+Garib Rath (Train No: 12234)
 
 Name : Suryansh Mithu
 Roll : 24155060
@@ -1146,14 +1096,14 @@ public class Program15 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of mobiles: 
 6
 Enter brand: 
 Samsung
 Enter model: 
-Galaxy A14
+A14
 Enter price: 
 14999
 Enter brand: 
@@ -1165,7 +1115,7 @@ Enter price:
 Enter brand: 
 Xiaomi
 Enter model: 
-Redmi Note 12
+Redmi Note 14
 Enter price: 
 17999
 Enter brand: 
@@ -1250,7 +1200,7 @@ public class Program16 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of players: 
 5
@@ -1318,14 +1268,14 @@ public class Program17 {
         
         System.out.println("\nTwo-Wheelers:");
         for (int i = 0; i < n; i++) {
-            if (vehicles[i].type.equalsIgnoreCase("2-wheeler")) {
+            if (vehicles[i].type.equalsIgnoreCase("2")) {
                 System.out.println(vehicles[i].brand + " " + vehicles[i].model);
             }
         }
         
         System.out.println("\nFour-Wheelers:");
         for (int i = 0; i < n; i++) {
-            if (vehicles[i].type.equalsIgnoreCase("4-wheeler")) {
+            if (vehicles[i].type.equalsIgnoreCase("4")) {
                 System.out.println(vehicles[i].brand + " " + vehicles[i].model);
             }
         }
@@ -1338,51 +1288,51 @@ public class Program17 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of vehicles: 
 6
 Enter type (2-wheeler/4-wheeler): 
-2-wheeler
+2
 Enter brand: 
 Hero
 Enter model: 
-Splendor
+Splendar
 Enter type (2-wheeler/4-wheeler): 
-4-wheeler
+4
 Enter brand: 
 Maruti
 Enter model: 
 Swift
 Enter type (2-wheeler/4-wheeler): 
-2-wheeler
+2
 Enter brand: 
 Honda
 Enter model: 
 Activa
 Enter type (2-wheeler/4-wheeler): 
-4-wheeler
+4
 Enter brand: 
 Hyundai
 Enter model: 
 Creta
 Enter type (2-wheeler/4-wheeler): 
-2-wheeler
+2
 Enter brand: 
 Bajaj
 Enter model: 
-Pulsar
+Pulser
 Enter type (2-wheeler/4-wheeler): 
-4-wheeler
+4
 Enter brand: 
 Tata
 Enter model: 
 Nexon
 
 Two-Wheelers:
-Hero Splendor
+Hero Splendar
 Honda Activa
-Bajaj Pulsar
+Bajaj Pulser
 
 Four-Wheelers:
 Maruti Swift
@@ -1453,7 +1403,7 @@ public class Program18 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of products: 
 4
@@ -1555,24 +1505,24 @@ public class Program19 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of students: 
 5
 Enter name: 
-Rahul
+Suryansh
 Enter roll number: 
 101
 Enter total marks: 
 85
 Enter name: 
-Priya
+Shivam
 Enter roll number: 
 102
 Enter total marks: 
 92
 Enter name: 
-Amit
+Shryash
 Enter roll number: 
 103
 Enter total marks: 
@@ -1591,10 +1541,10 @@ Enter total marks:
 65
 
 Student Rankings:
-Rank 1: Priya (Roll: 102, Marks: 92.0)
+Rank 1: Shivam (Roll: 102, Marks: 92.0)
 Rank 2: Sneha (Roll: 104, Marks: 88.0)
-Rank 3: Rahul (Roll: 101, Marks: 85.0)
-Rank 4: Amit (Roll: 103, Marks: 78.0)
+Rank 3: Suryansh (Roll: 101, Marks: 85.0)
+Rank 4: Shreyash (Roll: 103, Marks: 78.0)
 Rank 5: Raj (Roll: 105, Marks: 65.0)
 
 Name : Suryansh Mithu
@@ -1673,30 +1623,30 @@ public class Program20 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of employees: 
 6
 Enter name: 
-Rahul
+Suryansh
 Enter department: 
 IT
 Enter salary: 
 50000
 Enter name: 
-Priya
+Shivam
 Enter department: 
 HR
 Enter salary: 
 45000
 Enter name: 
-Amit
+Shreyash
 Enter department: 
 IT
 Enter salary: 
 55000
 Enter name: 
-Sneha
+Vineet
 Enter department: 
 Finance
 Enter salary: 
@@ -1715,9 +1665,9 @@ Enter salary:
 58000
 
 Department-wise highest paid employees:
-IT: Amit (₹55000.0)
-HR: Priya (₹45000.0)
-Finance: Sneha (₹60000.0)
+IT: Shreyash (₹55000.0)
+HR: Shivam (₹45000.0)
+Finance: Vineet (₹60000.0)
 
 Name : Suryansh Mithu
 Roll : 24155060
@@ -1822,7 +1772,7 @@ public class Program21 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of books in first array: 
 3
@@ -1831,19 +1781,19 @@ Enter book ID:
 Enter title: 
 Java Programming
 Enter author: 
-John Doe
+xcv
 Enter book ID: 
 102
 Enter title: 
 Python Basics
 Enter author: 
-Jane Smith
+cvb
 Enter book ID: 
 103
 Enter title: 
 C++ Guide
 Enter author: 
-Mike Johnson
+bnm
 Enter number of books in second array: 
 3
 Enter book ID: 
@@ -1851,26 +1801,26 @@ Enter book ID:
 Enter title: 
 Python Basics
 Enter author: 
-Jane Smith
+cvb
 Enter book ID: 
 104
 Enter title: 
 Web Development
 Enter author: 
-Sarah Lee
+asd
 Enter book ID: 
 105
 Enter title: 
 Database Systems
 Enter author: 
-Robert Brown
+hjk
 
 Merged books without duplicates:
-ID: 101, Title: Java Programming, Author: John Doe
-ID: 102, Title: Python Basics, Author: Jane Smith
-ID: 103, Title: C++ Guide, Author: Mike Johnson
-ID: 104, Title: Web Development, Author: Sarah Lee
-ID: 105, Title: Database Systems, Author: Robert Brown
+ID: 101, Title: Java Programming, Author: xcv
+ID: 102, Title: Python Basics, Author: cvb
+ID: 103, Title: C++ Guide, Author: bnm
+ID: 104, Title: Web Development, Author: asd
+ID: 105, Title: Database Systems, Author: hjk
 
 Name : Suryansh Mithu
 Roll : 24155060
@@ -1943,20 +1893,20 @@ public class Program22 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of accounts: 
 5
 Enter account number: 
 SB1001
 Enter account holder name: 
-Rahul Sharma
+Suryansh Mithu
 Enter balance: 
 5000
 Enter account number: 
 SB1002
 Enter account holder name: 
-Priya Patel
+Shryash
 Enter balance: 
 0
 Enter account number: 
@@ -1974,14 +1924,14 @@ Enter balance:
 Enter account number: 
 SB1005
 Enter account holder name: 
-Raj Verma
+Raj Aryan
 Enter balance: 
 7500
 
 Accounts after removing zero-balance accounts:
-Rahul Sharma - SB1001 - Balance: 5000.0
+Suryansh Mithu - SB1001 - Balance: 5000.0
 Amit Kumar - SB1003 - Balance: 10000.0
-Raj Verma - SB1005 - Balance: 7500.0
+Raj Aryan - SB1005 - Balance: 7500.0
 
 Name : Suryansh Mithu
 Roll : 24155060
@@ -2065,7 +2015,7 @@ public class Program23 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of hotels: 
 6
@@ -2191,30 +2141,30 @@ public class Program24 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of students: 
 5
 Enter name: 
-Rahul
+Suryansh
 Enter roll number: 
 101
 Enter marks: 
 85
 Enter name: 
-Priya
+Shivam
 Enter roll number: 
 102
 Enter marks: 
 45
 Enter name: 
-Amit
+Shreyash
 Enter roll number: 
 103
 Enter marks: 
 78
 Enter name: 
-Sneha
+Vineet
 Enter roll number: 
 104
 Enter marks: 
@@ -2229,13 +2179,13 @@ Enter passing marks:
 40
 
 Pass Students:
-Rahul (Roll: 101, Marks: 85.0)
-Priya (Roll: 102, Marks: 45.0)
-Amit (Roll: 103, Marks: 78.0)
+Suryansh (Roll: 101, Marks: 85.0)
+Shivam (Roll: 102, Marks: 45.0)
+Shreyash (Roll: 103, Marks: 78.0)
 Raj (Roll: 105, Marks: 90.0)
 
 Fail Students:
-Sneha (Roll: 104, Marks: 32.0)
+Vineet (Roll: 104, Marks: 32.0)
 
 Name : Suryansh Mithu
 Roll : 24155060
@@ -2297,7 +2247,7 @@ public class Program25 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of items: 
 4
@@ -2398,12 +2348,12 @@ public class Program26 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of employees: 
 4
 Enter name: 
-Rahul
+Suryansh
 Enter ID: 
 101
 Enter current salary: 
@@ -2411,7 +2361,7 @@ Enter current salary:
 Enter years of experience: 
 12
 Enter name: 
-Priya
+Shivam
 Enter ID: 
 102
 Enter current salary: 
@@ -2419,7 +2369,7 @@ Enter current salary:
 Enter years of experience: 
 7
 Enter name: 
-Amit
+Shreyash
 Enter ID: 
 103
 Enter current salary: 
@@ -2427,7 +2377,7 @@ Enter current salary:
 Enter years of experience: 
 3
 Enter name: 
-Sneha
+Vineet
 Enter ID: 
 104
 Enter current salary: 
@@ -2436,10 +2386,10 @@ Enter years of experience:
 1
 
 Updated Salaries:
-Rahul: Old Salary = 40000.0, New Salary = 48000.0
-Priya: Old Salary = 35000.0, New Salary = 40250.0
-Amit: Old Salary = 30000.0, New Salary = 33000.0
-Sneha: Old Salary = 28000.0, New Salary = 28000.0
+Suryansh: Old Salary = 40000.0, New Salary = 48000.0
+Shivam: Old Salary = 35000.0, New Salary = 40250.0
+Shryeash: Old Salary = 30000.0, New Salary = 33000.0
+Vineet: Old Salary = 28000.0, New Salary = 28000.0
 
 Name : Suryansh Mithu
 Roll : 24155060
@@ -2567,7 +2517,7 @@ public class Program27 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of books: 
 3
@@ -2576,19 +2526,19 @@ Enter book ID:
 Enter title: 
 Java Programming
 Enter author: 
-John Doe
+zxc
 Enter book ID: 
 102
 Enter title: 
 Python Basics
 Enter author: 
-Jane Smith
+xcv
 Enter book ID: 
 103
 Enter title: 
 C++ Guide
 Enter author: 
-Mike Johnson
+bnm
 
 1. Search Book
 2. Issue Book
@@ -2601,7 +2551,7 @@ Java Programming
 Book found:
 ID: 101
 Title: Java Programming
-Author: John Doe
+Author: zxc
 Available: true
 
 5. Search Book
@@ -2706,30 +2656,30 @@ public class Program28 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of students: 
 5
 Enter name: 
-Rahul
+Suryansh
 Enter roll number: 
 101
 Enter marks: 
 92
 Enter name: 
-Priya
+Shivam
 Enter roll number: 
 102
 Enter marks: 
 78
 Enter name: 
-Amit
+Shreyash
 Enter roll number: 
 103
 Enter marks: 
 65
 Enter name: 
-Sneha
+Vineet
 Enter roll number: 
 104
 Enter marks: 
@@ -2742,10 +2692,10 @@ Enter marks:
 85
 
 Student Grades:
-Rahul (Roll: 101) - Marks: 92.0 - Grade: A
-Priya (Roll: 102) - Marks: 78.0 - Grade: B
-Amit (Roll: 103) - Marks: 65.0 - Grade: C
-Sneha (Roll: 104) - Marks: 45.0 - Grade: F
+Suryansh (Roll: 101) - Marks: 92.0 - Grade: A
+Shivam (Roll: 102) - Marks: 78.0 - Grade: B
+Shreyash (Roll: 103) - Marks: 65.0 - Grade: C
+Vineet (Roll: 104) - Marks: 45.0 - Grade: F
 Raj (Roll: 105) - Marks: 85.0 - Grade: B
 
 Name : Suryansh Mithu
@@ -2814,25 +2764,25 @@ public class Program29 {
 Enter number of employees: 
 5
 Enter name: 
-Rahul
+Suryansh
 Enter role: 
 Developer
 Enter salary: 
 50000
 Enter name: 
-Priya
+Shivam
 Enter role: 
 Manager
 Enter salary: 
 70000
 Enter name: 
-Amit
+Shreyash
 Enter role: 
 Tester
 Enter salary: 
 50000
 Enter name: 
-Sneha
+Vineet
 Enter role: 
 Analyst
 Enter salary: 
@@ -2845,9 +2795,9 @@ Enter salary:
 50000
 
 Employees with same salary but different roles:
-Rahul (Developer) and Amit (Tester) - Salary: 50000.0
-Rahul (Developer) and Raj (Designer) - Salary: 50000.0
-Amit (Tester) and Raj (Designer) - Salary: 50000.0
+Suryansh (Developer) and Shreyash (Tester) - Salary: 50000.0
+Suryansh (Developer) and Raj (Designer) - Salary: 50000.0
+Shreyash (Tester) and Raj (Designer) - Salary: 50000.0
 
 Name : Suryansh Mithu
 Roll : 24155060
@@ -2914,7 +2864,7 @@ public class Program30 {
 }
 ```
 
-**Sample Output:**
+**Output:**
 ```
 Enter number of hotels: 
 5
@@ -2959,6 +2909,7 @@ ITC Maratha - Rating: 4.7, Price: 10000.0
 Name : Suryansh Mithu
 Roll : 24155060
 Here are programs 31-40 (command-line argument programs):
+```
 
 ## **Program 31: Largest and Smallest Number from Command Line**
 
@@ -2992,7 +2943,7 @@ public class Program31 {
 }
 ```
 
-**How to Run and Sample Output:**
+**How to Run and  Output:**
 ```
 Command: java Program31 45 23 89 12 67
 
@@ -3073,10 +3024,10 @@ public class Program33 {
 
 **How to Run and Sample Output:**
 ```
-Command: java Program33 "Rahul Sharma" 101 85.5
+Command: java Program33 "Suryansh Mithu" 101 85.5
 
 Output:
-Student Name: Rahul Sharma
+Student Name: Suryansh Mithu
 Roll Number: 101
 Marks: 85.5
 Result: Pass
