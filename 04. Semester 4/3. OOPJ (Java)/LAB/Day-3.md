@@ -3291,3 +3291,506 @@ ITC Maratha - Rating: 4.7, Price: 10000.0
 
 Name : Suryansh Mithu
 Roll : 24155060
+Here are programs 31-40 (command-line argument programs):
+
+## **Program 31: Largest and Smallest Number from Command Line**
+
+```java
+public class Program31 {
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Please provide numbers as command line arguments");
+            return;
+        }
+        
+        int largest = Integer.parseInt(args[0]);
+        int smallest = Integer.parseInt(args[0]);
+        
+        for (int i = 1; i < args.length; i++) {
+            int num = Integer.parseInt(args[i]);
+            if (num > largest) {
+                largest = num;
+            }
+            if (num < smallest) {
+                smallest = num;
+            }
+        }
+        
+        System.out.println("Largest number: " + largest);
+        System.out.println("Smallest number: " + smallest);
+        
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+```
+Command: java Program31 45 23 89 12 67
+
+Output:
+Largest number: 89
+Smallest number: 12
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 32: Sum and Average of Command Line Numbers**
+
+```java
+public class Program32 {
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Please provide numbers as command line arguments");
+            return;
+        }
+        
+        double sum = 0;
+        
+        for (int i = 0; i < args.length; i++) {
+            sum += Double.parseDouble(args[i]);
+        }
+        
+        double average = sum / args.length;
+        
+        System.out.println("Sum: " + sum);
+        System.out.println("Average: " + average);
+        
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+```
+Command: java Program32 85 92 78 88 65
+
+Output:
+Sum: 408.0
+Average: 81.6
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 33: Student Result from Command Line**
+
+```java
+public class Program33 {
+    public static void main(String[] args) {
+        if (args.length < 3) {
+            System.out.println("Usage: java Program33 <name> <roll> <marks>");
+            return;
+        }
+        
+        String name = args[0];
+        int roll = Integer.parseInt(args[1]);
+        double marks = Double.parseDouble(args[2]);
+        
+        System.out.println("Student Name: " + name);
+        System.out.println("Roll Number: " + roll);
+        System.out.println("Marks: " + marks);
+        
+        if (marks >= 40) {
+            System.out.println("Result: Pass");
+        } else {
+            System.out.println("Result: Fail");
+        }
+        
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+```
+Command: java Program33 "Rahul Sharma" 101 85.5
+
+Output:
+Student Name: Rahul Sharma
+Roll Number: 101
+Marks: 85.5
+Result: Pass
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 34: Calculator using Command Line**
+
+```java
+public class Program34 {
+    public static void main(String[] args) {
+        if (args.length < 3) {
+            System.out.println("Usage: java Program34 <num1> <operator> <num2>");
+            System.out.println("Operators: + - * /");
+            return;
+        }
+        
+        double num1 = Double.parseDouble(args[0]);
+        String operator = args[1];
+        double num2 = Double.parseDouble(args[2]);
+        double result = 0;
+        
+        switch (operator) {
+            case "+":
+                result = num1 + num2;
+                break;
+            case "-":
+                result = num1 - num2;
+                break;
+            case "*":
+                result = num1 * num2;
+                break;
+            case "/":
+                if (num2 != 0) {
+                    result = num1 / num2;
+                } else {
+                    System.out.println("Error: Division by zero");
+                    return;
+                }
+                break;
+            default:
+                System.out.println("Error: Invalid operator");
+                return;
+        }
+        
+        System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+        
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+```
+Command: java Program34 25 "*" 4
+
+Output:
+25.0 * 4.0 = 100.0
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 35: Prime Numbers from Command Line**
+
+```java
+public class Program35 {
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Please provide numbers as command line arguments");
+            return;
+        }
+        
+        System.out.println("Prime numbers:");
+        
+        for (int i = 0; i < args.length; i++) {
+            int num = Integer.parseInt(args[i]);
+            
+            if (num <= 1) {
+                continue;
+            }
+            
+            boolean isPrime = true;
+            for (int j = 2; j <= num / 2; j++) {
+                if (num % j == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+            
+            if (isPrime) {
+                System.out.println(num);
+            }
+        }
+        
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+```
+Command: java Program35 2 3 4 5 6 7 8 9 10 11
+
+Output:
+Prime numbers:
+2
+3
+5
+7
+11
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 36: Character Count from Command Line String**
+
+```java
+public class Program36 {
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Please provide a string as command line argument");
+            return;
+        }
+        
+        String input = args[0];
+        int upper = 0;
+        int lower = 0;
+        int digit = 0;
+        int special = 0;
+        
+        for (int i = 0; i < input.length(); i++) {
+            char ch = input.charAt(i);
+            
+            if (ch >= 'A' && ch <= 'Z') {
+                upper++;
+            } else if (ch >= 'a' && ch <= 'z') {
+                lower++;
+            } else if (ch >= '0' && ch <= '9') {
+                digit++;
+            } else {
+                special++;
+            }
+        }
+        
+        System.out.println("Uppercase letters: " + upper);
+        System.out.println("Lowercase letters: " + lower);
+        System.out.println("Digits: " + digit);
+        System.out.println("Special characters: " + special);
+        
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+```
+Command: java Program36 "Hello123@World!"
+
+Output:
+Uppercase letters: 2
+Lowercase letters: 8
+Digits: 3
+Special characters: 2
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 37: Salaries Above Average from Command Line**
+
+```java
+public class Program37 {
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Please provide salaries as command line arguments");
+            return;
+        }
+        
+        double[] salaries = new double[args.length];
+        double total = 0;
+        
+        for (int i = 0; i < args.length; i++) {
+            salaries[i] = Double.parseDouble(args[i]);
+            total += salaries[i];
+        }
+        
+        double average = total / args.length;
+        
+        System.out.println("Average salary: " + average);
+        System.out.println("\nSalaries above average:");
+        
+        for (int i = 0; i < salaries.length; i++) {
+            if (salaries[i] > average) {
+                System.out.println(salaries[i]);
+            }
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+```
+Command: java Program37 40000 35000 50000 45000 30000
+
+Output:
+Average salary: 40000.0
+
+Salaries above average:
+50000.0
+45000.0
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 38: Array of Objects from Command Line**
+
+```java
+class Student38 {
+    String name;
+    int marks;
+}
+
+public class Program38 {
+    public static void main(String[] args) {
+        if (args.length < 2 || args.length % 2 != 0) {
+            System.out.println("Usage: Provide pairs of <name> <marks>");
+            return;
+        }
+        
+        int n = args.length / 2;
+        Student38[] students = new Student38[n];
+        
+        System.out.println("Number of students: " + n);
+        System.out.println("\nStudent Details:");
+        
+        for (int i = 0; i < n; i++) {
+            students[i] = new Student38();
+            students[i].name = args[i * 2];
+            students[i].marks = Integer.parseInt(args[i * 2 + 1]);
+            
+            System.out.println("Name: " + students[i].name + ", Marks: " + students[i].marks);
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+```
+Command: java Program38 Rahul 85 Priya 92 Amit 78 Sneha 88
+
+Output:
+Number of students: 4
+
+Student Details:
+Name: Rahul, Marks: 85
+Name: Priya, Marks: 92
+Name: Amit, Marks: 78
+Name: Sneha, Marks: 88
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 39: Word Count in File from Command Line**
+
+```java
+import java.io.*;
+import java.util.Scanner;
+
+public class Program39 {
+    public static void main(String[] args) {
+        if (args.length < 2) {
+            System.out.println("Usage: java Program39 <filename> <word>");
+            return;
+        }
+        
+        String filename = args[0];
+        String word = args[1];
+        int count = 0;
+        
+        try {
+            File file = new File(filename);
+            Scanner scanner = new Scanner(file);
+            
+            while (scanner.hasNext()) {
+                String nextWord = scanner.next().toLowerCase();
+                if (nextWord.equals(word.toLowerCase())) {
+                    count++;
+                }
+            }
+            
+            scanner.close();
+            
+            System.out.println("The word '" + word + "' appears " + count + " times in " + filename);
+            
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found: " + filename);
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+Assuming we have a file `sample.txt` with content: "Hello world hello java hello programming"
+
+```
+Command: java Program39 sample.txt hello
+
+Output:
+The word 'hello' appears 3 times in sample.txt
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 40: Grade Distribution from Command Line Marks**
+
+```java
+public class Program40 {
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Please provide marks as command line arguments");
+            return;
+        }
+        
+        int gradeA = 0;
+        int gradeB = 0;
+        int gradeC = 0;
+        int gradeF = 0;
+        
+        for (int i = 0; i < args.length; i++) {
+            double marks = Double.parseDouble(args[i]);
+            
+            if (marks >= 90) {
+                gradeA++;
+            } else if (marks >= 75) {
+                gradeB++;
+            } else if (marks >= 50) {
+                gradeC++;
+            } else {
+                gradeF++;
+            }
+        }
+        
+        System.out.println("Grade Distribution:");
+        System.out.println("A: " + gradeA + " students");
+        System.out.println("B: " + gradeB + " students");
+        System.out.println("C: " + gradeC + " students");
+        System.out.println("F: " + gradeF + " students");
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+```
+
+**How to Run and Sample Output:**
+```
+Command: java Program40 92 78 65 45 88 95 72 58 85 33
+
+Output:
+Grade Distribution:
+A: 2 students
+B: 3 students
+C: 3 students
+F: 2 students
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
