@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled 1",
-      "path": "04. Semester 4/3. OOPJ (Java)/THEORY/Untitled 1.md"
+      "basename": "20251221",
+      "path": "01 - Daily/20251221.md"
+    },
+    {
+      "basename": "LAB ASSIGNEMNT",
+      "path": "04. Semester 4/3. OOPJ (Java)/THEORY/LAB ASSIGNEMNT.md"
     },
     {
       "basename": "20251218",
@@ -195,10 +199,6 @@
     {
       "basename": "Viva Concept queue and trees.",
       "path": "03. Semester 3rd/02 - Data Structure/Viva Concept queue and trees..md"
-    },
-    {
-      "basename": "Stack",
-      "path": "03. Semester 3rd/02 - Data Structure/Stack.md"
     }
   ],
   "omittedPaths": [],
