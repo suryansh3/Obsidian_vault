@@ -2943,7 +2943,7 @@ public class Program31 {
 }
 ```
 
-**How to Run and  Output:**
+**How to Run and Output:**
 ```
 Command: java Program31 45 23 89 12 67
 
@@ -2981,7 +2981,7 @@ public class Program32 {
 }
 ```
 
-**How to Run and Sample Output:**
+**How to Run and Output:**
 ```
 Command: java Program32 85 92 78 88 65
 
@@ -3022,7 +3022,7 @@ public class Program33 {
 }
 ```
 
-**How to Run and Sample Output:**
+**How to Run and Output:**
 ```
 Command: java Program33 "Suryansh Mithu" 101 85.5
 
@@ -3082,7 +3082,7 @@ public class Program34 {
 }
 ```
 
-**How to Run and Sample Output:**
+**How to Run and Output:**
 ```
 Command: java Program34 25 "*" 4
 
@@ -3130,7 +3130,7 @@ public class Program35 {
 }
 ```
 
-**How to Run and Sample Output:**
+**How to Run and Output:**
 ```
 Command: java Program35 2 3 4 5 6 7 8 9 10 11
 
@@ -3186,7 +3186,7 @@ public class Program36 {
 }
 ```
 
-**How to Run and Sample Output:**
+**How to Run and Output:**
 ```
 Command: java Program36 "Hello123@World!"
 
@@ -3234,7 +3234,7 @@ public class Program37 {
 }
 ```
 
-**How to Run and Sample Output:**
+**How to Run and Output:**
 ```
 Command: java Program37 40000 35000 50000 45000 30000
 
@@ -3284,7 +3284,7 @@ public class Program38 {
 }
 ```
 
-**How to Run and Sample Output:**
+**How to Run and Output:**
 ```
 Command: java Program38 Rahul 85 Priya 92 Amit 78 Sneha 88
 
@@ -3343,8 +3343,7 @@ public class Program39 {
 }
 ```
 
-**How to Run and Sample Output:**
-Assuming we have a file `sample.txt` with content: "Hello world hello java hello programming"
+**How to Run and Output:**
 
 ```
 Command: java Program39 sample.txt hello
@@ -3397,7 +3396,7 @@ public class Program40 {
 }
 ```
 
-**How to Run and Sample Output:**
+**How to Run and Output:**
 ```
 Command: java Program40 92 78 65 45 88 95 72 58 85 33
 
