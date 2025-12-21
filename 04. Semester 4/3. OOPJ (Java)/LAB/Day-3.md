@@ -234,45 +234,9 @@ public class Program4 {
 }
 ```
 
-**Sample Output:**
-```
-Enter number of books: 
-4
-Enter book title: 
-Java Basics
-Enter author: 
-John Doe
-Enter publication year: 
-2015
-Enter book title: 
-Python Guide
-Enter author: 
-Jane Smith
-Enter publication year: 
-2020
-Enter book title: 
-C++ Programming
-Enter author: 
-Mike Johnson
-Enter publication year: 
-2018
-Enter book title: 
-Web Development
-Enter author: 
-Sarah Lee
-Enter publication year: 
-2022
-Enter year to filter books published after: 
-2019
-
-Books published after 2019:
-Python Guide by Jane Smith (2020)
-Web Development by Sarah Lee (2022)
-
-Name : Suryansh Mithu
-Roll : 24155060
-```
-
+**Output:**
+![[Pasted image 20251221140344.png]]
+![[Pasted image 20251221140404.png]]
 ## **Program 5: Count Cars by Brand**
 
 ```java
