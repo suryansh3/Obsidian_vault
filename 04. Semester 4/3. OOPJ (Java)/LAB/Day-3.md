@@ -2055,3 +2055,1239 @@ Finance: Sneha (₹60000.0)
 Name : Suryansh Mithu
 Roll : 24155060
 ```
+
+## **Program 21: Merge Two Book Arrays Without Duplicates**
+
+```java
+import java.util.Scanner;
+
+class Book21 {
+    int id;
+    String title;
+    String author;
+}
+
+public class Program21 {
+    public static void main(String[] args) {
+        Scanner abc = new Scanner(System.in);
+        
+        System.out.println("Enter number of books in first array: ");
+        int n1 = abc.nextInt();
+        abc.nextLine();
+        
+        Book21[] books1 = new Book21[n1];
+        
+        for (int i = 0; i < n1; i++) {
+            books1[i] = new Book21();
+            
+            System.out.println("Enter book ID: ");
+            books1[i].id = abc.nextInt();
+            abc.nextLine();
+            
+            System.out.println("Enter title: ");
+            books1[i].title = abc.nextLine();
+            
+            System.out.println("Enter author: ");
+            books1[i].author = abc.nextLine();
+        }
+        
+        System.out.println("Enter number of books in second array: ");
+        int n2 = abc.nextInt();
+        abc.nextLine();
+        
+        Book21[] books2 = new Book21[n2];
+        
+        for (int i = 0; i < n2; i++) {
+            books2[i] = new Book21();
+            
+            System.out.println("Enter book ID: ");
+            books2[i].id = abc.nextInt();
+            abc.nextLine();
+            
+            System.out.println("Enter title: ");
+            books2[i].title = abc.nextLine();
+            
+            System.out.println("Enter author: ");
+            books2[i].author = abc.nextLine();
+        }
+        
+        Book21[] merged = new Book21[n1 + n2];
+        int mergedCount = 0;
+        
+        for (int i = 0; i < n1; i++) {
+            boolean duplicate = false;
+            for (int j = 0; j < mergedCount; j++) {
+                if (books1[i].id == merged[j].id) {
+                    duplicate = true;
+                    break;
+                }
+            }
+            if (!duplicate) {
+                merged[mergedCount] = books1[i];
+                mergedCount++;
+            }
+        }
+        
+        for (int i = 0; i < n2; i++) {
+            boolean duplicate = false;
+            for (int j = 0; j < mergedCount; j++) {
+                if (books2[i].id == merged[j].id) {
+                    duplicate = true;
+                    break;
+                }
+            }
+            if (!duplicate) {
+                merged[mergedCount] = books2[i];
+                mergedCount++;
+            }
+        }
+        
+        System.out.println("\nMerged books without duplicates:");
+        for (int i = 0; i < mergedCount; i++) {
+            System.out.println("ID: " + merged[i].id + ", Title: " + merged[i].title + ", Author: " + merged[i].author);
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        abc.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of books in first array: 
+3
+Enter book ID: 
+101
+Enter title: 
+Java Programming
+Enter author: 
+John Doe
+Enter book ID: 
+102
+Enter title: 
+Python Basics
+Enter author: 
+Jane Smith
+Enter book ID: 
+103
+Enter title: 
+C++ Guide
+Enter author: 
+Mike Johnson
+Enter number of books in second array: 
+3
+Enter book ID: 
+102
+Enter title: 
+Python Basics
+Enter author: 
+Jane Smith
+Enter book ID: 
+104
+Enter title: 
+Web Development
+Enter author: 
+Sarah Lee
+Enter book ID: 
+105
+Enter title: 
+Database Systems
+Enter author: 
+Robert Brown
+
+Merged books without duplicates:
+ID: 101, Title: Java Programming, Author: John Doe
+ID: 102, Title: Python Basics, Author: Jane Smith
+ID: 103, Title: C++ Guide, Author: Mike Johnson
+ID: 104, Title: Web Development, Author: Sarah Lee
+ID: 105, Title: Database Systems, Author: Robert Brown
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 22: Remove Zero-Balance Bank Accounts**
+
+```java
+import java.util.Scanner;
+
+class BankAccount22 {
+    String accNumber;
+    String accHolder;
+    double balance;
+}
+
+public class Program22 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter number of accounts: ");
+        int n = input.nextInt();
+        input.nextLine();
+        
+        BankAccount22[] accounts = new BankAccount22[n];
+        
+        for (int i = 0; i < n; i++) {
+            accounts[i] = new BankAccount22();
+            
+            System.out.println("Enter account number: ");
+            accounts[i].accNumber = input.nextLine();
+            
+            System.out.println("Enter account holder name: ");
+            accounts[i].accHolder = input.nextLine();
+            
+            System.out.println("Enter balance: ");
+            accounts[i].balance = input.nextDouble();
+            input.nextLine();
+        }
+        
+        int nonZeroCount = 0;
+        for (int i = 0; i < n; i++) {
+            if (accounts[i].balance > 0) {
+                nonZeroCount++;
+            }
+        }
+        
+        BankAccount22[] filteredAccounts = new BankAccount22[nonZeroCount];
+        int index = 0;
+        
+        for (int i = 0; i < n; i++) {
+            if (accounts[i].balance > 0) {
+                filteredAccounts[index] = accounts[i];
+                index++;
+            }
+        }
+        
+        System.out.println("\nAccounts after removing zero-balance accounts:");
+        for (int i = 0; i < nonZeroCount; i++) {
+            System.out.println(filteredAccounts[i].accHolder + " - " + 
+                             filteredAccounts[i].accNumber + " - Balance: " + 
+                             filteredAccounts[i].balance);
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        input.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of accounts: 
+5
+Enter account number: 
+SB1001
+Enter account holder name: 
+Rahul Sharma
+Enter balance: 
+5000
+Enter account number: 
+SB1002
+Enter account holder name: 
+Priya Patel
+Enter balance: 
+0
+Enter account number: 
+SB1003
+Enter account holder name: 
+Amit Kumar
+Enter balance: 
+10000
+Enter account number: 
+SB1004
+Enter account holder name: 
+Sneha Singh
+Enter balance: 
+0
+Enter account number: 
+SB1005
+Enter account holder name: 
+Raj Verma
+Enter balance: 
+7500
+
+Accounts after removing zero-balance accounts:
+Rahul Sharma - SB1001 - Balance: 5000.0
+Amit Kumar - SB1003 - Balance: 10000.0
+Raj Verma - SB1005 - Balance: 7500.0
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 23: Highest-Rated Hotel City-Wise**
+
+```java
+import java.util.Scanner;
+
+class Hotel {
+    String name;
+    String city;
+    double rating;
+    double price;
+}
+
+public class Program23 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter number of hotels: ");
+        int n = sc.nextInt();
+        sc.nextLine();
+        
+        Hotel[] hotels = new Hotel[n];
+        
+        for (int i = 0; i < n; i++) {
+            hotels[i] = new Hotel();
+            
+            System.out.println("Enter hotel name: ");
+            hotels[i].name = sc.nextLine();
+            
+            System.out.println("Enter city: ");
+            hotels[i].city = sc.nextLine();
+            
+            System.out.println("Enter rating: ");
+            hotels[i].rating = sc.nextDouble();
+            
+            System.out.println("Enter price per night: ");
+            hotels[i].price = sc.nextDouble();
+            sc.nextLine();
+        }
+        
+        System.out.println("\nHighest rated hotel in each city:");
+        
+        for (int i = 0; i < n; i++) {
+            boolean isHighest = true;
+            for (int j = 0; j < n; j++) {
+                if (hotels[i].city.equals(hotels[j].city) && 
+                    hotels[i].rating < hotels[j].rating) {
+                    isHighest = false;
+                    break;
+                }
+            }
+            
+            if (isHighest) {
+                boolean alreadyPrinted = false;
+                for (int k = 0; k < i; k++) {
+                    if (hotels[i].city.equals(hotels[k].city) && 
+                        hotels[i].name.equals(hotels[k].name)) {
+                        alreadyPrinted = true;
+                        break;
+                    }
+                }
+                
+                if (!alreadyPrinted) {
+                    System.out.println(hotels[i].city + ": " + 
+                                     hotels[i].name + " (Rating: " + 
+                                     hotels[i].rating + ", Price: " + 
+                                     hotels[i].price + ")");
+                }
+            }
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        sc.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of hotels: 
+6
+Enter hotel name: 
+Taj Palace
+Enter city: 
+Delhi
+Enter rating: 
+4.8
+Enter price per night: 
+12000
+Enter hotel name: 
+Oberoi
+Enter city: 
+Mumbai
+Enter rating: 
+4.9
+Enter price per night: 
+15000
+Enter hotel name: 
+Leela Palace
+Enter city: 
+Delhi
+Enter rating: 
+4.7
+Enter price per night: 
+11000
+Enter hotel name: 
+ITC Maratha
+Enter city: 
+Mumbai
+Enter rating: 
+4.6
+Enter price per night: 
+10000
+Enter hotel name: 
+Hyatt
+Enter city: 
+Bangalore
+Enter rating: 
+4.5
+Enter price per night: 
+8000
+Enter hotel name: 
+Radisson
+Enter city: 
+Bangalore
+Enter rating: 
+4.4
+Enter price per night: 
+7000
+
+Highest rated hotel in each city:
+Delhi: Taj Palace (Rating: 4.8, Price: 12000.0)
+Mumbai: Oberoi (Rating: 4.9, Price: 15000.0)
+Bangalore: Hyatt (Rating: 4.5, Price: 8000.0)
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 24: Separate Pass and Fail Students**
+
+```java
+import java.util.Scanner;
+
+class Student24 {
+    String name;
+    int roll;
+    double marks;
+}
+
+public class Program24 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Enter number of students: ");
+        int n = scan.nextInt();
+        scan.nextLine();
+        
+        Student24[] students = new Student24[n];
+        
+        for (int i = 0; i < n; i++) {
+            students[i] = new Student24();
+            
+            System.out.println("Enter name: ");
+            students[i].name = scan.nextLine();
+            
+            System.out.println("Enter roll number: ");
+            students[i].roll = scan.nextInt();
+            
+            System.out.println("Enter marks: ");
+            students[i].marks = scan.nextDouble();
+            scan.nextLine();
+        }
+        
+        System.out.println("Enter passing marks: ");
+        double passingMarks = scan.nextDouble();
+        
+        System.out.println("\nPass Students:");
+        for (int i = 0; i < n; i++) {
+            if (students[i].marks >= passingMarks) {
+                System.out.println(students[i].name + " (Roll: " + 
+                                 students[i].roll + ", Marks: " + 
+                                 students[i].marks + ")");
+            }
+        }
+        
+        System.out.println("\nFail Students:");
+        for (int i = 0; i < n; i++) {
+            if (students[i].marks < passingMarks) {
+                System.out.println(students[i].name + " (Roll: " + 
+                                 students[i].roll + ", Marks: " + 
+                                 students[i].marks + ")");
+            }
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        scan.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of students: 
+5
+Enter name: 
+Rahul
+Enter roll number: 
+101
+Enter marks: 
+85
+Enter name: 
+Priya
+Enter roll number: 
+102
+Enter marks: 
+45
+Enter name: 
+Amit
+Enter roll number: 
+103
+Enter marks: 
+78
+Enter name: 
+Sneha
+Enter roll number: 
+104
+Enter marks: 
+32
+Enter name: 
+Raj
+Enter roll number: 
+105
+Enter marks: 
+90
+Enter passing marks: 
+40
+
+Pass Students:
+Rahul (Roll: 101, Marks: 85.0)
+Priya (Roll: 102, Marks: 45.0)
+Amit (Roll: 103, Marks: 78.0)
+Raj (Roll: 105, Marks: 90.0)
+
+Fail Students:
+Sneha (Roll: 104, Marks: 32.0)
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 25: Most Expensive Item Using Object Comparison**
+
+```java
+import java.util.Scanner;
+
+class Item {
+    String name;
+    double price;
+    int id;
+}
+
+public class Program25 {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        
+        System.out.println("Enter number of items: ");
+        int n = s.nextInt();
+        s.nextLine();
+        
+        Item[] items = new Item[n];
+        
+        for (int i = 0; i < n; i++) {
+            items[i] = new Item();
+            
+            System.out.println("Enter item name: ");
+            items[i].name = s.nextLine();
+            
+            System.out.println("Enter price: ");
+            items[i].price = s.nextDouble();
+            
+            System.out.println("Enter item ID: ");
+            items[i].id = s.nextInt();
+            s.nextLine();
+        }
+        
+        Item mostExpensive = items[0];
+        
+        for (int i = 1; i < n; i++) {
+            if (items[i].price > mostExpensive.price) {
+                mostExpensive = items[i];
+            }
+        }
+        
+        System.out.println("\nMost Expensive Item:");
+        System.out.println("Name: " + mostExpensive.name);
+        System.out.println("Price: " + mostExpensive.price);
+        System.out.println("ID: " + mostExpensive.id);
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        s.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of items: 
+4
+Enter item name: 
+Laptop
+Enter price: 
+50000
+Enter item ID: 
+101
+Enter item name: 
+Smartphone
+Enter price: 
+25000
+Enter item ID: 
+102
+Enter item name: 
+Tablet
+Enter price: 
+15000
+Enter item ID: 
+103
+Enter item name: 
+Smart Watch
+Enter price: 
+8000
+Enter item ID: 
+104
+
+Most Expensive Item:
+Name: Laptop
+Price: 50000.0
+ID: 101
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 26: Update Salary Based on Experience**
+
+```java
+import java.util.Scanner;
+
+class Employee26 {
+    String name;
+    int id;
+    double salary;
+    int experience;
+}
+
+public class Program26 {
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        
+        System.out.println("Enter number of employees: ");
+        int n = scnr.nextInt();
+        scnr.nextLine();
+        
+        Employee26[] employees = new Employee26[n];
+        
+        for (int i = 0; i < n; i++) {
+            employees[i] = new Employee26();
+            
+            System.out.println("Enter name: ");
+            employees[i].name = scnr.nextLine();
+            
+            System.out.println("Enter ID: ");
+            employees[i].id = scnr.nextInt();
+            
+            System.out.println("Enter current salary: ");
+            employees[i].salary = scnr.nextDouble();
+            
+            System.out.println("Enter years of experience: ");
+            employees[i].experience = scnr.nextInt();
+            scnr.nextLine();
+        }
+        
+        System.out.println("\nUpdated Salaries:");
+        for (int i = 0; i < n; i++) {
+            double newSalary = employees[i].salary;
+            
+            if (employees[i].experience >= 10) {
+                newSalary = employees[i].salary * 1.20;
+            } else if (employees[i].experience >= 5) {
+                newSalary = employees[i].salary * 1.15;
+            } else if (employees[i].experience >= 2) {
+                newSalary = employees[i].salary * 1.10;
+            }
+            
+            System.out.println(employees[i].name + ": Old Salary = " + 
+                             employees[i].salary + ", New Salary = " + newSalary);
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        scnr.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of employees: 
+4
+Enter name: 
+Rahul
+Enter ID: 
+101
+Enter current salary: 
+40000
+Enter years of experience: 
+12
+Enter name: 
+Priya
+Enter ID: 
+102
+Enter current salary: 
+35000
+Enter years of experience: 
+7
+Enter name: 
+Amit
+Enter ID: 
+103
+Enter current salary: 
+30000
+Enter years of experience: 
+3
+Enter name: 
+Sneha
+Enter ID: 
+104
+Enter current salary: 
+28000
+Enter years of experience: 
+1
+
+Updated Salaries:
+Rahul: Old Salary = 40000.0, New Salary = 48000.0
+Priya: Old Salary = 35000.0, New Salary = 40250.0
+Amit: Old Salary = 30000.0, New Salary = 33000.0
+Sneha: Old Salary = 28000.0, New Salary = 28000.0
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 27: Library Management System**
+
+```java
+import java.util.Scanner;
+
+class Book27 {
+    int id;
+    String title;
+    String author;
+    boolean available;
+}
+
+public class Program27 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.println("Enter number of books: ");
+        int n = in.nextInt();
+        in.nextLine();
+        
+        Book27[] library = new Book27[n];
+        
+        for (int i = 0; i < n; i++) {
+            library[i] = new Book27();
+            
+            System.out.println("Enter book ID: ");
+            library[i].id = in.nextInt();
+            in.nextLine();
+            
+            System.out.println("Enter title: ");
+            library[i].title = in.nextLine();
+            
+            System.out.println("Enter author: ");
+            library[i].author = in.nextLine();
+            
+            library[i].available = true;
+        }
+        
+        while (true) {
+            System.out.println("\n1. Search Book");
+            System.out.println("2. Issue Book");
+            System.out.println("3. Return Book");
+            System.out.println("4. Exit");
+            System.out.println("Enter choice: ");
+            int choice = in.nextInt();
+            in.nextLine();
+            
+            if (choice == 1) {
+                System.out.println("Enter book title to search: ");
+                String searchTitle = in.nextLine();
+                
+                boolean found = false;
+                for (int i = 0; i < n; i++) {
+                    if (library[i].title.equalsIgnoreCase(searchTitle)) {
+                        System.out.println("Book found:");
+                        System.out.println("ID: " + library[i].id);
+                        System.out.println("Title: " + library[i].title);
+                        System.out.println("Author: " + library[i].author);
+                        System.out.println("Available: " + library[i].available);
+                        found = true;
+                    }
+                }
+                if (!found) {
+                    System.out.println("Book not found");
+                }
+            }
+            else if (choice == 2) {
+                System.out.println("Enter book ID to issue: ");
+                int issueId = in.nextInt();
+                
+                boolean issued = false;
+                for (int i = 0; i < n; i++) {
+                    if (library[i].id == issueId) {
+                        if (library[i].available) {
+                            library[i].available = false;
+                            System.out.println("Book issued successfully");
+                            issued = true;
+                        } else {
+                            System.out.println("Book is already issued");
+                        }
+                    }
+                }
+                if (!issued) {
+                    System.out.println("Book not found");
+                }
+            }
+            else if (choice == 3) {
+                System.out.println("Enter book ID to return: ");
+                int returnId = in.nextInt();
+                
+                boolean returned = false;
+                for (int i = 0; i < n; i++) {
+                    if (library[i].id == returnId) {
+                        if (!library[i].available) {
+                            library[i].available = true;
+                            System.out.println("Book returned successfully");
+                            returned = true;
+                        } else {
+                            System.out.println("Book was not issued");
+                        }
+                    }
+                }
+                if (!returned) {
+                    System.out.println("Book not found");
+                }
+            }
+            else if (choice == 4) {
+                break;
+            }
+            else {
+                System.out.println("Invalid choice");
+            }
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        in.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of books: 
+3
+Enter book ID: 
+101
+Enter title: 
+Java Programming
+Enter author: 
+John Doe
+Enter book ID: 
+102
+Enter title: 
+Python Basics
+Enter author: 
+Jane Smith
+Enter book ID: 
+103
+Enter title: 
+C++ Guide
+Enter author: 
+Mike Johnson
+
+1. Search Book
+2. Issue Book
+3. Return Book
+4. Exit
+Enter choice: 
+1
+Enter book title to search: 
+Java Programming
+Book found:
+ID: 101
+Title: Java Programming
+Author: John Doe
+Available: true
+
+5. Search Book
+6. Issue Book
+7. Return Book
+8. Exit
+Enter choice: 
+2
+Enter book ID to issue: 
+101
+Book issued successfully
+
+9. Search Book
+10. Issue Book
+11. Return Book
+12. Exit
+Enter choice: 
+2
+Enter book ID to issue: 
+101
+Book is already issued
+
+5. Search Book
+6. Issue Book
+7. Return Book
+8. Exit
+Enter choice: 
+3
+Enter book ID to return: 
+101
+Book returned successfully
+
+9. Search Book
+10. Issue Book
+11. Return Book
+12. Exit
+Enter choice: 
+4
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 28: Assign Grades Based on Marks**
+
+```java
+import java.util.Scanner;
+
+class Student28 {
+    String name;
+    int roll;
+    double marks;
+    char grade;
+}
+
+public class Program28 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter number of students: ");
+        int n = input.nextInt();
+        input.nextLine();
+        
+        Student28[] students = new Student28[n];
+        
+        for (int i = 0; i < n; i++) {
+            students[i] = new Student28();
+            
+            System.out.println("Enter name: ");
+            students[i].name = input.nextLine();
+            
+            System.out.println("Enter roll number: ");
+            students[i].roll = input.nextInt();
+            
+            System.out.println("Enter marks: ");
+            students[i].marks = input.nextDouble();
+            input.nextLine();
+            
+            if (students[i].marks >= 90) {
+                students[i].grade = 'A';
+            } else if (students[i].marks >= 75) {
+                students[i].grade = 'B';
+            } else if (students[i].marks >= 50) {
+                students[i].grade = 'C';
+            } else {
+                students[i].grade = 'F';
+            }
+        }
+        
+        System.out.println("\nStudent Grades:");
+        for (int i = 0; i < n; i++) {
+            System.out.println(students[i].name + " (Roll: " + students[i].roll + 
+                             ") - Marks: " + students[i].marks + " - Grade: " + 
+                             students[i].grade);
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        input.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of students: 
+5
+Enter name: 
+Rahul
+Enter roll number: 
+101
+Enter marks: 
+92
+Enter name: 
+Priya
+Enter roll number: 
+102
+Enter marks: 
+78
+Enter name: 
+Amit
+Enter roll number: 
+103
+Enter marks: 
+65
+Enter name: 
+Sneha
+Enter roll number: 
+104
+Enter marks: 
+45
+Enter name: 
+Raj
+Enter roll number: 
+105
+Enter marks: 
+85
+
+Student Grades:
+Rahul (Roll: 101) - Marks: 92.0 - Grade: A
+Priya (Roll: 102) - Marks: 78.0 - Grade: B
+Amit (Roll: 103) - Marks: 65.0 - Grade: C
+Sneha (Roll: 104) - Marks: 45.0 - Grade: F
+Raj (Roll: 105) - Marks: 85.0 - Grade: B
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 29: Employees with Same Salary but Different Roles**
+
+```java
+import java.util.Scanner;
+
+class Employee29 {
+    String name;
+    String role;
+    double salary;
+}
+
+public class Program29 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Enter number of employees: ");
+        int n = scan.nextInt();
+        scan.nextLine();
+        
+        Employee29[] employees = new Employee29[n];
+        
+        for (int i = 0; i < n; i++) {
+            employees[i] = new Employee29();
+            
+            System.out.println("Enter name: ");
+            employees[i].name = scan.nextLine();
+            
+            System.out.println("Enter role: ");
+            employees[i].role = scan.nextLine();
+            
+            System.out.println("Enter salary: ");
+            employees[i].salary = scan.nextDouble();
+            scan.nextLine();
+        }
+        
+        System.out.println("\nEmployees with same salary but different roles:");
+        
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (employees[i].salary == employees[j].salary && 
+                    !employees[i].role.equals(employees[j].role)) {
+                    System.out.println(employees[i].name + " (" + employees[i].role + 
+                                     ") and " + employees[j].name + " (" + 
+                                     employees[j].role + ") - Salary: " + 
+                                     employees[i].salary);
+                }
+            }
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        scan.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of employees: 
+5
+Enter name: 
+Rahul
+Enter role: 
+Developer
+Enter salary: 
+50000
+Enter name: 
+Priya
+Enter role: 
+Manager
+Enter salary: 
+70000
+Enter name: 
+Amit
+Enter role: 
+Tester
+Enter salary: 
+50000
+Enter name: 
+Sneha
+Enter role: 
+Analyst
+Enter salary: 
+60000
+Enter name: 
+Raj
+Enter role: 
+Designer
+Enter salary: 
+50000
+
+Employees with same salary but different roles:
+Rahul (Developer) and Amit (Tester) - Salary: 50000.0
+Rahul (Developer) and Raj (Designer) - Salary: 50000.0
+Amit (Tester) and Raj (Designer) - Salary: 50000.0
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 30: Sort Hotels by Rating and Price**
+
+```java
+import java.util.Scanner;
+
+class Hotel30 {
+    String name;
+    double rating;
+    double price;
+}
+
+public class Program30 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter number of hotels: ");
+        int n = sc.nextInt();
+        sc.nextLine();
+        
+        Hotel30[] hotels = new Hotel30[n];
+        
+        for (int i = 0; i < n; i++) {
+            hotels[i] = new Hotel30();
+            
+            System.out.println("Enter hotel name: ");
+            hotels[i].name = sc.nextLine();
+            
+            System.out.println("Enter rating: ");
+            hotels[i].rating = sc.nextDouble();
+            
+            System.out.println("Enter price: ");
+            hotels[i].price = sc.nextDouble();
+            sc.nextLine();
+        }
+        
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (hotels[j].rating < hotels[j + 1].rating || 
+                    (hotels[j].rating == hotels[j + 1].rating && 
+                     hotels[j].price > hotels[j + 1].price)) {
+                    Hotel30 temp = hotels[j];
+                    hotels[j] = hotels[j + 1];
+                    hotels[j + 1] = temp;
+                }
+            }
+        }
+        
+        System.out.println("\nHotels sorted by rating (descending) and then price (ascending):");
+        for (int i = 0; i < n; i++) {
+            System.out.println(hotels[i].name + " - Rating: " + hotels[i].rating + 
+                             ", Price: " + hotels[i].price);
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        sc.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of hotels: 
+5
+Enter hotel name: 
+Taj Palace
+Enter rating: 
+4.8
+Enter price: 
+12000
+Enter hotel name: 
+Oberoi
+Enter rating: 
+4.9
+Enter price: 
+15000
+Enter hotel name: 
+Leela Palace
+Enter rating: 
+4.8
+Enter price: 
+11000
+Enter hotel name: 
+ITC Maratha
+Enter rating: 
+4.7
+Enter price: 
+10000
+Enter hotel name: 
+Hyatt
+Enter rating: 
+4.7
+Enter price: 
+9500
+
+Hotels sorted by rating (descending) and then price (ascending):
+Oberoi - Rating: 4.9, Price: 15000.0
+Leela Palace - Rating: 4.8, Price: 11000.0
+Taj Palace - Rating: 4.8, Price: 12000.0
+Hyatt - Rating: 4.7, Price: 9500.0
+ITC Maratha - Rating: 4.7, Price: 10000.0
+
+Name : Suryansh Mithu
+Roll : 24155060
