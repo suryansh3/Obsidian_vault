@@ -1010,3 +1010,1048 @@ Apple MacBook Pro - RAM: 32GB
 Name : Suryansh Mithu
 Roll : 24155060
 ```
+
+## **Program 11: Oldest and Youngest Person**
+
+```java
+import java.util.Scanner;
+
+class Person {
+    String name;
+    int age;
+}
+
+public class Program11 {
+    public static void main(String[] args) {
+        Scanner abc = new Scanner(System.in);
+        
+        System.out.println("Enter number of persons: ");
+        int n = abc.nextInt();
+        abc.nextLine();
+        
+        Person[] persons = new Person[n];
+        
+        for (int i = 0; i < n; i++) {
+            persons[i] = new Person();
+            
+            System.out.println("Enter name: ");
+            persons[i].name = abc.nextLine();
+            
+            System.out.println("Enter age: ");
+            persons[i].age = abc.nextInt();
+            abc.nextLine();
+        }
+        
+        Person oldest = persons[0];
+        Person youngest = persons[0];
+        
+        for (int i = 1; i < n; i++) {
+            if (persons[i].age > oldest.age) {
+                oldest = persons[i];
+            }
+            if (persons[i].age < youngest.age) {
+                youngest = persons[i];
+            }
+        }
+        
+        System.out.println("\nOldest person: " + oldest.name + " (" + oldest.age + " years)");
+        System.out.println("Youngest person: " + youngest.name + " (" + youngest.age + " years)");
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        abc.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of persons: 
+5
+Enter name: 
+Rahul
+Enter age: 
+25
+Enter name: 
+Priya
+Enter age: 
+32
+Enter name: 
+Amit
+Enter age: 
+19
+Enter name: 
+Sneha
+Enter age: 
+28
+Enter name: 
+Raj
+Enter age: 
+45
+
+Oldest person: Raj (45 years)
+Youngest person: Amit (19 years)
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 12: Search Customer by Email**
+
+```java
+import java.util.Scanner;
+
+class Customer {
+    String name;
+    String email;
+    String phone;
+}
+
+public class Program12 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter number of customers: ");
+        int n = input.nextInt();
+        input.nextLine();
+        
+        Customer[] customers = new Customer[n];
+        
+        for (int i = 0; i < n; i++) {
+            customers[i] = new Customer();
+            
+            System.out.println("Enter name: ");
+            customers[i].name = input.nextLine();
+            
+            System.out.println("Enter email: ");
+            customers[i].email = input.nextLine();
+            
+            System.out.println("Enter phone: ");
+            customers[i].phone = input.nextLine();
+        }
+        
+        System.out.println("Enter email to search: ");
+        String searchEmail = input.nextLine();
+        
+        boolean found = false;
+        for (int i = 0; i < n; i++) {
+            if (customers[i].email.equalsIgnoreCase(searchEmail)) {
+                System.out.println("\nCustomer found:");
+                System.out.println("Name: " + customers[i].name);
+                System.out.println("Email: " + customers[i].email);
+                System.out.println("Phone: " + customers[i].phone);
+                found = true;
+                break;
+            }
+        }
+        
+        if (!found) {
+            System.out.println("Customer with email " + searchEmail + " not found");
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        input.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of customers: 
+4
+Enter name: 
+Rahul Sharma
+Enter email: 
+rahul@gmail.com
+Enter phone: 
+9876543210
+Enter name: 
+Priya Patel
+Enter email: 
+priya@yahoo.com
+Enter phone: 
+9876543211
+Enter name: 
+Amit Kumar
+Enter email: 
+amit@hotmail.com
+Enter phone: 
+9876543212
+Enter name: 
+Sneha Singh
+Enter email: 
+sneha@gmail.com
+Enter phone: 
+9876543213
+Enter email to search: 
+amit@hotmail.com
+
+Customer found:
+Name: Amit Kumar
+Email: amit@hotmail.com
+Phone: 9876543212
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 13: Class Average, Highest and Lowest Marks**
+
+```java
+import java.util.Scanner;
+
+class Student13 {
+    String name;
+    double marks;
+}
+
+public class Program13 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter number of students: ");
+        int n = sc.nextInt();
+        sc.nextLine();
+        
+        Student13[] students = new Student13[n];
+        
+        for (int i = 0; i < n; i++) {
+            students[i] = new Student13();
+            
+            System.out.println("Enter name: ");
+            students[i].name = sc.nextLine();
+            
+            System.out.println("Enter marks: ");
+            students[i].marks = sc.nextDouble();
+            sc.nextLine();
+        }
+        
+        double highest = students[0].marks;
+        double lowest = students[0].marks;
+        double total = 0;
+        
+        for (int i = 0; i < n; i++) {
+            if (students[i].marks > highest) {
+                highest = students[i].marks;
+            }
+            if (students[i].marks < lowest) {
+                lowest = students[i].marks;
+            }
+            total += students[i].marks;
+        }
+        
+        double average = total / n;
+        
+        System.out.println("\nClass Statistics:");
+        System.out.println("Average marks: " + average);
+        System.out.println("Highest marks: " + highest);
+        System.out.println("Lowest marks: " + lowest);
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        sc.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of students: 
+5
+Enter name: 
+Rahul
+Enter marks: 
+85
+Enter name: 
+Priya
+Enter marks: 
+92
+Enter name: 
+Amit
+Enter marks: 
+78
+Enter name: 
+Sneha
+Enter marks: 
+88
+Enter name: 
+Raj
+Enter marks: 
+65
+
+Class Statistics:
+Average marks: 81.6
+Highest marks: 92.0
+Lowest marks: 65.0
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 14: Trains Between Source and Destination**
+
+```java
+import java.util.Scanner;
+
+class Train {
+    String trainName;
+    String source;
+    String destination;
+    int trainNumber;
+}
+
+public class Program14 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Enter number of trains: ");
+        int n = scan.nextInt();
+        scan.nextLine();
+        
+        Train[] trains = new Train[n];
+        
+        for (int i = 0; i < n; i++) {
+            trains[i] = new Train();
+            
+            System.out.println("Enter train name: ");
+            trains[i].trainName = scan.nextLine();
+            
+            System.out.println("Enter source: ");
+            trains[i].source = scan.nextLine();
+            
+            System.out.println("Enter destination: ");
+            trains[i].destination = scan.nextLine();
+            
+            System.out.println("Enter train number: ");
+            trains[i].trainNumber = scan.nextInt();
+            scan.nextLine();
+        }
+        
+        System.out.println("Enter source to search: ");
+        String searchSource = scan.nextLine();
+        
+        System.out.println("Enter destination to search: ");
+        String searchDest = scan.nextLine();
+        
+        System.out.println("\nTrains from " + searchSource + " to " + searchDest + ":");
+        boolean found = false;
+        
+        for (int i = 0; i < n; i++) {
+            if (trains[i].source.equalsIgnoreCase(searchSource) && 
+                trains[i].destination.equalsIgnoreCase(searchDest)) {
+                System.out.println(trains[i].trainName + " (Train No: " + trains[i].trainNumber + ")");
+                found = true;
+            }
+        }
+        
+        if (!found) {
+            System.out.println("No trains found for this route");
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        scan.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of trains: 
+5
+Enter train name: 
+Rajdhani Express
+Enter source: 
+Delhi
+Enter destination: 
+Mumbai
+Enter train number: 
+12951
+Enter train name: 
+Shatabdi Express
+Enter source: 
+Delhi
+Enter destination: 
+Chennai
+Enter train number: 
+12001
+Enter train name: 
+Duronto Express
+Enter source: 
+Kolkata
+Enter destination: 
+Delhi
+Enter train number: 
+12259
+Enter train name: 
+Garib Rath
+Enter source: 
+Delhi
+Enter destination: 
+Mumbai
+Enter train number: 
+12213
+Enter train name: 
+Tejas Express
+Enter source: 
+Mumbai
+Enter destination: 
+Goa
+Enter train number: 
+22119
+Enter source to search: 
+Delhi
+Enter destination to search: 
+Mumbai
+
+Trains from Delhi to Mumbai:
+Rajdhani Express (Train No: 12951)
+Garib Rath (Train No: 12213)
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 15: Mobiles in Different Price Ranges**
+
+```java
+import java.util.Scanner;
+
+class Mobile {
+    String brand;
+    String model;
+    double price;
+}
+
+public class Program15 {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        
+        System.out.println("Enter number of mobiles: ");
+        int n = s.nextInt();
+        s.nextLine();
+        
+        Mobile[] mobiles = new Mobile[n];
+        
+        for (int i = 0; i < n; i++) {
+            mobiles[i] = new Mobile();
+            
+            System.out.println("Enter brand: ");
+            mobiles[i].brand = s.nextLine();
+            
+            System.out.println("Enter model: ");
+            mobiles[i].model = s.nextLine();
+            
+            System.out.println("Enter price: ");
+            mobiles[i].price = s.nextDouble();
+            s.nextLine();
+        }
+        
+        int range1 = 0; // < 10000
+        int range2 = 0; // 10000 - 30000
+        int range3 = 0; // > 30000
+        
+        for (int i = 0; i < n; i++) {
+            if (mobiles[i].price < 10000) {
+                range1++;
+            } else if (mobiles[i].price >= 10000 && mobiles[i].price <= 30000) {
+                range2++;
+            } else {
+                range3++;
+            }
+        }
+        
+        System.out.println("\nMobile count by price range:");
+        System.out.println("Below ₹10,000: " + range1);
+        System.out.println("₹10,000 - ₹30,000: " + range2);
+        System.out.println("Above ₹30,000: " + range3);
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        s.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of mobiles: 
+6
+Enter brand: 
+Samsung
+Enter model: 
+Galaxy A14
+Enter price: 
+14999
+Enter brand: 
+Apple
+Enter model: 
+iPhone 14
+Enter price: 
+79999
+Enter brand: 
+Xiaomi
+Enter model: 
+Redmi Note 12
+Enter price: 
+17999
+Enter brand: 
+Nokia
+Enter model: 
+C12
+Enter price: 
+7999
+Enter brand: 
+OnePlus
+Enter model: 
+Nord CE 3
+Enter price: 
+24999
+Enter brand: 
+Google
+Enter model: 
+Pixel 7
+Enter price: 
+59999
+
+Mobile count by price range:
+Below ₹10,000: 1
+₹10,000 - ₹30,000: 3
+Above ₹30,000: 2
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 16: Top Scorer and Average Score**
+
+```java
+import java.util.Scanner;
+
+class Player {
+    String name;
+    int score;
+}
+
+public class Program16 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter number of players: ");
+        int n = sc.nextInt();
+        sc.nextLine();
+        
+        Player[] players = new Player[n];
+        
+        for (int i = 0; i < n; i++) {
+            players[i] = new Player();
+            
+            System.out.println("Enter player name: ");
+            players[i].name = sc.nextLine();
+            
+            System.out.println("Enter score: ");
+            players[i].score = sc.nextInt();
+            sc.nextLine();
+        }
+        
+        Player topScorer = players[0];
+        int total = players[0].score;
+        
+        for (int i = 1; i < n; i++) {
+            if (players[i].score > topScorer.score) {
+                topScorer = players[i];
+            }
+            total += players[i].score;
+        }
+        
+        double average = (double) total / n;
+        
+        System.out.println("\nTop Scorer: " + topScorer.name + " (" + topScorer.score + " runs)");
+        System.out.println("Average Score: " + average);
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        sc.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of players: 
+5
+Enter player name: 
+Virat
+Enter score: 
+85
+Enter player name: 
+Rohit
+Enter score: 
+92
+Enter player name: 
+Surya
+Enter score: 
+78
+Enter player name: 
+Hardik
+Enter score: 
+65
+Enter player name: 
+Rishabh
+Enter score: 
+88
+
+Top Scorer: Rohit (92 runs)
+Average Score: 81.6
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 17: Separate Two-Wheelers and Four-Wheelers**
+
+```java
+import java.util.Scanner;
+
+class Vehicle {
+    String type;
+    String brand;
+    String model;
+}
+
+public class Program17 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter number of vehicles: ");
+        int n = input.nextInt();
+        input.nextLine();
+        
+        Vehicle[] vehicles = new Vehicle[n];
+        
+        for (int i = 0; i < n; i++) {
+            vehicles[i] = new Vehicle();
+            
+            System.out.println("Enter type (2-wheeler/4-wheeler): ");
+            vehicles[i].type = input.nextLine();
+            
+            System.out.println("Enter brand: ");
+            vehicles[i].brand = input.nextLine();
+            
+            System.out.println("Enter model: ");
+            vehicles[i].model = input.nextLine();
+        }
+        
+        System.out.println("\nTwo-Wheelers:");
+        for (int i = 0; i < n; i++) {
+            if (vehicles[i].type.equalsIgnoreCase("2-wheeler")) {
+                System.out.println(vehicles[i].brand + " " + vehicles[i].model);
+            }
+        }
+        
+        System.out.println("\nFour-Wheelers:");
+        for (int i = 0; i < n; i++) {
+            if (vehicles[i].type.equalsIgnoreCase("4-wheeler")) {
+                System.out.println(vehicles[i].brand + " " + vehicles[i].model);
+            }
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        input.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of vehicles: 
+6
+Enter type (2-wheeler/4-wheeler): 
+2-wheeler
+Enter brand: 
+Hero
+Enter model: 
+Splendor
+Enter type (2-wheeler/4-wheeler): 
+4-wheeler
+Enter brand: 
+Maruti
+Enter model: 
+Swift
+Enter type (2-wheeler/4-wheeler): 
+2-wheeler
+Enter brand: 
+Honda
+Enter model: 
+Activa
+Enter type (2-wheeler/4-wheeler): 
+4-wheeler
+Enter brand: 
+Hyundai
+Enter model: 
+Creta
+Enter type (2-wheeler/4-wheeler): 
+2-wheeler
+Enter brand: 
+Bajaj
+Enter model: 
+Pulsar
+Enter type (2-wheeler/4-wheeler): 
+4-wheeler
+Enter brand: 
+Tata
+Enter model: 
+Nexon
+
+Two-Wheelers:
+Hero Splendor
+Honda Activa
+Bajaj Pulsar
+
+Four-Wheelers:
+Maruti Swift
+Hyundai Creta
+Tata Nexon
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 18: Apply Discount to Products Above Price**
+
+```java
+import java.util.Scanner;
+
+class Product18 {
+    String name;
+    double price;
+    int id;
+}
+
+public class Program18 {
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        
+        System.out.println("Enter number of products: ");
+        int n = scnr.nextInt();
+        scnr.nextLine();
+        
+        Product18[] products = new Product18[n];
+        
+        for (int i = 0; i < n; i++) {
+            products[i] = new Product18();
+            
+            System.out.println("Enter product name: ");
+            products[i].name = scnr.nextLine();
+            
+            System.out.println("Enter price: ");
+            products[i].price = scnr.nextDouble();
+            
+            System.out.println("Enter ID: ");
+            products[i].id = scnr.nextInt();
+            scnr.nextLine();
+        }
+        
+        System.out.println("Enter price threshold for discount: ");
+        double threshold = scnr.nextDouble();
+        
+        System.out.println("Enter discount percentage: ");
+        double discount = scnr.nextDouble();
+        
+        System.out.println("\nProducts after discount:");
+        for (int i = 0; i < n; i++) {
+            if (products[i].price > threshold) {
+                double discountedPrice = products[i].price * (1 - discount/100);
+                System.out.println(products[i].name + ": Original ₹" + products[i].price + 
+                                 ", Discounted ₹" + discountedPrice);
+            } else {
+                System.out.println(products[i].name + ": ₹" + products[i].price + " (No discount)");
+            }
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        scnr.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of products: 
+4
+Enter product name: 
+Laptop
+Enter price: 
+50000
+Enter ID: 
+101
+Enter product name: 
+Mouse
+Enter price: 
+500
+Enter ID: 
+102
+Enter product name: 
+Keyboard
+Enter price: 
+1500
+Enter ID: 
+103
+Enter product name: 
+Monitor
+Enter price: 
+8000
+Enter ID: 
+104
+Enter price threshold for discount: 
+1000
+Enter discount percentage: 
+10
+
+Products after discount:
+Laptop: Original ₹50000.0, Discounted ₹45000.0
+Mouse: ₹500.0 (No discount)
+Keyboard: Original ₹1500.0, Discounted ₹1350.0
+Monitor: Original ₹8000.0, Discounted ₹7200.0
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 19: Rank Students Based on Total Marks**
+
+```java
+import java.util.Scanner;
+
+class Student19 {
+    String name;
+    int roll;
+    double marks;
+}
+
+public class Program19 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.println("Enter number of students: ");
+        int n = in.nextInt();
+        in.nextLine();
+        
+        Student19[] students = new Student19[n];
+        
+        for (int i = 0; i < n; i++) {
+            students[i] = new Student19();
+            
+            System.out.println("Enter name: ");
+            students[i].name = in.nextLine();
+            
+            System.out.println("Enter roll number: ");
+            students[i].roll = in.nextInt();
+            
+            System.out.println("Enter total marks: ");
+            students[i].marks = in.nextDouble();
+            in.nextLine();
+        }
+        
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (students[j].marks < students[j + 1].marks) {
+                    Student19 temp = students[j];
+                    students[j] = students[j + 1];
+                    students[j + 1] = temp;
+                }
+            }
+        }
+        
+        System.out.println("\nStudent Rankings:");
+        for (int i = 0; i < n; i++) {
+            System.out.println("Rank " + (i+1) + ": " + students[i].name + 
+                             " (Roll: " + students[i].roll + ", Marks: " + students[i].marks + ")");
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        in.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of students: 
+5
+Enter name: 
+Rahul
+Enter roll number: 
+101
+Enter total marks: 
+85
+Enter name: 
+Priya
+Enter roll number: 
+102
+Enter total marks: 
+92
+Enter name: 
+Amit
+Enter roll number: 
+103
+Enter total marks: 
+78
+Enter name: 
+Sneha
+Enter roll number: 
+104
+Enter total marks: 
+88
+Enter name: 
+Raj
+Enter roll number: 
+105
+Enter total marks: 
+65
+
+Student Rankings:
+Rank 1: Priya (Roll: 102, Marks: 92.0)
+Rank 2: Sneha (Roll: 104, Marks: 88.0)
+Rank 3: Rahul (Roll: 101, Marks: 85.0)
+Rank 4: Amit (Roll: 103, Marks: 78.0)
+Rank 5: Raj (Roll: 105, Marks: 65.0)
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
+
+## **Program 20: Department-wise Highest Paid Employee**
+
+```java
+import java.util.Scanner;
+
+class Employee20 {
+    String name;
+    String department;
+    double salary;
+}
+
+public class Program20 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Enter number of employees: ");
+        int n = scan.nextInt();
+        scan.nextLine();
+        
+        Employee20[] employees = new Employee20[n];
+        
+        for (int i = 0; i < n; i++) {
+            employees[i] = new Employee20();
+            
+            System.out.println("Enter name: ");
+            employees[i].name = scan.nextLine();
+            
+            System.out.println("Enter department: ");
+            employees[i].department = scan.nextLine();
+            
+            System.out.println("Enter salary: ");
+            employees[i].salary = scan.nextDouble();
+            scan.nextLine();
+        }
+        
+        System.out.println("\nDepartment-wise highest paid employees:");
+        
+        for (int i = 0; i < n; i++) {
+            boolean isHighest = true;
+            for (int j = 0; j < n; j++) {
+                if (employees[i].department.equals(employees[j].department) && 
+                    employees[i].salary < employees[j].salary) {
+                    isHighest = false;
+                    break;
+                }
+            }
+            
+            if (isHighest) {
+                boolean alreadyPrinted = false;
+                for (int k = 0; k < i; k++) {
+                    if (employees[i].department.equals(employees[k].department) && 
+                        employees[i].name.equals(employees[k].name)) {
+                        alreadyPrinted = true;
+                        break;
+                    }
+                }
+                
+                if (!alreadyPrinted) {
+                    System.out.println(employees[i].department + ": " + 
+                                     employees[i].name + " (₹" + employees[i].salary + ")");
+                }
+            }
+        }
+        
+        System.out.println("\nName : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        
+        scan.close();
+    }
+}
+```
+
+**Sample Output:**
+```
+Enter number of employees: 
+6
+Enter name: 
+Rahul
+Enter department: 
+IT
+Enter salary: 
+50000
+Enter name: 
+Priya
+Enter department: 
+HR
+Enter salary: 
+45000
+Enter name: 
+Amit
+Enter department: 
+IT
+Enter salary: 
+55000
+Enter name: 
+Sneha
+Enter department: 
+Finance
+Enter salary: 
+60000
+Enter name: 
+Raj
+Enter department: 
+HR
+Enter salary: 
+42000
+Enter name: 
+Meera
+Enter department: 
+Finance
+Enter salary: 
+58000
+
+Department-wise highest paid employees:
+IT: Amit (₹55000.0)
+HR: Priya (₹45000.0)
+Finance: Sneha (₹60000.0)
+
+Name : Suryansh Mithu
+Roll : 24155060
+```
