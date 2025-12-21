@@ -541,60 +541,10 @@ public class Program9 {
 }
 ```
 
-**Sample Output:**
-```
-Enter number of movies: 
-5
-Enter movie title: 
-Inception
-Enter director: 
-Christopher Nolan
-Enter rating: 
-8.8
-Enter year: 
-2010
-Enter movie title: 
-Avengers
-Enter director: 
-Joss Whedon
-Enter rating: 
-8.0
-Enter year: 
-2012
-Enter movie title: 
-Parasite
-Enter director: 
-Bong Joon-ho
-Enter rating: 
-8.6
-Enter year: 
-2019
-Enter movie title: 
-Titanic
-Enter director: 
-James Cameron
-Enter rating: 
-7.9
-Enter year: 
-1997
-Enter movie title: 
-The Dark Knight
-Enter director: 
-Christopher Nolan
-Enter rating: 
-9.0
-Enter year: 
-2008
+**Output:**
+![[Pasted image 20251221142506.png]]
 
-Movies with rating greater than 8.5:
-Inception (2010) - Rating: 8.8 - Director: Christopher Nolan
-Parasite (2019) - Rating: 8.6 - Director: Bong Joon-ho
-The Dark Knight (2008) - Rating: 9.0 - Director: Christopher Nolan
-
-Name : Suryansh Mithu
-Roll : 24155060
-```
-
+![[Pasted image 20251221142527.png]]
 ## **Program 10: Laptop with Min Price and Max RAM**
 
 ```java
