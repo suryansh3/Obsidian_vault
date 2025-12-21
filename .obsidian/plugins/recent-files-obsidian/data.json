@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Day-3",
+      "path": "04. Semester 4/3. OOPJ (Java)/LAB/Day-3.md"
+    },
+    {
       "basename": "20251221",
       "path": "01 - Daily/20251221.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DSA 16 Question - Deepseek",
       "path": "DSA 16 Question - Deepseek.md"
-    },
-    {
-      "basename": "Viva Concept queue and trees.",
-      "path": "03. Semester 3rd/02 - Data Structure/Viva Concept queue and trees..md"
     }
   ],
   "omittedPaths": [],
