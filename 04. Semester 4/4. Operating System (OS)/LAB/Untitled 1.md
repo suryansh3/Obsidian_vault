@@ -19,4 +19,23 @@ Assignment 1
 ## 3 
 
 
+![[Pasted image 20260109133234.png]]
+
+
+---
+
+4.
+
+![[Pasted image 20260109133358.png]]
+
+---
+
+5.
+
+
+![[Pasted image 20260109133443.png]]
+
+---
+
+6.
 
