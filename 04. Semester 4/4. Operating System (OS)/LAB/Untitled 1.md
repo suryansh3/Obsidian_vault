@@ -59,3 +59,5 @@ Assignment 1
 
 ![[Pasted image 20260109134501.png]]
 
+10.
+
