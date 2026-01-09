@@ -57,3 +57,5 @@ Assignment 1
 
 9.
 
+![[Pasted image 20260109134501.png]]
+
