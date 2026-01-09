@@ -39,3 +39,21 @@ Assignment 1
 
 6.
 
+![[Pasted image 20260109133856.png]]
+
+---
+
+7.
+
+![[Pasted image 20260109134028.png]]
+
+---
+
+8.
+
+![[Pasted image 20260109134124.png]]
+
+---
+
+9.
+
