@@ -12,3 +12,11 @@ Assignment 1
 
 2.
 
+![[Pasted image 20260109132310.png]]
+
+---
+
+## 3 
+
+
+
