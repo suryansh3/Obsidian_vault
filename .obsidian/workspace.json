@@ -48,23 +48,9 @@
               "icon": "lucide-file",
               "title": "Untitled 1"
             }
-          },
-          {
-            "id": "a2cc9399b78ebe5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -263,10 +249,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a2cc9399b78ebe5c",
+  "active": "e74a52c14ad5e821",
   "lastOpenFiles": [
-    "04. Semester 4/4. Operating System (OS)/LAB/Untitled 1.md",
+    "99 - Meta/attachments/Pasted image 20260109125043.png",
     "conflict-files-obsidian-git.md",
+    "04. Semester 4/4. Operating System (OS)/LAB/Untitled 1.md",
     "01 - Daily/20260109.md",
     "04. Semester 4/4. Operating System (OS)/LAB/Test - 2.md",
     "99 - Meta/attachments/Pasted image 20260106220259.png",
@@ -304,7 +291,6 @@
     "04. Semester 4/3. OOPJ (Java)/THEORY/ASSIGNMENT - 4.md",
     "04. Semester 4/3. OOPJ (Java)/THEORY",
     "04. Semester 4/3. OOPJ (Java)/LAB/DAY-2.md",
-    "01 - Daily/20251211.md",
     "99 - Meta/attachments/Stranger_Danger.epub",
     "04. Semester 4/3. OOPJ (Java)/LAB/runjava.bat",
     "Untitled.base",
