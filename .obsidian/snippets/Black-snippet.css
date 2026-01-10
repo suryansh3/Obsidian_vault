@@ -1,4 +1,39 @@
-.callout[data-callout="black"] {
-    background-color: black;
-    color: white; /* Ensures text is readable on a black background */
+/* -----------------------------------------------------------
+   1. VIEW MODE (Reading Mode & Live Preview)
+   Forces code blocks to be Black Background / White Text
+----------------------------------------------------------- */
+.theme-dark .markdown-preview-view pre,
+.theme-light .markdown-preview-view pre,
+.theme-dark .cm-s-obsidian pre.cm-line, 
+.theme-light .cm-s-obsidian pre.cm-line {
+    background-color: #000000 !important;
+    border: 1px solid #333; /* Optional: adds a subtle border */
+}
+
+.theme-dark .markdown-preview-view code,
+.theme-light .markdown-preview-view code {
+    color: #e6e6e6 !important; /* Off-white text for readability */
+    background-color: transparent !important;
+}
+
+/* -----------------------------------------------------------
+   2. PDF EXPORT (The Crucial Part)
+   Forces the PDF engine to keep the black background
+----------------------------------------------------------- */
+@media print {
+    pre {
+        background-color: #000000 !important;
+        border-radius: 5px !important;
+        border: 1px solid #444 !important;
+        
+        /* THIS IS THE MAGIC PROPERTY */
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    code, 
+    pre code span {
+        color: #ffffff !important; /* Force text white */
+        text-shadow: none !important;
+    }
 }

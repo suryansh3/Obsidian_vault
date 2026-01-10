@@ -1,0 +1,1000 @@
+# Name : Suryansh Mithu
+# Roll : 24155060
+
+## **1. Default Constructor with Default Values**
+```java
+class A {
+    int a; String b; double c;
+    A() {
+        a = 0; b = ""; c = 0.0;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("a: " + a + " b: " + b + " c: " + c);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        A obj = new A();
+        obj.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+a: 0 b:  c: 0.0
+Process finished with exit code 0
+```
+
+## **2. Parameterized Constructor for Student**
+```java
+class Student {
+    int r; String n; int m;
+    Student(int x, String y, int z) {
+        r = x; n = y; m = z;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Roll: " + r + " Name: " + n + " Marks: " + m);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student(101, "Ram", 85);
+        s.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Roll: 101 Name: Ram Marks: 85
+Process finished with exit code 0
+```
+
+## **3. Employee Constructor**
+```java
+class Employee {
+    int i; int s;
+    Employee(int x, int y) {
+        i = x; s = y;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("ID: " + i + " Salary: " + s);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Employee e = new Employee(1001, 50000);
+        e.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+ID: 1001 Salary: 50000
+Process finished with exit code 0
+```
+
+## **4. Constructor Overloading - Box**
+```java
+class Box {
+    int l, w, h;
+    Box(int x) { l = x; w = x; h = x; }
+    Box(int x, int y, int z) { l = x; w = y; h = z; }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("l: " + l + " w: " + w + " h: " + h);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Box b1 = new Box(5);
+        Box b2 = new Box(1,2,3);
+        b1.show();
+        b2.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+l: 5 w: 5 h: 5
+Name : Suryansh Mithu
+Roll : 24155060
+l: 1 w: 2 h: 3
+Process finished with exit code 0
+```
+
+## **5. Book Price Calculation**
+```java
+class Book {
+    int q; int p; int t;
+    Book(int x, int y) {
+        q = x; p = y; t = q * p;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Total: " + t);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Book b = new Book(5, 100);
+        b.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Total: 500
+Process finished with exit code 0
+```
+
+## **6. Count Objects with Constructor**
+```java
+class Counter {
+    static int c = 0;
+    Counter() { c++; }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Count: " + c);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Counter a = new Counter();
+        Counter b = new Counter();
+        Counter d = new Counter();
+        a.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Count: 3
+Process finished with exit code 0
+```
+
+## **7. Constructor Chaining**
+```java
+class Chain {
+    int a, b;
+    Chain() { this(0); }
+    Chain(int x) { this(x, 0); }
+    Chain(int x, int y) { a = x; b = y; }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("a: " + a + " b: " + b);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Chain c = new Chain();
+        c.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+a: 0 b: 0
+Process finished with exit code 0
+```
+
+## **8. Constructor vs Method Order**
+```java
+class Order {
+    Order() {
+        System.out.println("Constructor runs first");
+    }
+    void m() {
+        System.out.println("Method runs after");
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Order o = new Order();
+        o.show();
+        o.m();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Constructor runs first
+Name : Suryansh Mithu
+Roll : 24155060
+Method runs after
+Process finished with exit code 0
+```
+
+## **9. Time Normalization**
+```java
+class Time {
+    int h, m, s;
+    Time(int x, int y, int z) {
+        h = x; m = y; s = z;
+        if(s >= 60) { m += s/60; s = s%60; }
+        if(m >= 60) { h += m/60; m = m%60; }
+        if(h >= 24) { h = h%24; }
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Time: " + h + ":" + m + ":" + s);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Time t = new Time(25, 70, 70);
+        t.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Time: 2:11:10
+Process finished with exit code 0
+```
+
+## **10. Initialize Array with Constructor**
+```java
+class Arr {
+    int[] a;
+    Arr(int[] x) {
+        a = x;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        for(int i=0; i<a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+        System.out.println();
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        int[] x = {1,2,3,4};
+        Arr obj = new Arr(x);
+        obj.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+1 2 3 4 
+Process finished with exit code 0
+```
+
+## **11. `this` to Distinguish Variables**
+```java
+class ThisDemo {
+    int a; int b;
+    ThisDemo(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("a: " + a + " b: " + b);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        ThisDemo t = new ThisDemo(10, 20);
+        t.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+a: 10 b: 20
+Process finished with exit code 0
+```
+
+## **12. `this()` to Call Constructor**
+```java
+class ThisCall {
+    int a; int b;
+    ThisCall() { this(0,0); }
+    ThisCall(int x) { this(x,0); }
+    ThisCall(int x, int y) { a = x; b = y; }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("a: " + a + " b: " + b);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        ThisCall t = new ThisCall(5);
+        t.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+a: 5 b: 0
+Process finished with exit code 0
+```
+
+## **13. Method Returns `this`**
+```java
+class ReturnThis {
+    int a;
+    ReturnThis set(int x) {
+        a = x;
+        return this;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("a: " + a);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        ReturnThis r = new ReturnThis();
+        r.set(100).show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+a: 100
+Process finished with exit code 0
+```
+
+## **14. Pass `this` as Argument**
+```java
+class PassThis {
+    int a = 10;
+    void m(PassThis p) {
+        System.out.println("Received: " + p.a);
+    }
+    void call() {
+        m(this);
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        PassThis p = new PassThis();
+        p.show();
+        p.call();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Received: 10
+Process finished with exit code 0
+```
+
+## **15. Method Chaining with `this`**
+```java
+class ChainThis {
+    int a, b;
+    ChainThis setA(int x) { a = x; return this; }
+    ChainThis setB(int y) { b = y; return this; }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("a: " + a + " b: " + b);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        new ChainThis().setA(5).setB(10).show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+a: 5 b: 10
+Process finished with exit code 0
+```
+
+## **16. `this` Improves Readability**
+```java
+class Readable {
+    String n; int a;
+    Readable(String n, int a) {
+        this.n = n;
+        this.a = a;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Name: " + n + " Age: " + a);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Readable r = new Readable("John", 25);
+        r.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Name: John Age: 25
+Process finished with exit code 0
+```
+
+## **17. Avoid Shadowing with `this`**
+```java
+class NoShadow {
+    int x;
+    NoShadow(int x) {
+        this.x = x; // clear which is which
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("x: " + x);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        NoShadow n = new NoShadow(99);
+        n.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+x: 99
+Process finished with exit code 0
+```
+
+## **18. Without `this` Problem**
+```java
+class Problem {
+    int x;
+    Problem(int x) {
+        x = x; // BUG: both are parameter
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("x: " + x + " (always 0)");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Problem p = new Problem(50);
+        p.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+x: 0 (always 0)
+Process finished with exit code 0
+```
+
+## **19. Single Inheritance**
+```java
+class Person {
+    String n;
+    Person(String n) { this.n = n; }
+}
+class Student extends Person {
+    int r;
+    Student(String n, int r) {
+        super(n);
+        this.r = r;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Student: " + n + " Roll: " + r);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student("Rahul", 101);
+        s.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Student: Rahul Roll: 101
+Process finished with exit code 0
+```
+
+## **20. Multilevel Inheritance**
+```java
+class Vehicle {
+    String t;
+    Vehicle(String t) { this.t = t; }
+}
+class Car extends Vehicle {
+    int s;
+    Car(String t, int s) {
+        super(t);
+        this.s = s;
+    }
+}
+class ElectricCar extends Car {
+    int b;
+    ElectricCar(String t, int s, int b) {
+        super(t, s);
+        this.b = b;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Type: " + t + " Seats: " + s + " Battery: " + b);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        ElectricCar e = new ElectricCar("SUV", 5, 100);
+        e.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Type: SUV Seats: 5 Battery: 100
+Process finished with exit code 0
+```
+
+## **21. Constructor Calling Sequence**
+```java
+class A {
+    A() { System.out.println("A"); }
+}
+class B extends A {
+    B() { System.out.println("B"); }
+}
+class C extends B {
+    C() { System.out.println("C"); }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        C c = new C();
+        c.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+A
+B
+C
+Name : Suryansh Mithu
+Roll : 24155060
+Process finished with exit code 0
+```
+
+## **22. Aggregation - Address & Employee**
+```java
+class Address {
+    String c;
+    Address(String c) { this.c = c; }
+}
+class Employee {
+    String n;
+    Address a;
+    Employee(String n, Address a) {
+        this.n = n;
+        this.a = a;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Employee: " + n + " City: " + a.c);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Address ad = new Address("Delhi");
+        Employee e = new Employee("Raj", ad);
+        e.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Employee: Raj City: Delhi
+Process finished with exit code 0
+```
+
+## **23. Engine in Car (Aggregation)**
+```java
+class Engine {
+    int p;
+    Engine(int p) { this.p = p; }
+}
+class Car {
+    String m;
+    Engine e;
+    Car(String m, Engine e) {
+        this.m = m;
+        this.e = e;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Model: " + m + " Power: " + e.p);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Engine eng = new Engine(1500);
+        Car c = new Car("Toyota", eng);
+        c.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Model: Toyota Power: 1500
+Process finished with exit code 0
+```
+
+## **24. Department with Multiple Teachers**
+```java
+class Teacher {
+    String n;
+    Teacher(String n) { this.n = n; }
+}
+class Department {
+    String n;
+    Teacher[] t;
+    Department(String n, Teacher[] t) {
+        this.n = n;
+        this.t = t;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Dept: " + n);
+        for(int i=0; i<t.length; i++) {
+            System.out.println("Teacher " + (i+1) + ": " + t[i].n);
+        }
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Teacher[] teachers = {new Teacher("A"), new Teacher("B")};
+        Department d = new Department("CS", teachers);
+        d.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Dept: CS
+Teacher 1: A
+Teacher 2: B
+Process finished with exit code 0
+```
+
+## **25. Array of Objects Aggregation**
+```java
+class Item {
+    String n; int p;
+    Item(String n, int p) { this.n = n; this.p = p; }
+}
+class Shop {
+    String n;
+    Item[] i;
+    Shop(String n, Item[] i) {
+        this.n = n; this.i = i;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Shop: " + n);
+        for(int j=0; j<i.length; j++) {
+            System.out.println("Item: " + i[j].n + " Price: " + i[j].p);
+        }
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Item[] items = {new Item("Pen",10), new Item("Book",50)};
+        Shop s = new Shop("ABC", items);
+        s.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Shop: ABC
+Item: Pen Price: 10
+Item: Book Price: 50
+Process finished with exit code 0
+```
+
+## **26. Inheritance vs Aggregation**
+```java
+// Inheritance: IS-A
+class Animal {
+    void eat() { System.out.println("Eating"); }
+}
+class Dog extends Animal {
+    void bark() { System.out.println("Barking"); }
+}
+// Aggregation: HAS-A
+class Heart {
+    void beat() { System.out.println("Beating"); }
+}
+class Human {
+    Heart h = new Heart();
+    void live() { h.beat(); }
+}
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Inheritance (IS-A):");
+        Dog d = new Dog();
+        d.eat(); d.bark();
+        System.out.println("Aggregation (HAS-A):");
+        Human hu = new Human();
+        hu.live();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Inheritance (IS-A):
+Eating
+Barking
+Aggregation (HAS-A):
+Beating
+Process finished with exit code 0
+```
+
+## **27. College with Students**
+```java
+class Student2 {
+    String n; int r;
+    Student2(String n, int r) { this.n = n; this.r = r; }
+}
+class College {
+    String n;
+    Student2[] s;
+    College(String n, Student2[] s) {
+        this.n = n; this.s = s;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("College: " + n);
+        for(int i=0; i<s.length; i++) {
+            System.out.println("Student: " + s[i].n + " Roll: " + s[i].r);
+        }
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Student2[] students = {new Student2("A",1), new Student2("B",2)};
+        College c = new College("IIT", students);
+        c.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+College: IIT
+Student: A Roll: 1
+Student: B Roll: 2
+Process finished with exit code 0
+```
+
+## **28. HAS-A Relationship**
+```java
+class Wheel {
+    int s;
+    Wheel(int s) { this.s = s; }
+}
+class Bike {
+    String m;
+    Wheel w;
+    Bike(String m, Wheel w) {
+        this.m = m; this.w = w;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Bike " + m + " has wheel size " + w.s);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Wheel wh = new Wheel(18);
+        Bike b = new Bike("Yamaha", wh);
+        b.show();
+    }
+}
+```
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Bike Yamaha has wheel size 18
+Process finished with exit code 0
+```
+
+## **29. Constructor-based Aggregation**
+```java
+class CPU {
+    String m;
+    CPU(String m) { this.m = m; }
+}
+class Computer {
+    String b;
+    CPU c;
+    Computer(String b, CPU c) {
+        this.b = b;
+        this.c = c;
+    }
+    void show() {
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Computer: " + b + " CPU: " + c.m);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        CPU cpu = new CPU("Intel");
+        Computer comp = new Computer("Dell", cpu);
+        comp.show();
+    }
+}
+```
+
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Computer: Dell CPU: Intel
+Process finished with exit code 0
+```
+
+## **30. Parent Destroyed, Child Lives**
+```java
+class Child {
+    String n;
+    Child(String n) { this.n = n; }
+    void show() {
+        System.out.println("Child " + n + " still exists");
+    }
+}
+class Parent {
+    String n;
+    Child c;
+    Parent(String n, Child c) {
+        this.n = n; this.c = c;
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Child ch = new Child("Bob");
+        Parent p = new Parent("Alice", ch);
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
+        System.out.println("Parent created with child");
+        p = null; // parent destroyed
+        if(p == null) System.out.println("Parent is null");
+        ch.show(); // child still exists
+    }
+}
+```
+
+
+```
+C:\Users\surya\.jdks\openjdk-25.0.1\bin\java.exe
+Name : Suryansh Mithu
+Roll : 24155060
+Parent created with child
+Parent is null
+Child Bob still exists
+Process finished with exit code 0
+```
+

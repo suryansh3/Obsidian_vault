@@ -1,7 +1,8 @@
 
 ## **1. Default Constructor Program**
 ```java
-class a{int x;String y;a(){x=0;y="";}void d(){System.out.println("Name : Suryansh Mithu");
+class a{int x;String y;a(){x=0;y="";}
+void d(){System.out.println("Name : Suryansh Mithu");
 System.out.println("Roll : 24155060");System.out.println("x: "+x);System.out.println("y: "+y);}}
 public class Main{public static void main(String[] args){a o=new a();o.d();}}
 ```

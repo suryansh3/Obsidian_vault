@@ -62,9 +62,135 @@
               "icon": "lucide-file",
               "title": "DAY - 4"
             }
+          },
+          {
+            "id": "8cdcc8a691b57600",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/DAY - 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAY - 4"
+            }
+          },
+          {
+            "id": "5129ea8944e59783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/DAY - 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAY - 4"
+            }
+          },
+          {
+            "id": "1a5de0a136d5c6d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/DAY - 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAY - 4"
+            }
+          },
+          {
+            "id": "b4135cabd0f00db1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/DAY - 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAY - 4"
+            }
+          },
+          {
+            "id": "7d45fad662911d3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/Day-4-Lab.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day-4-Lab"
+            }
+          },
+          {
+            "id": "129a1d78d081ffa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/Day -2-24052339.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day -2-24052339"
+            }
+          },
+          {
+            "id": "02e4f6c33cb1b7cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAY4-24052323"
+            }
+          },
+          {
+            "id": "6f052e402f571d8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/DAY - 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAY - 4"
+            }
+          },
+          {
+            "id": "6a5470a9bc6cc9f7",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md",
+                "bFile": "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: DAY4-24052323"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -284,23 +410,33 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "c07d2e9a65686c85",
+  "active": "6a5470a9bc6cc9f7",
   "lastOpenFiles": [
-    "01 - Daily/20260110.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/Day-4-Lab.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY-2.md",
+    "conflict-files-obsidian-git.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/DAY - 4.md",
+    "01 - Daily/20260110.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/Day -2-24052339.md",
+    "01 - Daily/20260109.md",
+    "99 - Meta/attachments/Pasted image 20260109144145.png",
+    "99 - Meta/attachments/Pasted image 20260109143840.png",
+    "99 - Meta/attachments/Pasted image 20260109134501.png",
+    "99 - Meta/attachments/Pasted image 20260109134124.png",
+    "99 - Meta/attachments/Pasted image 20260109134028.png",
+    "99 - Meta/attachments/Pasted image 20260109133856.png",
+    "99 - Meta/attachments/Pasted image 20260109133443.png",
+    "99 - Meta/attachments/Pasted image 20260109133358.png",
+    "99 - Meta/attachments/Pasted image 20260109133234.png",
+    "99 - Meta/attachments/Pasted image 20260109132310.png",
+    "04. Semester 4/4. Operating System (OS)/LAB/Untitled 2.md",
+    "04. Semester 4/4. Operating System (OS)/LAB/Test - 2.md",
+    "04. Semester 4/4. Operating System (OS)/LAB/24155060-OS-assign-1.md",
+    "01 - Daily/20260106.md",
     "01 - Daily/20251231.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/Day-3.md",
     "01 - Daily/20251221.md",
-    "99 - Meta/attachments/Pasted image 20251221142907.png",
-    "99 - Meta/attachments/Pasted image 20251221142841.png",
-    "99 - Meta/attachments/Pasted image 20251221142527.png",
-    "99 - Meta/attachments/Pasted image 20251221142506.png",
-    "99 - Meta/attachments/Pasted image 20251221141956.png",
-    "99 - Meta/attachments/Pasted image 20251221141944.png",
-    "99 - Meta/attachments/Pasted image 20251221141720.png",
-    "99 - Meta/attachments/Pasted image 20251221141603.png",
-    "99 - Meta/attachments/Pasted image 20251221141539.png",
-    "99 - Meta/attachments/Pasted image 20251221140754.png",
     "04. Semester 4/3. OOPJ (Java)/THEORY/LAB ASSIGNEMNT.md",
     "01 - Daily/20251218.md",
     "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-7.md",
@@ -309,21 +445,11 @@
     "04. Semester 4/3. OOPJ (Java)/LAB/Test -LAB.md",
     "01 - Daily/20251216.md",
     "04. Semester 4/3. OOPJ (Java)/THEORY/ASSIGNMENT_5.md",
-    "04. Semester 4/3. OOPJ (Java)/LAB/DAY-2.md",
-    "04. Semester 4/3. OOPJ (Java)/LAB/Day -2-24052339.md",
     "01 - Daily/20251215.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/Java In Y Minutes.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/Sample Day -2 1.md",
-    "01 - Daily/20251212.md",
-    "conflict-files-obsidian-git.md",
-    "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md",
-    "04. Semester 4/4. Operating System (OS)/Theory/OS Intro.md",
     "04. Semester 4/4. Operating System (OS)/Theory",
-    "04. Semester 4/4. Operating System (OS)/LAB/Untitled.md",
     "04. Semester 4/4. Operating System (OS)/LAB",
-    "04. Semester 4/3. OOPJ (Java)/THEORY/ASSIGNMENT - 4.md",
-    "04. Semester 4/3. OOPJ (Java)/THEORY/ASSIGNMENT - 2.md",
-    "04. Semester 4/3. OOPJ (Java)/THEORY/Untitled.md",
     "04. Semester 4/DAWR",
     "99 - Meta/attachments/Stranger_Danger.epub",
     "04. Semester 4/3. OOPJ (Java)/LAB/runjava.bat",
