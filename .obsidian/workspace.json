@@ -179,14 +179,14 @@
             "id": "6a5470a9bc6cc9f7",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md",
-                "bFile": "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md",
-                "aRef": ""
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/24155060-Day-4.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: DAY4-24052323"
+              "icon": "lucide-file",
+              "title": "24155060-Day-4"
             }
           }
         ],
@@ -412,12 +412,12 @@
   },
   "active": "6a5470a9bc6cc9f7",
   "lastOpenFiles": [
-    "04. Semester 4/3. OOPJ (Java)/LAB/Day-4-Lab.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/24155060-Day-4.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/DAY-2.md",
     "conflict-files-obsidian-git.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/DAY - 4.md",
     "01 - Daily/20260110.md",
-    "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/Day -2-24052339.md",
     "01 - Daily/20260109.md",
     "99 - Meta/attachments/Pasted image 20260109144145.png",
