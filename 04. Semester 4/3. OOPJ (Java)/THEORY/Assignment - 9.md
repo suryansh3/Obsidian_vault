@@ -19,3 +19,5 @@ public class Simple{ public static void main(String args[]){ System.out.println(
 
 ---
 
+![[Pasted image 20260112211929.png]]
+
