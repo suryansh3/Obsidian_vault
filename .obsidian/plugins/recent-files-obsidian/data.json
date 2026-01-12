@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "20260112",
+      "path": "01 - Daily/20260112.md"
+    },
+    {
+      "basename": "OS Intro",
+      "path": "04. Semester 4/4. Operating System (OS)/Theory/OS Intro.md"
+    },
+    {
+      "basename": "INTRODUCTION",
+      "path": "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "04. Semester 4/2. DM (Discrete Mathematics )/Untitled.md"
+    },
+    {
       "basename": "20260111",
       "path": "01 - Daily/20260111.md"
     },
@@ -23,10 +39,6 @@
     {
       "basename": "DAY4-24052323",
       "path": "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md"
-    },
-    {
-      "basename": "OS Intro",
-      "path": "04. Semester 4/4. Operating System (OS)/Theory/OS Intro.md"
     },
     {
       "basename": "24155220-day4-lab",
@@ -165,10 +177,6 @@
       "path": "ED-202511220650.excalidraw.restored.md"
     },
     {
-      "basename": "INTRODUCTION",
-      "path": "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md"
-    },
-    {
       "basename": "ED-202511122218.excalidraw",
       "path": "05 - Handwritten Notes/ED-202511122218.excalidraw.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Untitled",
       "path": "03. Semester 3rd/04 - Probability/Untitled.md"
-    },
-    {
-      "basename": "Statistics",
-      "path": "03. Semester 3rd/04 - Probability/Statistics.md"
-    },
-    {
-      "basename": "PMF and CMF interconvertibility",
-      "path": "03. Semester 3rd/04 - Probability/PMF and CMF interconvertibility.md"
     }
   ],
   "omittedPaths": [],
