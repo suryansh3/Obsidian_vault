@@ -10,7 +10,13 @@ public class Simple{ public static void main(String args[]){ System.out.println(
 ```
 
 
-![[Pasted image 20260112202619.png]]
+```Bash
+larzival@SuryanshHP:~/JAVA/Theory$ nano Simple.java
+larzival@SuryanshHP:~/JAVA/Theory$ javac -d . Simple.java
+larzival@SuryanshHP:~/JAVA/Theory$ java mypack.Simple
+Welcome to package
+larzival@SuryanshHP:~/JAVA/Theory$
+```
 
 ---
 ![[Pasted image 20260112211233.png]]
