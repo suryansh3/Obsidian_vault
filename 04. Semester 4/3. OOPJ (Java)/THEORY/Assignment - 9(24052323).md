@@ -1,6 +1,6 @@
-# Name : Shivam Raj
+# Name : Aryan Veer
 
-# Roll : 24052323
+# Roll : 24052554
 
 ### 1.
 
@@ -15,11 +15,11 @@ public class Simple{
 ```
 
 ```
-shivam@ShivamKIIT:~/JAVA/Theory$ nano Simple.java
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . Simple.java
-shivam@ShivamKIIT:~/JAVA/Theory$ java mypack.Simple
+aryan@AryanHP:~/JAVA/Theory/day9$ nano Simple.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . Simple.java
+aryan@AryanHP:~/JAVA/Theory/day9$ java mypack.Simple
 Welcome to package
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
 
 ---
@@ -47,14 +47,14 @@ class B {
 ```
 
 ```
-shivam@ShivamKIIT:~/JAVA/Theory$ mkdir pack mypack
-shivam@ShivamKIIT:~/JAVA/Theory$ nano pack/A.java
-shivam@ShivamKIIT:~/JAVA/Theory$ nano mypack/B.java
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . pack/A.java
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . mypack/B.java
-shivam@ShivamKIIT:~/JAVA/Theory$ java mypack.B
+aryan@AryanHP:~/JAVA/Theory/day9$ mkdir pack mypack
+aryan@AryanHP:~/JAVA/Theory/day9$ nano pack/A.java
+aryan@AryanHP:~/JAVA/Theory/day9$ nano mypack/B.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . pack/A.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . mypack/B.java
+aryan@AryanHP:~/JAVA/Theory/day9$ java mypack.B
 Hello
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
 
 ``` java
@@ -69,11 +69,11 @@ class B {
 ```
 
 ```
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . pack/A.java
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . mypack/B.java
-shivam@ShivamKIIT:~/JAVA/Theory$ java mypack.B
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . pack/A.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . mypack/B.java
+aryan@AryanHP:~/JAVA/Theory/day9$ java mypack.B
 Hello
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
 
 ```java
@@ -87,11 +87,11 @@ class B {
 ```
 
 ```
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . pack/A.java
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . mypack/B.java
-shivam@ShivamKIIT:~/JAVA/Theory$ java mypack.B
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . pack/A.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . mypack/B.java
+aryan@AryanHP:~/JAVA/Theory/day9$ java mypack.B
 Hello
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
 
 ---
@@ -110,17 +110,17 @@ class Simple{
 ```
 
 ```
-shivam@ShivamKIIT:~/JAVA/Theory$ nano Simple.java
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . Simple.java
-shivam@ShivamKIIT:~/JAVA/Theory$ tree com
+aryan@AryanHP:~/JAVA/Theory/day9$ nano Simple.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . Simple.java
+aryan@AryanHP:~/JAVA/Theory/day9$ tree com
 com
 └── javatpoint
     └── core
         └── Simple.class
 
-shivam@ShivamKIIT:~/JAVA/Theory$ java com.javatpoint.core.Simple
+aryan@AryanHP:~/JAVA/Theory/day9$ java com.javatpoint.core.Simple
 Hello subpackage
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
 
 ---
@@ -142,7 +142,7 @@ public class Simple {
 ```
 
 ```
-shivam@ShivamKIIT:~/JAVA/Theory$ javac Simple.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac Simple.java
 Simple.java:8: error: data has private access in A
         System.out.println(obj.data);
                               ^
@@ -150,7 +150,7 @@ Simple.java:9: error: msg() has private access in A
         obj.msg();
            ^
 2 errors
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
 
 #### B. Default Access Modifier
@@ -174,8 +174,8 @@ class B {
 ```
 
 ```
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . pack/A.java
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . mypack/B.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . pack/A.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . mypack/B.java
 mypack/B.java:5: error: A is not public in pack; cannot be accessed from outside package
         A obj = new A();
         ^
@@ -183,7 +183,7 @@ mypack/B.java:5: error: A is not public in pack; cannot be accessed from outside
         A obj = new A();
                     ^
 2 errors
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
 
 #### C. Protected Access Modifier
@@ -207,11 +207,11 @@ class B extends A { // Inheriting A
 ```
 
 ```
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . pack/A.java
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . mypack/B.java
-shivam@ShivamKIIT:~/JAVA/Theory$ java mypack.B
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . pack/A.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . mypack/B.java
+aryan@AryanHP:~/JAVA/Theory/day9$ java mypack.B
 Hello
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
 
 #### D. Public Access Modifier
@@ -235,11 +235,11 @@ class B {
 ```
 
 ``` 
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . pack/A.java
-shivam@ShivamKIIT:~/JAVA/Theory$ javac -d . mypack/B.java
-shivam@ShivamKIIT:~/JAVA/Theory$ java mypack.B
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . pack/A.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac -d . mypack/B.java
+aryan@AryanHP:~/JAVA/Theory/day9$ java mypack.B
 Hello
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
 
 ---
@@ -263,11 +263,11 @@ public class Simple extends A {
 ```
 
 ```
-shivam@ShivamKIIT:~/JAVA/Theory$ javac Simple.java
+aryan@AryanHP:~/JAVA/Theory/day9$ javac Simple.java
 Simple.java:6: error: msg() in Simple cannot override msg() in A
     void msg() { System.out.println("Hello java"); }
          ^
   attempting to assign weaker access privileges; was protected
 1 error
-shivam@ShivamKIIT:~/JAVA/Theory$
+aryan@AryanHP:~/JAVA/Theory/day9$
 ```
