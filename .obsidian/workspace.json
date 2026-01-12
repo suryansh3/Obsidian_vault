@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Assignment - 9 (24052323)"
             }
+          },
+          {
+            "id": "9b987a7394029200",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,10 +254,10 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "9af756177041a4ef",
+  "active": "9b987a7394029200",
   "lastOpenFiles": [
-    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-9.md",
     "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment - 9 (24052323).md",
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-9.md",
     "99 - Meta/attachments/Pasted image 20260112211929.png",
     "99 - Meta/attachments/Pasted image 20260112202619.png",
     "99 - Meta/attachments/Pasted image 20260112211233.png",
