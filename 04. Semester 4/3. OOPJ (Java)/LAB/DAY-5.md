@@ -705,4 +705,3 @@ class B extends A {
 }
 ```
 
-**Explanation:** `A` defines a `final` method `f()` which cannot be overridden but is inherited by `B`. `A` also defines `m()` which `B` overrides. In `B.m()`, `super.m()` is called first to execute `A`'s logic, then `B`'s logic follows. The `main` method uses a parent reference `a` holding a child object `B`. Calling `a.f()` executes the parent's final method. Calling `a.m()` triggers runtime polymorphism, executing `B`'s overridden method.
