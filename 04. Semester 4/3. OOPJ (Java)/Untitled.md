@@ -50,14 +50,13 @@ public class Main {
 }
 ```
 
-~={red} Name : Utkarsh Dwivedi =~
 
 ```
 Enter length: 10
 Enter width: 20
 Enter height: 30
 Enter thick: 5
-~={red} Name : Utkarsh Dwivedi =~
+~={red}Name : Utkarsh Dwivedi=~
 Roll : 24051673
 Length: 10.0
 Width: 20.0
@@ -109,11 +108,10 @@ public class Main {
 ```
 Apple class show method
 Banana class show method
-Cherry class show method
+~={red}Cherry class show method=~
 Name : Utkarsh Dwivedi
 Roll : 24051673
 ```
-
 ## **Program 3:**
 
 ```java
