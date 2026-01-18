@@ -12,7 +12,7 @@
 
 ## Initial Observations
 
-While scrolling through Instagram stories, I came across a post from MLSA KIIT featuring what appeared to be a cryptographic challenge. The story contained strange symbols that immediately caught my attention.
+While scrolling through Instagram stories, I came across a post from MLSA KIIT featuring what appeared to be a cryptographic challenge. The story contained strange symbols that immediately caught my attention. I realized that I gave seen similar rune in the god of war game and hence I dived deeper.
 
 ### What I Saw:
 
@@ -32,6 +32,7 @@ MLSA
 
 - These aren't standard letters or numbers
 - They look like ancient symbols or runes
+- I have seen similar rune in the god of war games
 - The challenge mentions "DEFCON 3301" - possibly inspired by Cicada 3301
 - MLSA = Microsoft Learn Student Ambassadors at KIIT
 
@@ -53,7 +54,7 @@ The symbols appeared to be some form of runic alphabet. I needed to identify whi
 
 After comparing with different runic alphabets, I identified these as **Elder Futhark runes** - the oldest form of runic alphabets used by Germanic peoples from around 2nd to 8th centuries CE.
 
-**Key Characteristics:**
+**Key Characteristics:** (Through YouTube video)
 
 - 24 runes in total
 - Each rune represents a letter or sound
@@ -98,7 +99,7 @@ Breaking it down:
 - ᚹᚻᚩ = W-H-O = **WHO**
 - ᚢᛖᛋᛏᛁᚩᚾ = Q-U-E-S-T-I-O-N = **QUESTION**
 
-_Note: 'Q' sound is represented by combining runes_
+'Q' sound is represented by combining runes_
 
 Continuing this process for the entire first line...
 
@@ -176,13 +177,14 @@ This challenge clearly draws inspiration from the infamous Cicada 3301 internet 
     
     - Google Image Search for runic alphabets
     - Wikipedia: Elder Futhark alphabet
+    - Pinterest [Quick Guide to the Meaning of the Elder Futhark Runes](https://in.pinterest.com/pin/1039979738954765786/)
 2. **Translation:**
     
     - Online Elder Futhark translation charts
     - Manual character-by-character mapping
 3. **Documentation:**
     
-    - Text editor for organizing findings
+    - Text editor (Obsidian) for organizing findings
     - Screenshot of original challenge
 
 ---
@@ -224,6 +226,6 @@ Based on the message "What follows is a test...", I anticipate:
 ---
 
 _Challenge solved by: Suryansh Mithu
-_Date: January 18, 2026_  
+Date: January 18, 2026_  
 _Institution: KIIT University_  
 _Event: DEFCON 3301 by MLSA KIIT_
