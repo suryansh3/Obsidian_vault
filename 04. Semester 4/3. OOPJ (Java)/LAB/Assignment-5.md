@@ -1,5 +1,5 @@
-# Name : Vivek Singh
-# Roll : 24155220
+# Name : Aryan Veer
+# Roll : 24052554
 
 ### 1. Child class calls parameterized parent constructor using super()
 
@@ -20,8 +20,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B();
     }
 }
@@ -30,9 +30,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Parent val: 100
 Child constructor
 
@@ -58,8 +58,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B().show();
     }
 }
@@ -68,9 +68,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Child x: 20
 Parent x: 10
 
@@ -97,8 +97,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B().msg();
     }
 }
@@ -107,9 +107,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Parent message
 Child message
 
@@ -136,8 +136,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B();
     }
 }
@@ -145,7 +145,7 @@ public class Main {
 
 **Output:**
 ```
-C:\Users\vivek\OneDrive\Documents\Java_OOPJ\Question4.java:11: error
+C:\Users\aryan\OneDrive\Documents\Java_OOPJ\Question4.java:11: error
 call to super must be first statement in constructor
         super();     ^
 ```
@@ -169,8 +169,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B();
     }
 }
@@ -179,9 +179,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Constructor A
 Constructor B
 
@@ -205,8 +205,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B();
     }
 }
@@ -215,7 +215,7 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\OneDrive\Documents\Java_OOPJ\Question6.java:9: error
+C:\Users\aryan\OneDrive\Documents\Java_OOPJ\Question6.java:9: error
 constructor A in class A cannot be applied to given types
     B() {
     ^
@@ -240,8 +240,8 @@ class C extends B {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new C().show();
     }
 }
@@ -250,9 +250,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 A
 B
 C
@@ -279,8 +279,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B().print();
     }
 }
@@ -289,9 +289,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Child
 Parent
 
@@ -319,8 +319,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B().val();
     }
 }
@@ -329,9 +329,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Var B: 10
 Var A: 5
 Method A
@@ -360,8 +360,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B().show();
     }
 }
@@ -370,9 +370,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Local: 150
 Instance: 100
 Parent: 50
@@ -393,8 +393,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
     }
 }
 ```
@@ -402,7 +402,7 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\OneDrive\Documents\Java_OOPJ\Question11.java:6: error
+C:\Users\aryan\OneDrive\Documents\Java_OOPJ\Question11.java:6: error
 cannot assign a value to final variable number
         number = 200;
 ```
@@ -420,8 +420,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         System.out.println(new Main().x);
     }
 }
@@ -432,9 +432,9 @@ public class Main {
 Plaintext
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 55
 
 Process finished with exit code 0
@@ -455,8 +455,8 @@ class Child13 extends Parent13 {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
     }
 }
 ```
@@ -466,7 +466,7 @@ public class Main {
 Plaintext
 
 ```
-C:\Users\vivek\OneDrive\Documents\Java_OOPJ\Question13.java:8: error
+C:\Users\aryan\OneDrive\Documents\Java_OOPJ\Question13.java:8: error
 method() in Child13 cannot override method() in Parent13
     void method() {
 ```
@@ -482,8 +482,8 @@ class Child13 extends Parent14 {}
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
     }
 }
 ```
@@ -491,7 +491,7 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\OneDrive\Documents\Java_OOPJ\Question14.java:6: error
+C:\Users\aryan\OneDrive\Documents\Java_OOPJ\Question14.java:6: error
 cannot inherit from final Parent14
 class Child14 extends Parent14 {
 ```
@@ -507,8 +507,8 @@ class A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         final A obj = new A();
         obj.i = 20; 
         System.out.println("Changed value: " + obj.i);
@@ -520,9 +520,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Changed value: 20
 
 Process finished with exit code 0
@@ -542,8 +542,8 @@ class A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new A(5);
     }
 }
@@ -552,9 +552,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 5
 
 Process finished with exit code 0
@@ -575,8 +575,8 @@ class Child17 extends Parent17 {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new B();
         obj.show(); 
     }
@@ -586,7 +586,7 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\OneDrive\Documents\Java_OOPJ\Question17.java:9: error
+C:\Users\aryan\OneDrive\Documents\Java_OOPJ\Question17.java:9: error
 process() in Child17 cannot override process() in Parent17
     void process() {
          ^
@@ -607,8 +607,8 @@ class Child18 extends Parent18 {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
     }
 }
 ```
@@ -618,7 +618,7 @@ public class Main {
 Plaintext
 
 ```
-C:\Users\vivek\OneDrive\Documents\Java_OOPJ\Question18.java:8: error
+C:\Users\aryan\OneDrive\Documents\Java_OOPJ\Question18.java:8: error
 demo() in Derived cannot override demo() in Base
     void demo() {
          ^
@@ -639,8 +639,8 @@ class A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new A().show();
     }
 }
@@ -649,9 +649,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 99
 
 Process finished with exit code 0
@@ -673,8 +673,8 @@ class A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new A();
     }
 }
@@ -683,9 +683,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Initializer Block
 Constructor
 
@@ -705,8 +705,8 @@ class A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new A();
     }
 }
@@ -715,9 +715,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Block 1
 Block 2
 Constructor
@@ -738,8 +738,8 @@ class A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new A();
     }
 }
@@ -748,9 +748,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 First
 Second
 Cons
@@ -775,8 +775,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         new B();
     }
 }
@@ -785,9 +785,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Block A
 Cons A
 Block B
@@ -810,8 +810,8 @@ class A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         System.out.println(new A().x);
     }
 }
@@ -820,9 +820,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 42
 
 Process finished with exit code 0
@@ -843,8 +843,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new B();
         obj.play();
     }
@@ -854,9 +854,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Playing B
 
 Process finished with exit code 0
@@ -876,8 +876,8 @@ class Child extends Parent {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         Parent ref = new Child();
         ref.func();
     }
@@ -887,9 +887,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Child Func
 
 Process finished with exit code 0
@@ -910,8 +910,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new B();
         System.out.println(obj.x);
     }
@@ -921,9 +921,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 1
 
 Process finished with exit code 0
@@ -940,8 +940,8 @@ class C extends B { void eat() { System.out.println("C eats"); } }
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A a = new C();
         a.eat();
     }
@@ -951,9 +951,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 C eats
 
 Process finished with exit code 0
@@ -973,8 +973,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new B();
     }
 }
@@ -983,9 +983,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 A
 B
 
@@ -1006,8 +1006,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new B();
         obj.show();
     }
@@ -1017,9 +1017,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Static A
 
 Process finished with exit code 0
@@ -1039,8 +1039,8 @@ class Child31 extends Parent31{
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new B();
         obj.test();
     }
@@ -1050,7 +1050,7 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\OneDrive\Documents\Java_OOPJ\Question31.java:8: error
+C:\Users\aryan\OneDrive\Documents\Java_OOPJ\Question31.java:8: error
 action() in Child31 cannot override action() in Parent31
     void action() {
          ^
@@ -1066,8 +1066,8 @@ class B extends A { void f() { System.out.println("B"); } }
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new B();
         obj.f();
     }
@@ -1077,9 +1077,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 B
 
 Process finished with exit code 0
@@ -1096,8 +1096,8 @@ class Box extends Shape { void draw() { System.out.println("Box"); } }
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         Shape s;
         s = new Circle(); s.draw();
         s = new Box(); s.draw();
@@ -1108,9 +1108,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Circle
 Box
 
@@ -1128,8 +1128,8 @@ class C extends A { void go() { System.out.print("C "); } }
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A[] arr = {new B(), new C(), new A()};
         for(A x : arr) x.go();
     }
@@ -1139,9 +1139,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 B C A 
 Process finished with exit code 0
 ```
@@ -1156,8 +1156,8 @@ class B extends A { void m() throws RuntimeException { System.out.println("B exc
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new B();
         try { obj.m(); } catch(Exception e) {}
     }
@@ -1167,9 +1167,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 B exception
 
 Process finished with exit code 0
@@ -1189,8 +1189,8 @@ class Test {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         Test t = new Test();
         t.use(t.get());
     }
@@ -1200,8 +1200,8 @@ public class Main {
 **Output:**
 
 ```
-Name : Vivek Singh 
-Roll : 24155220 
+Name : Aryan Veer 
+Roll : 24052554 
 Child35 test
 Exception in thread "main" java.lang.RuntimeException
     at Child35.test(Question35.java:10)
@@ -1218,8 +1218,8 @@ class Dog extends Animal { void sound() { System.out.println("Bark"); } }
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         Animal a = new Dog(); 
         a.sound();
     }
@@ -1229,9 +1229,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Bark
 
 Process finished with exit code 0
@@ -1247,8 +1247,8 @@ class B extends A {}
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new A();
         B b = (B) obj;
     }
@@ -1258,9 +1258,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 Exception in thread "main" java.lang.ClassCastException: class A cannot be cast to class B
 
 Process finished with exit code 1
@@ -1285,8 +1285,8 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name : Vivek Singh ");
-        System.out.println("Roll : 24155220 ");
+        System.out.println("Name : Aryan Veer ");
+        System.out.println("Roll : 24052554 ");
         A obj = new B();
         obj.show();
     }
@@ -1296,9 +1296,9 @@ public class Main {
 **Output:**
 
 ```
-C:\Users\vivek\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\vivek\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
-Name : Vivek Singh 
-Roll : 24155220 
+C:\Users\aryan\.jdks\openjdk-21\bin\java.exe -classpath C:\Users\aryan\OneDrive\Documents\Java_OOPJ\out\production\Java_OOPJ Main
+Name : Aryan Veer 
+Roll : 24052554 
 A: 10
 B: 15
 
