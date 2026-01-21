@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Ebook reader",
+      "path": "Projects-Python/Ebook reader.md"
+    },
+    {
       "basename": "MLSA CHALLENGE",
       "path": "04. Semester 4/MLSA CHALLENGE.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Most Important question (Year wise)",
       "path": "Most Important question (Year wise).md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
