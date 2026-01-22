@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "20260123",
+      "path": "01 - Daily/20260123.md"
+    },
+    {
       "basename": "Ebook reader",
       "path": "Projects-Python/Ebook reader.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "20251206",
       "path": "01 - Daily/20251206.md"
-    },
-    {
-      "basename": "DSA 16 question co-pilot",
-      "path": "DSA 16 question co-pilot.md"
-    },
-    {
-      "basename": "Most Important question (Year wise)",
-      "path": "Most Important question (Year wise).md"
     }
   ],
   "omittedPaths": [],
