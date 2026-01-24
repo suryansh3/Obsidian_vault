@@ -8,60 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9af756177041a4ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment - 9(24052323).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Assignment - 9(24052323)"
-            }
-          },
-          {
-            "id": "9b987a7394029200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04. Semester 4/MLSA CHALLENGE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MLSA CHALLENGE"
-            }
-          },
-          {
-            "id": "0b195bf39e183b6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20260123.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260123"
-            }
-          },
-          {
-            "id": "00ee177602be0303",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
-            }
-          },
-          {
             "id": "aa4940ea73f8b271",
             "type": "leaf",
             "state": {
@@ -75,8 +21,7 @@
               "title": "Assignment-6"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
