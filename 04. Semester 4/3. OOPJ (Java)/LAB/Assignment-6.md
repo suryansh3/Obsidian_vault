@@ -1,5 +1,5 @@
-# Name : Suryansh Mithu
-# Roll : 24155060
+# Name : Pranav Sarangi
+# Roll : 24052309
 ### **Part 1: Abstract Classes**
 
 **1. Abstract Class with Abstract and Non-Abstract Methods**
@@ -21,8 +21,8 @@ class Circle extends Shape {
 
 public class Main1 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Circle c = new Circle();
         c.draw();
         c.display();
@@ -33,8 +33,8 @@ public class Main1 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Drawing Circle
 Displaying Shape
 ```
@@ -59,8 +59,8 @@ class Dog extends Animal {
 
 public class Main2 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         new Dog();
     }
 }
@@ -69,8 +69,8 @@ public class Main2 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Animal Constructor Invoked
 Dog Constructor Invoked
 ```
@@ -94,8 +94,8 @@ class Phone extends Device {
 
 public class Main3 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Phone p = new Phone();
         p.showBrand();
     }
@@ -105,8 +105,8 @@ public class Main3 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Brand: TechCorp
 ```
 
@@ -130,8 +130,8 @@ class Impl extends Demo {
 
 public class Main4 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Impl i = new Impl();
         i.concreteMethod();
         i.abstractMethod();
@@ -142,8 +142,8 @@ public class Main4 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Concrete Method
 Implemented Abstract Method
 ```
@@ -164,8 +164,8 @@ abstract class Statics {
 
 public class Main5 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Statics.staticMethod();
     }
 }
@@ -174,8 +174,8 @@ public class Main5 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Static Block Executed
 Static Method Executed
 ```
@@ -206,8 +206,8 @@ class Cricket extends Game {
 
 public class Main6 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Game game = new Cricket();
         game.play();
     }
@@ -217,8 +217,8 @@ public class Main6 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Cricket Game Initialized
 Cricket Game Started
 Cricket Game Finished
@@ -243,8 +243,8 @@ class PNB extends Bank {
 
 public class Main7 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Bank b;
         b = new SBI();
         System.out.println("SBI Rate: " + b.getRateOfInterest() + "%");
@@ -257,8 +257,8 @@ public class Main7 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 SBI Rate: 7%
 PNB Rate: 5%
 ```
@@ -274,8 +274,8 @@ class Derived extends Base {}
 
 public class Main8 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         
         // Base b = new Base(); // This would cause a compile-time error
         Base b = new Derived(); // Reference usage is allowed
@@ -287,8 +287,8 @@ public class Main8 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Reference created successfully: Derived
 ```
 
@@ -312,8 +312,8 @@ class C extends B {
 
 public class Main9 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         C obj = new C();
         obj.a();
         obj.b();
@@ -324,8 +324,8 @@ public class Main9 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 I am a
 I am b
 ```
@@ -347,8 +347,8 @@ class Developer extends Employee {
 
 public class Main10 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Developer d = new Developer("Suryansh");
         d.commonDetails();
     }
@@ -358,8 +358,8 @@ public class Main10 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Employee Name: Suryansh
 ```
 
@@ -387,8 +387,8 @@ class Child implements Alpha, Beta {
 
 public class Main11 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         new Child().show();
     }
 }
@@ -397,8 +397,8 @@ public class Main11 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Alpha Show
 Beta Show
 ```
@@ -421,8 +421,8 @@ class CircleArea implements Constants {
 
 public class Main12 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         new CircleArea().area();
     }
 }
@@ -431,8 +431,8 @@ public class Main12 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Area Approx: 314.159
 ```
 
@@ -448,8 +448,8 @@ interface MathOp {
 
 public class Main13 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         MathOp add = (a, b) -> a + b;
         System.out.println("Sum: " + add.operate(5, 10));
     }
@@ -459,8 +459,8 @@ public class Main13 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Sum: 15
 ```
 
@@ -479,8 +479,8 @@ class Cat implements AnimalSound {
 
 public class Main14 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         AnimalSound a = new Cat();
         a.sound();
     }
@@ -490,8 +490,8 @@ public class Main14 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Meow
 ```
 
@@ -506,8 +506,8 @@ class Document implements Permissible {}
 
 public class Main15 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Document d = new Document();
         if (d instanceof Permissible) {
             System.out.println("Permission Granted");
@@ -519,8 +519,8 @@ public class Main15 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Permission Granted
 ```
 
@@ -539,8 +539,8 @@ class Printer implements I1, I2 {
 
 public class Main16 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         new Printer().print();
     }
 }
@@ -549,8 +549,8 @@ public class Main16 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Printing...
 ```
 
@@ -568,8 +568,8 @@ class ImplModern implements ModernInterface {}
 
 public class Main17 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         ImplModern obj = new ImplModern();
         obj.defMethod();
         ModernInterface.statMethod();
@@ -580,8 +580,8 @@ public class Main17 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Default Method
 Static Method
 ```
@@ -601,8 +601,8 @@ class MyClass implements B {
 
 public class Main18 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         MyClass obj = new MyClass();
         obj.methodA();
         obj.methodB();
@@ -613,8 +613,8 @@ public class Main18 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Method A
 Method B
 ```
@@ -641,8 +641,8 @@ class Human extends Abs implements Intr {
 
 public class Main19 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Human h = new Human();
         h.run();
         h.walk();
@@ -653,8 +653,8 @@ public class Main19 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Abstract Constructor
 Running
 Walking
@@ -679,8 +679,8 @@ class Car {
 
 public class Main20 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Engine pe = new PetrolEngine();
         Car c = new Car(pe);
         c.move();
@@ -691,8 +691,8 @@ public class Main20 {
 **Output:**
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Petrol Engine Started
 ```
 
@@ -713,8 +713,8 @@ public class Simple {
 import mypack.Simple;
 public class Main21 {
     public static void main(String args[]) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Simple obj = new Simple();
         obj.msg();
     }
@@ -735,8 +735,8 @@ public class A {
 import pack1.A;
 public class Main22 {
     public static void main(String args[]) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         A obj = new A();
         obj.msg(); // Allowed
         // obj.pro(); // Compilation Error (Protected not visible here)
@@ -763,8 +763,8 @@ class House extends Base implements Blueprint {
 }
 public class Main23 {
     public static void main(String args[]){
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         House h = new House();
         h.init();
         h.build();
@@ -789,8 +789,8 @@ class Child extends Parent {
 }
 public class Main24 { 
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         new p2.Child().access();
     }
 }
@@ -804,8 +804,8 @@ public class Main24 {
 
 public class Main25 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         java.util.Date d1 = new java.util.Date(); // Fully qualified name
         java.sql.Date d2 = new java.sql.Date(System.currentTimeMillis());
         System.out.println("Util Date: " + d1.toString().substring(0,3));
@@ -833,8 +833,8 @@ import com.app.model.User;
 import com.app.service.UserService;
 public class Main26 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         UserService svc = new UserService();
         svc.printUser(new User());
     }
@@ -848,8 +848,8 @@ import static java.lang.Math.*; // Static import
 
 public class Main27 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         System.out.println("Square Root of 16 is: " + sqrt(16)); // No Math.sqrt needed
     }
 }
@@ -865,8 +865,8 @@ public class Main27 {
 // Code logic for Main28
 public class Main28 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         System.out.println("Simulating usage of external JAR library.");
     }
 }
@@ -886,8 +886,8 @@ public class Account {
 import bank.Account;
 public class Main29 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         Account acc = new Account();
         System.out.println("Balance: " + acc.getBalance());
         // acc.balance = 0; // Not allowed, field is private (Encapsulation)
@@ -908,8 +908,8 @@ public class LoadMe {
 import loader.LoadMe;
 public class Main30 {
     public static void main(String[] args) {
-        System.out.println("Name : Suryansh Mithu");
-        System.out.println("Roll : 24155060");
+        System.out.println("Name : Pranav Sarangi");
+        System.out.println("Roll : 24052309");
         System.out.println("Before accessing LoadMe");
         new LoadMe();
         System.out.println("After accessing LoadMe");
@@ -922,8 +922,8 @@ public class Main30 {
 Plaintext
 
 ```
-Name : Suryansh Mithu
-Roll : 24155060
+Name : Pranav Sarangi
+Roll : 24052309
 Before accessing LoadMe
 Class Loading: LoadMe is loaded into memory.
 After accessing LoadMe
