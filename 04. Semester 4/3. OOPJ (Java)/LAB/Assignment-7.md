@@ -1,5 +1,5 @@
-# Name : Pranav Sarangi
-# Roll : 24052309
+# Name : Suryansh Mithu
+# Roll : 24155060
 
 ## **1. ArithmeticException Handling**
 ```java
@@ -21,8 +21,8 @@ public class ArithmeticExceptionDemo {
         }
         
         scanner.close();
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -32,8 +32,8 @@ public class ArithmeticExceptionDemo {
 Enter numerator: 10
 Enter denominator: 0
 Error: Division by zero is not allowed
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **2. ArrayIndexOutOfBoundsException**
@@ -48,8 +48,8 @@ public class ArrayIndexExceptionDemo {
             System.out.println("Error: Array index is out of bounds");
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -57,8 +57,8 @@ public class ArrayIndexExceptionDemo {
 **Output:**
 ```
 Error: Array index is out of bounds
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **3. NumberFormatException**
@@ -77,8 +77,8 @@ public class NumberFormatExceptionDemo {
             System.out.println("Error: Invalid number format in string");
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -87,8 +87,8 @@ public class NumberFormatExceptionDemo {
 ```
 First number: 123
 Error: Invalid number format in string
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **4. NullPointerException**
@@ -104,8 +104,8 @@ public class NullPointerExceptionDemo {
             System.out.println("Error: Object reference is null");
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -113,8 +113,8 @@ public class NullPointerExceptionDemo {
 **Output:**
 ```
 Error: Object reference is null
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **5. InputMismatchException**
@@ -135,8 +135,8 @@ public class InputMismatchExceptionDemo {
         }
         
         scanner.close();
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -145,8 +145,8 @@ public class InputMismatchExceptionDemo {
 ```
 Enter an integer: abc
 Error: Please enter a valid integer
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **6. Multiple Catch Blocks**
@@ -167,8 +167,8 @@ public class MultipleCatchDemo {
             System.out.println("Caught general Exception");
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -176,8 +176,8 @@ public class MultipleCatchDemo {
 **Output:**
 ```
 Caught ArrayIndexOutOfBoundsException
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **7. Catch Block Order Importance**
@@ -191,8 +191,8 @@ public class CatchOrderDemo {
             System.out.println("General Exception caught");
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -200,8 +200,8 @@ public class CatchOrderDemo {
 **Output:**
 ```
 General Exception caught
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **8. Parent Exception Catch**
@@ -215,8 +215,8 @@ public class ParentExceptionDemo {
             System.out.println("Parent Exception caught all child exceptions");
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -224,8 +224,8 @@ public class ParentExceptionDemo {
 **Output:**
 ```
 Parent Exception caught all child exceptions
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **9. Exception Hierarchy**
@@ -242,8 +242,8 @@ public class ExceptionHierarchyDemo {
             System.out.println("Exception caught");
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -251,8 +251,8 @@ public class ExceptionHierarchyDemo {
 **Output:**
 ```
 ArithmeticException caught
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **10. Multi-Catch Block**
@@ -266,8 +266,8 @@ public class MultiCatchDemo {
             System.out.println("Caught multiple exceptions: " + e.getClass().getSimpleName());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -275,8 +275,8 @@ public class MultiCatchDemo {
 **Output:**
 ```
 Caught multiple exceptions: NullPointerException
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **11. Finally Block with Exception**
@@ -292,8 +292,8 @@ public class FinallyWithExceptionDemo {
             System.out.println("Finally block executed");
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -302,8 +302,8 @@ public class FinallyWithExceptionDemo {
 ```
 Exception occurred: Division by zero
 Finally block executed
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **12. Finally with Return Statement**
@@ -322,8 +322,8 @@ public class FinallyWithReturnDemo {
     
     public static void main(String[] args) {
         System.out.println("Result: " + divide(10, 0));
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -333,8 +333,8 @@ public class FinallyWithReturnDemo {
 Exception caught
 Finally block executes before return
 Result: -1
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **13. Finally Without Exception**
@@ -350,8 +350,8 @@ public class FinallyNoExceptionDemo {
             System.out.println("Finally block executed even without exception");
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -360,8 +360,8 @@ public class FinallyNoExceptionDemo {
 ```
 Result: 5
 Finally block executed even without exception
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **14. Finally Not Executing**
@@ -403,8 +403,8 @@ public class ThrowDemo {
             System.out.println("Caught exception: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -412,8 +412,8 @@ public class ThrowDemo {
 **Output:**
 ```
 Caught exception: Age must be 18 or above
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **16. Throws Declaration**
@@ -432,8 +432,8 @@ public class ThrowsDemo {
             System.out.println("Caught checked exception: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -441,8 +441,8 @@ public class ThrowsDemo {
 **Output:**
 ```
 Caught checked exception: File not found
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **17. Throw vs Throws**
@@ -471,8 +471,8 @@ public class ThrowVsThrowsDemo {
             System.out.println("Caught: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -481,8 +481,8 @@ public class ThrowVsThrowsDemo {
 ```
 Caught: Explicit throw
 Caught: IO Exception thrown
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **18. Multiple Throws**
@@ -505,8 +505,8 @@ public class MultipleThrowsDemo {
             System.out.println("Caught exception: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -514,8 +514,8 @@ public class MultipleThrowsDemo {
 **Output:**
 ```
 Caught exception: File error
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **19. Custom Checked Exception**
@@ -541,8 +541,8 @@ public class CustomCheckedExceptionDemo {
             System.out.println("Custom exception caught: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -550,8 +550,8 @@ public class CustomCheckedExceptionDemo {
 **Output:**
 ```
 Custom exception caught: Age 16 is not valid for voting
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **20. Custom Unchecked Exception**
@@ -577,8 +577,8 @@ public class CustomUncheckedExceptionDemo {
             System.out.println("Custom unchecked exception: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -586,8 +586,8 @@ public class CustomUncheckedExceptionDemo {
 **Output:**
 ```
 Custom unchecked exception: Insufficient balance. Available: 5000.0
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **21. Message in User-Defined Exception**
@@ -613,8 +613,8 @@ public class ExceptionWithMessageDemo {
             System.out.println(e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -622,8 +622,8 @@ public class ExceptionWithMessageDemo {
 **Output:**
 ```
 Custom Error: Input cannot be empty
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **22. Exception Propagation**
@@ -648,8 +648,8 @@ public class ExceptionPropagationDemo {
             System.out.println("Exception handled in main: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -657,8 +657,8 @@ public class ExceptionPropagationDemo {
 **Output:**
 ```
 Exception handled in main: / by zero
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **23. Intermediate Exception Handling**
@@ -683,8 +683,8 @@ public class IntermediateExceptionHandling {
     public static void main(String[] args) {
         method1();
         System.out.println("Program continues after handling");
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -693,8 +693,8 @@ public class IntermediateExceptionHandling {
 ```
 Exception handled in method1: / by zero
 Program continues after handling
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **24. Exception in Try and Finally**
@@ -712,8 +712,8 @@ public class ExceptionInTryFinallyDemo {
             System.out.println(str.length());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -745,8 +745,8 @@ public class RethrowExceptionDemo {
             System.out.println("Rethrown exception caught in main: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -755,8 +755,8 @@ public class RethrowExceptionDemo {
 ```
 Partially handled, now rethrowing
 Rethrown exception caught in main: / by zero
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **26. Try-With-Resources**
@@ -776,8 +776,8 @@ public class TryWithResourcesDemo {
             System.out.println("IOException: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -785,8 +785,8 @@ public class TryWithResourcesDemo {
 **Output (if file doesn't exist):**
 ```
 IOException: test.txt (The system cannot find the file specified)
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **27. Suppressed Exceptions**
@@ -819,8 +819,8 @@ public class SuppressedExceptionsDemo {
             }
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -831,8 +831,8 @@ Using resource
 Closing resource
 Primary exception: Exception in try block
 Suppressed exception: Exception during closing
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **28. Exception Chaining**
@@ -860,8 +860,8 @@ public class ExceptionChainingDemo {
             System.out.println("Original cause: " + e.getCause().getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -870,8 +870,8 @@ public class ExceptionChainingDemo {
 ```
 Caught: Higher level exception
 Original cause: Original low level exception
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **29. Checked vs Unchecked Exceptions**
@@ -901,8 +901,8 @@ public class CheckedUncheckedDemo {
             System.out.println("Checked exception must be handled: " + e.getMessage());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -911,8 +911,8 @@ public class CheckedUncheckedDemo {
 ```
 Unchecked exception caught at runtime: / by zero
 Checked exception must be handled: nonexistent.txt (The system cannot find the file specified)
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
 ## **30. Catching Throwable**
@@ -939,8 +939,8 @@ public class CatchThrowableDemo {
             System.out.println("Caught Throwable: " + t.getClass().getSimpleName());
         }
         
-        System.out.println("Name : Pranav Sarangi");
-        System.out.println("Roll : 24052309");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("Roll : 24155060");
     }
 }
 ```
@@ -949,7 +949,7 @@ public class CatchThrowableDemo {
 ```
 Caught Throwable: OutOfMemoryError
 Caught Throwable: RuntimeException
-Name : Pranav Sarangi
-Roll : 24052309
+Name : Suryansh Mithu
+Roll : 24155060
 ```
 
