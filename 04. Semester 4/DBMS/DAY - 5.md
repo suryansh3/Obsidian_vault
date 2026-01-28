@@ -68,31 +68,31 @@ Table created.
 
 SQL> 
 SQL> -- Inserting Sample Data
-SQL> INSERT INTO JOB VALUES (1, 'Acad', 'Associate Professor', 95000, 4000);
+SQL> INSERT INSERT INTO JOB VALUES (1, 'Acad', 'Associate Professor', 95000, 4000);
 
 1 row created.
 
-SQL> INSERT INTO JOB VALUES (2, 'Acad', 'Associate Professor', 70000, 3000);
+SQL> INSERT INSERT INTO JOB VALUES (2, 'Acad', 'Associate Professor', 70000, 3000);
 
 1 row created.
 
-SQL> INSERT INTO JOB VALUES (3, 'Admin', 'Lecturer', 78000, 5000);
+SQL> INSERT INSERT INTO JOB VALUES (3, 'Admin', 'Lecturer', 78000, 5000);
 
 1 row created.
 
-SQL> INSERT INTO JOB VALUES (4, 'Res', 'Professor', 110000, 10000);
+SQL> INSERT INSERT INTO JOB VALUES (4, 'Res', 'Professor', 110000, 10000);
 
 1 row created.
 
-SQL> INSERT INTO PRODUCT VALUES (101, 'Widget A', 'Alpha Widget', 'Active', SYSDATE, 'Indiana D', SYSDATE, 'Admin', 50, SYSDATE);
+SQL> INSERT INSERT INTO PRODUCT VALUES (101, 'Widget A', 'Alpha Widget', 'Active', SYSDATE, 'Indiana D', SYSDATE, 'Admin', 50, SYSDATE);
 
 1 row created.
 
-SQL> INSERT INTO PRODUCT VALUES (102, 'Widget B', 'Beta Widget', 'Active', SYSDATE, 'Ohio D', SYSDATE, 'Admin', 60, SYSDATE);
+SQL> INSERT INSERT INTO PRODUCT VALUES (102, 'Widget B', 'Beta Widget', 'Active', SYSDATE, 'Ohio D', SYSDATE, 'Admin', 60, SYSDATE);
 
 1 row created.
 
-SQL> INSERT INTO PRODUCT VALUES (103, 'Widget C', 'Gamma Widget', 'Inactive', SYSDATE, 'Texas T', SYSDATE, 'Admin', 70, SYSDATE);
+SQL> INSERT INSERT INTO PRODUCT VALUES (103, 'Widget C', 'Gamma Widget', 'Inactive', SYSDATE, 'Texas T', SYSDATE, 'Admin', 70, SYSDATE);
 
 1 row created.
 
@@ -152,43 +152,46 @@ SQL> SELECT ID, "DESC" FROM PRODUCT
 SQL> spool off
 
 
+INSERT ALL
+  -- Inserting 5 rows INSERT INTO EMPLOYEE (IDs 3-7)
+  INSERT INTO EMPLOYEE VALUES (3, 'Sharma', 'Rahul', 'Kumar', 'Rajesh', 'Suman', 'M', '12-JAN-24', 'Sector 62', 'Noida', 'UP', '201301', '9876543210', '2001')
+  INSERT INTO EMPLOYEE VALUES (4, 'Verma', 'Aditi', NULL, 'Sanjay', 'Meena', 'F', '15-FEB-24', 'Koramangala', 'Bangalore', 'KA', '560034', '9876543211', '2002')
+  INSERT INTO EMPLOYEE VALUES (5, 'Patel', 'Arjun', 'B', 'Hasmukh', 'Falguni', 'M', '20-MAR-24', 'Navrangpura', 'Ahmedabad', 'GJ', '380009', '9876543212', '2003')
+  INSERT INTO EMPLOYEE VALUES (6, 'Mukherjee', 'Sneha', NULL, 'Pradip', 'Moushumi', 'F', '10-APR-24', 'Salt Lake', 'Kolkata', 'WB', '700091', '9876543213', '2004')
+  INSERT INTO EMPLOYEE VALUES (7, 'Reddy', 'Karthik', 'S', 'Vasudev', 'Anjali', 'M', '05-MAY-24', 'Banjara Hills', 'Hyderabad', 'TS', '500034', '9876543214', '2005')
 
-SQL> -- Adding 5 more rows to all tables in a single command using INSERT ALL
-SQL> INSERT ALL
+  -- Inserting 5 rows INSERT INTO SCHOOL (IDs 60-100)
+  INSERT INTO SCHOOL VALUES (60, 'Indian Institute of Technology Bombay')
+  INSERT INTO SCHOOL VALUES (70, 'Delhi University')
+  INSERT INTO SCHOOL VALUES (80, 'National Institute of Technology Trichy')
+  INSERT INTO SCHOOL VALUES (90, 'Jadavpur University')
+  INSERT INTO SCHOOL VALUES (100, 'Anna University')
 
-    INTO EMPLOYEE VALUES (1, 'S', 'John', 'A', 'Robert', 'Mary', 'M', '10-JAN-23', '123 Maple St', 'New York', 'NY', '10001', '555-1234', '1001')
-  4    INTO EMPLOYEE VALUES (2, 'Doe', 'Jane', 'B', 'Michael', 'Susan', 'F', '15-FEB-23', '456 Oak Ave', 'Chicago', 'IL', '60601', '555-5678', '1002')
-  5    INTO EMPLOYEE VALUES (3, 'Brown', 'Charlie', 'C', 'David', 'Linda', 'M', '20-MAR-23', '789 Pine Rd', 'Houston', 'TX', '77001', '555-9012', '1003')
-  6    INTO EMPLOYEE VALUES (4, 'Wilson', 'Emily', 'D', 'James', 'Patricia', 'F', '25-APR-23', '101 Elm Blvd', 'Phoenix', 'AZ', '85001', '555-3456', '1004')
-  7    INTO EMPLOYEE VALUES (5, 'Davis', 'Frank', 'E', 'William', 'Barbara', 'M', '30-MAY-23', '202 Cedar Ln', 'Philadelphia', 'PA', '19101', '555-7890', '1005')
-  8    -- Inserting 5 rows into SCHOOL
-  9    INTO SCHOOL VALUES (10, 'School of Engineering')
- 10    INTO SCHOOL VALUES (20, 'School of Business')
- 11    INTO SCHOOL VALUES (30, 'School of Arts')
- 12    INTO SCHOOL VALUES (40, 'School of Science')
- 13    INTO SCHOOL VALUES (50, 'School of Medicine')
- 14    -- Inserting 5 rows into EMPLOYEE_ALIGNMENT
- 15    INTO EMPLOYEE_ALIGNMENT VALUES (1, 10)
- 16    INTO EMPLOYEE_ALIGNMENT VALUES (2, 20)
- 17    INTO EMPLOYEE_ALIGNMENT VALUES (3, 30)
- 18    INTO EMPLOYEE_ALIGNMENT VALUES (4, 40)
- 19    INTO EMPLOYEE_ALIGNMENT VALUES (5, 50)
- 20    -- Inserting 5 rows into JOB (IDs continuing from previous 4)
- 21    INTO JOB VALUES (5, 'Admin', 'Clerk', 40000, 1000)
- 22    INTO JOB VALUES (6, 'Acad', 'Assistant Professor', 65000, 2500)
- 23    INTO JOB VALUES (7, 'Maint', 'Technician', 45000, 1500)
- 24    INTO JOB VALUES (8, 'IT', 'Developer', 75000, 3500)
- 25    INTO JOB VALUES (9, 'HR', 'Manager', 85000, 4500)
- 26    -- Inserting 5 rows into EMPLOYEE_PAY
- 27    INTO EMPLOYEE_PAY VALUES (1, 5)
- 28    INTO EMPLOYEE_PAY VALUES (2, 6)
- 29    INTO EMPLOYEE_PAY VALUES (3, 7)
- 30    INTO EMPLOYEE_PAY VALUES (4, 8)
- 31    INTO EMPLOYEE_PAY VALUES (5, 9)
- 32    -- Inserting 5 rows into PRODUCT (IDs continuing from previous 103)
- 33    INTO PRODUCT VALUES (104, 'Widget D', 'Delta Widget', 'Active', SYSDATE, 'Michigan R', SYSDATE, 'Admin', 55, SYSDATE)
- 34    INTO PRODUCT VALUES (105, 'Widget E', 'Epsilon Widget', 'Inactive', SYSDATE, 'Illinois M', SYSDATE, 'Admin', 65, SYSDATE)
- 35    INTO PRODUCT VALUES (106, 'Widget F', 'Zeta Widget', 'Active', SYSDATE, 'Indiana D', SYSDATE, 'Admin', 75, SYSDATE)
- 36    INTO PRODUCT VALUES (107, 'Widget G', 'Eta Widget', 'Active', SYSDATE, 'Ohio D', SYSDATE, 'Admin', 85, SYSDATE)
- 37    INTO PRODUCT VALUES (108, 'Widget H', 'Theta Widget', 'Active', SYSDATE, 'Michigan R', SYSDATE, 'Admin', 95, SYSDATE)
- 38
+  -- Inserting 5 rows INSERT INTO EMPLOYEE_ALIGNMENT (Mapping Employees 6-10 to Schools 60-100)
+  INSERT INTO EMPLOYEE_ALIGNMENT VALUES (6, 60)
+  INSERT INTO EMPLOYEE_ALIGNMENT VALUES (7, 70)
+  INSERT INTO EMPLOYEE_ALIGNMENT VALUES (8, 80)
+  INSERT INTO EMPLOYEE_ALIGNMENT VALUES (9, 90)
+  INSERT INTO EMPLOYEE_ALIGNMENT VALUES (10, 100)
+
+  -- Inserting 5 rows INSERT INTO JOB (IDs 10-14)
+  INSERT INTO JOB VALUES (10, 'Admin', 'Dean', 120000, 15000)
+  INSERT INTO JOB VALUES (11, 'Acad', 'Senior Lecturer', 85000, 6000)
+  INSERT INTO JOB VALUES (12, 'Res', 'Junior Scientist', 55000, 4000)
+  INSERT INTO JOB VALUES (13, 'Tech', 'Lab Assistant', 35000, 2000)
+  INSERT INTO JOB VALUES (14, 'Acct', 'Accountant', 48000, 3000)
+
+  -- Inserting 5 rows INSERT INTO EMPLOYEE_PAY (Mapping Employees 6-10 to Jobs 10-14)
+  INSERT INTO EMPLOYEE_PAY VALUES (6, 10)
+  INSERT INTO EMPLOYEE_PAY VALUES (7, 11)
+  INSERT INTO EMPLOYEE_PAY VALUES (8, 12)
+  INSERT INTO EMPLOYEE_PAY VALUES (9, 13)
+  INSERT INTO EMPLOYEE_PAY VALUES (10, 14)
+
+  -- Inserting 5 rows INSERT INTO PRODUCT (IDs 109-113)
+  INSERT INTO PRODUCT VALUES (109, 'EduTab', 'Student Tablet', 'Active', SYSDATE, 'Rahul Sharma', SYSDATE, 'Admin', 150, SYSDATE)
+  INSERT INTO PRODUCT VALUES (110, 'SolarLamp', 'Study Light', 'Active', SYSDATE, 'Aditi Verma', SYSDATE, 'Admin', 40, SYSDATE)
+  INSERT INTO PRODUCT VALUES (111, 'AgriSens', 'Soil Sensor', 'Inactive', SYSDATE, 'Arjun Patel', SYSDATE, 'Admin', 80, SYSDATE)
+  INSERT INTO PRODUCT VALUES (112, 'WaterPurifier', 'Home Filter', 'Active', SYSDATE, 'Sneha M', SYSDATE, 'Admin', 90, SYSDATE)
+  INSERT INTO PRODUCT VALUES (113, 'HealthKit', 'First Aid Box', 'Active', SYSDATE, 'Karthik Reddy', SYSDATE, 'Admin', 25, SYSDATE)
+SELECT * FROM dual;
