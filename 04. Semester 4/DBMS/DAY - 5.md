@@ -145,3 +145,91 @@ WHERE CREATED_BY IN ('Indiana D', 'Ohio D', 'Michigan R', 'Illinois M')
 ORDER BY DESCRIPTION ASC;
 
 SPOOL OFF;
+
+SET ECHO ON;
+SET FEEDBACK ON;
+
+-- ==========================================================
+-- 4.2. Max and Min cost by each Product Creator
+-- ==========================================================
+SELECT CREATED_BY, MAX(COST) AS MAX_COST, MIN(COST) AS MIN_COST 
+FROM PRODUCT 
+GROUP BY CREATED_BY;
+
+-- ==========================================================
+-- 4.3. Sum and Average cost by each Last Modifier
+-- ==========================================================
+SELECT LAST_MODIFIED_BY, SUM(COST) AS TOTAL_COST, AVG(COST) AS AVG_COST 
+FROM PRODUCT 
+GROUP BY LAST_MODIFIED_BY;
+
+-- ==========================================================
+-- 4.4. Number of products created by Indiana D or Ohio D
+-- ==========================================================
+SELECT COUNT(*) AS PRODUCT_COUNT 
+FROM PRODUCT 
+WHERE CREATED_BY IN ('Indiana D', 'Ohio D');
+
+-- ==========================================================
+-- 4.5. Number of products updated by Michigan R or Illinois M
+-- ==========================================================
+SELECT COUNT(*) AS UPDATE_COUNT 
+FROM PRODUCT 
+WHERE LAST_MODIFIED_BY IN ('Michigan R', 'Illinois M');
+
+-- ==========================================================
+-- 4.6. Sum of all salary
+-- ==========================================================
+SELECT SUM(SALARY) AS TOTAL_SALARY_EXPENDITURE FROM JOB;
+
+-- ==========================================================
+-- 4.7. Average salary across all non-null bonus values
+-- ==========================================================
+SELECT AVG(SALARY) AS AVG_SALARY_WITH_BONUS 
+FROM JOB 
+WHERE BONUS IS NOT NULL;
+
+-- ==========================================================
+-- 4.8. Average, highest and lowest cost for the products
+-- ==========================================================
+SELECT AVG(COST) AS AVG_COST, MAX(COST) AS MAX_COST, MIN(COST) AS MIN_COST 
+FROM PRODUCT;
+
+-- ==========================================================
+-- 4.9. Total number of jobs for null bonus values
+-- ==========================================================
+SELECT COUNT(*) AS NULL_BONUS_JOB_COUNT 
+FROM JOB 
+WHERE BONUS IS NULL;
+
+-- ==========================================================
+-- 4.10. Year and Month of created and last modified dates
+-- ==========================================================
+SELECT NAME, 
+       EXTRACT(YEAR FROM CREATED_DATE) AS CREATED_YEAR, 
+       EXTRACT(MONTH FROM CREATED_DATE) AS CREATED_MONTH,
+       EXTRACT(YEAR FROM LAST_MODIFIED_DATE) AS MODIFIED_YEAR,
+       EXTRACT(MONTH FROM LAST_MODIFIED_DATE) AS MODIFIED_MONTH
+FROM PRODUCT;
+
+-- ==========================================================
+-- 4.11. Job Title with Salary Category (High, Medium, Low)
+-- ==========================================================
+SELECT NAME, TITLE, 
+       CASE 
+          WHEN SALARY > 100000 THEN 'High'
+          WHEN SALARY BETWEEN 50000 AND 100000 THEN 'Medium'
+          ELSE 'Low'
+       END AS SALARY_LEVEL
+FROM JOB;
+
+-- ==========================================================
+-- 4.12. Concatenation of Product details for Active products
+-- ==========================================================
+-- Note: TO_CHAR is used to ensure dates are converted to string for concatenation
+SELECT NAME || ' - ' || DESCRIPTION || ' (Created: ' || TO_CHAR(CREATED_DATE, 'DD-MON-YYYY') || 
+       ', Updated: ' || TO_CHAR(LAST_MODIFIED_DATE, 'DD-MON-YYYY') || ')' AS PRODUCT_DETAILS
+FROM PRODUCT 
+WHERE STATUS = 'Active';
+
+COMMIT;
