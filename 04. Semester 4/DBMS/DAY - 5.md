@@ -189,10 +189,10 @@ INSERT ALL
   INTO EMPLOYEE_PAY VALUES (7, 14)
   SELECT * FROM DUAL;
 
-  -- Inserting 5 rows INSERT INTO PRODUCT (IDs 109-113)
-  INSERT INTO PRODUCT VALUES (109, 'EduTab', 'Student Tablet', 'Active', SYSDATE, 'Rahul Sharma', SYSDATE, 'Admin', 150, SYSDATE)
-  INSERT INTO PRODUCT VALUES (110, 'SolarLamp', 'Study Light', 'Active', SYSDATE, 'Aditi Verma', SYSDATE, 'Admin', 40, SYSDATE)
-  INSERT INTO PRODUCT VALUES (111, 'AgriSens', 'Soil Sensor', 'Inactive', SYSDATE, 'Arjun Patel', SYSDATE, 'Admin', 80, SYSDATE)
-  INSERT INTO PRODUCT VALUES (112, 'WaterPurifier', 'Home Filter', 'Active', SYSDATE, 'Sneha M', SYSDATE, 'Admin', 90, SYSDATE)
-  INSERT INTO PRODUCT VALUES (113, 'HealthKit', 'First Aid Box', 'Active', SYSDATE, 'Karthik Reddy', SYSDATE, 'Admin', 25, SYSDATE)
+INSERT ALL
+  INTO PRODUCT VALUES (109, 'EduTab', 'Student Tablet', 'Active', SYSDATE, 'Rahul Sharma', SYSDATE, 'Admin', 150, SYSDATE)
+  INTO PRODUCT VALUES (110, 'SolarLamp', 'Study Light', 'Active', SYSDATE, 'Aditi Verma', SYSDATE, 'Admin', 40, SYSDATE)
+  INTO PRODUCT VALUES (111, 'AgriSens', 'Soil Sensor', 'Inactive', SYSDATE, 'Arjun Patel', SYSDATE, 'Admin', 80, SYSDATE)
+  INTO PRODUCT VALUES (112, 'WaterPurifier', 'Home Filter', 'Active', SYSDATE, 'Sneha M', SYSDATE, 'Admin', 90, SYSDATE)
+  INTO PRODUCT VALUES (113, 'HealthKit', 'First Aid Box', 'Active', SYSDATE, 'Karthik Reddy', SYSDATE, 'Admin', 25, SYSDATE)
 SELECT * FROM dual;
