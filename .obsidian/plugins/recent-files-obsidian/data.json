@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "COA-MID-2023",
+      "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2023.md"
+    },
+    {
+      "basename": "COA-MID-2024",
+      "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2024.md"
+    },
+    {
+      "basename": "COA-MID-2025",
+      "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2025.md"
+    },
+    {
       "basename": "20260201",
       "path": "01 - Daily/20260201.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "Untitled",
       "path": "04. Semester 4/3. OOPJ (Java)/Untitled.md"
-    },
-    {
-      "basename": "Solution - 2025",
-      "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/Solution - 2025.md"
     },
     {
       "basename": "20260129",
@@ -191,14 +199,6 @@
     {
       "basename": "20251218",
       "path": "01 - Daily/20251218.md"
-    },
-    {
-      "basename": "20251217",
-      "path": "01 - Daily/20251217.md"
-    },
-    {
-      "basename": "Test -LAB",
-      "path": "04. Semester 4/3. OOPJ (Java)/LAB/Test -LAB.md"
     }
   ],
   "omittedPaths": [],
