@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Solution - 2025",
-      "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/Solution - 2025.md"
+      "basename": "20260201",
+      "path": "01 - Daily/20260201.md"
+    },
+    {
+      "basename": "Untitled 2",
+      "path": "04. Semester 4/4. Operating System (OS)/LAB/Untitled 2.md"
     },
     {
       "basename": "24155060-OS-assign-1",
@@ -13,16 +17,20 @@
       "path": "04. Semester 4/4. Operating System (OS)/LAB/Untitled.md"
     },
     {
-      "basename": "OS Intro",
-      "path": "04. Semester 4/4. Operating System (OS)/Theory/OS Intro.md"
-    },
-    {
       "basename": "Test - 2",
       "path": "04. Semester 4/4. Operating System (OS)/LAB/Test - 2.md"
     },
     {
-      "basename": "Untitled 2",
-      "path": "04. Semester 4/4. Operating System (OS)/LAB/Untitled 2.md"
+      "basename": "OS Intro",
+      "path": "04. Semester 4/4. Operating System (OS)/Theory/OS Intro.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "04. Semester 4/3. OOPJ (Java)/Untitled.md"
+    },
+    {
+      "basename": "Solution - 2025",
+      "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/Solution - 2025.md"
     },
     {
       "basename": "20260129",
@@ -79,10 +87,6 @@
     {
       "basename": "Assignment-5",
       "path": "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-5.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "04. Semester 4/3. OOPJ (Java)/Untitled.md"
     },
     {
       "basename": "DAY-5",
@@ -195,10 +199,6 @@
     {
       "basename": "Test -LAB",
       "path": "04. Semester 4/3. OOPJ (Java)/LAB/Test -LAB.md"
-    },
-    {
-      "basename": "20251216",
-      "path": "01 - Daily/20251216.md"
     }
   ],
   "omittedPaths": [],
