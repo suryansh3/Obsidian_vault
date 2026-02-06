@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "20260206",
+      "path": "01 - Daily/20260206.md"
+    },
+    {
+      "basename": "COA-MID-2025",
+      "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2025.md"
+    },
+    {
       "basename": "COA-MID-2023",
       "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2023.md"
     },
     {
       "basename": "COA-MID-2024",
       "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2024.md"
-    },
-    {
-      "basename": "COA-MID-2025",
-      "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2025.md"
     },
     {
       "basename": "20260201",
@@ -195,10 +199,6 @@
     {
       "basename": "20251221",
       "path": "01 - Daily/20251221.md"
-    },
-    {
-      "basename": "20251218",
-      "path": "01 - Daily/20251218.md"
     }
   ],
   "omittedPaths": [],
