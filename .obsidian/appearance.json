@@ -1,6 +1,6 @@
 {
   "accentColor": "#43cfea",
-  "cssTheme": "Royal Velvet",
+  "cssTheme": "Catppuccin",
   "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "textFontFamily": "JetBrainsMono Nerd Font Mono",
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
@@ -14,8 +14,7 @@
     "Colored Sidebar Items",
     "Minecraft",
     "CyanVoxel's General Tweaks",
-    "Daily Note Themes",
-    "Black-snippet"
+    "Daily Note Themes"
   ],
   "translucency": false,
   "theme": "obsidian",
