@@ -25,12 +25,14 @@
             "id": "b2fbdc900b354467",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "Projects-Python/Calibre Book reader.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "Calibre Book reader"
             }
           }
         ],
@@ -256,6 +258,8 @@
   },
   "active": "b2fbdc900b354467",
   "lastOpenFiles": [
+    "Projects-Python/Ebook reader.md",
+    "Projects-Python/Calibre Book reader.md",
     "04. Semester 4/MID-SEMESTER/Untitled.md",
     "01 - Daily/20260208.md",
     "04. Semester 4/MID-SEMESTER/OOPJ-ANALYSIS.md",
@@ -282,8 +286,6 @@
     "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md",
     "01 - Daily/20260125.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-6.md",
-    "01 - Daily/20260124.md",
-    "Assignment - 6.md",
     "Projects-Python",
     "99 - Meta/attachments/Pasted image 20260112211929.png",
     "99 - Meta/attachments/Pasted image 20260112202619.png",

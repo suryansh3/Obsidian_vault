@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Calibre Book reader",
+      "path": "Projects-Python/Calibre Book reader.md"
+    },
+    {
+      "basename": "Ebook reader",
+      "path": "Projects-Python/Ebook reader.md"
+    },
+    {
       "basename": "Untitled",
       "path": "04. Semester 4/MID-SEMESTER/Untitled.md"
     },
@@ -97,10 +105,6 @@
       "path": "01 - Daily/20260123.md"
     },
     {
-      "basename": "Ebook reader",
-      "path": "Projects-Python/Ebook reader.md"
-    },
-    {
       "basename": "MLSA CHALLENGE",
       "path": "04. Semester 4/MLSA CHALLENGE.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20260109",
       "path": "01 - Daily/20260109.md"
-    },
-    {
-      "basename": "20251231",
-      "path": "01 - Daily/20251231.md"
     }
   ],
   "omittedPaths": [],
