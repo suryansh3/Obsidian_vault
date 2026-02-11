@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20260211",
+      "path": "01 - Daily/20260211.md"
+    },
+    {
       "basename": "Calibre Book reader",
       "path": "Projects-Python/Calibre Book reader.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DAY-2",
       "path": "04. Semester 4/3. OOPJ (Java)/LAB/DAY-2.md"
-    },
-    {
-      "basename": "20260109",
-      "path": "01 - Daily/20260109.md"
     }
   ],
   "omittedPaths": [],
