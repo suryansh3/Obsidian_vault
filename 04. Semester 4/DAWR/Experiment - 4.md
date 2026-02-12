@@ -34,7 +34,7 @@ The Arduino UNO is a microcontroller board based on the ATmega328P. It features 
 
 ### **b) Sensor/Motor**
 
-- **PIR Sensor:** Used to detect motion by measuring changes in the infrared levels emitted by surrounding objects. In this experiment, it is configured as **Active Low**, meaning the signal pin drops to 0V (LOW) when an object is detected.
+- **IR Sensor:** Used to detect motion by measuring changes in the infrared levels emitted by surrounding objects. In this experiment, it is configured as **Active Low**, meaning the signal pin drops to 0V (LOW) when an object is detected.
     
 - **Servo Motor:** A rotary actuator that allows for precise control of angular position. It uses a Pulse Width Modulation (PWM) signal to determine the shaft's angle.
     
