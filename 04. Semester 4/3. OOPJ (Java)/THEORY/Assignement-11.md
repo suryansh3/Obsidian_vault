@@ -146,5 +146,19 @@ true
 # 6.
 
 ```java
+public class day9_6 {
+  public static void main(String args[]) {
+    String s1 = "Sachin";
+    String s2 = "Sachin";
+    String s3 = new String("Sachin");
+    System.out.println(s1 == s2);// true (because both refer to same instance)
+    System.out.println(s1 == s3);// false(because s3 refers to instance created in nonpool)
+  }
+}
+```
 
+```
+PS C:\Users\surya\OneDrive\Documents\Java_OOPJ\OOPJ_LAB>  c:; cd 'c:\Users\surya\OneDrive\Documents\Java_OOPJ\OOPJ_LAB'; & 'C:\Program Files\Java\jre1.8.0_481\bin\java.exe' '-cp' 'C:\Users\surya\AppData\Roaming\Antigravity\User\workspaceStorage\9eec13107ef84a4b935f5c5438ac2750\redhat.java\jdt_ws\OOPJ_LAB_696e422c\bin' 'day9_6' 
+false
+true
 ```
