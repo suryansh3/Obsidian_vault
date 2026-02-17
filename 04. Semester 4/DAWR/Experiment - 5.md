@@ -1,4 +1,4 @@
-Based on the layout requirements and the circuit diagram you provided, here is a complete experiment report ready for your documentation.
+
 
 ---
 
