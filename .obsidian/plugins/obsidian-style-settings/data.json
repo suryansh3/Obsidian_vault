@@ -1,0 +1,7 @@
+{
+  "obsidian-prism-theme@@text-italic-color-dt": "var(--color-orange-text)",
+  "obsidian-prism-theme@@text-bold-color-dt": "var(--color-cyan-text)",
+  "obsidian-prism-theme@@text-italic-bold-color-dt": "var(--color-purple-text)",
+  "obsidian-prism-theme@@strikethrough-text-color-dt": "var(--color-mint-text)",
+  "obsidian-prism-theme@@strikethrough-line-color-dt": "var(--color-red-text)"
+}

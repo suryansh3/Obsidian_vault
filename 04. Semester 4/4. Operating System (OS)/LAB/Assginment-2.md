@@ -12,6 +12,7 @@ echo "Result: $res"
 ```
 
 **Output**
+
 ```
 Enter two integers:
 25
@@ -29,7 +30,6 @@ read c
 f=$(echo "scale=2; $c * 9/5 + 32" | bc)
 echo "Fahrenheit: $f"
 ```
-
 **Output**
 
 ```
