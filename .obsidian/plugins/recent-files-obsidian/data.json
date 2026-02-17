@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Ebook reader",
+      "path": "Projects-Python/Ebook reader.md"
+    },
+    {
+      "basename": "Calibre Book reader",
+      "path": "Projects-Python/Calibre Book reader.md"
+    },
+    {
+      "basename": "Most Important question (Year wise)",
+      "path": "Most Important question (Year wise).md"
+    },
+    {
+      "basename": "Random typing",
+      "path": "Random typing.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "CSE-lesson Plan",
+      "path": "CSE-lesson Plan.md"
+    },
+    {
       "basename": "20260217",
       "path": "01 - Daily/20260217.md"
     },
     {
       "basename": "Experiment - 5",
       "path": "04. Semester 4/DAWR/Experiment - 5.md"
-    },
-    {
-      "basename": "Random typing",
-      "path": "Random typing.md"
     },
     {
       "basename": "Assginment-2",
@@ -41,24 +61,12 @@
       "path": "04. Semester 4/4. Operating System (OS)/LAB/Assignment-6.md"
     },
     {
-      "basename": "Most Important question (Year wise)",
-      "path": "Most Important question (Year wise).md"
-    },
-    {
-      "basename": "CSE-lesson Plan",
-      "path": "CSE-lesson Plan.md"
-    },
-    {
       "basename": "Assignment - 6",
       "path": "Assignment - 6.md"
     },
     {
       "basename": "DSA 16 Question - Deepseek",
       "path": "DSA 16 Question - Deepseek.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Utkarsh - LAB 7",
@@ -75,14 +83,6 @@
     {
       "basename": "20260211",
       "path": "01 - Daily/20260211.md"
-    },
-    {
-      "basename": "Calibre Book reader",
-      "path": "Projects-Python/Calibre Book reader.md"
-    },
-    {
-      "basename": "Ebook reader",
-      "path": "Projects-Python/Ebook reader.md"
     },
     {
       "basename": "Untitled",
@@ -195,10 +195,6 @@
     {
       "basename": "Assignment - 9(24052323)",
       "path": "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment - 9(24052323).md"
-    },
-    {
-      "basename": "Pasted image 20260112202619",
-      "path": "99 - Meta/attachments/Pasted image 20260112202619.png"
     }
   ],
   "omittedPaths": [],
