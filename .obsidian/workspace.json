@@ -53,14 +53,10 @@
             "id": "ae9efaebe1b155a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects-Python/Ebook reader.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Ebook reader"
+              "title": "New tab"
             }
           }
         ],
@@ -123,8 +119,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ]
@@ -261,8 +257,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,6 +282,9 @@
   },
   "active": "ae9efaebe1b155a1",
   "lastOpenFiles": [
+    "04. Semester 4/DAWR/DAY 1.md",
+    "01 - Daily/20260218.md",
+    "Projects-Python/Ebook reader.md",
     "Projects-Python/Calibre Book reader.md",
     "ED-202511220650.excalidraw.restored.md",
     "Most Important question (Year wise).md",
@@ -308,11 +306,8 @@
     "04. Semester 4/3. OOPJ (Java)/THEORY/Assignement-11.md",
     "01 - Daily/20260212.md",
     "01 - Daily/20260211.md",
-    "Projects-Python/Ebook reader.md",
     "04. Semester 4/MID-SEMESTER/Untitled.md",
     "01 - Daily/20260208.md",
-    "04. Semester 4/MID-SEMESTER/OOPJ-ANALYSIS.md",
-    "01 - Daily/20260206.md",
     "04. Semester 4/MID-SEMESTER",
     "04. Semester 4/DBMS",
     "Projects-Python",
