@@ -1,6 +1,6 @@
 
-# Name : Suryansh Mithu
-## Roll : 24155060
+# Name : Shivam Raj
+## Roll : 24052323
 
 1.
 
@@ -19,4 +19,8 @@
 ---
 
 3.
+
+![[Pasted image 20260218234737.png]]
+
+![[Pasted image 20260218234803.png]]
 
