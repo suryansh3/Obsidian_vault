@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "Ebook reader",
       "path": "Projects-Python/Ebook reader.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ASSIGNMENT_5",
       "path": "04. Semester 4/3. OOPJ (Java)/THEORY/ASSIGNMENT_5.md"
-    },
-    {
-      "basename": "Assignment - 9(24052323)",
-      "path": "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment - 9(24052323).md"
     }
   ],
   "omittedPaths": [],
