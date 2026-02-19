@@ -1,4 +1,3 @@
-Here’s a Python-first, desktop-focused roadmap with concrete tech choices and build steps.
 
 ### Stack (recommended)
 - **UI shell:**  
