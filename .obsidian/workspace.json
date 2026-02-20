@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Assignment-12"
             }
+          },
+          {
+            "id": "fffd80e236874489",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20260220.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260220"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -256,8 +270,10 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "a09162ce3794a151",
+  "active": "fffd80e236874489",
   "lastOpenFiles": [
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-12.md",
+    "01 - Daily/20260220.md",
     "Assignment-12-24052323.pdf",
     "Assignment-12-24155060.pdf",
     "99 - Meta/attachments/Pasted image 20260218234803.png",
@@ -268,7 +284,6 @@
     "99 - Meta/attachments/Pasted image 20260218233357.png",
     "99 - Meta/attachments/Pasted image 20260218233253.png",
     "01 - Daily/20260218.md",
-    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-12.md",
     "Random typing.md",
     "DSA 16 Question - Deepseek.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-5.md",
@@ -303,7 +318,6 @@
     "04. Semester 4/DAWR",
     "99 - Meta/attachments/Stranger_Danger.epub",
     "04. Semester 4/3. OOPJ (Java)/LAB/runjava.bat",
-    "04. Semester 4/3. OOPJ (Java)/LAB/New Text Document.txt",
     "Untitled.canvas"
   ]
 }
