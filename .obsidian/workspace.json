@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "All of Computer Science in 10 Real Projects (and Software Engineering) 1"
             }
+          },
+          {
+            "id": "dbbe995092690be8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20260223.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260223"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -270,8 +284,10 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "12a18cbba1eede36",
+  "active": "dbbe995092690be8",
   "lastOpenFiles": [
+    "Projects-Python/All of Computer Science in 10 Real Projects (and Software Engineering) 1.md",
+    "01 - Daily/20260223.md",
     "conflict-files-obsidian-git.md",
     "01 - Daily/20260222.md",
     "Clippings/You said  1. WAP to print integers from 1 to n.md",
@@ -279,7 +295,6 @@
     "01 - Daily/20260221.md",
     "Clippings/All of Computer Science in 10 Real Projects (and Software Engineering) 1.md",
     "DSA 16 question co-pilot.md",
-    "Projects-Python/All of Computer Science in 10 Real Projects (and Software Engineering) 1.md",
     "CSE-lesson Plan.md",
     "Clippings/All of Computer Science in 10 Real Projects (and Software Engineering).md",
     "Projects-Python/Untitled.md",
@@ -306,7 +321,6 @@
     "04. Semester 4/3. OOPJ (Java)/LAB/DAY-2.md",
     "04. Semester 4/3. OOPJ (Java)/LAB/24155220-day4-lab.md",
     "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
-    "04. Semester 4/2. DM (Discrete Mathematics )/Untitled.md",
     "04. Semester 4/MID-SEMESTER",
     "04. Semester 4/DBMS",
     "Projects-Python",
