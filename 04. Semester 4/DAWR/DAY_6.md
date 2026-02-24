@@ -1,24 +1,25 @@
-Here is the experiment report formatted exactly according to the structure provided in your image.
 
 ---
 
 ### 1. Aim of Experiment
 
-To design and implement an autonomous sensor-actuator control system using an Arduino Microcontroller, which utilizes an Ultrasonic Sensor for distance measurement and a DC Servo Motor for automated actuation based on the sensor's input.
+To design and implement an autonomous sensor-actuator control system using an Arduino Microcontroller, an Ultrasonic Sensor for distance measurement, a DC Servo Motor for actuation, and an LED as a visual indicator based on the sensor's input.
 
 ### 2. Components Required
 
-- **Microcontroller:** Arduino UNO (or Arduino Mega)
+- **Microcontroller:** Arduino UNO
     
 - **Sensor:** HC-SR04 Ultrasonic Sensor
     
 - **Actuator:** Micro Servo Motor (e.g., SG90)
     
-- **Prototyping:** Breadboard
+- **Indicator:** Red LED
     
-- **Connecting Wires:** Jumper wires (Male-to-Male, Male-to-Female)
+- **Resistor:** 1x Resistor (e.g., 220Ω or 330Ω to limit LED current)
     
-- **Power Supply:** USB Cable (to connect Arduino to PC)
+- **Connecting Wires:** Jumper wires
+    
+- **Power Supply:** USB Cable (connected to PC)
     
 
 ### 3. Software Required
@@ -30,120 +31,62 @@ To design and implement an autonomous sensor-actuator control system using an Ar
 
 **a) About Arduino Mega/UNO**
 
-The Arduino UNO is an open-source microcontroller board based on the ATmega328P chip. It features 14 digital input/output pins (of which 6 can be used as PWM outputs for motor control), 6 analog inputs, a 16 MHz quartz crystal, a USB connection, and a power jack. It acts as the brain of this experiment, continuously reading inputs from the sensor, processing the logic, and sending precise control signals to the actuator.
+The Arduino UNO is an open-source microcontroller board based on the ATmega328P chip. It acts as the central processing unit for this experiment, reading inputs from the ultrasonic sensor, processing the threshold logic, and sending simultaneous output signals to the servo motor and the LED.
 
-**b) Sensor/Motor**
+**b) Sensor/Motor/Indicator**
 
-- **Ultrasonic Sensor (HC-SR04):** This sensor measures distance by emitting ultrasonic sound waves at 40,000 Hz and calculating the time it takes for the echo to bounce back from an object. Distance is calculated using the formula: $Distance = (Time \times Speed\ of\ Sound) / 2$.
+- **Ultrasonic Sensor (HC-SR04):** Measures distance by emitting high-frequency sound waves and calculating the time it takes for the echo to return. The distance is calculated using the formula: $Distance = (Time \times Speed\ of\ Sound) / 2$.
     
-- **DC Servo Motor:** A servo motor is a rotary actuator that allows for precise control of angular position. Unlike a standard DC motor that spins continuously, a standard servo usually turns between 0° and 180°. It operates by receiving Pulse Width Modulation (PWM) signals from the microcontroller, which dictates the exact angle the motor shaft should hold.
+- **DC Servo Motor:** A rotary actuator that provides precise control of angular position using Pulse Width Modulation (PWM) signals from the Arduino.
+    
+- **LED (Light Emitting Diode):** A semiconductor light source that emits light when current flows through it. It acts as a visual status indicator in this circuit.
     
 
-**c) Controller (if they use)**
+**c) Controller**
 
-In this system, the Arduino serves as the primary controller utilizing a basic proportional control logic. The controller is programmed to act autonomously: it monitors the distance variable in real-time and maps those physical distance values into corresponding angular degrees for the servo motor (e.g., opening a barrier if an object is within a specific threshold).
+The Arduino functions as the primary controller. It continuously polls the distance data from the sensor. When the distance falls below a pre-programmed threshold, the controller triggers a dual response: actuating the servo motor to a specific angle and illuminating the LED.
 
 ### 5. Designing and Testing
 
-**Designing:** The system is designed as an automated proximity responder (like an automatic gate or a smart dustbin). The Arduino triggers the ultrasonic sensor every few milliseconds. If an object is detected within a designated threshold (e.g., less than 15 cm), the Arduino commands the servo motor to rotate to 90° (actuation state). If the object moves away, the servo returns to 0° (idle state).
+**Designing:** The system is designed as an automated proximity responder with visual feedback. The Arduino triggers the HC-SR04 sensor. If an object is detected within the target range (e.g., less than 15 cm), the Arduino commands the servo motor to rotate to 90° and simultaneously turns on the red LED connected to pin 12. If the object leaves the zone, the servo returns to 0° and the LED turns off.
 
-**Testing:** 1. The sensor's accuracy is first tested by observing the output distance on the Arduino IDE's Serial Monitor.
+**Testing:** 1. The sensor's distance readings are verified using the Arduino IDE's Serial Monitor.
 
-2. The servo's sweeping capability is tested using basic PWM sweeps.
+2. The LED is tested with a simple blink sketch to ensure proper polarity and resistor connection.
 
-3. Finally, the integrated system is tested by placing an object in front of the sensor at varying distances to verify that the servo reacts strictly according to the programmed thresholds.
-
-### 6. Interfacing Code
-
-C++
-
-```
-#include <Servo.h>
-
-// Define pins for Ultrasonic Sensor
-const int trigPin = 9;
-const int echoPin = 10;
-
-// Define pin for Servo Motor
-const int servoPin = 11;
-
-// Define variables for distance calculation
-long duration;
-int distance;
-
-// Create a servo object
-Servo myServo;
-
-void setup() {
-  pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
-  pinMode(echoPin, INPUT);  // Sets the echoPin as an Input
-  
-  myServo.attach(servoPin); // Attaches the servo on pin 11
-  myServo.write(0);         // Initialize servo at 0 degrees
-  
-  Serial.begin(9600);       // Start serial communication for debugging
-}
-
-void loop() {
-  // Clear the trigPin
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  
-  // Set the trigPin on HIGH state for 10 micro seconds
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-  
-  // Read the echoPin, returns the sound wave travel time in microseconds
-  duration = pulseIn(echoPin, HIGH);
-  
-  // Calculate the distance (Speed of sound is 0.034 cm/us)
-  distance = duration * 0.034 / 2;
-  
-  // Print distance to Serial Monitor
-  Serial.print("Distance: ");
-  Serial.print(distance);
-  Serial.println(" cm");
-  
-  // Autonomous Control Logic
-  if (distance > 0 && distance <= 15) {
-    // If object is closer than 15 cm, actuate servo to 90 degrees
-    myServo.write(90);
-  } else {
-    // Otherwise, keep servo at 0 degrees
-    myServo.write(0);
-  }
-  
-  delay(100); // Small delay to stabilize the readings
-}
-```
+3. The fully integrated system is tested by moving an object into the sensor's field of view to confirm that both the servo sweeps and the LED illuminates exactly when the threshold is crossed.
 
 ### 7. About Connection of Motor/Sensor
 
+Based strictly on the provided wiring diagram, the connections are as follows:
+
 **Ultrasonic Sensor (HC-SR04) Wiring:**
 
-- **VCC** connects to Arduino **5V**
+- **VCC:** Connected to Arduino **5V**
     
-- **GND** connects to Arduino **GND**
+- **GND:** Connected to Arduino **GND**
     
-- **Trig** connects to Arduino Digital Pin **9**
+- **Trig:** Connected to Arduino Digital Pin **6**
     
-- **Echo** connects to Arduino Digital Pin **10**
+- **Echo:** Connected to Arduino Digital Pin **5**
     
 
 **Servo Motor Wiring:**
 
-- **Red Wire (Power)** connects to Arduino **5V**
+- **Red Wire (Power):** Connected to Arduino **5V**
     
-- **Brown/Black Wire (Ground)** connects to Arduino **GND**
+- **Black Wire (Ground):** Connected to Arduino **GND**
     
-- **Orange/Yellow Wire (Signal)** connects to Arduino Digital Pin **11** (Must be a PWM-capable pin, marked with a `~`).
+- **Yellow Wire (Signal):** Connected to Arduino Digital Pin **11**
+    
+
+**LED Wiring:**
+
+- **Anode (Longer leg / Positive):** Connected to one end of the Resistor. The other end of the Resistor connects to Arduino Digital Pin **12**.
+    
+- **Cathode (Shorter leg / Negative):** Connected to Arduino **GND**.
     
 
 ### 8. Conclusion
 
-The experiment was completed successfully. An autonomous sensor-actuator system was designed where the HC-SR04 ultrasonic sensor accurately mapped the physical environment, and the Arduino UNO effectively processed this data to control the SG90 servo motor in real-time. This experiment successfully demonstrates the foundational principles of closed-loop automation and micro-controller-based robotics without requiring manual human intervention.
-
----
-
-Would you like me to explain how to modify the code so the servo motor follows the object's distance continuously rather than just switching between two positions?
+The experiment was successfully adapted and completed according to the updated circuit design. By incorporating an LED alongside the servo motor, the system now provides both mechanical actuation and immediate visual feedback when an object breaches the proximity threshold. The Arduino UNO accurately processed the distance calculations from the HC-SR04 sensor on pins 5 and 6, demonstrating reliable multi-component automated control.
