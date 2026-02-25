@@ -5,6 +5,14 @@
       "path": "01 - Daily/20260225.md"
     },
     {
+      "basename": "MLSA CHALLENGE",
+      "path": "04. Semester 4/MLSA CHALLENGE.md"
+    },
+    {
+      "basename": "ED-202602252252.excalidraw",
+      "path": "ED-202602252252.excalidraw.md"
+    },
+    {
       "basename": "DSA 16 Question - Deepseek",
       "path": "DSA 16 Question - Deepseek.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "20260128",
       "path": "01 - Daily/20260128.md"
-    },
-    {
-      "basename": "20260127",
-      "path": "01 - Daily/20260127.md"
-    },
-    {
-      "basename": "DAY4-24052323",
-      "path": "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md"
     }
   ],
   "omittedPaths": [],
