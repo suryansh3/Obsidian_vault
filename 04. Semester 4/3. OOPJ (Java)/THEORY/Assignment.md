@@ -1,11 +1,12 @@
 
 # JoinExample
 
-![[Pasted image 20260225213640.png]]
+![[Pasted image 20260225223505.png]]
 # Priority Execution
 
-![[Pasted image 20260225213125.png]]
+![[Pasted image 20260225223512.png]]
 
 # Daemon Execution
-![[Pasted image 20260225212804.png]]
+
+![[Pasted image 20260225223540.png]]
 
