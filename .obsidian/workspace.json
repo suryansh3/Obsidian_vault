@@ -4,21 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "4dfd6430faa14547",
+        "id": "e4b2b41f1e9648ca",
         "type": "tabs",
         "children": [
           {
-            "id": "7e5284dd7c84aef5",
+            "id": "de511ecfbd0c54da",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DSA 16 Question - Deepseek.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DSA 16 Question - Deepseek"
+            }
+          },
+          {
+            "id": "ac5c9513c98d7ab0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20260225.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260225"
             }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,8 +257,10 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "7e5284dd7c84aef5",
+  "active": "ac5c9513c98d7ab0",
   "lastOpenFiles": [
+    "DSA 16 Question - Deepseek.md",
+    "04. Semester 4/3. OOPJ (Java)/Utkarsh - LAB 7.md",
     "04. Semester 4/DAWR/DAY_6.md",
     "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment.md",
     "99 - Meta/attachments/Pasted image 20260225223540.png",
@@ -277,7 +297,6 @@
     "Most Important question (Year wise).md",
     "Random typing.md",
     "ED-202511220650.excalidraw.restored.md",
-    "README.md",
     "04. Semester 4/MID-SEMESTER",
     "04. Semester 4/DBMS",
     "Projects-Python",
