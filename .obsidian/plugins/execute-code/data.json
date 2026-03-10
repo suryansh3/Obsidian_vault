@@ -79,7 +79,7 @@
   "golangArgs": "run",
   "golangFileExtension": "go",
   "goInject": "",
-  "javaPath": "java",
+  "javaPath": "Java",
   "javaArgs": "-ea",
   "javaFileExtension": "java",
   "javaInject": "",

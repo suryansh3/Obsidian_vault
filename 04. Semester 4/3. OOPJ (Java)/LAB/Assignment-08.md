@@ -148,7 +148,7 @@ Recursion reverse: avaJ
 ```java
 
 import java.util.Scanner;
-public class PalindromeIgnore {
+public class temp_1773127075407 {
     public static void main(String[] args) {
         System.out.println("Name : Suryansh Mithu");
         System.out.println("  Roll: 24155060");
@@ -1243,4 +1243,12 @@ Enter string: Hello India
 Reverse: aidnI olleH
 
 ... (further menu interactions)
+```
+
+```python
+a = 10
+b = 20
+c = a+b
+print(c)
+print("hello world")
 ```
