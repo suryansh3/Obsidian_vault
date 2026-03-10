@@ -1,13 +1,13 @@
-# Name: Shreyash
-# Roll: 24052324
+# Name: Nitish Mishra
+# Roll: 24158115
 
 ### 1. System.out, System.err, and System.in Demonstration
 
 ```java
 public class StandardStreamsDemo {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         System.out.println("This is a message from System.out");
         System.err.println("This is an error message from System.err");
@@ -24,8 +24,8 @@ public class StandardStreamsDemo {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" StandardStreamsDemo
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 This is a message from System.out
 This is an error message from System.err
 Enter a single character for System.in: X
@@ -42,8 +42,8 @@ Process finished with exit code 0
 
 public class SingleCharReader {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         System.out.print("Enter a single character: ");
         int data = System.in.read();
@@ -58,8 +58,8 @@ public class SingleCharReader {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" SingleCharReader
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Enter a single character: A
 ASCII value: 65
 Character representation: A
@@ -74,8 +74,8 @@ Process finished with exit code 0
 ```Java
 public class MultiCharReader {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         System.out.print("Enter text (press Enter to finish): ");
         int data;
@@ -94,8 +94,8 @@ public class MultiCharReader {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" MultiCharReader
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Enter text (press Enter to finish): Hello World
 You typed: Hello World
 
@@ -112,8 +112,8 @@ import java.io.FileOutputStream;
 
 public class WriteSingleByte {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         FileOutputStream fos = new FileOutputStream("single_byte.txt");
         fos.write(90);
@@ -132,8 +132,8 @@ public class WriteSingleByte {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" WriteSingleByte
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Verified stored character: Z
 
 Process finished with exit code 0
@@ -149,8 +149,8 @@ import java.util.Scanner;
 
 public class WriteStringBytes {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string to write to file: ");
@@ -169,8 +169,8 @@ public class WriteStringBytes {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" WriteStringBytes
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Enter a string to write to file: Java IO is fun
 String successfully written to file.
 
@@ -186,8 +186,8 @@ import java.io.FileOutputStream;
 
 public class AppendToFile {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         FileOutputStream fos = new FileOutputStream("append_log.txt", true);
         String textToAppend = " Appended segment.";
@@ -203,8 +203,8 @@ public class AppendToFile {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" AppendToFile
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Text successfully appended.
 
 Process finished with exit code 0
@@ -219,8 +219,8 @@ import java.io.FileOutputStream;
 
 public class WriteMultipleLines {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         FileOutputStream fos = new FileOutputStream("multi_lines.txt");
         String lines = "Line 1\nLine 2\nLine 3\n";
@@ -236,8 +236,8 @@ public class WriteMultipleLines {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" WriteMultipleLines
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Multiple lines written to file.
 
 Process finished with exit code 0
@@ -253,8 +253,8 @@ import java.io.FileOutputStream;
 
 public class ReadFirstCharacter {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         FileOutputStream fos = new FileOutputStream("first_char_test.txt");
         fos.write("Welcome".getBytes());
@@ -273,8 +273,8 @@ public class ReadFirstCharacter {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" ReadFirstCharacter
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 First character in file is: W
 
 Process finished with exit code 0
@@ -290,8 +290,8 @@ import java.io.FileOutputStream;
 
 public class ReadAllCharacters {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         FileOutputStream fos = new FileOutputStream("all_chars.txt");
         fos.write("Reading everything!".getBytes());
@@ -313,8 +313,8 @@ public class ReadAllCharacters {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" ReadAllCharacters
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 File contents: Reading everything!
 
 Process finished with exit code 0
@@ -330,8 +330,8 @@ import java.io.FileOutputStream;
 
 public class CountCharactersInFile {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
         
         FileOutputStream fos = new FileOutputStream("char_count.txt");
         fos.write("1234567890".getBytes());
@@ -353,8 +353,8 @@ public class CountCharactersInFile {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" CountCharactersInFile
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Total characters in file: 10
 
 Process finished with exit code 0
@@ -369,8 +369,8 @@ import java.io.FileOutputStream;
 
 public class CharacterCounter {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos = new FileOutputStream("char_stats.txt");
         fos.write("Java IO 2026! @#".getBytes());
@@ -408,8 +408,8 @@ public class CharacterCounter {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" CharacterCounter
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Vowels: 3
 Consonants: 3
 Digits: 4
@@ -428,8 +428,8 @@ import java.io.FileOutputStream;
 
 public class FileCopy {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos = new FileOutputStream("source.txt");
         fos.write("Data to be copied.".getBytes());
@@ -455,8 +455,8 @@ public class FileCopy {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" FileCopy
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Contents copied from source.txt to destination.txt successfully.
 
 Process finished with exit code 0
@@ -472,8 +472,8 @@ import java.io.FileOutputStream;
 
 public class FileMerger {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos1 = new FileOutputStream("file1.txt");
         fos1.write("Hello from File 1. ".getBytes());
@@ -504,8 +504,8 @@ public class FileMerger {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" FileMerger
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Files merged successfully into merged.txt.
 
 Process finished with exit code 0
@@ -521,8 +521,8 @@ import java.io.FileOutputStream;
 
 public class FileComparator {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos1 = new FileOutputStream("compare1.txt");
         fos1.write("Java Programming".getBytes());
@@ -565,8 +565,8 @@ public class FileComparator {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" FileComparator
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 The files are identical.
 
 Process finished with exit code 0
@@ -582,8 +582,8 @@ import java.io.FileOutputStream;
 
 public class UppercaseConverter {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos = new FileOutputStream("lower.txt");
         fos.write("hello world from java".getBytes());
@@ -609,8 +609,8 @@ public class UppercaseConverter {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" UppercaseConverter
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 File converted to uppercase and saved to upper.txt.
 
 Process finished with exit code 0
@@ -627,8 +627,8 @@ import java.io.FileReader;
 
 public class LineAndWordCounter {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos = new FileOutputStream("text_stats.txt");
         fos.write("This is line one.\nThis is the second line.\nAnd a third.".getBytes());
@@ -658,8 +658,8 @@ public class LineAndWordCounter {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" LineAndWordCounter
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Total Lines: 3
 Total Words: 12
 
@@ -678,8 +678,8 @@ import java.util.Scanner;
 
 public class WordReplacer {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         String fileName = "replace_test.txt";
         FileOutputStream fos = new FileOutputStream(fileName);
@@ -708,8 +708,8 @@ public class WordReplacer {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" WordReplacer
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Enter word to replace: apples
 Enter replacement word: oranges
 Word replaced successfully.
@@ -728,8 +728,8 @@ import java.util.Scanner;
 
 public class FilePropertiesChecker {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos = new FileOutputStream("dummy_check.txt");
         fos.write("Check".getBytes());
@@ -756,8 +756,8 @@ public class FilePropertiesChecker {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" FilePropertiesChecker
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Enter filename to check: dummy_check.txt
 File exists.
 Readable: true
@@ -776,8 +776,8 @@ import java.io.FileNotFoundException;
 
 public class FileNotFoundHandler {
     public static void main(String[] args) {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         try {
             FileInputStream fis = new FileInputStream("this_file_does_not_exist.txt");
@@ -797,8 +797,8 @@ public class FileNotFoundHandler {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" FileNotFoundHandler
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Exception caught: The specified file was not found.
 Error details: this_file_does_not_exist.txt (The system cannot find the file specified)
 
@@ -815,8 +815,8 @@ import java.io.FileOutputStream;
 
 public class StreamDifferenceDemo {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         System.out.println("Demonstrating OutputStream (Writing data to file)...");
         FileOutputStream outputStream = new FileOutputStream("stream_demo.txt");
@@ -842,8 +842,8 @@ public class StreamDifferenceDemo {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" StreamDifferenceDemo
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Demonstrating OutputStream (Writing data to file)...
 Data successfully written using OutputStream.
 
@@ -863,8 +863,8 @@ import java.io.FileOutputStream;
 
 public class StudentDetailsWriter {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         PrintWriter writer = new PrintWriter(new FileOutputStream("students.txt"));
         
@@ -883,8 +883,8 @@ public class StudentDetailsWriter {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" StudentDetailsWriter
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Formatted student details written to students.txt successfully.
 
 Process finished with exit code 0
@@ -901,8 +901,8 @@ import java.io.FileOutputStream;
 
 public class ByteAndCharDisplay {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos = new FileOutputStream("byte_char_test.txt");
         fos.write("IO!".getBytes());
@@ -925,8 +925,8 @@ public class ByteAndCharDisplay {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" ByteAndCharDisplay
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Byte Value Character 
 73         I         
 79         O         
@@ -946,8 +946,8 @@ import java.util.Scanner;
 
 public class FileManagementSystem {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         Scanner scanner = new Scanner(System.in);
         String fileName = "manage_test.txt";
@@ -1002,8 +1002,8 @@ public class FileManagementSystem {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" FileManagementSystem
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 
 1. Write
 2. Read
@@ -1049,8 +1049,8 @@ import java.util.Scanner;
 
 public class IntegerFileOperations {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         Scanner input = new Scanner(System.in);
         PrintWriter writer = new PrintWriter("numbers.txt");
@@ -1083,8 +1083,8 @@ public class IntegerFileOperations {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" IntegerFileOperations
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Enter 10 integers:
 1 2 3 4 5 6 7 8 9 10
 Sum: 55
@@ -1105,8 +1105,8 @@ import java.util.Scanner;
 
 public class KeywordLineFilter {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos = new FileOutputStream("keyword_test.txt");
         fos.write("Java is a programming language.\nPython is also popular.\nI love coding in Java.\nC++ is fast.".getBytes());
@@ -1134,8 +1134,8 @@ public class KeywordLineFilter {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" KeywordLineFilter
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Enter keyword to search: Java
 Lines containing 'Java':
 Java is a programming language.
@@ -1155,8 +1155,8 @@ import java.io.FileOutputStream;
 
 public class FileDeleter {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         String fileName = "temp_delete_test.txt";
         FileOutputStream fos = new FileOutputStream(fileName);
@@ -1183,8 +1183,8 @@ public class FileDeleter {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" FileDeleter
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 File exists. Attempting to delete...
 File deleted successfully.
 
@@ -1204,8 +1204,8 @@ import java.time.format.DateTimeFormatter;
 
 public class DateTimeWriter {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         PrintWriter writer = new PrintWriter(new FileOutputStream("timestamp.txt"));
         
@@ -1227,8 +1227,8 @@ public class DateTimeWriter {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" DateTimeWriter
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Date and time successfully written to timestamp.txt
 
 Process finished with exit code 0
@@ -1245,8 +1245,8 @@ import java.io.FileOutputStream;
 
 public class BufferingPerformanceDemo {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos = new FileOutputStream("large_test.txt");
         byte[] dataChunk = "A".repeat(100000).getBytes();
@@ -1275,8 +1275,8 @@ public class BufferingPerformanceDemo {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" BufferingPerformanceDemo
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 Time taken without buffer: 45 ms
 Time taken with buffer: 2 ms
 
@@ -1293,8 +1293,8 @@ import java.io.FileOutputStream;
 
 public class FileEncryptor {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileOutputStream fos = new FileOutputStream("original.txt");
         fos.write("Secret Message".getBytes());
@@ -1320,8 +1320,8 @@ public class FileEncryptor {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" FileEncryptor
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 File encrypted and saved to encrypted.txt
 
 Process finished with exit code 0
@@ -1337,8 +1337,8 @@ import java.io.FileOutputStream;
 
 public class FileDecryptor {
     public static void main(String[] args) throws Exception {
-        System.out.println("Name: Shreyash");
-        System.out.println("Roll: 24052324");
+        System.out.println("Name: Nitish Mishra");
+        System.out.println("Roll: 24158115");
 
         FileInputStream fis = new FileInputStream("encrypted.txt");
         FileOutputStream fosDecrypt = new FileOutputStream("decrypted.txt");
@@ -1368,8 +1368,8 @@ public class FileDecryptor {
 
 ```
 C:\Users\KIIT\.jdks\temurin-24.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1\lib\idea_rt.jar=50165" FileDecryptor
-Name: Shreyash
-Roll: 24052324
+Name: Nitish Mishra
+Roll: 24158115
 File decrypted and saved to decrypted.txt
 Decrypted content: Secret Message
 

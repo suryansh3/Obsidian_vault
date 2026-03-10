@@ -81,16 +81,32 @@
             "id": "dcc882bb85277653",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "04. Semester 4/3. OOPJ (Java)/ASSIGNMENT-9.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "lucide-file",
+              "title": "ASSIGNMENT-9"
+            }
+          },
+          {
+            "id": "0cc802a26259e791",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-08.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Assignment-08"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -311,8 +327,14 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "dcc882bb85277653",
+  "active": "0cc802a26259e791",
   "lastOpenFiles": [
+    "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-5.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-08.md",
+    "04. Semester 4/3. OOPJ (Java)/LAB/24155060-Day-4.md",
+    "01 - Daily/20260310.md",
+    "04. Semester 4/3. OOPJ (Java)/ASSIGNMENT-9.md",
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-9.md",
     "01 - Daily/20260301.md",
     "04. Semester 4/4. Operating System (OS)/LAB/LAB8.md",
     "01 - Daily/20260228.md",
@@ -338,17 +360,11 @@
     "99 - Meta/attachments/Pasted image 20260225223540.png",
     "99 - Meta/attachments/Pasted image 20260225223529.png",
     "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-7.md",
-    "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-08.md",
     "01 - Daily/20260221.md",
     "conflict-files-obsidian-git.md",
     "Projects-Python/All of Computer Science in 10 Real Projects (and Software Engineering) 1.md",
     "01 - Daily/20260224.md",
     "Clippings/You said  Solve all these java question and put.md",
-    "Clippings/You said  1. WAP to print integers from 1 to n.md",
-    "01 - Daily/20260222.md",
-    "04. Semester 4/3. OOPJ (Java)/LAB/24155060-Day-4.md",
-    "04. Semester 4/4. Operating System (OS)/LAB/Assignment-3.md",
-    "04. Semester 4/4. Operating System (OS)/LAB/Assignment-07.md",
     "Assignment-12-24155060.pdf",
     "Assignment-12-24052323.pdf",
     "04. Semester 4/MID-SEMESTER",
