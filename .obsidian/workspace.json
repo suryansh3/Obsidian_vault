@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20260312.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260312"
+              "title": "README"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -299,7 +299,7 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "2776538a922f252a",
+  "active": "a422af40b1abb699",
   "lastOpenFiles": [
     "01 - Daily/20260312.md",
     "Untitled.md",
