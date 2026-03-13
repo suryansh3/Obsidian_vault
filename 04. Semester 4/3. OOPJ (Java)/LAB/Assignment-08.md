@@ -4,8 +4,8 @@
 
 public class StringComparison {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         String s1 = "Hello";
         String s2 = "Hello";
         String s3 = new String("Hello");
@@ -19,8 +19,8 @@ public class StringComparison {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+Roll: 24155060
 s1 == s2: true
 s1 == s3: false
 s1.equals(s2): true
@@ -35,8 +35,8 @@ s1.equals(s3): true
 
 public class StringImmutability {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         String str = "Hello";
         System.out.println("Original: " + str);
         String modified = str.concat(" World");
@@ -50,8 +50,8 @@ public class StringImmutability {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Original: Hello
 After concat: Hello World
 Original unchanged: Hello
@@ -67,8 +67,8 @@ After reassigning: Hello!
 import java.util.Scanner;
 public class CharCount {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine().toLowerCase();
@@ -91,8 +91,8 @@ public class CharCount {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: Hello World! 123
 Vowels: 3
 Consonants: 7
@@ -108,8 +108,8 @@ Special: 2
 
 public class ReverseString {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         String str = "Java";
         System.out.println("Original: " + str);
         // Using loop
@@ -133,8 +133,8 @@ public class ReverseString {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Original: Java
 Loop reverse: avaJ
 StringBuilder reverse: avaJ
@@ -148,10 +148,10 @@ Recursion reverse: avaJ
 ```java
 
 import java.util.Scanner;
-public class PalindromeIgnore {
+public class temp_1773127075407 {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine().replaceAll("\\s+", "").toLowerCase();
@@ -165,8 +165,8 @@ public class PalindromeIgnore {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: A man a plan a canal Panama
 Palindrome
 ```
@@ -180,8 +180,8 @@ Palindrome
 import java.util.Scanner;
 public class WordCount {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a sentence: ");
         String s = sc.nextLine().trim();
@@ -200,8 +200,8 @@ public class WordCount {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a sentence: India is my country
 Word count: 4
 ```
@@ -216,8 +216,8 @@ import java.util.LinkedHashSet;
 import java.util.Scanner;
 public class RemoveDuplicates {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -233,8 +233,8 @@ public class RemoveDuplicates {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: programming
 After removing duplicates: progamin
 ```
@@ -250,8 +250,8 @@ import java.util.Map;
 import java.util.Scanner;
 public class CharFrequency {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -276,8 +276,8 @@ public class CharFrequency {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: banana
 b: 1
 a: 3
@@ -294,8 +294,8 @@ Max frequency character: a (3 times)
 import java.util.Scanner;
 public class AnagramCheck {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first string: ");
         String s1 = sc.nextLine().toLowerCase();
@@ -325,8 +325,8 @@ public class AnagramCheck {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter first string: listen
 Enter second string: silent
 Anagrams
@@ -342,8 +342,8 @@ import java.util.Map;
 import java.util.Scanner;
 public class FirstNonRepeating {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -370,8 +370,8 @@ public class FirstNonRepeating {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: swiss
 First non-repeating character: w
 ```
@@ -384,8 +384,8 @@ First non-repeating character: w
 
 public class PerformanceCompare {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         int iterations = 100000;
         // String
         long start = System.currentTimeMillis();
@@ -411,8 +411,8 @@ public class PerformanceCompare {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 String time: 1234 ms
 StringBuffer time: 5 ms
 StringBuilder time: 3 ms
@@ -427,8 +427,8 @@ StringBuilder time: 3 ms
 import java.util.Scanner;
 public class ToggleCase {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -449,8 +449,8 @@ public class ToggleCase {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: Hello World 123
 Toggled: hELLO wORLD 123
 ```
@@ -464,8 +464,8 @@ Toggled: hELLO wORLD 123
 import java.util.Scanner;
 public class RemoveExtraSpaces {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a sentence: ");
         String s = sc.nextLine();
@@ -478,8 +478,8 @@ public class RemoveExtraSpaces {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a sentence: India   is   my   country
 Normalized: India is my country
 ```
@@ -493,8 +493,8 @@ Normalized: India is my country
 import java.util.Scanner;
 public class WordLengths {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a sentence: ");
         String s = sc.nextLine().trim();
@@ -514,8 +514,8 @@ public class WordLengths {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a sentence: Java programming language is powerful
 Longest word: programming
 Shortest word: is
@@ -530,8 +530,8 @@ Shortest word: is
 import java.util.Scanner;
 public class StringCompression {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -554,8 +554,8 @@ public class StringCompression {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: aaabbcc
 Compressed: a3b2c2
 ```
@@ -569,8 +569,8 @@ Compressed: a3b2c2
 import java.util.Scanner;
 public class PasswordValidator {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter password: ");
         String pwd = sc.nextLine();
@@ -594,8 +594,8 @@ public class PasswordValidator {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter password: Pass@123
 Valid password
 ```
@@ -609,8 +609,8 @@ Valid password
 import java.util.Scanner;
 public class StringRotation {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first string: ");
         String s1 = sc.nextLine();
@@ -628,8 +628,8 @@ public class StringRotation {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter first string: abcd
 Enter second string: cdab
 Yes, rotation
@@ -644,8 +644,8 @@ Yes, rotation
 import java.util.Scanner;
 public class AllSubstrings {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -664,8 +664,8 @@ public class AllSubstrings {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: abc
 a
 ab
@@ -687,8 +687,8 @@ import java.util.Map;
 import java.util.Scanner;
 public class MostRepeatedWord {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a paragraph: ");
         String para = sc.nextLine().toLowerCase();
@@ -713,8 +713,8 @@ public class MostRepeatedWord {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a paragraph: Java is great. Java is powerful. Java is everywhere.
 Most repeated word: 'java' (3 times)
 ```
@@ -729,8 +729,8 @@ import java.util.HashSet;
 import java.util.Scanner;
 public class UniqueChars {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -751,8 +751,8 @@ public class UniqueChars {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: abcdef
 All unique
 ```
@@ -766,8 +766,8 @@ All unique
 import java.util.Scanner;
 public class IPv4Validator {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter IPv4 address: ");
         String ip = sc.nextLine();
@@ -794,8 +794,8 @@ public class IPv4Validator {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter IPv4 address: 192.168.1.1
 Valid IPv4
 ```
@@ -809,8 +809,8 @@ Valid IPv4
 import java.util.Scanner;
 public class CustomIndexOf {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter main string: ");
         String mainStr = sc.nextLine();
@@ -838,8 +838,8 @@ public class CustomIndexOf {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter main string: Hello World
 Enter substring to find: World
 Index: 6
@@ -854,8 +854,8 @@ Index: 6
 import java.util.Scanner;
 public class OneEditDistance {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first string: ");
         String s1 = sc.nextLine();
@@ -888,8 +888,8 @@ public class OneEditDistance {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter first string: cat
 Enter second string: cats
 Yes, differ by exactly one change
@@ -904,8 +904,8 @@ Yes, differ by exactly one change
 import java.util.Scanner;
 public class Permutations {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -928,8 +928,8 @@ public class Permutations {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: abc
 abc
 acb
@@ -949,8 +949,8 @@ import java.util.HashMap;
 import java.util.Scanner;
 public class WordPattern {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter pattern (like abba): ");
         String pattern = sc.nextLine();
@@ -989,8 +989,8 @@ public class WordPattern {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter pattern (like abba): abba
 Enter sentence: dog cat cat dog
 Pattern matches
@@ -1004,8 +1004,8 @@ Pattern matches
 import java.util.Scanner;
 public class EditDistance {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first string: ");
         String s1 = sc.nextLine();
@@ -1036,8 +1036,8 @@ public class EditDistance {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter first string: kitten
 Enter second string: sitting
 Edit distance: 3
@@ -1052,8 +1052,8 @@ Edit distance: 3
 import java.util.Scanner;
 public class AlnumPalindrome {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -1070,8 +1070,8 @@ public class AlnumPalindrome {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: A man, a plan, a canal: Panama
 Valid palindrome
 ```
@@ -1085,8 +1085,8 @@ Valid palindrome
 import java.util.Scanner;
 public class CaesarCipher {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter text: ");
         String text = sc.nextLine();
@@ -1119,8 +1119,8 @@ public class CaesarCipher {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter text: Hello India
 Enter shift: 3
 Encrypted: Khoor Lqgld
@@ -1136,8 +1136,8 @@ Decrypted: Hello India
 import java.util.Scanner;
 public class LongestPalindrome {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
@@ -1165,8 +1165,8 @@ public class LongestPalindrome {
 
 **Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 Enter a string: babad
 Longest palindrome: bab
 ```
@@ -1180,8 +1180,8 @@ Longest palindrome: bab
 import java.util.Scanner;
 public class StringUtility {
     public static void main(String[] args) {
-        System.out.println("Name : Aayush Thakur");
-        System.out.println("  Roll: 24052715");
+        System.out.println("Name : Suryansh Mithu");
+        System.out.println("  Roll: 24155060");
         Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.println("\n--- String Utility Menu ---");
@@ -1229,8 +1229,8 @@ public class StringUtility {
 
 **Sample Output:**
 ```
-Name : Aayush Thakur
-  Roll: 24052715
+Name : Suryansh Mithu
+  Roll: 24155060
 
 --- String Utility Menu ---
 1. Reverse string
@@ -1244,3 +1244,4 @@ Reverse: aidnI olleH
 
 ... (further menu interactions)
 ```
+
