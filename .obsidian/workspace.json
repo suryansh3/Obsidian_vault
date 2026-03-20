@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "Assignment-9"
             }
+          },
+          {
+            "id": "4d7ee945075b7487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20260320.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260320"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -312,10 +326,11 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "cc23a0ead509021f",
+  "active": "4d7ee945075b7487",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "04. Semester 4/4. Operating System (OS)/Assignment-9.md",
+    "01 - Daily/20260320.md",
+    "conflict-files-obsidian-git.md",
     "04. Semester 4/4. Operating System (OS)/Untitled.md",
     "desktop.ini",
     "Untitled.md",
@@ -350,7 +365,6 @@
     "01 - Daily/20260223.md",
     "Projects-Python/All of Computer Science in 10 Real Projects (and Software Engineering) 1.md",
     "01 - Daily/20260222.md",
-    "Clippings/You said  1. WAP to print integers from 1 to n.md",
     "Assignment-12-24052323.pdf",
     "Assignment-12-24155060.pdf",
     "04. Semester 4/MID-SEMESTER",
