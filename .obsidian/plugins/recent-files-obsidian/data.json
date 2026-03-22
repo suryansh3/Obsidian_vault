@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "arduino project",
+      "path": "arduino project.md"
+    },
+    {
       "basename": "20260323",
       "path": "01 - Daily/20260323.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Assignment-3",
       "path": "04. Semester 4/4. Operating System (OS)/LAB/Assignment-3.md"
-    },
-    {
-      "basename": "Ebook reader",
-      "path": "Projects-Python/Ebook reader.md"
     }
   ],
   "omittedPaths": [],
