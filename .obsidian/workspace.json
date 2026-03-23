@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -355,7 +355,7 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "95e5caac71d0d672",
+  "active": "ca88448ef176fc09",
   "lastOpenFiles": [
     "01 - Daily/20260323.md",
     "arduino project.md",
