@@ -17,9 +17,9 @@ The difference between overloading and overriding, and the application of Dynami
 ### 3. The `final` Keyword
 Examiners frequently ask for the uses or characteristics of the `final` keyword in Java.
 
-*   **Final Variables:** When applied to a data member, it creates a constant whose value cannot be reinitialized or changed once assigned[cite: 4, 6, 7].
-*   **Final Methods:** A method declared as final cannot be overridden by any child classes, ensuring the implementation remains unchanged[cite: 4, 6, 7].
-*   **Final Classes:** A class declared as final cannot be extended or inherited by another class[cite: 4, 6, 7].
+*   **Final Variables:** When applied to a data member, it creates a constant whose value cannot be reinitialized or changed once assigned.
+*   **Final Methods:** A method declared as final cannot be overridden by any child classes, ensuring the implementation remains unchanged.
+*   **Final Classes:** A class declared as final cannot be extended or inherited by another class.
 
 ### 4. Checked vs. Unchecked Exceptions
 Questions asking to differentiate between these two types of exceptions, or to draw the `Throwable` hierarchy, are very common.
