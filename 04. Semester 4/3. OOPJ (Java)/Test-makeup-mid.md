@@ -41,5 +41,213 @@ For the Web Technology specific exams, creating forms and understanding CSS inte
 *   **CSS Selectors:** Common selectors include the **Element Selector** (selects by HTML tag name), **Id Selector** (uses `#` to select a unique element), and **Class Selector** (uses a period `.` to select elements with a specific class attribute)[cite: 3].
 
 ***
+### 1. Dynamic Method Dispatch (Method Overriding)
 
-Would you like me to write out the full Java code for any of the frequently repeated programming assignments, such as the Dynamic Method Dispatch programs (e.g., the Bank Interest Rate or Apple/Banana/Cherry examples)?
+This is a classic question used to test your understanding of runtime polymorphism. The prompt usually asks you to create a base class and derived classes with an overridden method.
+
+**The Prompt:** Write a program having three classes `Apple`, `Banana`, and `Cherry`. `Banana` and `Cherry` inherit from `Apple`. Each class has its own `show()` method. Use Dynamic Method Dispatch to display the `show()` method of each class.
+
+Java
+
+```
+class Apple {
+    void show() {
+        System.out.println("Inside Apple's show method");
+    }
+}
+
+class Banana extends Apple {
+    @Override
+    void show() {
+        System.out.println("Inside Banana's show method");
+    }
+}
+
+class Cherry extends Apple {
+    @Override
+    void show() {
+        System.out.println("Inside Cherry's show method");
+    }
+}
+
+public class DynamicDispatchDemo {
+    public static void main(String args[]) {
+        // Creating objects of each class
+        Apple a = new Apple();
+        Banana b = new Banana();
+        Cherry c = new Cherry();
+        
+        // Superclass reference variable
+        Apple ref; 
+        
+        ref = a; // refers to Apple object
+        ref.show(); // Calls Apple's version of show()
+        
+        ref = b; // refers to Banana object
+        ref.show(); // Calls Banana's version of show()
+        
+        ref = c; // refers to Cherry object
+        ref.show(); // Calls Cherry's version of show()
+    }
+}
+```
+
+---
+
+### 2. Abstract Classes
+
+
+Java
+
+```
+abstract class Figure {
+    abstract void area();
+}
+
+class Circle extends Figure {
+    private double radius;
+    
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+    
+    @Override
+    public void area() {
+        System.out.println("Area of Circle: " + (Math.PI * radius * radius));
+    }
+}
+
+class Square extends Figure {
+    private double side;
+    
+    public Square(double side) {
+        this.side = side;
+    }
+    
+    @Override
+    public void area() {
+        System.out.println("Area of Square: " + (side * side));
+    }
+}
+
+public class AbstractClassDemo {
+    public static void main(String[] args) {
+        // Reference of abstract class
+        Figure fig; 
+        
+        fig = new Circle(5);
+        fig.area(); // Calls Circle's area method
+        
+        fig = new Square(4);
+        fig.area(); // Calls Square's area method
+    }
+}
+```
+
+---
+
+### 3. Custom Exception Handling & Threads
+
+This assignment tests your ability to create user-defined exceptions, use `throw` and `throws`, and handle multithreading basics (`Thread.sleep`).
+
+**The Prompt:** Create a user-defined exception called `IllegalArgsException`. Throw the exception if a negative timeout value is passed to `Thread.sleep()`. Otherwise, sleep for the given time and display "KIIT University" five times.
+
+Java
+
+```
+// Custom exception class
+class IllegalArgsException extends Exception {
+    public IllegalArgsException(String str) {
+        super(str);
+    }
+}
+
+public class CustomExceptionDemo {
+    // Declaring that this method might throw our custom exception
+    public static void main(String args[]) throws IllegalArgsException {
+        // Simulating command line argument input (e.g., passing 500 or -100)
+        // In a real execution, you would pass this via args[0]
+        int sleepTime = 500; 
+        
+        if (sleepTime < 0) {
+            throw new IllegalArgsException("Value should be greater than or equal to zero");
+        } else {
+            for (int i = 0; i < 5; i++) {
+                try {
+                    Thread.sleep(sleepTime);
+                } catch (InterruptedException e) {
+                    System.out.println("Thread interrupted");
+                }
+                System.out.println("KIIT University");
+            }
+        }
+    }
+}
+```
+
+---
+
+### 4. Inner Classes
+
+Understanding how to nest classes and access their properties is another staple of these exams.
+
+**The Prompt:** Design a `Student` class with private attributes `name` and `rollNo`. Inside it, implement an inner class `Exam` with attributes `subject` and `marks`. Provide methods to set/get marks and display details. Create a driver class to test it.
+
+Java
+
+```
+class Student {
+    private String name;
+    private int rollNo;
+    
+    public Student(String name, int rollNo) {
+        this.name = name;
+        this.rollNo = rollNo;
+    }
+    
+    public void displayStudentDetails() {
+        System.out.println("Student Name: " + name);
+        System.out.println("Roll Number: " + rollNo);
+    }
+    
+    // Inner class
+    class Exam {
+        private String subject;
+        private double marks;
+        
+        public Exam(String subject) {
+            this.subject = subject;
+        }
+        
+        public void setMarks(double marks) {
+            this.marks = marks;
+        }
+        
+        public double getMarks() {
+            return marks;
+        }
+        
+        public void displayExamDetails() {
+            System.out.println("Subject: " + subject);
+            System.out.println("Marks Obtained: " + marks);
+        }
+    }
+}
+
+public class InnerClassDemo {
+    public static void main(String[] args) {
+        // Create an object of the outer class
+        Student student = new Student("John Doe", 101);
+        
+        // Create an object of the inner class using the outer class instance
+        Student.Exam exam = student.new Exam("Mathematics");
+        exam.setMarks(85.5);
+        
+        // Display details
+        student.displayStudentDetails();
+        exam.displayExamDetails();
+    }
+}
+```
+
+Would you like to review the code for the frequently asked String and StringBuffer questions (like finding anagrams or reversing strings), or would you rather test your knowledge on one of these concepts?
