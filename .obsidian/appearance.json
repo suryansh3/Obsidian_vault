@@ -1,6 +1,6 @@
 {
   "accentColor": "#43cfea",
-  "cssTheme": "",
+  "cssTheme": "Prism",
   "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "textFontFamily": "JetBrainsMono Nerd Font Mono",
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
@@ -18,6 +18,6 @@
     "black-snippet-color"
   ],
   "translucency": false,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "baseFontSize": 17
 }
