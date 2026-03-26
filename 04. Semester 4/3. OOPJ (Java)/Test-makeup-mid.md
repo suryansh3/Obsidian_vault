@@ -24,8 +24,8 @@ Examiners frequently ask for the uses or characteristics of the `final` keyword 
 ### 4. Checked vs. Unchecked Exceptions
 Questions asking to differentiate between these two types of exceptions, or to draw the `Throwable` hierarchy, are very common.
 
-*   **Checked Exceptions:** These are checked at compile-time[cite: 3, 7]. The compiler ensures that these exceptions are either handled using a `try-catch` block or declared using the `throws` keyword[cite: 5, 7]. Examples include `IOException`, `SQLException`, and `ClassNotFoundException`[cite: 5, 7].
-*   **Unchecked Exceptions:** These occur at runtime and are not checked by the compiler[cite: 3, 7]. They usually result from programming logic errors and do not require the JVM to catch or handle them at compile time[cite: 5, 7]. Examples include `ArithmeticException`, `NullPointerException`, and `ArrayIndexOutOfBoundsException`[cite: 5, 7].
+*   **Checked Exceptions:** These are checked at compile-time. The compiler ensures that these exceptions are either handled using a `try-catch` block or declared using the `throws` keyword. Examples include `IOException`, `SQLException`, and `ClassNotFoundException`.
+*   **Unchecked Exceptions:** These occur at runtime and are not checked by the compiler. They usually result from programming logic errors and do not require the JVM to catch or handle them at compile time. Examples include `ArithmeticException`, `NullPointerException`, and `ArrayIndexOutOfBoundsException`.
 
 ### 5. Abstract Classes vs. Interfaces & Multiple Inheritance
 The differences between abstract classes and interfaces, specifically regarding multiple inheritance, are standard exam topics.
@@ -95,80 +95,51 @@ public class DynamicDispatchDemo {
 ---
 
 ### 2. Abstract Classes
-
-
-Java
-
-```
+```java
 abstract class Figure {
     abstract void area();
 }
-
 class Circle extends Figure {
     private double radius;
-    
     public Circle(double radius) {
-        this.radius = radius;
-    }
-    
+        this.radius = radius;}
     @Override
     public void area() {
-        System.out.println("Area of Circle: " + (Math.PI * radius * radius));
-    }
-}
-
+        System.out.println("Area of Circle: " + (Math.PI * radius * radius));}}
 class Square extends Figure {
-    private double side;
-    
+    private double side;   
     public Square(double side) {
-        this.side = side;
-    }
-    
+        this.side = side;}
     @Override
     public void area() {
-        System.out.println("Area of Square: " + (side * side));
-    }
-}
-
+        System.out.println("Area of Square: " + (side * side));}}
 public class AbstractClassDemo {
     public static void main(String[] args) {
-        // Reference of abstract class
         Figure fig; 
-        
         fig = new Circle(5);
-        fig.area(); // Calls Circle's area method
-        
+        fig.area();
         fig = new Square(4);
-        fig.area(); // Calls Square's area method
-    }
-}
+        fig.area();}}
 ```
 
 ---
 
-### 3. Custom Exception Handling & Threads
+### 3. 
 
 This assignment tests your ability to create user-defined exceptions, use `throw` and `throws`, and handle multithreading basics (`Thread.sleep`).
 
 **The Prompt:** Create a user-defined exception called `IllegalArgsException`. Throw the exception if a negative timeout value is passed to `Thread.sleep()`. Otherwise, sleep for the given time and display "KIIT University" five times.
 
-Java
 
-```
-// Custom exception class
+Custom Exception Handling & Threads
+
+``` Java
 class IllegalArgsException extends Exception {
     public IllegalArgsException(String str) {
-        super(str);
-    }
-}
-
+        super(str);}}
 public class CustomExceptionDemo {
-    // Declaring that this method might throw our custom exception
     public static void main(String args[]) throws IllegalArgsException {
-        // Simulating command line argument input (e.g., passing 500 or -100)
-        // In a real execution, you would pass this via args[0]
         int sleepTime = 500; 
-        
         if (sleepTime < 0) {
             throw new IllegalArgsException("Value should be greater than or equal to zero");
         } else {
@@ -250,4 +221,35 @@ public class InnerClassDemo {
 }
 ```
 
-Would you like to review the code for the frequently asked String and StringBuffer questions (like finding anagrams or reversing strings), or would you rather test your knowledge on one of these concepts?
+######  Student class with private attributes name and rollNo to store the student's details.
+``` java 
+class Student {
+private String name;
+private int rollNo;
+public Student(String name, int rollNo) {
+this.name = name;
+this.rollNo = rollNo;
+}}
+public void displayStudentDetails() {
+System.out.println("Student Name: " + name);
+System.out.println("Roll Number: " + rollNo);}
+class Exam {
+public double getMarks() 
+private String subject;
+private double marks;
+public Exam(String subject) {
+this.subject = subject;}
+public void setMarks(double marks) {
+this.marks = marks;}
+return marks;}
+public void displayExamDetails() {
+System.out.println("Subject: " + subject);
+public class Main {
+System.out.println("Marks Obtained: " + marks);}}}
+public static void main(String[] args) {
+Student student = new Student("John Doe", 101);
+Student.Exam exam = student.new Exam("Mathematics");
+exam.setMarks(85.5);
+student.displayStudentDetails();
+exam.displayExamDetails();}}
+```
