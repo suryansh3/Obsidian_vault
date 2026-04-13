@@ -253,3 +253,46 @@ exam.setMarks(85.5);
 student.displayStudentDetails();
 exam.displayExamDetails();}}
 ```
+
+### Bank Problem using interface
+```java
+interface BankAccount { void deposit(double amount); void withdraw(double amount); double getBalance(); }
+class SavingsAccount implements BankAccount {
+    private double balance;
+    private final double MIN_BALANCE = 500.0;
+    public void deposit(double amount) {
+        balance += amount;
+        System.out.println("Deposited: " + amount);}
+    public void withdraw(double amount) {
+        if (balance - amount >= MIN_BALANCE) {
+            balance -= amount;
+            System.out.println("Withdrawn: " + amount);
+        } else {
+            System.out.println("Transaction Denied: Minimum balance of 500 required.");}}
+    public double getBalance() { return balance; }
+}
+class CurrentAccount implements BankAccount {
+    private double balance;
+    private final double OVERDRAFT_LIMIT = 1000.0;
+    public void deposit(double amount) {
+        balance += amount;
+        System.out.println("Deposited: " + amount);}
+    public void withdraw(double amount) {
+        if (balance - amount >= -OVERDRAFT_LIMIT) {
+            balance -= amount;
+            System.out.println("Withdrawn: " + amount);
+        } else {
+            System.out.println("Transaction Denied: Overdraft limit exceeded.");}}
+    public double getBalance() { return balance; }
+}
+public class BankSystem {
+    public static void main(String[] args) {
+     BankAccount myAccount = new SavingsAccount();
+        myAccount.deposit(1000);
+        myAccount.withdraw(600); 
+        myAccount.withdraw(200); 
+        System.out.println("Final Balance: " + myAccount.getBalance());
+    }
+}
+```
+
