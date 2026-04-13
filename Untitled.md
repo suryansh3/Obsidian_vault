@@ -1,156 +1,114 @@
--- 6.2. Display employee “Andrew Brown” school name
-SQL> SELECT S.NAME AS SCHOOL_NAME
-  2  FROM EMPLOYEE E
-  3  JOIN EMPLOYEE_ALIGNMENT EA ON E.ID = EA.EMPLOYEE_ID
-  4  JOIN SCHOOL S ON EA.SCHOOL_ID = S.ID
-  5  WHERE E.FIRST_NAME = 'Andrew' AND E.LAST_NAME = 'Brown';
+Based on the image provided, we need to evaluate the following expression:
 
-SCHOOL_NAME
--------------------------
-Computer Engineering
+$$Z = \frac{A + B - C \times D}{(E + F) \times (H + I - G)}$$
 
-1 row selected.
+Here are the instruction sequences for One-Address, Two-Address, Three-Address, and RISC (Load/Store) architectures. We will use standard instruction mnemonics (ADD, SUB, MUL, DIV, LOAD, STORE, MOV) and temporary variables ($T_1, T_2, \dots$) or registers ($R_1, R_2, \dots$) to hold intermediate results.
 
--- 6.3. Display full name of the supervisor for employee ID “128433”
-SQL> SELECT S.FIRST_NAME || ' ' || S.LAST_NAME AS SUPERVISOR_NAME
-  2  FROM EMPLOYEE E
-  3  JOIN EMPLOYEE S ON E.SUPERVISOR_ID = S.ID
-  4  WHERE E.ID = 128433;
+---
 
-SUPERVISOR_NAME
---------------------
-Amit Banerjee
+### 1. Three-Address Instructions
+In a three-address machine, instructions typically follow the format `OP Destination, Source1, Source2`.
 
-1 row selected.
+```text
+// Numerator Evaluation
+MUL T1, C, D      // T1 = C * D
+ADD T2, A, B      // T2 = A + B
+SUB T3, T2, T1    // T3 = (A + B) - (C * D) -> Numerator is ready
 
--- 6.4. Who belongs to same school as “Rod Marsh”?
-SQL> SELECT E2.FIRST_NAME || ' ' || E2.LAST_NAME AS COLLEAGUE_NAME
-  2  FROM EMPLOYEE E1
-  3  JOIN EMPLOYEE_ALIGNMENT EA1 ON E1.ID = EA1.EMPLOYEE_ID
-  4  JOIN EMPLOYEE_ALIGNMENT EA2 ON EA1.SCHOOL_ID = EA2.SCHOOL_ID
-  5  JOIN EMPLOYEE E2 ON EA2.EMPLOYEE_ID = E2.ID
-  6  WHERE E1.FIRST_NAME = 'Rod' AND E1.LAST_NAME = 'Marsh'
-  7    AND E2.ID <> E1.ID;
+// Denominator Evaluation
+ADD T4, E, F      // T4 = E + F
+ADD T5, H, I      // T5 = H + I
+SUB T6, T5, G     // T6 = (H + I) - G
+MUL T7, T4, T6    // T7 = (E + F) * (H + I - G) -> Denominator is ready
 
-COLLEAGUE_NAME
---------------------
-Larry Houston
-Andrew Brown
+// Final Calculation
+DIV Z, T3, T7     // Z = Numerator / Denominator
+```
 
-2 rows selected.
+---
 
--- 6.5. Who has the same title as “Stanely Garner”?
-SQL> SELECT E2.FIRST_NAME || ' ' || E2.LAST_NAME AS FULL_NAME
-  2  FROM EMPLOYEE E1
-  3  JOIN EMPLOYEE_PAY EP1 ON E1.ID = EP1.EMPLOYEE_ID
-  4  JOIN JOB J1 ON EP1.JOB_ID = J1.ID
-  5  JOIN JOB J2 ON J1.TITLE = J2.TITLE
-  6  JOIN EMPLOYEE_PAY EP2 ON J2.ID = EP2.JOB_ID
-  7  JOIN EMPLOYEE E2 ON EP2.EMPLOYEE_ID = E2.ID
-  8  WHERE E1.FIRST_NAME = 'Stanely' AND E1.LAST_NAME = 'Garner'
-  9    AND E2.ID <> E1.ID;
+### 2. Two-Address Instructions
+In a two-address machine, instructions follow the format `OP Destination, Source`, where the destination also acts as the first operand (i.e., `Dest = Dest OP Source`).
 
-FULL_NAME
---------------------
-Meenakshi Iyer
-Priyanka Reddy
+```text
+// Numerator Evaluation
+MOV T1, C         // T1 = C
+MUL T1, D         // T1 = C * D
+MOV T2, A         // T2 = A
+ADD T2, B         // T2 = A + B
+SUB T2, T1        // T2 = (A + B) - (C * D) -> Numerator is in T2
 
-2 rows selected.
+// Denominator Evaluation
+MOV T3, E         // T3 = E
+ADD T3, F         // T3 = E + F
+MOV T4, H         // T4 = H
+ADD T4, I         // T4 = H + I
+SUB T4, G         // T4 = (H + I) - G
+MUL T3, T4        // T3 = (E + F) * (H + I - G) -> Denominator is in T3
 
--- 6.6. Which employees are working in the school longer than “Larry Houston”?
--- Assuming HIRE_DATE is in the EMPLOYEE or EMPLOYEE_ALIGNMENT table
-SQL> SELECT E2.FIRST_NAME || ' ' || E2.LAST_NAME AS FULL_NAME
-  2  FROM EMPLOYEE E1
-  3  JOIN EMPLOYEE E2 ON E2.HIRE_DATE < E1.HIRE_DATE
-  4  WHERE E1.FIRST_NAME = 'Larry' AND E1.LAST_NAME = 'Houston';
+// Final Calculation
+DIV T2, T3        // T2 = Numerator / Denominator
+MOV Z, T2         // Store the result in Z
+```
 
-FULL_NAME
---------------------
-Amit Banerjee
-Rajesh Sharma
+---
 
-2 rows selected.
+### 3. One-Address Instructions (Accumulator Architecture)
+In a one-address machine, an implicit Accumulator (AC) is used. Instructions follow the format `OP Source`, meaning `AC = AC OP Source`. `LOAD` moves a value into the AC, and `STORE` saves the AC to memory.
 
--- 6.7. Find the number of employees working in school of computer engineering
-SQL> SELECT COUNT(EA.EMPLOYEE_ID) AS EMP_COUNT
-  2  FROM EMPLOYEE_ALIGNMENT EA
-  3  JOIN SCHOOL S ON EA.SCHOOL_ID = S.ID
-  4  WHERE S.NAME = 'Computer Engineering';
+```text
+// Numerator Evaluation
+LOAD C            // AC = C
+MUL D             // AC = C * D
+STORE T1          // T1 = AC (Save C * D)
+LOAD A            // AC = A
+ADD B             // AC = A + B
+SUB T1            // AC = (A + B) - T1
+STORE T2          // T2 = AC (Save Numerator)
 
- EMP_COUNT
-----------
-         8
+// Denominator Evaluation
+LOAD H            // AC = H
+ADD I             // AC = H + I
+SUB G             // AC = (H + I) - G
+STORE T3          // T3 = AC (Save H + I - G)
+LOAD E            // AC = E
+ADD F             // AC = E + F
+MUL T3            // AC = (E + F) * T3
+STORE T4          // T4 = AC (Save Denominator)
 
-1 row selected.
+// Final Calculation
+LOAD T2           // AC = Numerator
+DIV T4            // AC = Numerator / Denominator
+STORE Z           // Store the final result in Z
+```
 
--- 6.8. Find the number of employees working in school of civil engineering and as professor
-SQL> SELECT COUNT(E.ID) AS PROF_COUNT
-  2  FROM EMPLOYEE E
-  3  JOIN EMPLOYEE_ALIGNMENT EA ON E.ID = EA.EMPLOYEE_ID
-  4  JOIN SCHOOL S ON EA.SCHOOL_ID = S.ID
-  5  JOIN EMPLOYEE_PAY EP ON E.ID = EP.EMPLOYEE_ID
-  6  JOIN JOB J ON EP.JOB_ID = J.ID
-  7  WHERE S.NAME = 'Civil Engineering' AND J.TITLE = 'Professor';
+---
 
-PROF_COUNT
-----------
-         3
+### 4. RISC Architecture (Load/Store)
+RISC architectures dictate that memory can only be accessed via `LOAD` and `STORE` instructions. All arithmetic operations must be performed strictly on registers using three-address formats (`OP RegDest, RegSrc1, RegSrc2`).
 
-1 row selected.
+```text
+// Load Numerator variables and calculate
+LOAD R1, C
+LOAD R2, D
+MUL R3, R1, R2    // R3 = C * D
+LOAD R4, A
+LOAD R5, B
+ADD R6, R4, R5    // R6 = A + B
+SUB R7, R6, R3    // R7 = Numerator
 
--- 6.9. Find the employees with minimum salary in their own school in associate professor rank
-SQL> SELECT E.FIRST_NAME || ' ' || E.LAST_NAME AS FULL_NAME, J.SALARY, S.NAME
-  2  FROM EMPLOYEE E
-  3  JOIN EMPLOYEE_PAY EP ON E.ID = EP.EMPLOYEE_ID
-  4  JOIN JOB J ON EP.JOB_ID = J.ID
-  5  JOIN EMPLOYEE_ALIGNMENT EA ON E.ID = EA.EMPLOYEE_ID
-  6  JOIN SCHOOL S ON EA.SCHOOL_ID = S.ID
-  7  WHERE J.TITLE = 'Associate Professor'
-  8    AND J.SALARY = (SELECT MIN(J2.SALARY) 
-  9                    FROM JOB J2 
- 10                    JOIN EMPLOYEE_PAY EP2 ON J2.ID = EP2.JOB_ID
- 11                    JOIN EMPLOYEE_ALIGNMENT EA2 ON EP2.EMPLOYEE_ID = EA2.EMPLOYEE_ID
- 12                    WHERE EA2.SCHOOL_ID = S.ID AND J2.TITLE = 'Associate Professor');
+// Load Denominator variables and calculate
+LOAD R8, E
+LOAD R9, F
+ADD R10, R8, R9   // R10 = E + F
+LOAD R11, H
+LOAD R12, I
+ADD R13, R11, R12 // R13 = H + I
+LOAD R14, G
+SUB R15, R13, R14 // R15 = H + I - G
+MUL R16, R10, R15 // R16 = Denominator
 
-FULL_NAME            SALARY     SCHOOL_NAME
--------------------- ---------- -------------------------
-Meenakshi Iyer       95000      Electronic Engineering
-
-1 row selected.
-
--- 6.10. Find the employees with maximum salary in their own school in professor rank
-SQL> SELECT E.FIRST_NAME || ' ' || E.LAST_NAME AS FULL_NAME, J.SALARY, S.NAME
-  2  FROM EMPLOYEE E
-  3  JOIN EMPLOYEE_PAY EP ON E.ID = EP.EMPLOYEE_ID
-  4  JOIN JOB J ON EP.JOB_ID = J.ID
-  5  JOIN EMPLOYEE_ALIGNMENT EA ON E.ID = EA.EMPLOYEE_ID
-  6  JOIN SCHOOL S ON EA.SCHOOL_ID = S.ID
-  7  WHERE J.TITLE = 'Professor'
-  8    AND J.SALARY = (SELECT MAX(J2.SALARY) 
-  9                    FROM JOB J2 
- 10                    JOIN EMPLOYEE_PAY EP2 ON J2.ID = EP2.JOB_ID
- 11                    JOIN EMPLOYEE_ALIGNMENT EA2 ON EP2.EMPLOYEE_ID = EA2.EMPLOYEE_ID
- 12                    WHERE EA2.SCHOOL_ID = S.ID AND J2.TITLE = 'Professor');
-
-FULL_NAME            SALARY     SCHOOL_NAME
--------------------- ---------- -------------------------
-Amit Banerjee        140000     Computer Engineering
-
-1 row selected.
-
--- 6.11. Find the average salary by each school
-SQL> SELECT S.NAME AS SCHOOL_NAME, ROUND(AVG(J.SALARY), 2) AS AVG_SALARY
-  2  FROM SCHOOL S
-  3  JOIN EMPLOYEE_ALIGNMENT EA ON S.ID = EA.SCHOOL_ID
-  4  JOIN EMPLOYEE_PAY EP ON EA.EMPLOYEE_ID = EP.EMPLOYEE_ID
-  5  JOIN JOB J ON EP.JOB_ID = J.ID
-  6  GROUP BY S.NAME;
-
-SCHOOL_NAME                AVG_SALARY
--------------------------  ----------
-Computer Engineering       98500.50
-Electronic Engineering     92000.00
-Mechanical Engineering     78000.00
-Civil Engineering          105000.00
-
-4 rows selected.
+// Final Division and Store
+DIV R17, R7, R16  // R17 = Numerator / Denominator
+STORE Z, R17      // Save result to memory location Z
+```
