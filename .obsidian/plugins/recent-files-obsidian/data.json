@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Good Prompts",
+      "path": "Good Prompts.md"
+    },
+    {
       "basename": "20260429",
       "path": "01 - Daily/20260429.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20260226",
       "path": "01 - Daily/20260226.md"
-    },
-    {
-      "basename": "Assignment",
-      "path": "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment.md"
     }
   ],
   "omittedPaths": [],
