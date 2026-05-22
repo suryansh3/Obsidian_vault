@@ -236,7 +236,7 @@
               "type": "recent-files",
               "state": {},
               "icon": "clock",
-              "title": "Recent Files"
+              "title": "Recent files"
             }
           }
         ]
@@ -393,11 +393,16 @@
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
       "remotely-save:Remotely Save": false,
-      "handwritten-notes:Create empty handwritten note": false
+      "handwritten-notes:Create empty handwritten note": false,
+      "inkporter:Inkporter: Extract Image from File": false
     }
   },
-  "active": "d346d054fad2a195",
+  "active": "dae2e93bf296de16",
   "lastOpenFiles": [
+    "00 - AI and ML/Placeholder.md",
+    "00 - AI and ML/GIithub",
+    "00 - AI and ML/Gen AI",
+    "00 - AI and ML/Python",
     "01 - Daily/20260522.md",
     "conflict-files-obsidian-git.md",
     "01 - Daily/20260519.md",
@@ -424,7 +429,6 @@
     "01 - Daily/20260413.md",
     "04. Semester 4/3. OOPJ (Java)/Test-makeup-mid.md",
     "01 - Daily/20260326.md",
-    "04. Semester 4/3. OOPJ (Java)/Assignment-10.md",
     "Untitled.base",
     "99 - Meta/attachments/Screenshot 2026-03-22 225048.png",
     "99 - Meta/attachments/Screenshot 2026-03-22 225030.png",
@@ -441,9 +445,6 @@
     "04. Semester 4/DBMS",
     "Projects-Python",
     "04. Semester 4/4. Operating System (OS)/Theory",
-    "04. Semester 4/4. Operating System (OS)/LAB",
-    "04. Semester 4/DAWR",
-    "99 - Meta/attachments/Stranger_Danger.epub",
     "Untitled.canvas"
   ]
 }

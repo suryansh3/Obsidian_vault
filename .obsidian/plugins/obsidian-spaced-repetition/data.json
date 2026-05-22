@@ -5,6 +5,7 @@
       "#Japanese/Vocabulary",
       "#Japanese/Misc"
     ],
+    "flashcardTagsToIgnore": [],
     "convertFoldersToDecks": false,
     "burySiblingCards": false,
     "flashcardCardOrder": "DueFirstRandom",
@@ -26,6 +27,7 @@
     "tagsToReview": [
       "#review"
     ],
+    "noteTagsToIgnore": [],
     "noteFoldersToIgnore": [
       "99 - Meta"
     ],
@@ -63,14 +65,16 @@
     "loadBalance": true,
     "maximumInterval": 36525,
     "maxLinkFactor": 1,
+    "fsrsDesiredRetention": 0.9,
     "startOfDay": "00:00:00",
     "dataStore": "NOTES",
     "cardCommentOnSameLine": true,
     "showSchedulingDebugMessages": false,
     "showParserDebugMessages": false,
+    "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
     "showDebugMessages": false
   },
-  "buryDate": "2026-05-19",
+  "buryDate": "2026-05-22",
   "buryList": [],
   "historyDeck": null
 }
