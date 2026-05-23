@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "20260523",
-      "path": "01 - Daily/20260523.md"
+      "basename": "Distribution Deepseek",
+      "path": "03. Semester 3rd/04 - Probability/Distribution Deepseek.md"
+    },
+    {
+      "basename": "PMF and CMF interconvertibility",
+      "path": "03. Semester 3rd/04 - Probability/PMF and CMF interconvertibility.md"
+    },
+    {
+      "basename": "Statistics",
+      "path": "03. Semester 3rd/04 - Probability/Statistics.md"
     },
     {
       "basename": "Stuti Syllabus",
       "path": "Stuti Syllabus.md"
+    },
+    {
+      "basename": "Test",
+      "path": "04. Semester 4/3. OOPJ (Java)/LAB/Test.md"
     },
     {
       "basename": "20260522",
@@ -15,6 +27,30 @@
     {
       "basename": "Assignment-11",
       "path": "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-11.md"
+    },
+    {
+      "basename": "Good Prompts",
+      "path": "Good Prompts.md"
+    },
+    {
+      "basename": "20260422",
+      "path": "01 - Daily/20260422.md"
+    },
+    {
+      "basename": "Assignment-6",
+      "path": "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-6.md"
+    },
+    {
+      "basename": "Test-makeup-mid",
+      "path": "04. Semester 4/3. OOPJ (Java)/Test-makeup-mid.md"
+    },
+    {
+      "basename": "Placeholder",
+      "path": "08 - Resources/Placeholder.md"
+    },
+    {
+      "basename": "20260523",
+      "path": "01 - Daily/20260523.md"
     },
     {
       "basename": "Day-3",
@@ -29,20 +65,8 @@
       "path": "01 - Daily/20260501.md"
     },
     {
-      "basename": "Good Prompts",
-      "path": "Good Prompts.md"
-    },
-    {
       "basename": "20260429",
       "path": "01 - Daily/20260429.md"
-    },
-    {
-      "basename": "20260422",
-      "path": "01 - Daily/20260422.md"
-    },
-    {
-      "basename": "Assignment-6",
-      "path": "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-6.md"
     },
     {
       "basename": "20260420",
@@ -81,10 +105,6 @@
       "path": "01 - Daily/20260413.md"
     },
     {
-      "basename": "Test-makeup-mid",
-      "path": "04. Semester 4/3. OOPJ (Java)/Test-makeup-mid.md"
-    },
-    {
       "basename": "20260326",
       "path": "01 - Daily/20260326.md"
     },
@@ -95,10 +115,6 @@
     {
       "basename": "20260325",
       "path": "01 - Daily/20260325.md"
-    },
-    {
-      "basename": "Test",
-      "path": "04. Semester 4/3. OOPJ (Java)/LAB/Test.md"
     },
     {
       "basename": "24155060-Day-4",
@@ -179,14 +195,6 @@
     {
       "basename": "DAY4-24052323",
       "path": "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md"
-    },
-    {
-      "basename": "Assignment-9",
-      "path": "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-9.md"
-    },
-    {
-      "basename": "20260301",
-      "path": "01 - Daily/20260301.md"
     }
   ],
   "omittedPaths": [],
