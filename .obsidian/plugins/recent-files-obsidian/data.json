@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "micro-economics",
+      "path": "micro-economics.md"
+    },
+    {
+      "basename": "Stuti Syllabus",
+      "path": "Stuti Syllabus.md"
+    },
+    {
       "basename": "20260602",
       "path": "01 - Daily/20260602.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "Statistics",
       "path": "03. Semester 3rd/04 - Probability/Statistics.md"
-    },
-    {
-      "basename": "Stuti Syllabus",
-      "path": "Stuti Syllabus.md"
     },
     {
       "basename": "Test",
@@ -195,10 +199,6 @@
     {
       "basename": "20260311",
       "path": "01 - Daily/20260311.md"
-    },
-    {
-      "basename": "ASSIGNMENT",
-      "path": "04. Semester 4/1. COA (Computer Organization and Architecture)/ASSIGNMENT.md"
     }
   ],
   "omittedPaths": [],
