@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Stuti Syllabus",
+      "path": "Stuti Syllabus.md"
+    },
+    {
+      "basename": "20260616",
+      "path": "01 - Daily/20260616.md"
+    },
+    {
+      "basename": "Statistics",
+      "path": "03. Semester 3rd/04 - Probability/Statistics.md"
+    },
+    {
       "basename": "20260605",
       "path": "01 - Daily/20260605.md"
     },
     {
       "basename": "micro-economics",
       "path": "micro-economics.md"
-    },
-    {
-      "basename": "Stuti Syllabus",
-      "path": "Stuti Syllabus.md"
     },
     {
       "basename": "20260602",
@@ -31,10 +39,6 @@
     {
       "basename": "PMF and CMF interconvertibility",
       "path": "03. Semester 3rd/04 - Probability/PMF and CMF interconvertibility.md"
-    },
-    {
-      "basename": "Statistics",
-      "path": "03. Semester 3rd/04 - Probability/Statistics.md"
     },
     {
       "basename": "Test",
@@ -195,10 +199,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "20260312",
-      "path": "01 - Daily/20260312.md"
     }
   ],
   "omittedPaths": [],
