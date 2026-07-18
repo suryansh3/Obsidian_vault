@@ -1,13 +1,14 @@
 ---
-title: "You said  1. WAP to print integers from 1 to n.  ..."
-source: "https://gemini.google.com/app/2135e37464493a19"
+title: You said  1. WAP to print integers from 1 to n.  ...
+source: https://gemini.google.com/app/2135e37464493a19
 author:
   - "[[Gemini]]"
 published:
 created: 2026-02-22
-description: "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI."
+description: Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.
 tags:
-  - "clippings"
+  - clippings
+  - "#IPA"
 ---
 1\. WAP to print integers from 1 to n.
 
