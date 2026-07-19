@@ -13,6 +13,10 @@
       "path": "Clippings/What is Computer Vision  Introduction.md"
     },
     {
+      "basename": "Topics Covered  Introduction",
+      "path": "Clippings/Topics Covered  Introduction.md"
+    },
+    {
       "basename": "20260718",
       "path": "01 - Daily/20260718.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20260316",
       "path": "01 - Daily/20260316.md"
-    },
-    {
-      "basename": "Assignement-10",
-      "path": "04. Semester 4/4. Operating System (OS)/LAB/Assignement-10.md"
     }
   ],
   "omittedPaths": [],
