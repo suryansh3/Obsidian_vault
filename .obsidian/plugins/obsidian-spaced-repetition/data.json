@@ -71,7 +71,11 @@
     "showParserDebugMessages": false,
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY"
   },
+<<<<<<< HEAD
   "buryDate": "2026-07-25",
+=======
+  "buryDate": "2026-07-18",
+>>>>>>> origin/main
   "buryList": [],
   "historyDeck": null
 }
