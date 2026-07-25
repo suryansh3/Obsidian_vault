@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "MOC"
             }
+          },
+          {
+            "id": "f66f9e952645b819",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20260725.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260725"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -234,7 +248,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "78982c0501f30aa9",
@@ -278,16 +292,15 @@
       "handwritten-notes:Create empty handwritten note": false,
       "inkporter:Inkporter: Extract Image from File": false,
       "terminal:Open terminal": false,
-      "gemini-scribe:Gemini Scribe: Agent Mode": false,
       "gemini-scribe:Gemini Scribe: Agent mode": false
     }
   },
-  "active": "c8fc283e433c4b2d",
+  "active": "eda282bd95492004",
   "lastOpenFiles": [
+    "01 - Daily/20260725.md",
     "MOC.md",
     "WIKI.md",
     "99 - Meta/Agent-Sessions/2026-07-25 Vault Cross-Linking & Organisation.md",
-    "01 - Daily/20260725.md",
     "conflict-files-obsidian-git.md",
     "handwritten-notes/New note.pdf",
     "handwritten-notes",
