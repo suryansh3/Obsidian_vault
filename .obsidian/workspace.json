@@ -27,44 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20260725.md",
+                "file": "MOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260725"
-            }
-          },
-          {
-            "id": "3d763bb790106fae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WIKI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WIKI"
-            }
-          },
-          {
-            "id": "2a34b7fdf12c2af9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "MOC"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -247,8 +219,8 @@
             "state": {
               "type": "gemini-agent-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "gemini-agent-view"
+              "icon": "sparkles",
+              "title": "Agent mode"
             }
           },
           {
@@ -262,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       },
       {
         "id": "78982c0501f30aa9",
@@ -310,9 +282,12 @@
       "gemini-scribe:Gemini Scribe: Agent mode": false
     }
   },
-  "active": "2a34b7fdf12c2af9",
+  "active": "c8fc283e433c4b2d",
   "lastOpenFiles": [
+    "MOC.md",
     "WIKI.md",
+    "99 - Meta/Agent-Sessions/2026-07-25 Vault Cross-Linking & Organisation.md",
+    "01 - Daily/20260725.md",
     "conflict-files-obsidian-git.md",
     "handwritten-notes/New note.pdf",
     "handwritten-notes",
@@ -321,7 +296,6 @@
     "01 - Daily/20260629.md",
     "01 - Daily/20260616.md",
     "01 - Daily/20260605.md",
-    "01 - Daily/20260725.md",
     "01 - Daily/20251206.md",
     "03. Semester 3rd/04 - Probability/Statistics.md",
     "99 - Meta/attachments/DocScanner 12 Nov 2025 8-37 pm.pdf",
@@ -339,7 +313,6 @@
     "01 - Daily/20260501.md",
     "01 - Daily/20260603.md",
     "99 - Meta/Prompts/example-expert.md",
-    "01 - Daily/20260519.md",
     "99 - Meta/Scheduled-Tasks/scheduled-tasks-state.json",
     "99 - Meta/Scheduled-Tasks/Runs",
     "99 - Meta/Scheduled-Tasks",
