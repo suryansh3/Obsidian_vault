@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "New chat",
+      "path": "Clippings/New chat.md"
+    },
+    {
+      "basename": "20260726",
+      "path": "01 - Daily/20260726.md"
+    },
+    {
       "basename": "How Do Humans Do It  Introduction",
       "path": "Clippings/How Do Humans Do It  Introduction.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Assignment-08",
       "path": "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-08.md"
-    },
-    {
-      "basename": "Assignment-7",
-      "path": "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-7.md"
-    },
-    {
-      "basename": "20260316",
-      "path": "01 - Daily/20260316.md"
     }
   ],
   "omittedPaths": [],
