@@ -1,9 +1,7 @@
 {
   "settings": {
     "flashcardTags": [
-      "#Japanese/Kanji",
-      "#Japanese/Vocabulary",
-      "#Japanese/Misc"
+      "#flashcards"
     ],
     "flashcardTagsToIgnore": [],
     "convertFoldersToDecks": false,
@@ -22,42 +20,49 @@
     "multilineCardSeparator": "?",
     "multilineReversedCardSeparator": "??",
     "multilineCardEndMarker": "",
-    "editLaterTag": "#edit-later",
-    "enableNoteReviewPaneOnStartup": false,
+    "enableReviewReminders": false,
+    "reviewReminderIntervalMinutes": 5,
+    "reviewReminderCheckOnStartup": false,
+    "reviewReminderMessage": "",
+    "reviewReminderAutoOpen": true,
+    "reviewReminderShowNotice": true,
+    "reviewReminderPlaySound": true,
+    "reviewReminderBounceDock": true,
+    "enableNoteReviewPaneOnStartup": true,
     "tagsToReview": [
       "#review"
     ],
     "noteTagsToIgnore": [],
     "noteFoldersToIgnore": [
-      "99 - Meta"
+      "**/*.excalidraw.md"
     ],
     "openRandomNote": false,
     "autoNextNote": false,
     "showFileMenuReviewOptions": true,
     "deleteTagsOnSchedulingDataDeletion": false,
     "maxNDaysNotesReviewQueue": 365,
-    "showRibbonIcon": true,
     "showStatusBar": true,
     "showCardStatusBarItem": true,
     "showNoteStatusBarItem": true,
     "showUpdateAvailableStatusBarItem": true,
     "initiallyExpandAllSubdecksInTree": true,
-    "showContextInCards": false,
+    "showContextInCards": true,
     "showIntervalInReviewButtons": true,
-    "flashcardHeightPercentage": 80,
-    "flashcardWidthPercentage": 100,
+    "flashcardHeightPercentage": 60,
+    "flashcardWidthPercentage": 60,
     "flashcardHeightPercentageMobile": 100,
     "flashcardWidthPercentageMobile": 100,
     "flashcardAgainText": "Again",
-    "flashcardEasyText": "Got It",
-    "flashcardGoodText": "Parital",
-    "flashcardHardText": "Too Hard",
+    "flashcardEasyText": "Easy",
+    "flashcardGoodText": "Good",
+    "flashcardHardText": "Hard",
     "reviewButtonDelay": 0,
     "showDeleteButtonInCardView": false,
     "showDeleteButtonInFileMenu": false,
     "openViewInNewTab": false,
     "openViewInNewTabMobile": false,
     "useCustomHotkeys": false,
+    "useCalloutsForSchedulingComments": false,
     "algorithm": "SM-2-OSR",
     "baseEase": 250,
     "lapsesIntervalChange": 0.5,
@@ -68,13 +73,23 @@
     "fsrsDesiredRetention": 0.9,
     "startOfDay": "00:00:00",
     "dataStore": "NOTES",
-    "cardCommentOnSameLine": true,
+    "cardCommentOnSameLine": false,
+    "scheduleDataVaultLocation": "Spaced Repetition",
     "showSchedulingDebugMessages": false,
     "showParserDebugMessages": false,
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
-    "showDebugMessages": false
+    "preferredLocale": "-"
   },
+<<<<<<< HEAD
   "buryDate": "2026-07-26",
+=======
+  "buryDate": "2026-07-25",
+>>>>>>> origin/main
   "buryList": [],
-  "historyDeck": null
+  "historyDeck": null,
+  "scheduleData": {
+    "version": 1,
+    "noteSchedules": {},
+    "cardSchedules": {}
+  }
 }
