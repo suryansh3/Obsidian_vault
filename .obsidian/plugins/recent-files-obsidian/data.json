@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "20260728",
+      "path": "01 - Daily/20260728.md"
+    },
+    {
+      "basename": "New chat",
+      "path": "Clippings/New chat.md"
+    },
+    {
+      "basename": "Topics Covered  Introduction",
+      "path": "Clippings/Topics Covered  Introduction.md"
+    },
+    {
       "basename": "What is Vision Used For  Introduction",
       "path": "Clippings/What is Vision Used For  Introduction.md"
     },
@@ -87,10 +99,6 @@
     {
       "basename": "MOC",
       "path": "MOC.md"
-    },
-    {
-      "basename": "New chat",
-      "path": "Clippings/New chat.md"
     }
   ],
   "omittedPaths": [],
