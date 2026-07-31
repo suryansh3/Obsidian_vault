@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "20260731"
             }
+          },
+          {
+            "id": "9e7dc097e8ef3acf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05.Semester 5/DAA-lab/Day1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day1"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -257,12 +271,12 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       },
       {
         "id": "78982c0501f30aa9",
@@ -283,8 +297,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -310,9 +323,16 @@
       "gemini-scribe:Gemini Scribe: Agent mode": false
     }
   },
-  "active": "d0a96d7bf5cf535d",
+  "active": "9e7dc097e8ef3acf",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "05.Semester 5/DAA-lab/Day1.md",
+    "05.Semester 5/DAA-lab",
+    "05.Semester 5",
     "01 - Daily/20260731.md",
+    "Clippings/New chat.md",
+    "01 - Daily/20260728.md",
+    "01 - Daily/20260726.md",
     "01 - Daily/20260118.md",
     "01 - Daily/20260109.md",
     "01 - Daily/20251221.md",
@@ -324,7 +344,6 @@
     "01 - Daily/20260725.md",
     "MOC.md",
     "99 - Meta/Agent-Sessions/2026-07-25 Vault Cross-Linking & Organisation.md",
-    "conflict-files-obsidian-git.md",
     "handwritten-notes/New note.pdf",
     "handwritten-notes",
     "01 - Daily/20260718.md",
@@ -337,17 +356,11 @@
     "01 - Daily/20260609.md",
     "MEC102_Complete_Study_Notes.md",
     "03. Semester 3rd/04 - Probability/PMF and CMF interconvertibility.md",
-    "03. Semester 3rd/04 - Probability/Untitled.md",
-    "micro-economics.md",
-    "Stuti Syllabus.md",
-    "01 - Daily/20260602.md",
     "99 - Meta/Scheduled-Tasks/scheduled-tasks-state.json",
     "99 - Meta/Scheduled-Tasks/Runs",
     "99 - Meta/Scheduled-Tasks",
     "99 - Meta/Skills",
     "99 - Meta/Prompts",
-    "99 - Meta/Background-Tasks",
-    "99 - Meta/Agent-Sessions",
     "99 - Meta/attachments/Screenshot 2026-03-22 225048.png",
     "99 - Meta/attachments/Screenshot 2026-03-22 225030.png",
     "99 - Meta/attachments/Screenshot 2026-03-22 225010.png",
