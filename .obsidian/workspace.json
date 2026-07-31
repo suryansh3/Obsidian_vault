@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05.Semester 5/DAA-lab/Day1.md",
+                "file": "05.Semester 5/DAA-lab/Day2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day1"
+              "title": "Day2"
             }
           }
         ],
@@ -325,8 +325,9 @@
   },
   "active": "9e7dc097e8ef3acf",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "05.Semester 5/DAA-lab/Day1.md",
+    "05.Semester 5/DAA-lab/Day2.md",
+    "conflict-files-obsidian-git.md",
     "05.Semester 5/DAA-lab",
     "05.Semester 5",
     "01 - Daily/20260731.md",
@@ -355,7 +356,6 @@
     "99 - Meta/attachments/DocScanner 12 Nov 2025 8-37 pm.pdf",
     "01 - Daily/20260609.md",
     "MEC102_Complete_Study_Notes.md",
-    "03. Semester 3rd/04 - Probability/PMF and CMF interconvertibility.md",
     "99 - Meta/Scheduled-Tasks/scheduled-tasks-state.json",
     "99 - Meta/Scheduled-Tasks/Runs",
     "99 - Meta/Scheduled-Tasks",
