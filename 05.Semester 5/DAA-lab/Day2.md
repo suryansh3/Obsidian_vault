@@ -1,48 +1,92 @@
+# Name : Suryansh Mithu
+
+# Roll : 24155060
 
 ---
 
 ## 2.1
 
-
-```c
-#include <stdio.h>
-void bin(int n,char s[],int i){
-if(i>=0){bin(n/2,s,i-1);s[i]=(n%2)?'1':'0';}
-}
-int main(){
-printf("Name : Suryansh Mithu\nRoll : 24155060\n");
-FILE *in,*out;
-int n,i,x;
-char b[17];
-in=fopen("inDec.txt","r");
-out=fopen("outBin.txt","w");
-fscanf(in,"%d",&n);
-for(i=0;i<n;i++){
-fscanf(in,"%d",&x);
-b[16]='\0';
-bin(x,b,15);
-fprintf(out,"The binary equivalent of %d is %s\n",x,b);
-printf("%d -> %s\n",x,b);
-}
-fclose(in);fclose(out);
-return 0;
-}
-```
+**Input file `inDec.txt`:**
 
 ```
-3
 30 75 2564
 ```
 
+**Code:**
+
+```c
+/* Name : Suryansh Mithu */
+/* Roll : 24155060 */
+
+#include<stdio.h>
+
+void bin(int n, FILE *fp)
+{
+    if(n>1)
+        bin(n/2,fp);
+    fprintf(fp,"%d",n%2);
+}
+
+int bits(int n)
+{
+    int c=0;
+    if(n==0)
+        return 1;
+    while(n>0)
+    {
+        n=n/2;
+        c++;
+    }
+    return c;
+}
+
+int main()
+{
+    FILE *fin,*fout;
+    int n,i,pad;
+
+    printf("Name : Suryansh Mithu\n");
+    printf("Roll : 24155060\n\n");
+
+    fin=fopen("inDec.txt","r");
+    fout=fopen("outBin.txt","w");
+
+    if(fin==NULL || fout==NULL)
+    {
+        printf("File error\n");
+        return 0;
+    }
+
+    while(fscanf(fin,"%d",&n)!=EOF)
+    {
+        pad=16-bits(n);
+        fprintf(fout,"The binary equivalent of %d is ",n);
+        for(i=0;i<pad;i++)
+            fprintf(fout,"0");
+        bin(n,fout);
+        fprintf(fout,"\n");
+    }
+
+    fclose(fin);
+    fclose(fout);
+
+    printf("Conversion done, check outBin.txt\n");
+    return 0;
+}
 ```
-$ gcc dec2bin.c -o dec2bin
-$ ./dec2bin
+
+**Output (terminal):**
+
+```
+$ gcc 21_bin.c -o 21_bin
+$ ./21_bin
 Name : Suryansh Mithu
 Roll : 24155060
-30 -> 0000000000011110
-75 -> 0000000001001011
-2564 -> 0000101000000100
+
+Conversion done, check outBin.txt
 ```
+
+**Output file `outBin.txt`:**
 
 ```
 The binary equivalent of 30 is 0000000000011110
@@ -52,29 +96,9 @@ The binary equivalent of 2564 is 0000101000000100
 
 ---
 
-## 2.2 
+## 2.2
 
-```c
-#include <stdio.h>
-int gcd(int a,int b){return b?gcd(b,a%b):a;}
-int main(){
-printf("Name : Suryansh Mithu\nRoll : 24155060\n");
-FILE *in,*out;
-int a,b;
-in=fopen("inGcd.txt","r");
-out=fopen("outGcd.dat","w");
-while(fscanf(in,"%d %d",&a,&b)==2){
-int g=gcd(a,b);
-fprintf(out,"The GCD of %d and %d is %d\n",a,b,g);
-}
-fclose(in);fclose(out);
-in=fopen("outGcd.dat","r");
-char c;
-while((c=fgetc(in))!=EOF) putchar(c);
-fclose(in);
-return 0;
-}
-```
+**Input file `inGcd.txt`:**
 
 ```
 8 12
@@ -82,11 +106,66 @@ return 0;
 30 80
 ```
 
+**Code:**
+
+```c
+/* Name : Suryansh Mithu */
+/* Roll : 24155060 */
+
+#include<stdio.h>
+
+int gcd(int a,int b)
+{
+    if(b==0)
+        return a;
+    return gcd(b,a%b);
+}
+
+int main()
+{
+    FILE *fin,*fout;
+    int a,b,r;
+
+    printf("Name : Suryansh Mithu\n");
+    printf("Roll : 24155060\n\n");
+
+    fin=fopen("inGcd.txt","r");
+    fout=fopen("outGcd.dat","w");
+
+    if(fin==NULL || fout==NULL)
+    {
+        printf("File error\n");
+        return 0;
+    }
+
+    while(fscanf(fin,"%d %d",&a,&b)!=EOF)
+    {
+        r=gcd(a,b);
+        fprintf(fout,"The GCD of %d and %d is %d\n",a,b,r);
+    }
+
+    fclose(fin);
+    fclose(fout);
+
+    printf("Done, check outGcd.dat\n");
+    return 0;
+}
 ```
-$ gcc gcd.c -o gcd
-$ ./gcd
+
+**Output (terminal):**
+
+```
+$ gcc 22_gcd.c -o 22_gcd
+$ ./22_gcd
 Name : Suryansh Mithu
 Roll : 24155060
+
+Done, check outGcd.dat
+```
+
+**Output file `outGcd.dat`:**
+
+```
 The GCD of 8 and 12 is 4
 The GCD of 20 and 45 is 5
 The GCD of 30 and 80 is 10
@@ -96,179 +175,377 @@ The GCD of 30 and 80 is 10
 
 ## 2.3
 
+**Input file `inFact.txt`:**
+
+```
+5 6 7
+```
+
+**Code:**
 
 ```c
-#include <stdio.h>
-long long fact(int n){return n<=1?1:n*fact(n-1);}
-int main(){
-printf("Name : Suryansh Mithu\nRoll : 24155060\n");
-FILE *f;
-int n;
-f=fopen("inFact.txt","r");
-fscanf(f,"%d",&n);
-fclose(f);
-printf("%d! = %lld\n",n,fact(n));
-return 0;
+/* Name : Suryansh Mithu */
+/* Roll : 24155060 */
+
+#include<stdio.h>
+
+long fact(int n)
+{
+    if(n<=1)
+        return 1;
+    return n*fact(n-1);
+}
+
+int main()
+{
+    FILE *fin,*fout;
+    int n;
+
+    printf("Name : Suryansh Mithu\n");
+    printf("Roll : 24155060\n\n");
+
+    fin=fopen("inFact.txt","r");
+    fout=fopen("outFact.txt","w");
+
+    if(fin==NULL || fout==NULL)
+    {
+        printf("File error\n");
+        return 0;
+    }
+
+    while(fscanf(fin,"%d",&n)!=EOF)
+    {
+        fprintf(fout,"The factorial of %d is %ld\n",n,fact(n));
+    }
+
+    fclose(fin);
+    fclose(fout);
+
+    printf("Done, check outFact.txt\n");
+    return 0;
 }
 ```
 
+**Output (terminal):**
 
 ```
-7
-```
-
-
-```
-$ gcc fact.c -o fact
-$ ./fact
+$ gcc 23_fact.c -o 23_fact
+$ ./23_fact
 Name : Suryansh Mithu
 Roll : 24155060
-7! = 5040
+
+Done, check outFact.txt
+```
+
+**Output file `outFact.txt`:**
+
+```
+The factorial of 5 is 120
+The factorial of 6 is 720
+The factorial of 7 is 5040
 ```
 
 ---
 
 ## 2.4
 
+**Input file `inFibo.txt`:**
+
+```
+5 7
+```
+
+**Code:**
+
 ```c
-#include <stdio.h>
-int fib(int n){return n<=1?n:fib(n-1)+fib(n-2);}
-int main(){
-printf("Name : Suryansh Mithu\nRoll : 24155060\n");
-FILE *f;
-int n,i;
-f=fopen("inFibo.txt","r");
-fscanf(f,"%d",&n);
-fclose(f);
-printf("First %d Fibonacci numbers: ",n);
-for(i=0;i<n;i++) printf("%d ",fib(i));
-printf("\n");
-return 0;
+/* Name : Suryansh Mithu */
+/* Roll : 24155060 */
+
+#include<stdio.h>
+
+int fibo(int n)
+{
+    if(n==0)
+        return 0;
+    if(n==1)
+        return 1;
+    return fibo(n-1)+fibo(n-2);
+}
+
+int main()
+{
+    FILE *fin,*fout;
+    int n,i;
+
+    printf("Name : Suryansh Mithu\n");
+    printf("Roll : 24155060\n\n");
+
+    fin=fopen("inFibo.txt","r");
+    fout=fopen("outFibo.txt","w");
+
+    if(fin==NULL || fout==NULL)
+    {
+        printf("File error\n");
+        return 0;
+    }
+
+    while(fscanf(fin,"%d",&n)!=EOF)
+    {
+        fprintf(fout,"The first %d Fibonacci terms are : ",n);
+        for(i=0;i<n;i++)
+        {
+            fprintf(fout,"%d ",fibo(i));
+        }
+        fprintf(fout,"\n");
+    }
+
+    fclose(fin);
+    fclose(fout);
+
+    printf("Done, check outFibo.txt\n");
+    return 0;
 }
 ```
 
-```
-6
-```
+**Output (terminal):**
 
 ```
-$ gcc fibo.c -o fibo
-$ ./fibo
+$ gcc 24_fibo.c -o 24_fibo
+$ ./24_fibo
 Name : Suryansh Mithu
 Roll : 24155060
-First 6 Fibonacci numbers: 0 1 1 2 3 5 
+
+Done, check outFibo.txt
+```
+
+**Output file `outFibo.txt`:**
+
+```
+The first 5 Fibonacci terms are : 0 1 1 2 3 
+The first 7 Fibonacci terms are : 0 1 1 2 3 5 8 
 ```
 
 ---
 
 ## 2.5
 
+**Input file `inSum.txt`:**
+
+```
+5724 123 999
+```
+
+**Code:**
+
 ```c
-#include <stdio.h>
-int sum(int n){return n?n%10+sum(n/10):0;}
-int main(){
-printf("Name : Suryansh Mithu\nRoll : 24155060\n");
-FILE *f;
-int n;
-f=fopen("inSum.txt","r");
-fscanf(f,"%d",&n);
-fclose(f);
-printf("Sum of digits of %d = %d\n",n,sum(n));
-return 0;
+/* Name : Suryansh Mithu */
+/* Roll : 24155060 */
+
+#include<stdio.h>
+
+int sum(int n)
+{
+    if(n==0)
+        return 0;
+    return n%10+sum(n/10);
+}
+
+int main()
+{
+    FILE *fin,*fout;
+    int n;
+
+    printf("Name : Suryansh Mithu\n");
+    printf("Roll : 24155060\n\n");
+
+    fin=fopen("inSum.txt","r");
+    fout=fopen("outSum.txt","w");
+
+    if(fin==NULL || fout==NULL)
+    {
+        printf("File error\n");
+        return 0;
+    }
+
+    while(fscanf(fin,"%d",&n)!=EOF)
+    {
+        fprintf(fout,"The sum of digits of %d is %d\n",n,sum(n));
+    }
+
+    fclose(fin);
+    fclose(fout);
+
+    printf("Done, check outSum.txt\n");
+    return 0;
 }
 ```
 
-```
-5724
-```
+**Output (terminal):**
 
 ```
-$ gcc sumdig.c -o sumdig
-$ ./sumdig
+$ gcc 25_sum.c -o 25_sum
+$ ./25_sum
 Name : Suryansh Mithu
 Roll : 24155060
-Sum of digits of 5724 = 18
+
+Done, check outSum.txt
+```
+
+**Output file `outSum.txt`:**
+
+```
+The sum of digits of 5724 is 18
+The sum of digits of 123 is 6
+The sum of digits of 999 is 27
 ```
 
 ---
 
 ## 2.6
 
-```c
-#include <stdio.h>
-int rev(int n,int r)
-{return n?rev(n/10,r*10+n%10):r;}
+**Input file `inRev.txt`:**
 
-int main(){
-printf("Name : Suryansh Mithu\nRoll : 24155060\n");
-FILE *f;
-int n;
-f=fopen("inRev.txt","r");
-fscanf(f,"%d",&n);
-fclose(f);
-printf("Reverse of %d = %d\n",n,rev(n,0));
-return 0;
+```
+12345 6789
+```
+
+**Code:**
+
+```c
+/* Name : Suryansh Mithu */
+/* Roll : 24155060 */
+
+#include<stdio.h>
+
+int rev(int n,int r)
+{
+    if(n==0)
+        return r;
+    return rev(n/10,r*10+n%10);
+}
+
+int main()
+{
+    FILE *fin,*fout;
+    int n;
+
+    printf("Name : Suryansh Mithu\n");
+    printf("Roll : 24155060\n\n");
+
+    fin=fopen("inRev.txt","r");
+    fout=fopen("outRev.txt","w");
+
+    if(fin==NULL || fout==NULL)
+    {
+        printf("File error\n");
+        return 0;
+    }
+
+    while(fscanf(fin,"%d",&n)!=EOF)
+    {
+        fprintf(fout,"The reverse of %d is %d\n",n,rev(n,0));
+    }
+
+    fclose(fin);
+    fclose(fout);
+
+    printf("Done, check outRev.txt\n");
+    return 0;
 }
 ```
 
-```
-12345
-```
+**Output (terminal):**
 
 ```
-$ gcc revnum.c -o revnum
-$ ./revnum
+$ gcc 26_rev.c -o 26_rev
+$ ./26_rev
 Name : Suryansh Mithu
 Roll : 24155060
-Reverse of 12345 = 54321
+
+Done, check outRev.txt
+```
+
+**Output file `outRev.txt`:**
+
+```
+The reverse of 12345 is 54321
+The reverse of 6789 is 9876
 ```
 
 ---
 
 ## 2.7
 
+**Input file `inPalin.txt`:**
+
+```
+1221 1234 121
+```
+
+**Code:**
+
 ```c
-#include <stdio.h>
-#include <string.h>
-int pal(char s[],int l,int r){
-if(l>=r) return 1;
-if(s[l]!=s[r]) return 0;
-return pal(s,l+1,r-1);
+/* Name : Suryansh Mithu */
+/* Roll : 24155060 */
+
+#include<stdio.h>
+
+int rev(int n,int r)
+{
+    if(n==0)
+        return r;
+    return rev(n/10,r*10+n%10);
 }
-int main(){
-printf("Name : Suryansh Mithu\nRoll : 24155060\n");
-FILE *f;
-int n,i;
-char s[50];
-f=fopen("inPal.txt","r");
-fscanf(f,"%d",&n);
-for(i=0;i<n;i++){
-fscanf(f,"%s",s);
-if(pal(s,0,strlen(s)-1))
-printf("%s -> Palindrome\n",s);
-else
-printf("%s -> Not Palindrome\n",s);
-}
-fclose(f);
-return 0;
+
+int main()
+{
+    FILE *fin,*fout;
+    int n,r;
+
+    printf("Name : Suryansh Mithu\n");
+    printf("Roll : 24155060\n\n");
+
+    fin=fopen("inPalin.txt","r");
+    fout=fopen("outPalin.txt","w");
+
+    if(fin==NULL || fout==NULL)
+    {
+        printf("File error\n");
+        return 0;
+    }
+
+    while(fscanf(fin,"%d",&n)!=EOF)
+    {
+        r=rev(n,0);
+        if(n==r)
+            fprintf(fout,"%d is Palindrome\n",n);
+        else
+            fprintf(fout,"%d is Not Palindrome\n",n);
+    }
+
+    fclose(fin);
+    fclose(fout);
+
+    printf("Done, check outPalin.txt\n");
+    return 0;
 }
 ```
 
-```
-3
-1221
-1234
-555
-```
+**Output (terminal):**
 
 ```
-$ gcc pal.c -o pal
-$ ./pal
+$ gcc 27_palin.c -o 27_palin
+$ ./27_palin
 Name : Suryansh Mithu
 Roll : 24155060
-1221 -> Palindrome
-1234 -> Not Palindrome
-555 -> Palindrome
+
+Done, check outPalin.txt
 ```
 
----
+**Output file `outPalin.txt`:**
+
+```
+1221 is Palindrome
+1234 is Not Palindrome
+121 is Palindrome
+```
