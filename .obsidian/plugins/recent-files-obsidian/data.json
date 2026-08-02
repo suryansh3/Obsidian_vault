@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "20260802",
+      "path": "01 - Daily/20260802.md"
+    },
+    {
+      "basename": "example-expert",
+      "path": "gemini-scribe/Prompts/example-expert.md"
+    },
+    {
+      "basename": "Good Prompts",
+      "path": "Good Prompts.md"
+    },
+    {
+      "basename": "How Do Humans Do It  Introduction",
+      "path": "Clippings/How Do Humans Do It  Introduction.md"
+    },
+    {
+      "basename": "Topics Covered  Introduction",
+      "path": "Clippings/Topics Covered  Introduction.md"
+    },
+    {
       "basename": "20260728",
       "path": "01 - Daily/20260728.md"
     },
     {
       "basename": "New chat",
       "path": "Clippings/New chat.md"
-    },
-    {
-      "basename": "Topics Covered  Introduction",
-      "path": "Clippings/Topics Covered  Introduction.md"
     },
     {
       "basename": "What is Vision Used For  Introduction",
@@ -87,10 +103,6 @@
     {
       "basename": "DSA 16 question co-pilot",
       "path": "DSA 16 question co-pilot.md"
-    },
-    {
-      "basename": "Good Prompts",
-      "path": "Good Prompts.md"
     },
     {
       "basename": "README",
