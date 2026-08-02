@@ -104,23 +104,9 @@
               "icon": "lucide-file",
               "title": "Library Pass System"
             }
-          },
-          {
-            "id": "b28b2425f6cf57b4",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "05.Semester 5/DAA-lab/Day1.md",
-                "bFile": "05.Semester 5/DAA-lab/Day1.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Day1  (Working Tree)"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -350,11 +336,11 @@
       "inkporter:Inkporter: Extract Image from File": false
     }
   },
-  "active": "d346d054fad2a195",
+  "active": "519c5e5f134d2a11",
   "lastOpenFiles": [
-    "05.Semester 5/DAA-lab/Day2.md",
-    "05.Semester 5/DAA-lab/Day1.md",
-    "05.Semester 5/DAA-lab",
+    "05. Semester 5/DAA-lab/Day2.md",
+    "05. Semester 5/DAA-lab/Day1.md",
+    "05. Semester 5/DAA-lab",
     "05.Semester 5",
     "conflict-files-obsidian-git.md",
     "Projects-Python/Library Pass System.md",
