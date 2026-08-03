@@ -2,16 +2,16 @@
   "provider": "gemini",
   "ollamaBaseUrl": "http://localhost:11434",
   "customBaseUrl": "",
-  "apiKeySecretName": "obsidian-gemini-scribe",
-  "chatModelName": "gemini-flash-lite-latest",
+  "apiKeySecretName": "",
+  "chatModelName": "gemini-flash-latest",
   "summaryModelName": "gemini-flash-latest",
   "completionsModelName": "gemini-flash-lite-latest",
   "imageModelName": "gemini-2.5-flash-image",
   "ollamaModelName": "",
   "summaryFrontmatterKey": "summary",
-  "userName": "Mithu",
-  "chatHistory": true,
-  "historyFolder": "99 - Meta",
+  "userName": "User",
+  "chatHistory": false,
+  "historyFolder": "gemini-scribe",
   "debugMode": false,
   "fileLogging": false,
   "maxRetries": 3,
@@ -162,14 +162,6 @@
         "maxTemperature": 2
       }
     ],
-<<<<<<< HEAD
-    "timestamp": 1785667661428
-=======
-<<<<<<< HEAD
-    "timestamp": 1785517113548
-=======
-    "timestamp": 1785262994263
->>>>>>> origin/main
->>>>>>> origin/main
+    "timestamp": 1785770255705
   }
 }
