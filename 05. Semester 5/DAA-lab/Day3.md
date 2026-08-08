@@ -24,17 +24,256 @@
 ### 3.1  Aim of the program: Write a menu driven program to sort list of array elements using Merge.
 
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+
+void merge(int arr[], int l, int m, int r, long long *comparisons) {
+    int i, j, k;
+    int n1 = m - l + 1;
+    int n2 = r - m;
+    int *L = (int *)malloc(n1 * sizeof(int));
+    int *R = (int *)malloc(n2 * sizeof(int));
+    for (i = 0; i < n1; i++) {
+        L[i] = arr[l + i];
+    }
+    for (j = 0; j < n2; j++) {
+        R[j] = arr[m + 1 + j];
+    }
+    i = 0;
+    j = 0;
+    k = l;
+    while (i < n1 && j < n2) {
+        (*comparisons)++;
+        if (L[i] <= R[j]) {
+            arr[k] = L[i];
+            i++;
+        } else {
+            arr[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+    while (i < n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
+    while (j < n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+    free(L);
+    free(R);
+}
+
+void mergeSort(int arr[], int l, int r, long long *comparisons) {
+    if (l < r) {
+        int m = l + (r - l) / 2;
+        mergeSort(arr, l, m, comparisons);
+        mergeSort(arr, m + 1, r, comparisons);
+        merge(arr, l, m, r, comparisons);
+    }
+}
+
+int main() {
+    int choice;
+    while (1) {
+        printf("MAIN MENU (MERGE SORT)\n");
+        printf("1. Ascending Data\n");
+        printf("2. Descending Data\n");
+        printf("3. Random Data\n");
+        printf("4. ERROR (EXIT)\n");
+        printf("Enter option: ");
+        if (scanf("%d", &choice) != 1) {
+            break;
+        }
+        if (choice == 4) {
+            break;
+        }
+        char *in_file = NULL;
+        char *out_file = NULL;
+        if (choice == 1) {
+            in_file = "inAsce.txt";
+            out_file = "outMergeAsce.txt";
+        } else if (choice == 2) {
+            in_file = "inDesc.txt";
+            out_file = "outMergeDesc.txt";
+        } else if (choice == 3) {
+            in_file = "inRand.txt";
+            out_file = "outMergeRand.txt";
+        } else {
+            printf("Invalid option.\n\n");
+            continue;
+        }
+        FILE *fp = fopen(in_file, "r");
+        if (!fp) {
+            printf("Error opening file %s\n\n", in_file);
+            continue;
+        }
+        int arr[1000];
+        int n = 0;
+        while (fscanf(fp, "%d", &arr[n]) == 1) {
+            n++;
+            if (n >= 1000) {
+                break;
+            }
+        }
+        fclose(fp);
 
 ```
 
 ### Output : 
+```
+# outAsce.txt
+
+```
+
+```
+# outDesc.txt
+
+```
+
+```
+# outRand.txt
+
+```
+
+
+
+
 ---
 #### 3.2 Aim of the program: Write a menu driven program to sort a list of elements in ascending  order using Quick Sort technique. Each choice for the input data has its own disc file.
 
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int partition(int arr[], int low, int high, long long *comparisons, long long *worst_splits, long long *total_splits) {
+    int pivot = arr[low];
+    int i = low;
+    for (int j = low + 1; j <= high; j++) {
+        (*comparisons)++;
+        if (arr[j] < pivot) {
+            i++;
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    }
+    int temp = arr[low];
+    arr[low] = arr[i];
+    arr[i] = temp;
+    int left_size = i - low;
+    int right_size = high - i;
+    if (left_size == 0 || right_size == 0) {
+        (*worst_splits)++;
+    }
+    (*total_splits)++;
+    return i;
+}
+
+void quickSort(int arr[], int low, int high, long long *comparisons, long long *worst_splits, long long *total_splits) {
+    if (low < high) {
+        int pi = partition(arr, low, high, comparisons, worst_splits, total_splits);
+        quickSort(arr, low, pi - 1, comparisons, worst_splits, total_splits);
+        quickSort(arr, pi + 1, high, comparisons, worst_splits, total_splits);
+    }
+}
+
+int main() {
+    int choice;
+    while (1) {
+        printf("MAIN MENU (QUICK SORT)\n");
+        printf("1. Ascending Data\n");
+        printf("2. Descending Data\n");
+        printf("3. Random Data\n");
+        printf("4. ERROR (EXIT)\n");
+        printf("Enter option: ");
+        if (scanf("%d", &choice) != 1) {
+            break;
+        }
+        if (choice == 4) {
+            break;
+        }
+        char *in_file = NULL;
+        char *out_file = NULL;
+        if (choice == 1) {
+            in_file = "inAsce.txt";
+            out_file = "outQuickAsce.dat";
+        } else if (choice == 2) {
+            in_file = "inDesc.txt";
+            out_file = "outQuickDesc.txt";
+        } else if (choice == 3) {
+            in_file = "inRand.dat";
+            out_file = "outQuickRand.txt";
+        } else {
+            printf("Invalid option.\n\n");
+            continue;
+        }
+        FILE *fp = fopen(in_file, "r");
+        if (!fp) {
+            printf("Error opening file %s\n\n", in_file);
+            continue;
+        }
+        int arr[1000];
+        int n = 0;
+        while (fscanf(fp, "%d", &arr[n]) == 1) {
+            n++;
+            if (n >= 1000) {
+                break;
+            }
+        }
+        fclose(fp);
+        printf("Before Sorting: ");
+        for (int i = 0; i < n; i++) {
+            printf("%d ", arr[i]);
+        }
+        printf("\n");
+        long long comparisons = 0;
+        long long worst_splits = 0;
+        long long total_splits = 0;
+        quickSort(arr, 0, n - 1, &comparisons, &worst_splits, &total_splits);
+        FILE *out_fp = fopen(out_file, "w");
+        if (out_fp) {
+            for (int i = 0; i < n; i++) {
+                fprintf(out_fp, "%d ", arr[i]);
+            }
+            fclose(out_fp);
+        }
+        printf("After Sorting: ");
+        for (int i = 0; i < n; i++) {
+            printf("%d ", arr[i]);
+        }
+        printf("\n");
+        printf("Number of Comparisons: %lld\n", comparisons);
+        if (total_splits > 0 && (worst_splits * 100 / total_splits) > 50) {
+            printf("Scenario: Worst-case\n\n");
+        } else {
+            printf("Scenario: Best-case\n\n");
+        }
+    }
+    return 0;
+}
+
 ```
 
 ### Output :
+### Output : 
+```
+# outAsce.txt
+
+```
+
+```
+# outDesc.txt
+
+```
+
+```
+# outRand.txt
+
+```
 
 
 
