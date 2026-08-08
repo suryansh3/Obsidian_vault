@@ -4,17 +4,48 @@
 ## Day - 3
 ---
 
-# 3.1  Aim of the program: Write a menu driven program to sort list of array elements using Merge.
+```txt
+# inAsce.txt
 
-```text 
+```
+
+```txt
+# inDesc.txt
 
 ```
 
 
+```txt
+# inRand.txt
+
+```
+
+
+### 3.1  Aim of the program: Write a menu driven program to sort list of array elements using Merge.
+
+```c
+
+```
+
+### Output : 
+---
+#### 3.2 Aim of the program: Write a menu driven program to sort a list of elements in ascending  order using Quick Sort technique. Each choice for the input data has its own disc file.
+
+```c
+```
+
+### Output :
 
 
 
+---
 # 3.3 Binary search through an array using a file. 
+
+```txt
+# binarySearch.txt
+10
+1 3 5 7 9 11 23 45 70 90 900
+```
 
 ```c
 #include <stdio.h>
@@ -71,7 +102,21 @@ int main() {
 }
 ```
 
+### Output :
+![[Pasted image 20260808145524.png]]
+
+
+---
 # 3.4 WAP to take n pair of x and y from a file then raise the power of x to y for each of the n pair using divide and conquer method.
+
+```txt
+# pairs.txt
+3
+2 5
+4 6
+7 3
+
+```
 
 ```c
 #include <stdio.h>
@@ -107,3 +152,8 @@ int main() {
 
 
 ```
+
+### Output :
+![[Pasted image 20260808145431.png]]
+
+---
