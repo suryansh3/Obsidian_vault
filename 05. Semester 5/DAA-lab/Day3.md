@@ -261,7 +261,7 @@ int main() {
         long long comparisons = 0;
         long long worst_splits = 0;
         long long total_splits = 0;
-        quickSort(arr, 0, n - 1, &comparisons, &worst_splits, &total_splits);
+        quickSort(arr, 0, n - 1, &comparisons, &worst_splits,&total_splits);
         FILE *out_fp = fopen(out_file, "w");
         if (out_fp) {
             for (int i = 0; i < n; i++) {
