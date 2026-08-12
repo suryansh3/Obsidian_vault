@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20260813.md",
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260813"
+              "title": "(TEMPLATE) Unique"
             }
           }
         ],
@@ -287,6 +287,18 @@
               "icon": "sparkles",
               "title": "Agent mode"
             }
+          },
+          {
+            "id": "ca5b244949ba8b8a",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
           }
         ],
         "currentTab": 7
@@ -310,7 +322,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 999.5392456054688
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -333,13 +345,18 @@
       "remotely-save:Remotely Save": false,
       "handwritten-notes:Create empty handwritten note": false,
       "inkporter:Inkporter: Extract Image from File": false,
-      "obsidian-importer:Import notes": false
+      "obsidian-importer:Import notes": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false
     }
   },
   "active": "37e5cc80fe64fef0",
   "lastOpenFiles": [
-    "01 - Daily/20260813.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "99 - Meta/Agent-Sessions/2026-07-25 Vault Cross-Linking & Organisation.md",
+    "99 - Meta/Agent-Sessions/2026-05-19 Gemini Scribe Initialization.md",
+    "01 - Daily/20260813.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "Untitled.base",
     "Untitled 1.base",
@@ -364,9 +381,6 @@
     "01 - Daily/20260812.md",
     "01 - Daily/20260117.md",
     "01 - Daily/20260118.md",
-    "01 - Daily/20260112.md",
-    "01 - Daily/20260111.md",
-    "01 - Daily/20260110.md",
     "handwritten-notes/New note.pdf",
     "gemini-scribe/rag-index-cache.json",
     "99 - Meta/attachments/Pasted image 20260808145524.png",

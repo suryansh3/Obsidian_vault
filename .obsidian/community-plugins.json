@@ -25,5 +25,7 @@
   "obsidian-style-settings",
   "terminal",
   "ytranscript",
-  "gemini-scribe"
+  "gemini-scribe",
+  "dataview",
+  "obsidian-meta-bind-plugin"
 ]

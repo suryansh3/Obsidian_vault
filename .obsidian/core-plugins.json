@@ -16,18 +16,18 @@
   "slash-command": true,
   "editor-status": true,
   "bookmarks": true,
-  "markdown-importer": false,
+  "markdown-importer": true,
   "zk-prefixer": true,
   "random-note": false,
   "outline": true,
   "word-count": true,
-  "slides": false,
+  "slides": true,
   "audio-recorder": false,
   "workspaces": true,
   "file-recovery": true,
-  "publish": false,
+  "publish": true,
   "sync": false,
-  "footnotes": false,
+  "footnotes": true,
   "bases": true,
-  "webviewer": false
+  "webviewer": true
 }

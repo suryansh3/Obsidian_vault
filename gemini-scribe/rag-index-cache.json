@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-  "lastSync": 1786561245794,
+  "lastSync": 1786562873614,
   "files": {
     "Projects-Python/Library Pass System.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -60,8 +60,8 @@
     },
     "99 - Meta/Agent-Sessions/2026-07-25 Vault Cross-Linking & Organisation.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "8ad34f09d6f132f393e9f316094a2073b2916abcc025d0d6431c28ad56b1f79a",
-      "lastIndexed": 1786512638650
+      "contentHash": "13142f9ba57ba6d0deeebd5a01bbf9b6566934b28678f8abf9feed4cc8a3c826",
+      "lastIndexed": 1786562858604
     },
     "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -70,8 +70,8 @@
     },
     "99 - Meta/Agent-Sessions/2026-05-19 Gemini Scribe Initialization.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "c9a465b2cb208c8a51a5dc7cf0e6b02222c13e0ef43c961ef321fd8099b318d8",
-      "lastIndexed": 1786512638889
+      "contentHash": "0a38866ed87ec52bac0940ecc30cece480b1d08b8ff728330322ab8c935bbfc9",
+      "lastIndexed": 1786562852355
     },
     "99 - Meta/Prompts/example-expert.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -90,8 +90,8 @@
     },
     "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "a1451853bcbe9fd034511c0c0f7b34597bc00443de647df6e25dbd7989c0264d",
-      "lastIndexed": 1786512644868
+      "contentHash": "1c4eebbc75b98cfe5c3290a975a15582558592911679115898c84fd070a98154",
+      "lastIndexed": 1786562873614
     },
     "08 - Resources/Placeholder.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -100,8 +100,8 @@
     },
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
-      "lastIndexed": 1786512645692
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786562866564
     },
     "99 - Meta/attachments/ED-202511130109.excalidraw.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -1007,6 +1007,11 @@
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
       "contentHash": "0f5c392413a2f73a2e090dbf5febb2e565c5a8c4b3497a3917f3dd9206ce933f",
       "lastIndexed": 1786558630805
+    },
+    "01 - Daily/20260813.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786562846094
     }
   },
   "indexingInProgress": false,
