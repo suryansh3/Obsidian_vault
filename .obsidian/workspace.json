@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Digital Image Processing - Part 6 - Discrete Fourier Transform (DFT).md",
+                "file": "Clippings/Digital Image Processing - Part 12 - Introduction to Image Compression and Watermarking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Digital Image Processing - Part 6 - Discrete Fourier Transform (DFT)"
+              "title": "Digital Image Processing - Part 12 - Introduction to Image Compression and Watermarking"
             }
           }
         ],
@@ -324,8 +324,14 @@
   },
   "active": "4143d223cae44e3f",
   "lastOpenFiles": [
-    "Clippings/Digital Image Processing - Part 5 - Introduction to Fourier Transform.md",
+    "Clippings/Digital Image Processing - Part 11 - Color Image Processing.md",
+    "Clippings/Digital Image Processing - Part 12 - Introduction to Image Compression and Watermarking.md",
+    "Clippings/Digital Image Processing - Part 10 - Image Segmentation.md",
+    "Clippings/Digital Image Processing - Part 9 - Image Restoration In Frequency Domain.md",
+    "Clippings/Digital Image Processing - Part 8 - Image Restoration In Spatial Domain.md",
+    "Clippings/Digital Image Processing - Part 7 - Image Filtering in Frequency Domain.md",
     "Clippings/Digital Image Processing - Part 6 - Discrete Fourier Transform (DFT).md",
+    "Clippings/Digital Image Processing - Part 5 - Introduction to Fourier Transform.md",
     "Clippings/Digital Image Processing - Part 4 - Spatial Filtering.md",
     "Clippings/Digital Image Processing - Part 3 - Histogram Processing and Fundamentals of Spatial Filtering.md",
     "Clippings/Digital Image Processing - Part 2 - Basic Mathematical Operations and Intensity Transformations.md",
@@ -345,13 +351,7 @@
     "01 - Daily/20260113.md",
     "01 - Daily/20251223.md",
     "01 - Daily/20260106.md",
-    "01 - Daily/20251215.md",
-    "01 - Daily/20251207.md",
-    "Clippings/New chat.md",
-    "WIKI.md",
     "handwritten-notes/New note.pdf",
-    "00 - AI and ML/Python/Untitled.md",
-    "01 - Daily/Untitled.md",
     "gemini-scribe/rag-index-cache.json",
     "Untitled.base",
     "99 - Meta/attachments/Pasted image 20260808145524.png",

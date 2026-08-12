@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-  "lastSync": 1786554810241,
+  "lastSync": 1786555241453,
   "files": {
     "Projects-Python/Library Pass System.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -975,8 +975,38 @@
     },
     "Clippings/Digital Image Processing - Part 6 - Discrete Fourier Transform (DFT).md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "37d116f362df44ce8858f54fda0b9926292ae0e45857577f601fb91394834d52",
-      "lastIndexed": 1786554804091
+      "contentHash": "2eb9045b311f78fb5444dbe4144c30e9ed2e989f9f60bfb832468ef0ef2a7bcf",
+      "lastIndexed": 1786555138553
+    },
+    "Clippings/Digital Image Processing - Part 7 - Image Filtering in Frequency Domain.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "815aa98c9cfdeefdd4e5d1a150fbd8d2133b77783956dd4b2d93ce8097ed470d",
+      "lastIndexed": 1786555155742
+    },
+    "Clippings/Digital Image Processing - Part 8 - Image Restoration In Spatial Domain.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "18c3bc9c0a863ee08a54136b9901e97ec6d25b704860dde88ee7cbc5e1f39b36",
+      "lastIndexed": 1786555191472
+    },
+    "Clippings/Digital Image Processing - Part 9 - Image Restoration In Frequency Domain.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "9470f40f50579fffe7622a847b3ada4bed173d0584ee053cc5032cad8fd1a961",
+      "lastIndexed": 1786555210983
+    },
+    "Clippings/Digital Image Processing - Part 10 - Image Segmentation.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "5d7a8f1b0b2530448e316897acc096e2ae4a3c7f75f29562b357bb6cb31befa3",
+      "lastIndexed": 1786555225269
+    },
+    "Clippings/Digital Image Processing - Part 11 - Color Image Processing.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "779c287b5e1163023cd7773174cddb58bf1d13fbcab58c6950c0b5fe1effda7d",
+      "lastIndexed": 1786555241453
+    },
+    "Clippings/Digital Image Processing - Part 12 - Introduction to Image Compression and Watermarking.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "133186433f7ed895071c12dfbd26f4119853a0e6051ad293436398b3c858b09d",
+      "lastIndexed": 1786555234413
     }
   },
   "indexingInProgress": false,
