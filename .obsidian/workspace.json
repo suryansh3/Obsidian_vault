@@ -67,10 +67,13 @@
             "id": "4143d223cae44e3f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ],
@@ -271,7 +274,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "78982c0501f30aa9",
@@ -292,7 +295,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.508544921875
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -320,6 +323,7 @@
   },
   "active": "4143d223cae44e3f",
   "lastOpenFiles": [
+    "Untitled 1.base",
     "Clippings/Digital Image Processing - Part 12 - Introduction to Image Compression and Watermarking.md",
     "Clippings/Digital Image Processing - Part 11 - Color Image Processing.md",
     "Clippings/Digital Image Processing - Part 10 - Image Segmentation.md",
@@ -346,7 +350,6 @@
     "01 - Daily/20260110.md",
     "01 - Daily/20260113.md",
     "01 - Daily/20251223.md",
-    "01 - Daily/20260106.md",
     "handwritten-notes/New note.pdf",
     "gemini-scribe/rag-index-cache.json",
     "Untitled.base",
