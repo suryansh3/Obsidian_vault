@@ -11,7 +11,7 @@ xp_to_next_level: 500
 # ⚔️ CHARACTER SHEET
 
 ```dataviewjs
-const page = dv.page("99 - Meta/Character.md") || dv.current();
+const page = dv.page("99 - Meta/Character") || dv.current();
 const totalXp = page.total_xp || 0;
 
 function getLevelInfo(xp) {

@@ -1,4 +1,6 @@
 ---
+tags:
+  - Pursuit
 category: Pursuit
 title: "Income & Freelance"
 xp: 150

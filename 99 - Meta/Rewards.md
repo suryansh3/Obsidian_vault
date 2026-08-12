@@ -20,12 +20,15 @@ rewards:
 # 🎁 GACHA REWARD SYSTEM
 
 ```dataviewjs
-const btn = container.createEl("button", { 
+const root = dv.container || container;
+root.innerHTML = "";
+
+const btn = root.createEl("button", { 
     text: "🎲 ROLL REWARD (GACHA SYSTEM)", 
     cls: "rpg-gacha-btn" 
 });
 
-const resultDiv = container.createEl("div", { cls: "rpg-gacha-result" });
+const resultDiv = root.createEl("div", { cls: "rpg-gacha-result" });
 
 const rewardsList = [
     { name: "☕ Specialty Coffee / Boba Treat", tier: "Common", weight: 40, color: "#94a3b8" },

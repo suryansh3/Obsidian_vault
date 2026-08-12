@@ -1,4 +1,6 @@
 ---
+tags:
+  - Pursuit
 category: Pursuit
 title: "Software Engineering & Career"
 xp: 350

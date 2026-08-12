@@ -1,4 +1,6 @@
 ---
+tags:
+  - Area
 category: Area
 stat: Spiritual
 xp: 80

@@ -16,7 +16,7 @@ cssclasses:
 
 ```dataviewjs
 const todayStr = moment().format("YYYYMMDD");
-let todayNote = dv.page(`"01 - Daily/${todayStr}"`);
+let todayNote = dv.page(`01 - Daily/${todayStr}`) || dv.page(`"01 - Daily/${todayStr}"`);
 if (!todayNote) {
     const pages = dv.pages('"01 - Daily"').sort(p => p.file.name, "desc");
     if (pages.length > 0) todayNote = pages[0];
@@ -66,7 +66,7 @@ const stats = {
     "Core":     { icon: "🛡️", color: "#64748b" }
 };
 
-const areaPages = dv.pages('"99 - Meta/Areas"');
+const areaPages = dv.pages('#Area').concat(dv.pages('"99 - Meta/Areas"'));
 const dailyPages = dv.pages('"01 - Daily"');
 let xpTotals = { "Physical": 120, "Psyche": 90, "Intel": 210, "Craft": 150, "Spiritual": 80, "Core": 110 };
 
@@ -109,10 +109,10 @@ dv.el("div", html, { raw: true });
 ## 🎯 QUEST PURSUITS
 
 ```dataviewjs
-const pursuits = dv.pages('"99 - Meta/Pursuits"').sort(p => p.file.name, "asc");
+const pursuits = dv.pages('#Pursuit').concat(dv.pages('"99 - Meta/Pursuits"')).sort(p => p.file.name, "asc");
 
 if (pursuits.length === 0) {
-    dv.paragraph("*No active pursuits found in `99 - Meta/Pursuits`.*");
+    dv.paragraph("*No active pursuits found.*");
 } else {
     let html = `<div class="rpg-quest-grid">`;
     for (let p of pursuits) {

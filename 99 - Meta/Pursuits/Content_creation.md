@@ -1,4 +1,6 @@
 ---
+tags:
+  - Pursuit
 category: Pursuit
 title: "Content Creation & Writing"
 xp: 280

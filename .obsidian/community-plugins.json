@@ -29,5 +29,15 @@
   "dataview",
   "obsidian-meta-bind-plugin",
   "obsidian-charts",
-  "quickadd"
+  "quickadd",
+  "callout-manager",
+  "cmdr",
+  "iconic",
+  "journals",
+  "obsidian-contextual-typography",
+  "obsidian-tracker",
+  "obsidian42-brat",
+  "oz-image-plugin",
+  "pexels-banner",
+  "time-garden-plugin"
 ]

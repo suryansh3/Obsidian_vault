@@ -1,5 +1,5 @@
 ---
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: "<% tp.date.now('YYYY-MM-DD') %>"
 hp: 100
 mood: 80
 concentration: 85
@@ -13,7 +13,7 @@ q_review: false
 q_shutdown: false
 ---
 
-# ⚔️ DAILY QUEST & LOG: <% tp.date.now("dddd, MMMM Do, YYYY", 0, tp.file.title, "YYYYMMDD") %>
+# ⚔️ DAILY QUEST & LOG: <% tp.date.now("dddd, MMMM Do, YYYY") %>
 
 ## ⚡ DAILY ENERGY STATS
 - **Health (HP)**: `INPUT[number:hp]`

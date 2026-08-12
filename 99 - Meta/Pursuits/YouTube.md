@@ -1,4 +1,6 @@
 ---
+tags:
+  - Pursuit
 category: Pursuit
 title: "YouTube Channel"
 xp: 200

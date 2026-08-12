@@ -1,6 +1,6 @@
 {
   "accentColor": "#75e8ff",
-  "cssTheme": "",
+  "cssTheme": "Prism",
   "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "textFontFamily": "JetBrainsMono Nerd Font Mono",
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
@@ -17,9 +17,21 @@
     "Daily Note Themes",
     "black-snippet-color",
     "Black-snippet",
-    "rpg-dashboard"
+    "rpg-dashboard",
+    "time-garden-colored-sidebar",
+    "time-garden-daily-note-themes",
+    "time-garden-hide-inline-title",
+    "time-garden-hide-source-frontmatter",
+    "time-garden-hide-visible-frontmatter",
+    "time-garden-misc-styles",
+    "time-garden-monthly-note-themes",
+    "time-garden-quarterly-note-themes",
+    "time-garden-tweaks",
+    "time-garden-weekly-note-themes",
+    "time-garden-yearly-note-themes"
   ],
   "translucency": false,
   "theme": "obsidian",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "baseFontSizeAction": false
 }
