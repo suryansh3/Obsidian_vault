@@ -9,6 +9,14 @@
       "path": "99 - Meta/Rewards.md"
     },
     {
+      "basename": "(TEMPLATE) Daily",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
+    },
+    {
+      "basename": "(TEMPLATE) Daily (Vanilla)",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md"
+    },
+    {
       "basename": "Character",
       "path": "99 - Meta/Character.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "Physical",
       "path": "99 - Meta/Areas/Physical.md"
-    },
-    {
-      "basename": "(TEMPLATE) Daily",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
-    },
-    {
-      "basename": "(TEMPLATE) Daily (Vanilla)",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md"
     },
     {
       "basename": "(TEMPLATE) Unique",

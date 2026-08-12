@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "99 - Meta/RPG_Dashboard.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -114,7 +114,7 @@
       {
         "id": "6c007c54bd3b216e",
         "type": "tabs",
-        "dimension": 81.91681735985533,
+        "dimension": 59.6745027124774,
         "children": [
           {
             "id": "d24a6f00ad1ab4e4",
@@ -238,19 +238,19 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "99 - Meta/Character.md"
+                "file": "99 - Meta/RPG_Dashboard.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "78982c0501f30aa9",
         "type": "tabs",
-        "dimension": 18.083182640144667,
+        "dimension": 40.3254972875226,
         "children": [
           {
             "id": "1245cc97a38573ae",
@@ -266,7 +266,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 447.8961181640625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -297,9 +297,11 @@
   "active": "d4b8519ee8d4fbb4",
   "lastOpenFiles": [
     "99 - Meta/Rewards.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
+    "99 - Meta/RPG_Dashboard.md",
     "99 - Meta/Character.md",
     "01 - Daily/20260813.md",
-    "99 - Meta/RPG_Dashboard.md",
     "99 - Meta/Pursuits/YouTube.md",
     "99 - Meta/Pursuits/Content_creation.md",
     "99 - Meta/Pursuits/Income.md",
@@ -311,9 +313,7 @@
     "99 - Meta/Areas/Psyche.md",
     "99 - Meta/Areas/Intel.md",
     "99 - Meta/Areas/Physical.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "99 - Meta/Areas",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/Agent-Sessions/2026-07-25 Vault Cross-Linking & Organisation.md",
     "99 - Meta/Agent-Sessions/2026-05-19 Gemini Scribe Initialization.md",

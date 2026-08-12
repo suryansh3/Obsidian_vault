@@ -17,7 +17,7 @@
     q_shutdown: false
     ---
 
-    # ⚔️ DAILY QUEST & LOG: <% tp.date.now("dddd, MMMM Do, YYYY", 0, tp.file.title, "YYYYMMDD") %>
+# ⚔️ DAILY QUEST & LOG: <% tp.date.now("dddd, MMMM Do, YYYY", 0, tp.file.title, "YYYYMMDD") %>
 
     ## ⚡ DAILY ENERGY STATS
     - **Health (HP)**: `INPUT[number:hp]`
