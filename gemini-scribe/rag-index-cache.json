@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-  "lastSync": 1786546880646,
+  "lastSync": 1786554810241,
   "files": {
     "Projects-Python/Library Pass System.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -30,8 +30,8 @@
     },
     "Excalidraw/Scripts/Downloaded/Set Font Family.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "fa87b65476794998ebe6ed75d3eb42366c8a81ac28c4a0e6643e66d2293954bb",
-      "lastIndexed": 1786512624771
+      "contentHash": "6f6e51f5bbf470f47e457b907948c32c42a408628ac530a89e7c6ef995e55158",
+      "lastIndexed": 1786554725718
     },
     "DSA 16 question co-pilot.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -43,40 +43,20 @@
       "contentHash": "1646c8e7bf61f028c9df3bb5cd4256e4ac6b809b6cf8faf854d7945643ed64d9",
       "lastIndexed": 1786512625437
     },
-    "Clippings/What is Computer Vision  Introduction.md": {
-      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "bc5ae841a1ecad367dd7d39e26ac714544d3ed441f00e257ae2113838666c0b0",
-      "lastIndexed": 1786512625635
-    },
     "Projects-Python/Ebook reader.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
       "contentHash": "7f77860b1912d6f4924f094290a48d39524a527497e4bab5b09b6ffae7a240bf",
       "lastIndexed": 1786512626244
-    },
-    "Clippings/How Do Humans Do It  Introduction.md": {
-      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "34e3b239c257f33a66091215cc1cc90151c15134fa970aaeba2c5391a13e3436",
-      "lastIndexed": 1786512631732
     },
     "Clippings/New chat.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
       "contentHash": "62de2703777f5e8b139e48639614124ef02b2931c7b7f4790b6c513f4170c323",
       "lastIndexed": 1786512631752
     },
-    "Clippings/What is Vision Used For  Introduction.md": {
-      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "21afbbf0440f5a03d3e12320b6b39d6e067c9ecd8a706763f9c3401f514df5ff",
-      "lastIndexed": 1786512632363
-    },
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
       "contentHash": "e04f30067b2c93efc62c4dc6f6efec7d8304aa7d7db17371b2076fbff2194f30",
       "lastIndexed": 1786512632551
-    },
-    "Clippings/Topics Covered  Introduction.md": {
-      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "1b33f236ec540994f3f7788736c5bf46dd49a34914976a41eeda83d7e5d0c091",
-      "lastIndexed": 1786512632782
     },
     "99 - Meta/Agent-Sessions/2026-07-25 Vault Cross-Linking & Organisation.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -967,6 +947,36 @@
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
       "contentHash": "f9032147cf6df46469293c9aed1914e1ddc87e8961df0ea1d830b707865b42d0",
       "lastIndexed": 1786524629508
+    },
+    "Clippings/Digital Image Processing - Part 1 - Introduction.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "8cf2a7b15607f0c1d3771918533d705d3123cb29944fe53427644cb70ed97e24",
+      "lastIndexed": 1786554748044
+    },
+    "Clippings/Digital Image Processing - Part 2 - Basic Mathematical Operations and Intensity Transformations.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "a1b18c4d7bdc3034a0a89bef94c1b92f9373144669eb051ba03fb14a839e1d9d",
+      "lastIndexed": 1786554764863
+    },
+    "Clippings/Digital Image Processing - Part 3 - Histogram Processing and Fundamentals of Spatial Filtering.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "a7c677de62d8fc77f51658f0ff56dd6a0281d04b6ec42933adfbb2575c041b3e",
+      "lastIndexed": 1786554777780
+    },
+    "Clippings/Digital Image Processing - Part 4 - Spatial Filtering.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "89f971b607e74c44334577ee66d3e32f576b80cbcbdda966a2a3f83e7a4d64b6",
+      "lastIndexed": 1786554792250
+    },
+    "Clippings/Digital Image Processing - Part 5 - Introduction to Fourier Transform.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "3c7278a8dd1c47d4ae5d693f08219b1e500c1c98e94b4445c75759371423e814",
+      "lastIndexed": 1786554810241
+    },
+    "Clippings/Digital Image Processing - Part 6 - Discrete Fourier Transform (DFT).md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "37d116f362df44ce8858f54fda0b9926292ae0e45857577f601fb91394834d52",
+      "lastIndexed": 1786554804091
     }
   },
   "indexingInProgress": false,

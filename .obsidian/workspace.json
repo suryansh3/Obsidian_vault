@@ -67,12 +67,14 @@
             "id": "4143d223cae44e3f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "Clippings/Digital Image Processing - Part 6 - Discrete Fourier Transform (DFT).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
+              "icon": "lucide-file",
+              "title": "Digital Image Processing - Part 6 - Discrete Fourier Transform (DFT)"
             }
           }
         ],
@@ -322,6 +324,18 @@
   },
   "active": "4143d223cae44e3f",
   "lastOpenFiles": [
+    "Clippings/Digital Image Processing - Part 5 - Introduction to Fourier Transform.md",
+    "Clippings/Digital Image Processing - Part 6 - Discrete Fourier Transform (DFT).md",
+    "Clippings/Digital Image Processing - Part 4 - Spatial Filtering.md",
+    "Clippings/Digital Image Processing - Part 3 - Histogram Processing and Fundamentals of Spatial Filtering.md",
+    "Clippings/Digital Image Processing - Part 2 - Basic Mathematical Operations and Intensity Transformations.md",
+    "Clippings/Digital Image Processing - Part 1 - Introduction.md",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.md",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
+    "Clippings/Topics Covered  Introduction.md",
+    "Clippings/What is Vision Used For  Introduction.md",
+    "Clippings/What is Computer Vision  Introduction.md",
+    "Clippings/How Do Humans Do It  Introduction.md",
     "01 - Daily/20260812.md",
     "01 - Daily/20260117.md",
     "01 - Daily/20260118.md",
@@ -335,30 +349,19 @@
     "01 - Daily/20251207.md",
     "Clippings/New chat.md",
     "WIKI.md",
-    "Clippings/Topics Covered  Introduction.md",
-    "Clippings/How Do Humans Do It  Introduction.md",
     "handwritten-notes/New note.pdf",
     "00 - AI and ML/Python/Untitled.md",
     "01 - Daily/Untitled.md",
-    "05. Semester 5/DAA-lab/Day1.md",
     "gemini-scribe/rag-index-cache.json",
     "Untitled.base",
-    "05. Semester 5/DAA-lab/Day3.md",
-    "01 - Daily/20260804.md",
     "99 - Meta/attachments/Pasted image 20260808145524.png",
     "99 - Meta/attachments/Pasted image 20260808145431.png",
-    "01 - Daily/20260808.md",
-    "01 - Daily/20260807.md",
-    "01 - Daily/20260803.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
     "gemini-scribe/Background-Tasks",
     "gemini-scribe/Agent-Sessions",
-    "Projects-Python/Library Pass System.md",
-    "05. Semester 5/DAA-lab/Day2.md",
     "05. Semester 5/DAA-lab",
     "05.Semester 5",
-    "conflict-files-obsidian-git.md",
     "99 - Meta/Scheduled-Tasks/Runs",
     "99 - Meta/attachments/Screenshot 2026-03-22 225048.png",
     "99 - Meta/attachments/Screenshot 2026-03-22 225030.png",
@@ -367,7 +370,6 @@
     "99 - Meta/attachments/Screenshot 2026-03-22 224923.png",
     "99 - Meta/attachments/Screenshot 2026-03-22 224901.png",
     "99 - Meta/attachments/Screenshot 2026-03-22 224841.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 224822.png",
     "Untitled.canvas"
   ]
 }
