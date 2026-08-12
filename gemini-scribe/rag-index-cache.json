@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-  "lastSync": 1786513101829,
+  "lastSync": 1786524629508,
   "files": {
     "Projects-Python/Library Pass System.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -972,6 +972,11 @@
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
       "contentHash": "7eef41ccf89594f2d1b19fcba8772e20a6eaf27d23530e194827e58ed3ef94bf",
       "lastIndexed": 1786513046703
+    },
+    "00 - AI and ML/Python/Untitled.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f9032147cf6df46469293c9aed1914e1ddc87e8961df0ea1d830b707865b42d0",
+      "lastIndexed": 1786524629508
     }
   },
   "indexingInProgress": false,
