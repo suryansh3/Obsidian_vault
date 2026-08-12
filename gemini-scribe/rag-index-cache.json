@@ -1,0 +1,979 @@
+{
+  "version": "1.0",
+  "storeName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+  "lastSync": 1786513101829,
+  "files": {
+    "Projects-Python/Library Pass System.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "4375a666538b09fe7e3e61e454620bf0e312e31f77699335dddb1ddb8b121b9e",
+      "lastIndexed": 1786512618036
+    },
+    "README.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "6409a283ac694a3b1189683fc379dd5963211147bf6e6aa11a039c1ee06f8eb5",
+      "lastIndexed": 1786512618211
+    },
+    "WIKI.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "31d9e345d0739b0bdebef69a4d2e69e0868321b8901339c79d3697c5ab783c34",
+      "lastIndexed": 1786512618503
+    },
+    "Good Prompts.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "75b360ee20da4fc34c5ad36853b4f2ee3a4b6ec1b421d61d3268fe8bc9471c5c",
+      "lastIndexed": 1786512619169
+    },
+    "MOC.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "52b9658097557e88dcc61b1c0f6673ab191aba97bbba09a551fea3f5afa4b4f2",
+      "lastIndexed": 1786512619175
+    },
+    "Excalidraw/Scripts/Downloaded/Set Font Family.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "fa87b65476794998ebe6ed75d3eb42366c8a81ac28c4a0e6643e66d2293954bb",
+      "lastIndexed": 1786512624771
+    },
+    "DSA 16 question co-pilot.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "57b6730b918d8563d6ba7fe8a8a80e7f73874cdb10cd897b8b78c16c690d0923",
+      "lastIndexed": 1786512625386
+    },
+    "Projects-Python/Calibre Book reader.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "1646c8e7bf61f028c9df3bb5cd4256e4ac6b809b6cf8faf854d7945643ed64d9",
+      "lastIndexed": 1786512625437
+    },
+    "Clippings/What is Computer Vision  Introduction.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "bc5ae841a1ecad367dd7d39e26ac714544d3ed441f00e257ae2113838666c0b0",
+      "lastIndexed": 1786512625635
+    },
+    "Projects-Python/Ebook reader.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "7f77860b1912d6f4924f094290a48d39524a527497e4bab5b09b6ffae7a240bf",
+      "lastIndexed": 1786512626244
+    },
+    "Clippings/How Do Humans Do It  Introduction.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "34e3b239c257f33a66091215cc1cc90151c15134fa970aaeba2c5391a13e3436",
+      "lastIndexed": 1786512631732
+    },
+    "Clippings/New chat.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "62de2703777f5e8b139e48639614124ef02b2931c7b7f4790b6c513f4170c323",
+      "lastIndexed": 1786512631752
+    },
+    "Clippings/What is Vision Used For  Introduction.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "21afbbf0440f5a03d3e12320b6b39d6e067c9ecd8a706763f9c3401f514df5ff",
+      "lastIndexed": 1786512632363
+    },
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "e04f30067b2c93efc62c4dc6f6efec7d8304aa7d7db17371b2076fbff2194f30",
+      "lastIndexed": 1786512632551
+    },
+    "Clippings/Topics Covered  Introduction.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "1b33f236ec540994f3f7788736c5bf46dd49a34914976a41eeda83d7e5d0c091",
+      "lastIndexed": 1786512632782
+    },
+    "99 - Meta/Agent-Sessions/2026-07-25 Vault Cross-Linking & Organisation.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "8ad34f09d6f132f393e9f316094a2073b2916abcc025d0d6431c28ad56b1f79a",
+      "lastIndexed": 1786512638650
+    },
+    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "6ccde2eac6b67dd11a72d79266625fa26dc8c284a90b1ba469d2d9de2bb1c303",
+      "lastIndexed": 1786512638667
+    },
+    "99 - Meta/Agent-Sessions/2026-05-19 Gemini Scribe Initialization.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "c9a465b2cb208c8a51a5dc7cf0e6b02222c13e0ef43c961ef321fd8099b318d8",
+      "lastIndexed": 1786512638889
+    },
+    "99 - Meta/Prompts/example-expert.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "8cb0453a10a1b34208c2402e3dcce22b65da4285853241bf057428364668f732",
+      "lastIndexed": 1786512639104
+    },
+    "99 - Meta/attachments/Stranger_Danger.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "1a31b207a2aa63fb053adc0f6c666e47125d758e3a982e4a6c05e807db8cd904",
+      "lastIndexed": 1786512639136
+    },
+    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "40258f5d3cd18fe092084cad2ff75371668e3c204cbca960f78c3e0ab9107907",
+      "lastIndexed": 1786512644649
+    },
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "a1451853bcbe9fd034511c0c0f7b34597bc00443de647df6e25dbd7989c0264d",
+      "lastIndexed": 1786512644868
+    },
+    "08 - Resources/Placeholder.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f25fc6c2c3ad908bc2c4a6bb9881930d5d6fb74c8bcd2a4438130458bd771950",
+      "lastIndexed": 1786512645123
+    },
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512645692
+    },
+    "99 - Meta/attachments/ED-202511130109.excalidraw.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "986c9b036c9a2e2bca48e50d676a47a21b836d5ed7458f0d0bc542ccdaadb018",
+      "lastIndexed": 1786512645752
+    },
+    "07 - Archives/Placeholder.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f25fc6c2c3ad908bc2c4a6bb9881930d5d6fb74c8bcd2a4438130458bd771950",
+      "lastIndexed": 1786512651622
+    },
+    "09- DSD Lab/Experiment Wise Components Required.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "a6eb463ff76c55ad1bccad76ab99808453a54258f993199a8ca4ecc32175d222",
+      "lastIndexed": 1786512651961
+    },
+    "09- DSD Lab/Experiment.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "da546e0edd5e09495e2462dfc9966bcbfea64b107bf70dff37e4003dccd6cc64",
+      "lastIndexed": 1786512652270
+    },
+    "05. Semester 5/DAA-lab/Day3.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ff4f73b577c2a0054d23b76f16f5e08293453381eec719b83d5512beb9ac6790",
+      "lastIndexed": 1786512652342
+    },
+    "05. Semester 5/DAA-lab/Day2.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "78ae6ae6991f4f44ecec5d653c0d8800eee085840d16caa97d205af748ce471d",
+      "lastIndexed": 1786512652567
+    },
+    "04. Semester 4/MID-SEMESTER/Untitled.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "1b8eb0de93711b9ea2610907c03ad2eaf170944fdc654b5b69094e817127ce8c",
+      "lastIndexed": 1786512658222
+    },
+    "05. Semester 5/DAA-lab/Day1.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "de380a004aee34807996cbde59891246a6f535cc7b4449672d93eb28aea66fc5",
+      "lastIndexed": 1786512658242
+    },
+    "04. Semester 4/MID-SEMESTER/OOPJ-ANALYSIS.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "afbae2a8b41a3b80decd02c2cdae1b4446b0e76db21ce8f0427f898e17d5c4a9",
+      "lastIndexed": 1786512658723
+    },
+    "04. Semester 4/MLSA CHALLENGE.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "d286ec1ae1233d81b266e5d310e00e059ea5bf6ca11176d027a00224cfb9a8c3",
+      "lastIndexed": 1786512658840
+    },
+    "04. Semester 4/DBMS/Untitled.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "d7f604400630eb40cb42c8247eae1eb2160f6adebea37f179f0c5af22671302b",
+      "lastIndexed": 1786512659077
+    },
+    "04. Semester 4/DBMS/DAY - 5.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "5b4a8784c449fd55a4b47e5136bf7555852b8d2bb0340cb210a3a296b83a9cf3",
+      "lastIndexed": 1786512664768
+    },
+    "04. Semester 4/DAWR/Experiment - 5.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "2d36b9c1f7491a2b7f526206af259c7dfe4692110acd94cbaf54ca31fbcd2ae7",
+      "lastIndexed": 1786512664864
+    },
+    "04. Semester 4/DAWR/DAY_6.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ef642f54054f3d71c04b64a6ac7351b830fa18059dd1ee93030c6b8a282d245e",
+      "lastIndexed": 1786512665203
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/Test - 2.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "574311a5e6e57f74c8c9250acffb597a7ad52521c3d63b86211fe90e6bb4f7ad",
+      "lastIndexed": 1786512671027
+    },
+    "04. Semester 4/4. Operating System (OS)/Assignment-9.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "8c94da6607afe3637de635067e7dc67f064ebc9a540a39546bd9310d09f102e3",
+      "lastIndexed": 1786512671070
+    },
+    "04. Semester 4/4. Operating System (OS)/Theory/OS Intro.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "a6b81a634bdee16b0598007b99fda4f0285210b2b735a54670f8a943295c749b",
+      "lastIndexed": 1786512671379
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/Untitled 2.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "9c2b917114b006b341c2053c74566a57c1b751b5245746312320cde28b6cf6d7",
+      "lastIndexed": 1786512671732
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/Assignment-3.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "4d3c2102e258d7650857f1311fd1f944fdb6f7550b5eb778ed7b77161ce35cb8",
+      "lastIndexed": 1786512676703
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/Assignment-5.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "8c1050d474d3df5c948e2e1703b4ed49c38bc03ac9001a4ddb2c7509a40ea19c",
+      "lastIndexed": 1786512676786
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/LAB8.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "78b69ce9d17918929c91a6326a0907593e0f18a60aad10ae0b90757065e6c451",
+      "lastIndexed": 1786512677709
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/Assignment-6.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "7399a518e650865bfd4dbf41d69587c82390721da52c08a5f77adf6c78581a3d",
+      "lastIndexed": 1786512677987
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/Assignment-4.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "c3c7a9f31737c208d41fbcd1124ad56f16a0aef71e261b64df389ccd9e948f9f",
+      "lastIndexed": 1786512678097
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/Assignement-10.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "3f0af1a00941b4ab5302dade1a75fecacd6aca4a154e86d71ae4b6b8ea34ae74",
+      "lastIndexed": 1786512683819
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/Assginment-2.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "036f2935e9218de65bfeb65b3b6a78fdaaf01f1324e82d7877ae536346d922b9",
+      "lastIndexed": 1786512683991
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/24155060-OS-assign-1.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "5fe88fbf1c8376a7fd72a242e13a0ddf65c35bb3d38968f1d673f347a70c1d45",
+      "lastIndexed": 1786512684023
+    },
+    "04. Semester 4/4. Operating System (OS)/LAB/Assignment-07.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "1275101d296e26622a0aa64226163c0ef75056274524e2589bc2786f738f7091",
+      "lastIndexed": 1786512684240
+    },
+    "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "6c179f21e6f62b629055d8ab40f454ed02e48b68563913473b857d3638e23b28",
+      "lastIndexed": 1786512688144
+    },
+    "04. Semester 4/3. OOPJ (Java)/Utkarsh - LAB 7.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "aabb96e918001b36318dc50fc9e892887441f4203b668e3f5dc7ef0bd3fb05e1",
+      "lastIndexed": 1786512689674
+    },
+    "04. Semester 4/3. OOPJ (Java)/Untitled.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "463de5149881d51c61d3369d35a8e3e57e0a2a663897fa1dd9315ec354372f9d",
+      "lastIndexed": 1786512690124
+    },
+    "04. Semester 4/3. OOPJ (Java)/Test-makeup-mid.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "de6a3afbf6f10b00bb89fb7bd6715b2875d1a6cc7eea14f88ed6b7476390d939",
+      "lastIndexed": 1786512690248
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "1b0c3136f8148e2919a22b7c93ca5425218b9bc0d017ca7ea836b567ea46f422",
+      "lastIndexed": 1786512695792
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Question.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "066b7f1942690a93f8aba6b7b68f6d7ad3b2a2c3c4757ffcdd16b7cbdf7a44a9",
+      "lastIndexed": 1786512695965
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/ASSIGNMENT_5.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "83f3eab2e75270d164b25ec2c35938e45b1a3b62a180769d2bd53407880f5388",
+      "lastIndexed": 1786512696160
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/LAB ASSIGNEMNT.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "836ac878a3c4188779d9714abca68430c49b50e51ea8e195a4b5730790d1f0d7",
+      "lastIndexed": 1786512696886
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-7.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "a159492084c9bb5a0ded69fc07b549f1da14040a39b8fca87b855774822d96f8",
+      "lastIndexed": 1786512702336
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/ASSIGNMENT - 2.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "eec78ea9081226f9e34a1e00536cd26f0922cd3bbb8e195ec8a03d0c3fde4375",
+      "lastIndexed": 1786512702851
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-12.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ac4a856d435a10a0e6713948cbda2b32b3ed0bc729e30b99e86626330a0a2b6e",
+      "lastIndexed": 1786512703024
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment-9.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "07cbdf72d738303109cc0c35b846aaac47232dbbe1629cffe2508c334a2f793d",
+      "lastIndexed": 1786512703137
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignment - 9(24052323).md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "d0ba4b9bbc3f0ee77641da32f1b234763691b0320ab1c117854574c934ba21d2",
+      "lastIndexed": 1786512703195
+    },
+    "04. Semester 4/3. OOPJ (Java)/ASSIGNMENT-9.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "d5713bdacd6ab00447287912d441a922d3e69cfc11669b73e632ec0a22cf6701",
+      "lastIndexed": 1786512708467
+    },
+    "04. Semester 4/3. OOPJ (Java)/Assignment-10.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "2499c0859d33883417b9310173428490f585d147b158739c231be799ea3d6c45",
+      "lastIndexed": 1786512708470
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/assignment - 6.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "7516ae29e131df891466f965c7caf79ca84189b12484a1fcfb68489b87c8a812",
+      "lastIndexed": 1786512708865
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/Assignement-11.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "60275c90d33620a527c259ed7fd1ab2af4213726a6901ea705f1dbc01f541871",
+      "lastIndexed": 1786512709338
+    },
+    "04. Semester 4/3. OOPJ (Java)/THEORY/ASSIGNMENT - 4.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "5e48c80c82513eb62253bdf5962f804347998ebc21de7dfc5d3de049757b56af",
+      "lastIndexed": 1786512709746
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Java In Y Minutes.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "346dd8a26bca11ca4c576ab4d8685716dae0acca668e889bae9f3d3eefb8e7fc",
+      "lastIndexed": 1786512715308
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Test -LAB.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "c9b3834d46e7fd0291fcada34f3d9bbb0f49afec14b8bd94732cb5fed13ee546",
+      "lastIndexed": 1786512715554
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Test.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "4e253297907faecba6ee537b8a04203436ad16e81b7186d7f4c61843e4365308",
+      "lastIndexed": 1786512717111
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY4-24052323.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "e18c4943722af08aa5a365dbfb3b4bb399c41b65065da73914c76e5725789527",
+      "lastIndexed": 1786512717192
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Day -2-24052339.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "c452a6885b58ea26a4e9528779402d88b9e9692c47408224702bd1eb75fa7a73",
+      "lastIndexed": 1786512722743
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY 1.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "941466e3e2530818e569faad285de8e2aa2c1e3785c4eba97bd8f4aaea624452",
+      "lastIndexed": 1786512722793
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Day-3.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "296bb977b6006e2009a4f2089dc7e7ae92fac1ace6495b0ff0ee1ca945f6fb79",
+      "lastIndexed": 1786512722963
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY-5.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "3d03a840006a99ce80defc87d023862dba31ef8dfcee4d545f6707946e31eb53",
+      "lastIndexed": 1786512723217
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/DAY-2.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "10dea0cf45815a282314b137bb246f24000124425e8d762ae36418c89a074de7",
+      "lastIndexed": 1786512723916
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-5.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "1bb511d6fb4be8d2b33cbe65bb8a8d678afd1f684cadea155c42ebbde781fb20",
+      "lastIndexed": 1786512729516
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-08.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "dc6f05d84579166b3ca3ae4cc2587889d81faf1aacb16f1459be8d69ab40f15a",
+      "lastIndexed": 1786512729637
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-7.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "97078376bf378b80fe55644f1755916c0718f772f5cad0e8f401d16f28fc370c",
+      "lastIndexed": 1786512729644
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-6.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f2a25d2acec5edce2b575319b2c60ec79326f17dd0533239623b929ae98b673d",
+      "lastIndexed": 1786512729736
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Assignment-11.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "fa6a5d9fd283aaedc4702abf39e3b4572bbf65e771a8d60c145b4f5c9fd9623a",
+      "lastIndexed": 1786512729795
+    },
+    "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2024.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "d134922a03596711d9cbf542bd63b5b021c80eeb9d4f0f4ea943b370959ff4ad",
+      "lastIndexed": 1786512735283
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/Assign-11.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "aa74dc0803401ca7cba1c41aacafd782a2796bede4c42615673ce17013a7446e",
+      "lastIndexed": 1786512735492
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/24155060-Day-4.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "8ba43e3c9a23ce255d1971d06475cafda8e823d41462ead44826f0994afca077",
+      "lastIndexed": 1786512735588
+    },
+    "04. Semester 4/3. OOPJ (Java)/LAB/24155220-day4-lab.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "c814f042477e481a95629ab3a6aa0ef1166787f719327f6d258f56d44e099b96",
+      "lastIndexed": 1786512735922
+    },
+    "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2025.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "3736525835b86cabbc01448fd83c82562d926798a0646699190c89ba9f9d879f",
+      "lastIndexed": 1786512736444
+    },
+    "03. Semester 3rd/03 - IOT/BIG Data.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "70ea84fafa73be0d5d9e349f2d2f2cd5501b6a829806c788c69fc63f6a7704b6",
+      "lastIndexed": 1786512742031
+    },
+    "04. Semester 4/1. COA (Computer Organization and Architecture)/ASSIGNMENT.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "d33ce0b81c8a355e489a57ede5ac34b78ee6e60c4a571a775ebd41ea9c196fce",
+      "lastIndexed": 1786512742280
+    },
+    "04. Semester 4/1. COA (Computer Organization and Architecture)/COA-MID-2023.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "a39b19625c9e5a3d838406156a97b14cbabf6a2b7534f8712e10f198f372cd3b",
+      "lastIndexed": 1786512742689
+    },
+    "03. Semester 3rd/03 - IOT/Industry 4.0 Environment & Design Principles.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "bb96380de37d4a215ea4c66ea57cbfd1c7a65b51d7578192658cca9360013c8a",
+      "lastIndexed": 1786512743268
+    },
+    "03. Semester 3rd/03 - IOT/Introduction.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "c463fb2eb6bccadc705303a7d985fc58f6520632b29d2ab035766f1adb54888e",
+      "lastIndexed": 1786512749127
+    },
+    "03. Semester 3rd/03 - IOT/Core Technology- Cyber-Physical Systems (CPS).md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "8f527e3eefa1a7608b7f6bebe523015c1b33482fd6d305bec9e42c9a6580ebb7",
+      "lastIndexed": 1786512749182
+    },
+    "03. Semester 3rd/03 - IOT/AI.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "1d58fbb78d288084a5f79f613c68e13586fd050c63e9e023a937328338ab2165",
+      "lastIndexed": 1786512749612
+    },
+    "03. Semester 3rd/03 - IOT/Cloud computing and FOG computing.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "4812ef19b70f016092ba9a6048d1a5274b0d12aba93fa7fc253e89453f1464b9",
+      "lastIndexed": 1786512749878
+    },
+    "03. Semester 3rd/02 - Data Structure/Viva Concept queue and trees..md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "2a95bf3a79c48b23893f53ce2eb5bd9b1d410196abfbb27948430fecb8b08d39",
+      "lastIndexed": 1786512755900
+    },
+    "03. Semester 3rd/04 - Probability/Distribution Deepseek.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ab580ec641ddfb55a96ec280e0645865ca79fd4934e25021e479bb819be4f8ad",
+      "lastIndexed": 1786512756604
+    },
+    "03. Semester 3rd/04 - Probability/Statistics.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "1ec26e639b76d8d1e7162f2a0a3a8a715b8cc83a4f91b9728aef5b75ab9ab83b",
+      "lastIndexed": 1786512756743
+    },
+    "03. Semester 3rd/04 - Probability/PMF and CMF interconvertibility.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "770a3e48b7d57aa7a4cfd358131cd37f1b24038205ad8a991659627e862821ee",
+      "lastIndexed": 1786512757032
+    },
+    "03. Semester 3rd/02 - Data Structure/Bubble sort.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "4fea60227915b8856d3970bb4d0210d3aafddc11e1ba3a2111a2b1697ba70487",
+      "lastIndexed": 1786512763228
+    },
+    "03. Semester 3rd/02 - Data Structure/Linked List.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ca82aa94087221fee73f199183992275fae427287d090cd29a794cbd6d6a5727",
+      "lastIndexed": 1786512763367
+    },
+    "03. Semester 3rd/02 - Data Structure/Pointer and Structure.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "18c7dce171f6ddd6d3bb5fb7c37cd14d7a6f9317252e65d4bd7fd994ae765735",
+      "lastIndexed": 1786512763741
+    },
+    "03. Semester 3rd/02 - Data Structure/PYQs.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "288480cce01e191d0f6d18f1d153a435c488a26f31dff5d15e116a0679350753",
+      "lastIndexed": 1786512763957
+    },
+    "03. Semester 3rd/02 - Data Structure/Miscellaneous.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "82df87623ddb93f4ed217bee7f1e45436f80b9fbc0f2e7ac964704c90327893e",
+      "lastIndexed": 1786512764907
+    },
+    "01 - Daily/20260807.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512770960
+    },
+    "01 - Daily/20260812.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512771062
+    },
+    "01 - Daily/20260808.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512771065
+    },
+    "01 - Daily/20260804.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512771603
+    },
+    "01 - Daily/20260728.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512777949
+    },
+    "01 - Daily/20260802.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512778302
+    },
+    "01 - Daily/20260726.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512778467
+    },
+    "01 - Daily/20260731.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512778556
+    },
+    "01 - Daily/20260803.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512778988
+    },
+    "01 - Daily/20260629.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512785582
+    },
+    "01 - Daily/20260717.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512785585
+    },
+    "01 - Daily/20260616.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512785586
+    },
+    "01 - Daily/20260718.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512785672
+    },
+    "01 - Daily/20260725.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "2a964170b88a924d0205017d089c35b44de86fa85be0291e4bb1e1f77f57bebd",
+      "lastIndexed": 1786512786023
+    },
+    "01 - Daily/20260527.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512842123
+    },
+    "01 - Daily/20260603.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512842125
+    },
+    "01 - Daily/20260605.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512842615
+    },
+    "01 - Daily/20260609.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512844297
+    },
+    "01 - Daily/20260602.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512850266
+    },
+    "01 - Daily/20260522.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512866607
+    },
+    "01 - Daily/20260519.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512866668
+    },
+    "01 - Daily/20260523.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512866675
+    },
+    "01 - Daily/20260525.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512866676
+    },
+    "01 - Daily/20260501.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512866677
+    },
+    "01 - Daily/20260419.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512872456
+    },
+    "01 - Daily/20260422.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512872513
+    },
+    "01 - Daily/20260420.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512872652
+    },
+    "01 - Daily/20260429.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512872996
+    },
+    "01 - Daily/20260508.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512873599
+    },
+    "01 - Daily/20260322.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512880993
+    },
+    "01 - Daily/20260413.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512881183
+    },
+    "01 - Daily/20260323.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512881209
+    },
+    "01 - Daily/20260325.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512881589
+    },
+    "01 - Daily/20260326.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512882451
+    },
+    "01 - Daily/20260316.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512888448
+    },
+    "01 - Daily/20260312.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512889186
+    },
+    "01 - Daily/20260315.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512889304
+    },
+    "01 - Daily/20260314.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512889337
+    },
+    "01 - Daily/20260313.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512889791
+    },
+    "01 - Daily/20260301.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512914134
+    },
+    "01 - Daily/20260228.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512914242
+    },
+    "01 - Daily/20260225.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512914247
+    },
+    "01 - Daily/20260310.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512914249
+    },
+    "01 - Daily/20260311.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512914250
+    },
+    "01 - Daily/20260223.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512920892
+    },
+    "01 - Daily/20260226.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512921039
+    },
+    "01 - Daily/20260222.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512921053
+    },
+    "01 - Daily/20260221.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512921165
+    },
+    "01 - Daily/20260224.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512921200
+    },
+    "01 - Daily/20260217.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512929052
+    },
+    "01 - Daily/20260218.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512936676
+    },
+    "01 - Daily/20260220.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512936681
+    },
+    "01 - Daily/20260212.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512944773
+    },
+    "01 - Daily/20260219.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512944778
+    },
+    "01 - Daily/20260213.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512950779
+    },
+    "01 - Daily/20260211.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512951058
+    },
+    "01 - Daily/20260208.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512951390
+    },
+    "01 - Daily/20260206.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512951562
+    },
+    "01 - Daily/20260201.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512952659
+    },
+    "01 - Daily/20260125.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512958943
+    },
+    "01 - Daily/20260129.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512959030
+    },
+    "01 - Daily/20260128.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512959453
+    },
+    "01 - Daily/20260121.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512959546
+    },
+    "01 - Daily/20260127.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512960370
+    },
+    "01 - Daily/20251223.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512965990
+    },
+    "01 - Daily/20260118.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512966301
+    },
+    "01 - Daily/20260123.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512966405
+    },
+    "01 - Daily/20260115.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512966703
+    },
+    "01 - Daily/20260124.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512966965
+    },
+    "01 - Daily/20260111.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512973371
+    },
+    "01 - Daily/20260117.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512973666
+    },
+    "01 - Daily/20251221.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512973874
+    },
+    "01 - Daily/20260112.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512974018
+    },
+    "01 - Daily/20260113.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786512974858
+    },
+    "01 - Daily/20260109.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786512984198
+    },
+    "01 - Daily/20260110.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513022008
+    },
+    "01 - Daily/20251218.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513022009
+    },
+    "01 - Daily/20251231.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786513022009
+    },
+    "01 - Daily/20260106.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "f41b0d4a367c1d619632beee2d34c0f3f62ef124d67bb9c80b689c6b8ab299aa",
+      "lastIndexed": 1786513022011
+    },
+    "01 - Daily/20251217.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513027529
+    },
+    "01 - Daily/20251216.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513027683
+    },
+    "01 - Daily/20251211.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513027936
+    },
+    "01 - Daily/20251215.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513028284
+    },
+    "01 - Daily/20251212.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513033287
+    },
+    "01 - Daily/20251208.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513040056
+    },
+    "01 - Daily/20251209.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513040230
+    },
+    "01 - Daily/20251207.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513040233
+    },
+    "01 - Daily/20251206.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
+      "lastIndexed": 1786513040253
+    },
+    "01 - Daily/20251210.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "7eef41ccf89594f2d1b19fcba8772e20a6eaf27d23530e194827e58ed3ef94bf",
+      "lastIndexed": 1786513046703
+    }
+  },
+  "indexingInProgress": false,
+  "lastIndexedFile": "01 - Daily/20251210.md"
+}

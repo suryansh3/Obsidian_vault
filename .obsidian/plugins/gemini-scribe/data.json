@@ -2,7 +2,7 @@
   "provider": "gemini",
   "ollamaBaseUrl": "http://localhost:11434",
   "customBaseUrl": "",
-  "apiKeySecretName": "",
+  "apiKeySecretName": "obsidian-gemini-scribe",
   "chatModelName": "gemini-flash-latest",
   "summaryModelName": "gemini-flash-latest",
   "completionsModelName": "gemini-flash-lite-latest",
@@ -33,7 +33,7 @@
   "lastSeenVersion": "4.11.0",
   "ragIndexing": {
     "enabled": true,
-    "fileSearchStoreName": null,
+    "fileSearchStoreName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
     "excludeFolders": [],
     "autoSync": true,
     "includeAttachments": false
