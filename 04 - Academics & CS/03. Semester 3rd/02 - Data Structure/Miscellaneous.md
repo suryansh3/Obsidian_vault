@@ -3,8 +3,8 @@
 I'll create a complete guide with C programs demonstrating key operations on arrays, linked lists (single, double, circular), and stacks. Each example is designed to be clear and easy to understand for your exam.
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 
 // ==================== ARRAY OPERATIONS ====================
 void array_operations() {
@@ -307,7 +307,7 @@ void cll_operations() {
 }
 
 // ==================== STACK OPERATIONS ====================
-#define MAX 5
+[[define]] MAX 5
 
 struct Stack {
     int top;

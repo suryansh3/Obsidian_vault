@@ -53,7 +53,7 @@ The design follows a closed-loop feedback logic. The Arduino constantly polls th
 C++
 
 ``` c++
-#include <Servo.h>
+[[include]] <Servo.h>
 
 Servo myServo;        // Create servo object
 int sensorPin = 2;    // IR Sensor connected to Digital Pin 2

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-  "lastSync": 1786573008701,
+  "lastSync": 1786573400339,
   "files": {
     "Projects-Python/Library Pass System.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -630,8 +630,108 @@
     },
     "01 - Daily/20260813.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "dd6d4f4817740fb43b6590a792c39d0630163e5abcd99d5bf0b1d46197c1684b",
-      "lastIndexed": 1786573008701
+      "contentHash": "d793443c39c6de3a84fd2394e952fc68d82396270be03be235a24a6823bb23d4",
+      "lastIndexed": 1786573384082
+    },
+    "06 Templates/Components/New Progress.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "b60b7ae61d3afa457ebe627968c01b867dc24b6a018b6be238cef5060cc473f4",
+      "lastIndexed": 1786573243420
+    },
+    "06 Templates/Components/New Idea.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "e4391d20e7f5e95ff43628e47145ea40e4ced56a13c87363bc5429e3dad11b7e",
+      "lastIndexed": 1786573250105
+    },
+    "06 Templates/Components/New Highlight.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "4ceed19677603ed0f49fb337c9c19567362f1e906d34464e0d729a72c6a712d5",
+      "lastIndexed": 1786573257252
+    },
+    "04 - Academics & CS/Projects-Python/Calibre Book reader.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "9e8d1340645a1d150e10251ffd28bba026b2b2262b461da6e3aedb2291fc237c",
+      "lastIndexed": 1786573263971
+    },
+    "04 - Academics & CS/05. Semester 5/DAA-lab/Day3.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "76a6d8739413d615419a755d61650e0bcec250c45d098e1e4967b11a8869fc84",
+      "lastIndexed": 1786573271121
+    },
+    "04 - Academics & CS/05. Semester 5/DAA-lab/Day2.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "55bcfa2781c092d3aca693a7dbe7bd1fd5bf981764e261d45fe1591cd5647c90",
+      "lastIndexed": 1786573376849
+    },
+    "04 - Academics & CS/05. Semester 5/DAA-lab/Day1.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "bc7dc815342d3ae34376055b7960aba488388ead93177d8b7fe9b4e5bd5732c0",
+      "lastIndexed": 1786573284978
+    },
+    "04 - Academics & CS/DSA 16 question co-pilot.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "102cfd5c510de898526cb53444aa74dccd558c3a578431d0823556b6de1e1225",
+      "lastIndexed": 1786573292516
+    },
+    "04 - Academics & CS/04. Semester 4/DAWR/Experiment - 5.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "4351c8ecaf553438ade07a3b379ca81e506d34cf20943bdf2078fdf296a6b0cc",
+      "lastIndexed": 1786573300176
+    },
+    "04 - Academics & CS/03. Semester 3rd/04 - Probability/Distribution Deepseek.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "6bf704678019895f8e263e4b39a40775ea2f234631a246af0de363bf559e907f",
+      "lastIndexed": 1786573308036
+    },
+    "04 - Academics & CS/03. Semester 3rd/02 - Data Structure/Viva Concept queue and trees..md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "b9ff512f91726fb45c778817da911f12e63b33500041d441b8399f40f8f99f4a",
+      "lastIndexed": 1786573315157
+    },
+    "04 - Academics & CS/03. Semester 3rd/02 - Data Structure/Pointer and Structure.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "7b02b8e3f9be3a0a207f4eae8beed91fea770ef1aa097bcddc45e9e3ab329a26",
+      "lastIndexed": 1786573322306
+    },
+    "04 - Academics & CS/03. Semester 3rd/02 - Data Structure/PYQs.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "9328227cd6c6aeeb0f36c0fc4c6a657f98fb16dbe06092d8e84bbe0ee38b2519",
+      "lastIndexed": 1786573329244
+    },
+    "04 - Academics & CS/03. Semester 3rd/02 - Data Structure/Miscellaneous.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "53792a9b779bd5853b394e0de5a21f10665055bc6e513c9539fcd984957b4a53",
+      "lastIndexed": 1786573336836
+    },
+    "04 - Academics & CS/03. Semester 3rd/02 - Data Structure/Bubble sort.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "9dcff24000c876f39c9ad5c6cc35ad85efb3451ea38d9219b51d81a13643adcf",
+      "lastIndexed": 1786573343562
+    },
+    "05 - Second Brain & Knowledge/WIKI.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "5679ee14b238fdf8b7dc8cf94b26e986e1f2e068c5e99be9b0942bd684068e48",
+      "lastIndexed": 1786573350455
+    },
+    "01 Daily/2026/08-August/2026-08-13-Thursday.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "144d834d6d82adaf591d36d1831793a2f091179a402b4c9a139361a55bccdd0e",
+      "lastIndexed": 1786573357811
+    },
+    "01 Daily/2026/05-May/2026-05-07-Thursday.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "170f187678ae55183230c1e896039a28f27c66096f9b107e08330f71a517c6dd",
+      "lastIndexed": 1786573364670
+    },
+    "01 Daily/2026/05-May/2026-05-06-Wednesday.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "d5ec931d4bf9aea37fd978ed2dc1a9be3ff9fef118999fb86a8a45a6cdc306f2",
+      "lastIndexed": 1786573370989
+    },
+    "00 - Dashboard/Welcome.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "6a5726b854e80ab494d9f393d736f5e903e60bc65601f05f15fea9e2ded39b13",
+      "lastIndexed": 1786573400339
     }
   },
   "indexingInProgress": false,

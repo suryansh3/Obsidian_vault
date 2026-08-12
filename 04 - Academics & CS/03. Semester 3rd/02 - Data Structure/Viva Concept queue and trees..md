@@ -3,8 +3,8 @@ I'll create a comprehensive yet concise guide for your viva. Here are the key co
 ## 1. Linear Queue (Array Implementation)
 
 ```c
-#include <stdio.h>
-#define MAX 5
+[[include]] <stdio.h>
+[[define]] MAX 5
 
 typedef struct {
     int arr[MAX];
@@ -64,8 +64,8 @@ void traverse(Queue *q) {
 ## 2. Linear Queue (Linked List Implementation)
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 
 typedef struct Node {
     int data;
@@ -130,8 +130,8 @@ void traverse(Queue *q) {
 ## 3. Circular Queue (Array Implementation)
 
 ```c
-#include <stdio.h>
-#define MAX 5
+[[include]] <stdio.h>
+[[define]] MAX 5
 
 typedef struct {
     int arr[MAX];
@@ -194,8 +194,8 @@ void traverse(CircularQueue *q) {
 ## 4. Deque (Double Ended Queue)
 
 ```c
-#include <stdio.h>
-#define MAX 5
+[[include]] <stdio.h>
+[[define]] MAX 5
 
 typedef struct {
     int arr[MAX];
@@ -250,8 +250,8 @@ int deleteFront(Deque *dq) {
 ## 5. Priority Queue (Linked List Implementation)
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 
 typedef struct Node {
     int data;
@@ -313,8 +313,8 @@ void traverse(Node *head) {
 ## 6. Binary Search Tree (Linked List Implementation)
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 
 typedef struct TreeNode {
     int data;

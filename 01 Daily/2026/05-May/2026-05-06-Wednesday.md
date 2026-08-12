@@ -16,9 +16,10 @@ cssclasses:
   - wednesday
   - daily
 date: 2026-05-06
-alias:
+aliases:
 dayRating: 1
-tags: "#type/daily-note"
+tags:
+  - "#type/daily-note"
 journal: daily
 journal-date: 2026-05-06
 journal-start-date: 2026-05-06

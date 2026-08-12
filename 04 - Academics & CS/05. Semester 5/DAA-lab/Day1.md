@@ -1,7 +1,7 @@
 ## 1.1
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 int main()
 {
 printf("Name : Suryansh Mithu\nRoll : 24155060\n");
@@ -42,7 +42,7 @@ Second largest = 32
 ## 1.2
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 int main()
 {
 printf("Name : Suryansh Mithu\nRoll : 24155060\n");
@@ -78,7 +78,7 @@ Prefix Sum: 3 7 12 13 15
 ## 1.3
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 int main()
 {
 printf("Name : Suryansh Mithu\nRoll : 24155060\n");
@@ -126,7 +126,7 @@ The most repeating element in the array = 10
 ## 1.4
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 void exchange(int *p,int *q){int t=*p;*p=*q;*q=t;}
 void rotate_right(int p1[],int p2){
 int i;
@@ -166,7 +166,7 @@ After   ROTATE: 55 11 22 33 44 66 77 88 99
 ## 1.5
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 int main()
 {
 printf("Name : Suryansh Mithu\nRoll : 24155060\n");
@@ -225,7 +225,7 @@ Range Sum (2,2) = 6
 **Code (`day1.6.c`)**
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 int main()
 {
 printf("Name : Suryansh Mithu\nRoll : 24155060\n");
@@ -265,7 +265,7 @@ Equilibrium Index = 2
 
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 void exchange(int *p,int *q){int t=*p;*p=*q;*q=t;}
 void reverse(int a[],int s,int e){
 while(s<e){exchange(&a[s],&a[e]);s++;e--;}
@@ -320,7 +320,7 @@ After rotation:  3 4 5 6 1 2
 ## 1.8
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 void exchange(int *p,int *q){int t=*p;*p=*q;*q=t;}
 void rotate_right(int a[],int n){
 int i;

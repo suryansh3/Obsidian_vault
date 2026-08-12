@@ -27,8 +27,8 @@
 ### 3.1  Aim of the program: Write a menu driven program to sort list of array elements using Merge.
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 
 void merge(int arr[], int l, int m, int r, long long *comparisons) {
     int i, j, k;
@@ -174,8 +174,8 @@ Number of Comparisons: 3403
 #### 3.2 Aim of the program: Write a menu driven program to sort a list of elements in ascending  order using Quick Sort technique. Each choice for the input data has its own disc file.
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 
 int partition(int arr[], int low, int high, long long *comparisons, long long *worst_splits, long long *total_splits) {
     int pivot = arr[low];
@@ -343,7 +343,7 @@ Scenario: Best-case
 ```
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 
 int binarySearch(int arr[], int n, int target) {
   int low = 0, high = n - 1;
@@ -414,8 +414,8 @@ int main() {
 ```
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 int power(int x, int y) {
     if (y == 0) return 1;
     if (y == 1) return x;

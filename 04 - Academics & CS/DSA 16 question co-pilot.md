@@ -5,7 +5,7 @@ Smart GPT - 5 (Co-pilot)
 ### 🔍 1. Binary Search in Array
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 int binarySearch(int arr[], int n, int key) {
     int low = 0, high = n - 1;
     while (low <= high) {
@@ -29,7 +29,7 @@ int main() {
 ### ⚡ 2. Quick Sort
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 void quickSort(int arr[], int low, int high) {
     if (low < high) {
         int pivot = arr[high], i = low - 1;
@@ -57,7 +57,7 @@ int main() {
 ### 🔀 3. Merge Sort
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 void merge(int arr[], int l, int m, int r) {
     int n1 = m - l + 1, n2 = r - m;
     int L[n1], R[n2];
@@ -88,7 +88,7 @@ int main() {
 ### 📈 4. Ascending Sort (Bubble Sort)
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++)
         for (int j = 0; j < n - i - 1; j++)
@@ -109,7 +109,7 @@ int main() {
 ### 🔃 5. Selection Sort (Asc & Desc)
 
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 void selectionSort(int arr[], int n, int asc) {
     for (int i = 0; i < n - 1; i++) {
         int idx = i;
@@ -139,9 +139,9 @@ int main() {
 ### 🌐 6 & 7. Undirected Graph – DFS & BFS Traversal
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
-#define MAX 100
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
+[[define]] MAX 100
 
 int adj[MAX][MAX], visited[MAX], n;
 
@@ -197,8 +197,8 @@ int main() {
 ### 🌳 10–12. Binary Search Tree – Preorder, Inorder, Postorder
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 
 typedef struct Node {
     int data;
@@ -259,8 +259,8 @@ int main() {
 ### 🔁 13. Linear Queue Using Linked List
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 
 typedef struct Node {
     int data;
@@ -307,8 +307,8 @@ int main() {
 ### 📚 14. Stack Using Linked List
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
+[[include]] <stdio.h>
+[[include]] <stdlib.h>
 
 typedef struct Node {
     int data;
@@ -353,9 +353,9 @@ int main() {
 ### 🧮 15. Infix to Postfix Using Stack
 
 ```c
-#include <stdio.h>
-#include <ctype.h>
-#define SIZE 100
+[[include]] <stdio.h>
+[[include]] <ctype.h>
+[[define]] SIZE 100
 
 char stack[SIZE]; int top = -1;
 

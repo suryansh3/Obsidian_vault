@@ -18,7 +18,7 @@
 /* Name : Suryansh Mithu */
 /* Roll : 24155060 */
 
-#include<stdio.h>
+[[include]]<stdio.h>
 
 void bin(int n, FILE *fp)
 {
@@ -112,7 +112,7 @@ The binary equivalent of 2564 is 0000101000000100
 /* Name : Suryansh Mithu */
 /* Roll : 24155060 */
 
-#include<stdio.h>
+[[include]]<stdio.h>
 
 int gcd(int a,int b)
 {
@@ -187,7 +187,7 @@ The GCD of 30 and 80 is 10
 /* Name : Suryansh Mithu */
 /* Roll : 24155060 */
 
-#include<stdio.h>
+[[include]]<stdio.h>
 
 long fact(int n)
 {
@@ -261,7 +261,7 @@ The factorial of 7 is 5040
 /* Name : Suryansh Mithu */
 /* Roll : 24155060 */
 
-#include<stdio.h>
+[[include]]<stdio.h>
 
 int fibo(int n)
 {
@@ -341,7 +341,7 @@ The first 7 Fibonacci terms are : 0 1 1 2 3 5 8
 /* Name : Suryansh Mithu */
 /* Roll : 24155060 */
 
-#include<stdio.h>
+[[include]]<stdio.h>
 
 int sum(int n)
 {
@@ -415,7 +415,7 @@ The sum of digits of 999 is 27
 /* Name : Suryansh Mithu */
 /* Roll : 24155060 */
 
-#include<stdio.h>
+[[include]]<stdio.h>
 
 int rev(int n,int r)
 {
@@ -488,7 +488,7 @@ The reverse of 6789 is 9876
 /* Name : Suryansh Mithu */
 /* Roll : 24155060 */
 
-#include<stdio.h>
+[[include]]<stdio.h>
 
 int rev(int n,int r)
 {

@@ -48,7 +48,7 @@ void bubbleSortAdaptive(int *A, int n){
 Bubble sort full algorithm :
 
 ```c
-#include<stdio.h>
+[[include]]<stdio.h>
  
 void printArray(int* A, int n){
     for (int i = 0; i < n; i++)

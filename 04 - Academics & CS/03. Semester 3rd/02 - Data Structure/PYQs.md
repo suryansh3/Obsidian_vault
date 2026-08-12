@@ -106,7 +106,7 @@ void deleteMiddle(Stack *s, int size) {
 
 **Code:**
 ```c
-#include <stdio.h>
+[[include]] <stdio.h>
 // Assuming arrays and sizes are passed
 void findSwapValues(int arr1[], int n, int arr2[], int m) {
     int sum1 = 0, sum2 = 0;
@@ -197,7 +197,7 @@ struct SparseMatrix {
 
 **Q1. (c) Dynamic Allocation for M×N matrix**
 ```c
-#include <stdlib.h>
+[[include]] <stdlib.h>
 int main() {
     int M = 5, N = 5;
     int **matrix;
@@ -738,7 +738,7 @@ void displayInOrder(Stack *s) {
 
 **Q5. (b) Two queues in one array**
 ```c
-#define MAX_SIZE 100
+[[define]] MAX_SIZE 100
 int arr[MAX_SIZE];
 int front1 = -1, rear1 = -1; // Queue 1 from left
 int front2 = MAX_SIZE, rear2 = MAX_SIZE; // Queue 2 from right

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Daily/2026/08-August/2026-08-13-Thursday.md",
+                "file": "05 - Second Brain & Knowledge/WIKI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-13-Thursday"
+              "title": "WIKI"
             }
           },
           {
@@ -111,8 +111,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent files"
             }
           },
           {
@@ -121,8 +121,8 @@
             "state": {
               "type": "journal-calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "journal-calendar"
+              "icon": "calendar-days",
+              "title": "Calendar"
             }
           }
         ]
@@ -300,10 +300,6 @@
       "terminal:Open terminal": false,
       "gemini-scribe:Gemini Scribe: Agent mode": false,
       "callout-manager:Insert Callout": false,
-      "cmdr:Journals: Open calendar": false,
-      "cmdr:Open daily note": false,
-      "cmdr:Time Garden Plugin: Reset Welcome Experience": false,
-      "cmdr:Time Garden Plugin: Open Time Garden Settings": false,
       "iconic:Open rulebook": false,
       "obsidian42-brat:BRAT": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
@@ -324,14 +320,23 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "cmdr:Journals: Open calendar": false,
+      "cmdr:Open daily note": false,
+      "cmdr:Time Garden Plugin: Reset Welcome Experience": false,
+      "cmdr:Time Garden Plugin: Open Time Garden Settings": false
     }
   },
-  "active": "519c5e5f134d2a11",
+  "active": "5e953cf0eeb35f4e",
   "lastOpenFiles": [
+    "00 - Dashboard/Welcome.md",
+    "00 - Dashboard/RPG_Dashboard.md",
     "01 - Daily/20260813.md",
-    "conflict-files-obsidian-git.md",
+    "04 - Academics & CS/Projects-Python/Library Pass System.md",
+    "04 - Academics & CS/Projects-Python/Calibre Book reader.md",
+    "04 - Academics & CS/05. Semester 5/DAA-lab/Day2.md",
     "01 Daily/2026/08-August/2026-08-13-Thursday.md",
+    "conflict-files-obsidian-git.md",
     "01- Daily",
     "New folder",
     "README.md",
@@ -370,11 +375,6 @@
     "06 Templates/Components/Yearly AI Summarize.md",
     "06 Templates/Components/Yearly AI Review.md",
     "06 Templates/Components/Yearly AI QA Execute.md",
-    "06 Templates/Components/Yearly AI Alias.md",
-    "06 Templates/Components/Weekly WheelOfLife.md",
-    "06 Templates/Components/Weekly Rating BarChart.md",
-    "06 Templates/Components/Weekly Rating Average.md",
-    "06 Templates/Components/Weekly Progress.md",
     "Untitled.canvas"
   ]
 }

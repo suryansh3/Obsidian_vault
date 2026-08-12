@@ -114,7 +114,7 @@ void traverseList(Node* head) {
 
 **Stack Implementation using Array:**
 ```c
-#define MAX 5
+[[define]] MAX 5
 
 typedef struct Stack {
     int top;

@@ -575,9 +575,9 @@ Apply during scaffold. Create `.obsidian/snippets/vault-colors.css`:
 
 ```css
 :root {
-  --wiki-1: #4fc1ff;  --wiki-2: #c586c0;  --wiki-3: #dcdcaa;
-  --wiki-4: #ce9178;  --wiki-5: #6a9955;  --wiki-6: #d16969;
-  --wiki-7: #569cd6;
+  --wiki-1: [[4fc1ff]];  --wiki-2: [[c586c0]];  --wiki-3: [[dcdcaa]];
+  --wiki-4: [[ce9178]];  --wiki-5: [[6a9955]];  --wiki-6: [[d16969]];
+  --wiki-7: [[569cd6]];
 }
 
 .nav-folder-title[data-path^="wiki/domains"]     { color: var(--wiki-1); }

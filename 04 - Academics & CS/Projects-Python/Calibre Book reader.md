@@ -6,7 +6,7 @@ body {
     /* Dark background color */
     background-color: #181818;
     /* Light off-white text color */
-    color: #e0e0e0;
+    color: [[e0e0e0]];
     /* Monospaced font style */
     font-family: "Sitika", "Sitika Text", Georgia, serif; 
     /* Generous line height for readability */

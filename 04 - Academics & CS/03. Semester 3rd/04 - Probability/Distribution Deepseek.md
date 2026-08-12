@@ -429,4 +429,4 @@ Start -> Fixed number of trials (n)?
         Therefore, $\lim_{n \to \infty} P(X_n = k) = \frac{\lambda^k}{k!} \cdot 1 \cdot e^{-\lambda} \cdot 1 = \frac{e^{-\lambda} \lambda^k}{k!}$, which is the Poisson PMF.
 
 
-Links : #probabilty #probability_and_statistics #psmidsem #midsem2025_autumn 
+Links : [[probabilty]] [[probability_and_statistics]] [[psmidsem]] [[midsem2025_autumn]] 
