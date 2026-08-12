@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-  "lastSync": 1786567211520,
+  "lastSync": 1786568944600,
   "files": {
     "Projects-Python/Library Pass System.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -100,8 +100,8 @@
     },
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
-      "lastIndexed": 1786562866564
+      "contentHash": "3e3073b1d52a2704db851b1ce30050836b00b290a204b282b21b5acfcd38a93b",
+      "lastIndexed": 1786568489083
     },
     "99 - Meta/attachments/ED-202511130109.excalidraw.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -1012,6 +1012,66 @@
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
       "contentHash": "ad73ac1c38ba11e183f7c379e7017c7488c74edc5f50657e22c005dce4369d46",
       "lastIndexed": 1786562846094
+    },
+    "99 - Meta/Character.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "061f9746fda115afed341c844c79aca24b67a3c8413c60ad7a9aec369c03fae4",
+      "lastIndexed": 1786568260899
+    },
+    "99 - Meta/Rewards.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "bd95be5868f94e6e2a67b9b74a88037c851623d4475b32f78e2f673442ef7ca1",
+      "lastIndexed": 1786568309165
+    },
+    "99 - Meta/RPG_Dashboard.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "5d4062d21a2edc331e121f4359e080a8e670c31f22442b65ba40c5e34358a288",
+      "lastIndexed": 1786568434433
+    },
+    "99 - Meta/Areas/Physical.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "a407a72735aaddf7c472aa28a07435e4a0c4e18eca7e5819c69c12d8e4bc5a44",
+      "lastIndexed": 1786568592224
+    },
+    "99 - Meta/Areas/Intel.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "8bf3c4e158090a033ff7ffc8ab41f2bf0719e5089f97ba0c627297ea86359f4b",
+      "lastIndexed": 1786568619136
+    },
+    "99 - Meta/Areas/Psyche.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "669313a05be64f7291612aca9829a18a36cf51d2da0e654e9079142481ebbcf8",
+      "lastIndexed": 1786568642086
+    },
+    "99 - Meta/Areas/Craft.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "7767676e11f713cc6b117d8201012eeba3e7804a15dc3902d956f37a2b62f725",
+      "lastIndexed": 1786568683798
+    },
+    "99 - Meta/Areas/Spiritual.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "e19fb784a097d043d9b454127664454c7fe55d6e3d2ff6b549779358c216b987",
+      "lastIndexed": 1786568712605
+    },
+    "99 - Meta/Areas/Core.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "2ec9d30a599a5161933fd567f8301073a17db7f8fc0832187da75db05309a0d2",
+      "lastIndexed": 1786568728810
+    },
+    "99 - Meta/Pursuits/YouTube.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "e79d6eaea4364da0a3978efb4fe64b1207cbb39d30f20f5bf958ff9b954cbe38",
+      "lastIndexed": 1786568944600
+    },
+    "99 - Meta/Pursuits/Income.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "0cbeda86b2860aad4e606ef49f75677a94134ae90426e29c896eeff48fe738b9",
+      "lastIndexed": 1786568938204
+    },
+    "99 - Meta/Pursuits/Content_creation.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "eaa1d5baa8a9f35d5fb38d87ba478ec9b3e28e3e4e5c8df77f2e82ad89ce170f",
+      "lastIndexed": 1786568926399
     }
   },
   "indexingInProgress": false,

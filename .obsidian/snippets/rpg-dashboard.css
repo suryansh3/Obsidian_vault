@@ -1,4 +1,4 @@
-/* ==========================================================================
+    /* ==========================================================================
        RPG LIFE GAMIFICATION DASHBOARD CSS
        Solo Leveling Forest-Green Dark Theme for Obsidian
        ========================================================================== */
@@ -15,7 +15,6 @@
       --rpg-green-accent: #34d399;
     }
 
-    /* Base RPG Glassmorphic Card Container */
     .rpg-character-card,
     .rpg-panel,
     .rpg-quest-card,
@@ -39,61 +38,24 @@
       transform: translateY(-2px);
     }
 
-    /* Character Header */
-    .rpg-header {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      margin-bottom: 16px;
-    }
-
+    .rpg-header { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
     .rpg-avatar-box {
-      width: 56px;
-      height: 56px;
-      border-radius: 12px;
+      width: 56px; height: 56px; border-radius: 12px;
       background: linear-gradient(135deg, #15803d, #052e16);
       border: 2px solid var(--rpg-green-accent);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 28px;
-      box-shadow: 0 0 12px var(--rpg-green-glow);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 28px; box-shadow: 0 0 12px var(--rpg-green-glow);
     }
 
     .rpg-char-details h2.rpg-name {
-      margin: 0 0 4px 0;
-      font-size: 1.4rem;
-      font-weight: 800;
-      letter-spacing: 0.5px;
-      color: #ffffff;
-      text-shadow: 0 0 10px rgba(34, 197, 94, 0.5);
+      margin: 0 0 4px 0; font-size: 1.4rem; font-weight: 800; letter-spacing: 0.5px;
+      color: #ffffff; text-shadow: 0 0 10px rgba(34, 197, 94, 0.5);
     }
 
-    .rpg-badges {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .rpg-badge {
-      font-size: 0.75rem;
-      font-weight: 700;
-      padding: 3px 10px;
-      border-radius: 6px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .rpg-level-badge {
-      background: #15803d;
-      color: #ffffff;
-      border: 1px solid #22c55e;
-    }
-
-    .rpg-rank-badge {
-      border: 1px solid currentColor;
-    }
+    .rpg-badges { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .rpg-badge { font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 6px; text-transform: uppercase; }
+    .rpg-level-badge { background: #15803d; color: #ffffff; border: 1px solid #22c55e; }
+    .rpg-rank-badge { border: 1px solid currentColor; }
     .rank-e { color: #94a3b8; background: rgba(148, 163, 184, 0.15); }
     .rank-d { color: #4ade80; background: rgba(74, 222, 128, 0.15); }
     .rank-c { color: #38bdf8; background: rgba(56, 189, 248, 0.15); }
@@ -101,154 +63,37 @@
     .rank-a { color: #fbbf24; background: rgba(251, 191, 36, 0.15); }
     .rank-s { color: #f87171; background: rgba(248, 113, 113, 0.2); box-shadow: 0 0 8px rgba(248, 113, 113, 0.6); }
 
-    .rpg-title-tag {
-      font-size: 0.75rem;
-      color: var(--rpg-text-muted);
-      font-style: italic;
-    }
-
-    /* XP & Progress Bars */
-    .rpg-xp-container, .rpg-bar-item, .rpg-stat-row {
-      margin-top: 10px;
-    }
-
+    .rpg-title-tag { font-size: 0.75rem; color: var(--rpg-text-muted); font-style: italic; }
+    .rpg-xp-container, .rpg-bar-item, .rpg-stat-row { margin-top: 10px; }
     .rpg-xp-labels, .rpg-bar-header, .rpg-stat-meta, .rpg-quest-labels {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      font-weight: 600;
-      margin-bottom: 6px;
-      color: var(--rpg-text-main);
+      display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; margin-bottom: 6px; color: var(--rpg-text-main);
     }
-
-    .rpg-xp-title {
-      color: var(--rpg-green-accent);
-      letter-spacing: 0.8px;
-    }
-
+    .rpg-xp-title { color: var(--rpg-green-accent); letter-spacing: 0.8px; }
     .rpg-progress-track {
-      width: 100%;
-      height: 12px;
-      background: rgba(15, 23, 42, 0.8);
-      border-radius: 6px;
-      overflow: hidden;
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      position: relative;
+      width: 100%; height: 12px; background: rgba(15, 23, 42, 0.8);
+      border-radius: 6px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.08); position: relative;
     }
-
-    .rpg-progress-fill {
-      height: 100%;
-      border-radius: 5px;
-      transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-      position: relative;
-    }
-
-    .rpg-progress-fill.green {
-      background: linear-gradient(90deg, #15803d 0%, #22c55e 100%);
-      box-shadow: 0 0 10px var(--rpg-green-glow);
-    }
-
-    /* Stat Grid & Trees */
-    .rpg-stat-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 16px;
-    }
-
-    .rpg-stat-tree {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    /* Quest & Pursuit Grid */
-    .rpg-quest-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-    }
-
-    .rpg-quest-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 8px;
-    }
-
-    .rpg-quest-icon {
-      font-size: 1.5rem;
-    }
-
+    .rpg-progress-fill { height: 100%; border-radius: 5px; transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1); position: relative; }
+    .rpg-progress-fill.green { background: linear-gradient(90deg, #15803d 0%, #22c55e 100%); box-shadow: 0 0 10px var(--rpg-green-glow); }
+    .rpg-stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+    .rpg-stat-tree { display: flex; flex-direction: column; gap: 12px; }
+    .rpg-quest-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .rpg-quest-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+    .rpg-quest-icon { font-size: 1.5rem; }
     .rpg-quest-status {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      padding: 2px 8px;
-      border-radius: 4px;
-      background: rgba(34, 197, 94, 0.15);
-      color: var(--rpg-green-accent);
-      border: 1px solid var(--rpg-green-primary);
+      font-size: 0.7rem; text-transform: uppercase; padding: 2px 8px; border-radius: 4px;
+      background: rgba(34, 197, 94, 0.15); color: var(--rpg-green-accent); border: 1px solid var(--rpg-green-primary);
     }
-
-    .rpg-quest-title {
-      margin: 4px 0;
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #ffffff;
-    }
-
-    .rpg-quest-desc {
-      font-size: 0.8rem;
-      color: var(--rpg-text-muted);
-      margin-bottom: 12px;
-    }
-
-    /* Gacha & Buttons */
+    .rpg-quest-title { margin: 4px 0; font-size: 1.1rem; font-weight: 700; color: #ffffff; }
+    .rpg-quest-desc { font-size: 0.8rem; color: var(--rpg-text-muted); margin-bottom: 12px; }
     .rpg-gacha-btn {
-      background: linear-gradient(135deg, #166534, #15803d);
-      color: #ffffff;
-      border: 1px solid var(--rpg-green-accent);
-      border-radius: 8px;
-      padding: 12px 20px;
-      font-weight: 700;
-      font-size: 0.95rem;
-      cursor: pointer;
-      box-shadow: 0 0 12px var(--rpg-green-glow);
-      transition: all 0.2s ease;
-      width: 100%;
+      background: linear-gradient(135deg, #166534, #15803d); color: #ffffff;
+      border: 1px solid var(--rpg-green-accent); border-radius: 8px; padding: 12px 20px;
+      font-weight: 700; font-size: 0.95rem; cursor: pointer; box-shadow: 0 0 12px var(--rpg-green-glow); transition: all 0.2s ease; width: 100%;
     }
-
-    .rpg-gacha-btn:hover {
-      background: linear-gradient(135deg, #15803d, #22c55e);
-      transform: scale(1.02);
-      box-shadow: 0 0 20px var(--rpg-green-glow);
-    }
-
-    .rpg-gacha-result {
-      margin-top: 16px;
-    }
-
-    .rpg-rolling {
-      font-size: 0.9rem;
-      color: var(--rpg-green-accent);
-      font-style: italic;
-      animation: pulse 1s infinite alternate;
-    }
-
-    @keyframes pulse {
-      0% { opacity: 0.4; }
-      100% { opacity: 1; }
-    }
-
-    .rpg-loot-box {
-      padding: 16px;
-      text-align: center;
-    }
-
-    .rpg-loot-header {
-      font-size: 0.8rem;
-      font-weight: 800;
-      padding: 4px;
-      border-radius: 4px;
-      margin-bottom: 10px;
-      letter-spacing: 1px;
-    }
+    .rpg-gacha-btn:hover { background: linear-gradient(135deg, #15803d, #22c55e); transform: scale(1.02); box-shadow: 0 0 20px var(--rpg-green-glow); }
+    .rpg-gacha-result { margin-top: 16px; }
+    .rpg-rolling { font-size: 0.9rem; color: var(--rpg-green-accent); font-style: italic; animation: pulse 1s infinite alternate; }
+    @keyframes pulse { 0% { opacity: 0.4; } 100% { opacity: 1; } }
+    .rpg-loot-box { padding: 16px; text-align: center; }
+    .rpg-loot-header { font-size: 0.8rem; font-weight: 800; padding: 4px; border-radius: 4px; margin-bottom: 10px; letter-spacing: 1px; }

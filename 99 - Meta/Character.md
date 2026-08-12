@@ -1,9 +1,4 @@
- ## 3. ⚔️ Component Breakdown & Implementation
-
-  ### Feature 1: Character Sheet (Level, Rank, XP)
-
-  • Location: Place in 99 - Meta/Character.md.
-  • YAML Frontmatter:
+ ### File 2: 99 - Meta/Character.md
 
     ---
     char_name: "Shadow Monarch"
@@ -15,12 +10,12 @@
     xp_to_next_level: 500
     ---
 
-  • DataviewJS Code Block:
+    # ⚔️ CHARACTER SHEET
 
+    ```dataviewjs
     const page = dv.page("99 - Meta/Character.md") || dv.current();
     const totalXp = page.total_xp || 0;
 
-    // Dynamic XP Formula: XP required scales with level
     function getLevelInfo(xp) {
         let lvl = 1;
         let req = 500;
@@ -38,7 +33,6 @@
     const currentLevelXp = totalXp % reqXp;
     const percent = Math.min(Math.round((currentLevelXp / reqXp) * 100), 100);
 
-    // Rank Tiering Logic
     function getRank(lvl) {
         if (lvl >= 75) return { name: "S-Rank", class: "rank-s" };
         if (lvl >= 50) return { name: "A-Rank", class: "rank-a" };
@@ -76,3 +70,6 @@
       </div>
     </div>
     `, { raw: true });
+
+
+    ---

@@ -1,24 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "20260813",
-      "path": "01 - Daily/20260813.md"
+      "basename": "RPG_Dashboard",
+      "path": "99 - Meta/RPG_Dashboard.md"
+    },
+    {
+      "basename": "Rewards",
+      "path": "99 - Meta/Rewards.md"
     },
     {
       "basename": "Character",
       "path": "99 - Meta/Character.md"
     },
     {
-      "basename": "(TEMPLATE) Unique",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md"
+      "basename": "YouTube",
+      "path": "99 - Meta/Pursuits/YouTube.md"
+    },
+    {
+      "basename": "Content_creation",
+      "path": "99 - Meta/Pursuits/Content_creation.md"
+    },
+    {
+      "basename": "Income",
+      "path": "99 - Meta/Pursuits/Income.md"
+    },
+    {
+      "basename": "Core",
+      "path": "99 - Meta/Areas/Core.md"
+    },
+    {
+      "basename": "Spiritual",
+      "path": "99 - Meta/Areas/Spiritual.md"
+    },
+    {
+      "basename": "Craft",
+      "path": "99 - Meta/Areas/Craft.md"
+    },
+    {
+      "basename": "Psyche",
+      "path": "99 - Meta/Areas/Psyche.md"
+    },
+    {
+      "basename": "Intel",
+      "path": "99 - Meta/Areas/Intel.md"
+    },
+    {
+      "basename": "Physical",
+      "path": "99 - Meta/Areas/Physical.md"
+    },
+    {
+      "basename": "(TEMPLATE) Daily",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
+    },
+    {
+      "basename": "20260813",
+      "path": "01 - Daily/20260813.md"
     },
     {
       "basename": "(TEMPLATE) Daily (Vanilla)",
       "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md"
     },
     {
-      "basename": "(TEMPLATE) Daily",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
+      "basename": "(TEMPLATE) Unique",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md"
     },
     {
       "basename": "2026-07-25 Vault Cross-Linking & Organisation",
@@ -155,26 +199,6 @@
     {
       "basename": "Day3",
       "path": "05. Semester 5/DAA-lab/Day3.md"
-    },
-    {
-      "basename": "20260804",
-      "path": "01 - Daily/20260804.md"
-    },
-    {
-      "basename": "20260808",
-      "path": "01 - Daily/20260808.md"
-    },
-    {
-      "basename": "20260807",
-      "path": "01 - Daily/20260807.md"
-    },
-    {
-      "basename": "20260803",
-      "path": "01 - Daily/20260803.md"
-    },
-    {
-      "basename": "Library Pass System",
-      "path": "Projects-Python/Library Pass System.md"
     }
   ],
   "omittedPaths": [],
