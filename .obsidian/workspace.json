@@ -25,14 +25,13 @@
             "id": "9dcfe53b08213207",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "01 - Daily/20260812.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "20260812"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ],
@@ -114,6 +113,7 @@
       {
         "id": "6c007c54bd3b216e",
         "type": "tabs",
+        "dimension": 81.91681735985533,
         "children": [
           {
             "id": "d24a6f00ad1ab4e4",
@@ -220,13 +220,24 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "8268dfe5b920a0f4",
+            "type": "leaf",
+            "state": {
+              "type": "gemini-agent-view",
+              "state": {},
+              "icon": "sparkles",
+              "title": "Agent mode"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "78982c0501f30aa9",
         "type": "tabs",
+        "dimension": 18.083182640144667,
         "children": [
           {
             "id": "1245cc97a38573ae",
@@ -242,7 +253,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 1072.4151611328125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,9 +279,11 @@
       "inkporter:Inkporter: Extract Image from File": false
     }
   },
-  "active": "9dcfe53b08213207",
+  "active": "8268dfe5b920a0f4",
   "lastOpenFiles": [
     "01 - Daily/20260812.md",
+    "Untitled.base",
+    "05. Semester 5/DAA-lab/Day1.md",
     "05. Semester 5/DAA-lab/Day3.md",
     "Clippings/How Do Humans Do It  Introduction.md",
     "01 - Daily/20260804.md",
@@ -285,7 +298,6 @@
     "gemini-scribe/Agent-Sessions",
     "Projects-Python/Library Pass System.md",
     "05. Semester 5/DAA-lab/Day2.md",
-    "05. Semester 5/DAA-lab/Day1.md",
     "05. Semester 5/DAA-lab",
     "05.Semester 5",
     "conflict-files-obsidian-git.md",
@@ -306,8 +318,6 @@
     "03. Semester 3rd/04 - Probability/Distribution Deepseek.md",
     "04. Semester 4/2. DM (Discrete Mathematics )/Untitled.md",
     "04. Semester 4/2. DM (Discrete Mathematics )/INTRODUCTION.md",
-    "04. Semester 4/4. Operating System (OS)/LAB/Untitled.md",
-    "05. Semester 5/CN(L)",
     "99 - Meta/attachments/Screenshot 2026-03-22 225048.png",
     "99 - Meta/attachments/Screenshot 2026-03-22 225030.png",
     "99 - Meta/attachments/Screenshot 2026-03-22 225010.png",
