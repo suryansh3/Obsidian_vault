@@ -27,5 +27,7 @@
   "ytranscript",
   "gemini-scribe",
   "dataview",
-  "obsidian-meta-bind-plugin"
+  "obsidian-meta-bind-plugin",
+  "obsidian-charts",
+  "quickadd"
 ]
