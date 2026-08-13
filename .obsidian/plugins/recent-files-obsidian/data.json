@@ -5,8 +5,40 @@
       "path": "01 Daily/2026/08-August/2026-08-13-Thursday.md"
     },
     {
+      "basename": "Ebook reader",
+      "path": "04 - Academics & CS/Projects-Python/Ebook reader.md"
+    },
+    {
       "basename": "20260813",
       "path": "01 - Daily/20260813.md"
+    },
+    {
+      "basename": "Calibre Book reader",
+      "path": "04 - Academics & CS/Projects-Python/Calibre Book reader.md"
+    },
+    {
+      "basename": "Library Pass System",
+      "path": "04 - Academics & CS/Projects-Python/Library Pass System.md"
+    },
+    {
+      "basename": "Daily",
+      "path": "06 Templates/Parents/Daily.md"
+    },
+    {
+      "basename": "Character",
+      "path": "99 - Meta/Character.md"
+    },
+    {
+      "basename": "Rewards",
+      "path": "99 - Meta/Rewards.md"
+    },
+    {
+      "basename": "RPG_Dashboard",
+      "path": "00 - Dashboard/RPG_Dashboard.md"
+    },
+    {
+      "basename": "Welcome",
+      "path": "00 - Dashboard/Welcome.md"
     },
     {
       "basename": "2026-05-06-Wednesday",
@@ -25,22 +57,6 @@
       "path": "05 - Second Brain & Knowledge/WIKI.md"
     },
     {
-      "basename": "Welcome",
-      "path": "00 - Dashboard/Welcome.md"
-    },
-    {
-      "basename": "RPG_Dashboard",
-      "path": "00 - Dashboard/RPG_Dashboard.md"
-    },
-    {
-      "basename": "Library Pass System",
-      "path": "04 - Academics & CS/Projects-Python/Library Pass System.md"
-    },
-    {
-      "basename": "Calibre Book reader",
-      "path": "04 - Academics & CS/Projects-Python/Calibre Book reader.md"
-    },
-    {
       "basename": "Day2",
       "path": "04 - Academics & CS/05. Semester 5/DAA-lab/Day2.md"
     },
@@ -55,14 +71,6 @@
     {
       "basename": "DSA 16 question co-pilot",
       "path": "DSA 16 question co-pilot.md"
-    },
-    {
-      "basename": "Character",
-      "path": "99 - Meta/Character.md"
-    },
-    {
-      "basename": "Rewards",
-      "path": "99 - Meta/Rewards.md"
     },
     {
       "basename": "(TEMPLATE) Daily",
