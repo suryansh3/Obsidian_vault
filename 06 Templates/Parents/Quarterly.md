@@ -1,95 +1,150 @@
-<%"---"%>
+---
 tags:
   - "#type/quarterly-note" 
 cssclasses:
   - image-borders
   - image-small
   - timegarden-quarterly
-  <%* tR += "- " + "quarter-" + moment(tp.file.title, 'YYYY-[Q]Q').format('Q').toLowerCase(); tR += "\n  - quarterly" %>
-<%* // --- BANNER CONFIG --- 
-tR += await tp.file.include("[[Quarterly Banner Config]]"); %>
-date: <% moment(tp.file.title, 'YYYY-[Q]Q').startOf('quarter').format("YYYY-MM-DD") %>
+  - quarter-invalid date
+  - quarterly
+# Not a quarterly note - banner not applied
+date: Invalid date
 alias:
 aiAnswer: ""
 QuarterSummary: ""
 quarterlyWheelOfLifeCategoryChartType: line
 quarterRating: 0
 journal: quarterly
-journal-date: <% moment(tp.file.title, 'YYYY-[Q]Q').startOf('quarter').format("YYYY-MM-DD") %>
-journal-start-date: <% moment(tp.file.title, 'YYYY-[Q]Q').startOf('quarter').format("YYYY-MM-DD") %>
-journal-end-date: <% moment(tp.file.title, 'YYYY-[Q]Q').endOf('quarter').format("YYYY-MM-DD") %>
-<%"---"%>
-# ✧ *<% moment(tp.file.title, 'YYYY-[Q]Q').format('YYYY [Q]Q') %>*
+journal-date: Invalid date
+journal-start-date: Invalid date
+journal-end-date: Invalid date
+---
+# ✧ *Invalid date*
 
-<%*
-tR += await tp.file.include("[[Quarterly MetaBindNavBar]]");
-%>
+`BUTTON[prev-quarter, current-year, next-quarter]`
+```meta-bind-button
+id: prev-quarter
+style: primary
+label: ← Previous Quarter
+hidden: true
+actions:
+  - type: open
+    link: "[[undefined04 Quarterly/Invalid date]]"
+    newTab: false
+```
+```meta-bind-button
+id: current-year
+style: primary
+label: This Year
+hidden: true
+actions:
+    - type: open  
+      link: "[[undefined05 Yearly/Invalid date]]"
+      newTab: false
+```
+```meta-bind-button
+id: next-quarter
+style: primary
+label: Next Quarter →
+hidden: true
+actions:
+    - type: open
+      link: "[[undefined04 Quarterly/Invalid date]]"
+      newTab: false
+```
 
-<%*
-tR += await tp.file.include("[[Quarterly MetaBindAlias]]");
-%>
+```meta-bind
+INPUT[text(placeholder('Name this Quarter!'), class('custom-input')):alias]
+```
 
-<%* 
-tR += await tp.file.include("[[Quarterly MetaBindSummary]]"); 
-%>
+```meta-bind
+INPUT[editor(class(custom-editor)):QuarterSummary]
+```
 
-<%*
-tR += await tp.file.include("[[Quarterly MetaBindAiButton]]");
-%>
+`BUTTON[generate-quarterly-summary, generate-quarterly-alias]`
+```meta-bind-button
+id: generate-quarterly-summary
+style: primary
+label: ✨ Generate Summary
+hidden: true
+actions:
+  - type: command
+    command: templater-obsidian:undefined06 Templates/Components/Quarterly AI Summarize.md
+```
+```meta-bind-button
+id: generate-quarterly-alias
+style: primary
+label: 🏷️ Generate Alias
+hidden: true
+actions:
+  - type: command
+    command: templater-obsidian:undefined06 Templates/Components/Quarterly AI Alias.md
+```
 
 ## Ratings ✮⋆˙
 ---
-<%*
-// Quarterly average rating
-tR += await tp.file.include("[[Quarterly Rating Average]]");
-%>
+```tracker
+searchType: frontmatter
+searchTarget: dayRating
+dateFormat: YYYY-MM-DD-dddd
+datasetName: monthRating
+startDate: Invalid date
+endDate: Invalid date
+summary:
+    template: "Average Rating: {{average()}}" 
+```
 
-<%*
-// Quarterly Rating Chart Module
-tR += await tp.file.include("[[Quarterly Rating Chart]]");
-%>
+```dataviewjs
+dv.view("undefined06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyRatingChart", {container: this.container})
+```
 ### <p hidden>PicturesHeader</p>
-<%*
-// Quarterly Image Retriever - will collect images from the quarter
-tR += await tp.file.include("[[Quarterly Image Retriever]]");
-_%>
+> [! pictures]- Gallery of QInvalid date
 
 ## Logs
 ---
-<%*
-// Get all monthly callouts
-tR += await tp.file.include("[[Quarterly Logs Retriever]]");
-%>
+
 
 ## Month Overview
 ---
-<%*
-// List of monthly notes with their aliases
-tR += await tp.file.include("[[Quarterly Monthlist]]");
-%>
+```dataviewjs
+dv.view("undefined06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyMonthDisplay", {container: this.container})
+```
 
 ## Wheel of Life Overview
 ---
-<%*
-// Display all 3 wheels of life and the average
-tR += await tp.file.include("[[Quarterly WheelOfLife]]");
-%>
+```dataviewjs
+dv.view("undefined06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyWheelOfLifeChart", {container: this.container})
+```
 
-<%*
-// Display chart type picker for wheel of life category progression
-tR += await tp.file.include("[[Quarterly MetaBind WheelOfLifeChartTypePicker]]");
-%>
+**Chart Type:** `INPUT[suggester(title('chart type'), option(line), option(bar), option(pie), option(radar)):quarterlyWheelOfLifeCategoryChartType]`
 
-<%*
-// Display wheel of life category progression chart
-tR += await tp.file.include("[[Quarterly WheelOfLifeCategoryChart]]");
-%>
+```dataviewjs
+dv.view("undefined06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyWheelOfLifeProgression", {container: this.container})
+```
 
 ## Q&A
 ---
-<%*
-// wheel of Life chart
- tR += await tp.file.include("[[Quarterly MetaBindAiQA]]")
-%>
+```meta-bind
+INPUT[text(placeholder('Write a question'), class('custom-input')):aiQuestion]
+```
+---
+```meta-bind-button
+label: 🔎 Ask your Quarter
+icon: ""
+style: primary
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: ""
+hidden: false
+actions:
+  - type: command
+    command: templater-obsidian:undefined06 Templates/Components/Quarterly AI QA Execute.md
 
-<%* app.workspace.activeLeaf.view.editor?.focus(); %>
+```
+
+```meta-bind
+INPUT[editor(class(custom-editor)):aiAnswer]
+```
+

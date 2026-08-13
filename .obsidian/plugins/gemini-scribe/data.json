@@ -2,7 +2,7 @@
   "provider": "gemini",
   "ollamaBaseUrl": "http://localhost:11434",
   "customBaseUrl": "",
-  "apiKeySecretName": "obsidian-gemini-scribe",
+  "apiKeySecretName": "",
   "chatModelName": "gemini-flash-latest",
   "summaryModelName": "gemini-flash-latest",
   "completionsModelName": "gemini-flash-lite-latest",
@@ -32,8 +32,8 @@
   },
   "lastSeenVersion": "4.11.0",
   "ragIndexing": {
-    "enabled": true,
-    "fileSearchStoreName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+    "enabled": false,
+    "fileSearchStoreName": null,
     "excludeFolders": [],
     "autoSync": true,
     "includeAttachments": false
@@ -46,10 +46,7 @@
   "logToolExecution": true,
   "autoRunCatchUp": false,
   "hooksEnabled": false,
-  "expandedSettingsSections": [
-    "ui",
-    "tool-permissions"
-  ],
+  "expandedSettingsSections": [],
   "remoteModelCache": {
     "models": [
       {
@@ -165,6 +162,6 @@
         "maxTemperature": 2
       }
     ],
-    "timestamp": 1786613173105
+    "timestamp": 1786636567326
   }
 }

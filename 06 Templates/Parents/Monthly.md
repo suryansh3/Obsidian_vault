@@ -1,93 +1,152 @@
-<%"---"%>
+---
 tags:
   - "#type/monthly-note" 
 cssclasses:
   - image-borders
   - image-small
   - timegarden-monthly
-  <%* tR += "- " + moment(tp.file.title, 'YYYY-MM-MMMM').format('MMMM').toLowerCase(); tR += "\n  - monthly" %>
-<%* // --- BANNER CONFIG --- 
-tR += await tp.file.include("[[Monthly Banner Config]]"); %>
-date: <% moment(tp.file.title, 'YYYY-MM-MMMM').startOf('month').format("YYYY-MM-DD") %>
+  - invalid date
+  - monthly
+# Not a monthly note - banner not applied
+date: Invalid date
 alias:
 aiAnswer: ""
 MonthSummary: ""
 monthlyWheelOfLifeCategoryChartType: line
 journal: monthly
-journal-date: <% moment(tp.file.title, 'YYYY-MM-MMMM').startOf('month').format("YYYY-MM-DD") %>
-journal-start-date: <% moment(tp.file.title, 'YYYY-MM-MMMM').startOf('month').format("YYYY-MM-DD") %>
-journal-end-date: <% moment(tp.file.title, 'YYYY-MM-MMMM').endOf('month').format("YYYY-MM-DD") %>
-<%"---"%>
-# ✧ *<% moment(tp.file.title, 'YYYY-MM-MMMM').format('MM-MMMM') %>*
+journal-date: Invalid date
+journal-start-date: Invalid date
+journal-end-date: Invalid date
+---
+# ✧ *Invalid date*
 
-<%*
-tR += await tp.file.include("[[Monthly MetaBindNavBar]]");
-%>
+`BUTTON[prev-month, current-quarter, next-month]`
+```meta-bind-button
+id: prev-month
+style: primary
+class: phone-responsive
+label: ← Previous Month
+hidden: true
+actions:
+  - type: open
+    link: "[[undefined03 Monthly/Invalid date]]"
+    newTab: false
+```
+```meta-bind-button
+id: current-quarter
+style: primary
+class: phone-responsive
+label: This Quarter
+hidden: true
+actions:
+    - type: open  
+      link: "[[undefined04 Quarterly/Invalid date]]"
+      newTab: false
+```
+```meta-bind-button
+id: next-month
+style: primary
+class: phone-responsive
+label: Next Month →
+hidden: true
+actions:
+    - type: open
+      link: "[[undefined03 Monthly/Invalid date]]"
+      newTab: false
+```
 
-<%*
-tR += await tp.file.include("[[Monthly MetaBindAlias]]");
-%>
+```meta-bind
+INPUT[text(placeholder('Name this Month!'), class('custom-input')):alias]
+```
 
-<%* 
-tR += await tp.file.include("[[Monthly MetaBindSummary]]"); 
-%>
+```meta-bind
+INPUT[editor(class(custom-editor)):MonthSummary]
+```
 
-<%*
-tR += await tp.file.include("[[Monthly MetaBindAiButton]]");
-%>
+`BUTTON[generate-monthly-summary, generate-monthly-alias]`
+```meta-bind-button
+id: generate-monthly-summary
+style: primary
+label: ✨ Generate Summary
+hidden: true
+actions:
+  - type: command
+    command: templater-obsidian:undefined06 Templates/Components/Monthly AI Summarize.md
+```
+```meta-bind-button
+id: generate-monthly-alias
+style: primary
+label: 🏷️ Generate Alias
+hidden: true
+actions:
+  - type: command
+    command: templater-obsidian:undefined06 Templates/Components/Monthly AI Alias.md
+```
 
 ## Ratings ✮⋆˙
 ---
-<%*
-// Monthly average rating
-tR += await tp.file.include("[[Monthly Rating Average]]");
-%>
+```tracker
+searchType: frontmatter
+searchTarget: dayRating
+dateFormat: YYYY-MM-DD-dddd
+datasetName: dayRating
+startDate: Invalid date
+endDate: Invalid date
+summary:
+    template: "Average Rating: {{average()}}" 
+```
 
-<%*
-// Monthly Rating Chart Module
-tR += await tp.file.include("[[Monthly Rating Chart]]");
-%>
+```dataviewjs
+dv.view("undefined06 Templates/Scripts/templater/dataviewjs/monthly/monthlyRatingChart", {container: this.container})
+```
+
 ### <p hidden>PicturesHeader</p>
-<%*
-// Monthly Image Retriever - will collect images from the month
-tR += await tp.file.include("[[Monthly Image Retriever]]");
-_%>
+> [! pictures]- Gallery of MInvalid date
 
 ## Logs
 ---
-<%*
-// Get all weekly callouts
-tR += await tp.file.include("[[Monthly Logs Retriever]]");
-%>
+
 
 ## Week Overview
 ---
-<%*
-// List of weekly notes with their aliases
-tR += await tp.file.include("[[Monthly Weeklist]]");
-%>
+```dataviewjs
+dv.view("undefined06 Templates/Scripts/templater/dataviewjs/monthly/monthlyWeekDisplay", {container: this.container})
+```
 ## Wheel of Life Overview
 ---
-<%*
-// Display all 4 wheels of life and the average
-tR += await tp.file.include("[[Monthly WheelOfLife]]");
-%>
+```dataviewjs
+dv.view("undefined06 Templates/Scripts/templater/dataviewjs/monthly/monthlyWheelOfLifeChart", {container: this.container})
+```
 
-<%*
-// Display all 4 wheels of life and the average
-tR += await tp.file.include("[[Monthly MetaBind WheelOfLifeChartTypePicker]]");
-%>
+**Chart Type:** `INPUT[suggester(title('chart type'), option(line), option(bar), option(pie), option(radar)):monthlyWheelOfLifeCategoryChartType]`
 
-<%*
-// Display all 4 wheels of life and the average
-tR += await tp.file.include("[[Monthly WheelOfLifeCategoryChart]]");
-%>
+```dataviewjs
+dv.view("undefined06 Templates/Scripts/templater/dataviewjs/monthly/monthlyWheelOfLifeProgression", {container: this.container})
+```
 
 ## Q&A
 ---
-<%*
-// wheel of Life chart
- tR += await tp.file.include("[[Monthly MetaBindAiQA]]")
-%>
+```meta-bind
+INPUT[text(placeholder('Write a question'), class('custom-input')):aiQuestion]
+```
+---
+```meta-bind-button
+label: 🔎 Ask your Month
+icon: ""
+style: primary
+class: phone-responsive
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: ""
+hidden: false
+actions:
+  - type: command
+    command: templater-obsidian:undefined06 Templates/Components/Monthly AI QA Execute.md
 
-<%* app.workspace.activeLeaf.view.editor?.focus(); %>
+```
+
+```meta-bind
+INPUT[editor(class(custom-editor)):aiAnswer]
+```
+

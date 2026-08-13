@@ -7,7 +7,7 @@ label: ← Previous Week
 hidden: true
 actions:
   - type: open
-    link: "[[<%* tR += window?.timeGarden?.rootPath; _%>02 Weekly/<% moment(tp.file.title, 'YYYY-[W]WW').subtract(2, 'w').format('YYYY') %>/<% moment(tp.file.title, 'YYYY-[W]WW').subtract(2, 'w').format('YYYY') %>-<% moment(tp.file.title, 'YYYY-[W]WW').subtract(1, 'w').format('[W]WW') %>]]"
+    link: "[[undefined02 Weekly/Invalid date/Invalid date-Invalid date]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -18,7 +18,7 @@ label: This Month
 hidden: true
 actions:
     - type: open  
-      link: "[[<%* tR += window?.timeGarden?.rootPath; _%>03 Monthly/<% fileDate = moment(tp.file.title, 'YYYY-[W]WW').add(1, "d").format('YYYY/YYYY-MM-MMMM') %>]]"
+      link: "[[undefined03 Monthly/Invalid date]]"
       newTab: false
 ```
 ```meta-bind-button
@@ -29,6 +29,6 @@ label: Next Week →
 hidden: true
 actions:
     - type: open
-      link: "[[<%* tR += window?.timeGarden?.rootPath; _%>02 Weekly/<% moment(tp.file.title, 'YYYY-[W]WW').add(2, 'w').format('YYYY') %>/<% moment(tp.file.title, 'YYYY-[W]WW').add(2, 'w').format('YYYY') %>-<% moment(tp.file.title, 'YYYY-[W]WW').add(1, 'w').format('[W]WW') %>]]"
+      link: "[[undefined02 Weekly/Invalid date/Invalid date-Invalid date]]"
       newTab: false
 ```

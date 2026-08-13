@@ -1,4 +1,4 @@
-<%"---"%>
+---
 tags:
   - "#type/yearly-note" 
 cssclasses:
@@ -6,41 +6,83 @@ cssclasses:
   - image-small
   - yearly
   - timegarden-yearly
-<%* // --- BANNER CONFIG --- 
-tR += await tp.file.include("[[Yearly Banner Config]]"); %>
-date: <% moment(tp.file.title, 'YYYY').startOf('year').format("YYYY-MM-DD") %>
+# Not a yearly note - banner not applied
+date: Invalid date
 alias:
 aiAnswer: ""
 YearSummary: ""
 yearlyWheelOfLifeCategoryChartType: line
 journal: yearly
-journal-date: <% moment(tp.file.title, 'YYYY').startOf('year').format("YYYY-MM-DD") %>
-<%"---"%>
-# ✧ <% tp.file.title %>
+journal-date: Invalid date
+---
+# ✧ weekly MetaBindWheelOfLifeDisplay
 
-<%*
-// --- NAVBAR ---
-tR += await tp.file.include("[[Yearly MetaBindNavBar]]");
-%>
+`BUTTON[prev-year, next-year]`
+```meta-bind-button
+id: prev-year
+style: primary
+class: phone-responsive
+label: ← Previous Year
+hidden: true
+actions:
+  - type: open
+    link: "[[undefined05 Yearly/Invalid date]]"
+    newTab: false
+```
+```meta-bind-button
+id: next-year
+class: phone-responsive
+style: primary
+label: Next Year →
+hidden: true
+actions:
+    - type: open
+      link: "[[undefined05 Yearly/Invalid date]]"
+      newTab: false
+```
 
-<%*
-tR += await tp.file.include("[[Yearly MetaBindAlias]]");
-%>
+```meta-bind
+INPUT[text(placeholder('Name this Year!'), class('custom-input')):alias]
+```
 
-<%* 
-tR += await tp.file.include("[[Yearly MetaBindSummary]]"); 
-%>
+```meta-bind
+INPUT[editor(class(custom-editor)):YearSummary]
+```
 
-<%*
-tR += await tp.file.include("[[Yearly MetaBindAiButton]]");
-%>
+`BUTTON[generate-yearly-summary, generate-yearly-alias]`
+```meta-bind-button
+id: generate-yearly-summary
+style: primary
+class: phone-responsive
+label: ✨ Generate Summary
+hidden: true
+actions:
+  - type: command
+    command: templater-obsidian:undefined06 Templates/Components/Yearly AI Summarize.md
+```
+```meta-bind-button
+id: generate-yearly-alias
+style: primary
+class: phone-responsive
+label: 🏷️ Generate Alias
+hidden: true
+actions:
+  - type: command
+    command: templater-obsidian:undefined06 Templates/Components/Yearly AI Alias.md
+```
 
 ## Ratings ✮⋆˙
 ---
-<%*
-// Yearly average rating
-tR += await tp.file.include("[[Yearly Rating Average]]");
-%>
+```tracker
+searchType: frontmatter
+searchTarget: dayRating
+dateFormat: YYYY-MM-DD-dddd
+datasetName: yearRating
+startDate: Invalid date
+endDate: Invalid date
+summary:
+    template: "Average Rating: {{average()}}" 
+```
 
 ```dataviewjs
 dv.view("06 Templates/Scripts/templater/dataviewjs/yearly/yearlyRatingChart", {container: this.container})
@@ -50,7 +92,7 @@ dv.view("06 Templates/Scripts/templater/dataviewjs/yearly/yearlyRatingChart", {c
 ---
 ```dataview
 TABLE WITHOUT ID file.link as Date, alias as Day
-FROM "<%* tR += window?.timeGarden?.rootPath.substring(1); _%>01 Daily"
+FROM "undefined01 Daily"
 WHERE date.year = date(this.file.day).year
 AND dayRating >= 9
 SORT dayRating DESC
@@ -58,28 +100,17 @@ SORT dayRating DESC
 
 ## Gallery
 ---
-<%*
-// Get year from the file title
-let yearDate = moment(tp.file.title, 'YYYY');
-let year = yearDate.format('YYYY');
+> [! pictures]- Yearly Gallery
+> ![[Invalid date/Invalid date-Q1#<p hidden>PicturesHeader</p>]]
+> ![[Invalid date/Invalid date-Q2#<p hidden>PicturesHeader</p>]]
+> ![[Invalid date/Invalid date-Q3#<p hidden>PicturesHeader</p>]]
+> ![[Invalid date/Invalid date-Q4#<p hidden>PicturesHeader</p>]]
 
-// Create section header
-tR += '> [! pictures]- Yearly Gallery\n';
-
-// Generate links to the pictures section of each quarterly note
-for (let quarter = 1; quarter <= 4; quarter++) {
-  let quarterTitle = `${year}-Q${quarter}`;
-  tR += `> ![[${year}/${quarterTitle}#<p hidden>PicturesHeader</p>]]\n`;
-}
-
-// End the callout
-tR += '\n';
-_%>
 ## Quarters Overview
 ---
 ```dataview
 TABLE without id file.link as Quarter, alias
-FROM "<%* tR += window?.timeGarden?.rootPath.substring(1); %>04 Quarterly"
+FROM "undefined04 Quarterly"
 WHERE date.year = date(this.file.day).year
 SORT file.day ASC
 ```
@@ -90,19 +121,34 @@ SORT file.day ASC
 dv.view("06 Templates/Scripts/templater/dataviewjs/yearly/yearlyWheelOfLifeChart", {container: this.container})
 ```
 
-<%*
-// Display chart type picker for wheel of life category progression
-tR += `**Chart Type:** \`INPUT[suggester(title('chart type'), option(line), option(bar), option(pie), option(radar)):yearlyWheelOfLifeCategoryChartType]\``;
-%>
+**Chart Type:** `INPUT[suggester(title('chart type'), option(line), option(bar), option(pie), option(radar)):yearlyWheelOfLifeCategoryChartType]`
 
 ```dataviewjs
 dv.view("06 Templates/Scripts/templater/dataviewjs/yearly/yearlyWheelOfLifeProgression", {container: this.container})
 ```
 ## Q&A
 ---
-<%*
-// wheel of Life chart
- tR += await tp.file.include("[[Yearly MetaBindAiQA]]")
-%>
+```meta-bind
+INPUT[text(placeholder('Write a question'), class('custom-input')):aiQuestion]
+```
+---
+```meta-bind-button
+label: 🔎 Ask your Year
+icon: ""
+style: primary
+class: phone-responsive
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: ""
+hidden: false
+actions:
+  - type: command
+    command: templater-obsidian:undefined06 Templates/Components/Yearly AI QA Execute.md
 
-<%* app.workspace.activeLeaf.view.editor?.focus(); %>
+```
+
+```meta-bind
+INPUT[editor(class(custom-editor)):aiAnswer]
+```
+
