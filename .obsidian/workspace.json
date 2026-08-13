@@ -11,10 +11,14 @@
             "id": "9afee85efb20d9d1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 Daily/2026/08-August/2026-08-13-Thursday.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-08-13-Thursday"
             }
           }
         ]
@@ -200,7 +204,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01 - Daily/20260813.md"
+                "file": "01 Daily/2026/08-August/2026-08-13-Thursday.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -287,10 +291,10 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "d346d054fad2a195",
+  "active": "9afee85efb20d9d1",
   "lastOpenFiles": [
-    "04 - Academics & CS/03. Semester 3rd/03 - IOT/Industry 4.0 Environment & Design Principles.md",
     "01 - Daily/20260813.md",
+    "04 - Academics & CS/03. Semester 3rd/03 - IOT/Industry 4.0 Environment & Design Principles.md",
     "conflict-files-obsidian-git.md",
     "gemini-scribe/rag-index-cache.json",
     "99 - Meta/attachments/Pasted image 20260808145524.png",
