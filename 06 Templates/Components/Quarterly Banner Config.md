@@ -1,0 +1,1 @@
+# Not a quarterly note - banner not applied

@@ -1,0 +1,1 @@
+# Not a monthly note - banner not applied

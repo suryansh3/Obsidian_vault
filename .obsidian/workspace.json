@@ -64,20 +64,6 @@
             }
           },
           {
-            "id": "9e7dc097e8ef3acf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05.Semester 5/DAA-lab/Day2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Day2"
-            }
-          },
-          {
             "id": "66e64703d8f35957",
             "type": "leaf",
             "state": {
@@ -89,6 +75,20 @@
               },
               "icon": "lucide-file",
               "title": "20260813"
+            }
+          },
+          {
+            "id": "20272e74e7669cbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
@@ -292,7 +292,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       },
       {
         "id": "78982c0501f30aa9",
@@ -339,54 +339,54 @@
       "gemini-scribe:Gemini Scribe: Agent mode": false
     }
   },
-  "active": "66e64703d8f35957",
+  "active": "20272e74e7669cbf",
   "lastOpenFiles": [
     "01 - Daily/20260813.md",
-    "05.Semester 5/DAA-lab/Day2.md",
-    "05.Semester 5/DAA-lab/Day1.md",
     "conflict-files-obsidian-git.md",
-    "05.Semester 5/DAA-lab",
-    "05.Semester 5",
-    "01 - Daily/20260731.md",
-    "Clippings/New chat.md",
-    "01 - Daily/20260728.md",
-    "01 - Daily/20260726.md",
-    "01 - Daily/20260118.md",
-    "01 - Daily/20260109.md",
-    "01 - Daily/20251221.md",
-    "01 - Daily/20251212.md",
-    "01 - Daily/20251209.md",
-    "01 - Daily/20251207.md",
-    "01 - Daily/20251206.md",
-    "WIKI.md",
-    "01 - Daily/20260725.md",
-    "MOC.md",
-    "99 - Meta/Agent-Sessions/2026-07-25 Vault Cross-Linking & Organisation.md",
-    "handwritten-notes/New note.pdf",
-    "handwritten-notes",
-    "01 - Daily/20260718.md",
-    "01 - Daily/20260717.md",
-    "01 - Daily/20260629.md",
-    "01 - Daily/20260616.md",
-    "01 - Daily/20260605.md",
-    "03. Semester 3rd/04 - Probability/Statistics.md",
-    "99 - Meta/attachments/DocScanner 12 Nov 2025 8-37 pm.pdf",
-    "01 - Daily/20260609.md",
-    "99 - Meta/Scheduled-Tasks/scheduled-tasks-state.json",
-    "99 - Meta/Scheduled-Tasks/Runs",
-    "99 - Meta/Scheduled-Tasks",
-    "99 - Meta/Skills",
-    "99 - Meta/Prompts",
-    "99 - Meta/attachments/Screenshot 2026-03-22 225048.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 225030.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 225010.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 224946.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 224923.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 224901.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 224841.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 224822.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 224755.png",
-    "99 - Meta/attachments/Screenshot 2026-03-22 224729.png",
+    "gemini-scribe/rag-index-cache.json",
+    "99 - Meta/attachments/Pasted image 20260808145524.png",
+    "99 - Meta/attachments/Pasted image 20260808145431.png",
+    "99 - Meta/Rewards.md",
+    "99 - Meta/RPG_Dashboard.md",
+    "99 - Meta/Pursuits/YouTube.md",
+    "99 - Meta/Pursuits/Income.md",
+    "99 - Meta/Pursuits/Content_creation.md",
+    "99 - Meta/Pursuits/Career.md",
+    "99 - Meta/Pursuits",
+    "99 - Meta/Character.md",
+    "99 - Meta/Areas/Spiritual.md",
+    "99 - Meta/Areas/Psyche.md",
+    "99 - Meta/Areas/Physical.md",
+    "99 - Meta/Areas/Intel.md",
+    "99 - Meta/Areas/Craft.md",
+    "99 - Meta/Areas/Core.md",
+    "99 - Meta/Areas",
+    "06 Templates/Scripts/templater/dataviewjs/yearly/yearlyWheelOfLifeProgression.js",
+    "06 Templates/Scripts/templater/dataviewjs/yearly/yearlyWheelOfLifeChart.js",
+    "06 Templates/Scripts/templater/dataviewjs/yearly/yearlyRatingChart.js",
+    "06 Templates/Scripts/templater/dataviewjs/weekly/weeklyWheelOfLifeChart.js",
+    "06 Templates/Scripts/templater/dataviewjs/weekly/weeklyRatingChart.js",
+    "06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyWheelOfLifeProgression.js",
+    "06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyWheelOfLifeChart.js",
+    "06 Templates/Images/Yearly Notes/YearlyBanner.jpg",
+    "06 Templates/Images/Weekly Notes/WeeklyBanner4.gif",
+    "06 Templates/Images/Weekly Notes/WeeklyBanner3.gif",
+    "06 Templates/Images/Weekly Notes/WeeklyBanner2.gif",
+    "06 Templates/Images/Weekly Notes/WeeklyBanner1.gif",
+    "06 Templates/Images/Quarterly Notes/QuarterlyBanner4.gif",
+    "06 Templates/Images/Quarterly Notes/QuarterlyBanner3.gif",
+    "06 Templates/Images/Quarterly Notes/QuarterlyBanner2.gif",
+    "06 Templates/Components/weekly MetaBindWheelOfLifeDisplay.md",
+    "06 Templates/Components/Yearly Rating Average.md",
+    "06 Templates/Components/Yearly MetaBindSummary.md",
+    "06 Templates/Components/Yearly MetaBindNavBar.md",
+    "06 Templates/Components/Yearly MetaBindAlias.md",
+    "06 Templates/Components/Yearly MetaBindAiQA.md",
+    "06 Templates/Components/Yearly MetaBindAiButton.md",
+    "06 Templates/Components/Yearly MetaBind WheelOfLifeChartTypePicker.md",
+    "06 Templates/Components/Yearly Banner Config.md",
+    "06 Templates/Components/Yearly AI Summarize.md",
+    "06 Templates/Components/Yearly AI Review.md",
     "Untitled.canvas"
   ]
 }

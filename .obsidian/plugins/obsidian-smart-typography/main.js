@@ -1058,3 +1058,5 @@ function shouldCheckTextAtPos(instance, pos) {
 }
 
 module.exports = SmartTypography;
+
+/* nosourcemap */
