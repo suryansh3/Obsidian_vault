@@ -2,7 +2,6 @@
   "obsidian-spaced-repetition",
   "obsidian-smart-typography",
   "obsidian-importer",
-  "settings-search",
   "obsidian-completr",
   "obsidian-icon-folder",
   "url-into-selection",
@@ -28,5 +27,15 @@
   "gemini-scribe",
   "dataview",
   "obsidian-charts",
-  "quickadd"
+  "quickadd",
+  "obsidian42-brat",
+  "cmdr",
+  "obsidian-contextual-typography",
+  "iconic",
+  "oz-image-plugin",
+  "journals",
+  "obsidian-meta-bind-plugin",
+  "pexels-banner",
+  "obsidian-tracker",
+  "time-garden-plugin"
 ]
