@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20260813.md",
+                "file": "01 Daily/2026/08-August/2026-08-13-Thursday.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260813"
+              "title": "2026-08-13-Thursday"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -269,7 +269,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       },
       {
         "id": "78982c0501f30aa9",
@@ -327,11 +327,11 @@
       "cmdr:Time Garden Plugin: Open Time Garden Settings": false
     }
   },
-  "active": "5e953cf0eeb35f4e",
+  "active": "e0aa24b6eba92881",
   "lastOpenFiles": [
+    "01 - Daily/20260813.md",
     "00 - Dashboard/Welcome.md",
     "00 - Dashboard/RPG_Dashboard.md",
-    "01 - Daily/20260813.md",
     "04 - Academics & CS/Projects-Python/Library Pass System.md",
     "04 - Academics & CS/Projects-Python/Calibre Book reader.md",
     "04 - Academics & CS/05. Semester 5/DAA-lab/Day2.md",
