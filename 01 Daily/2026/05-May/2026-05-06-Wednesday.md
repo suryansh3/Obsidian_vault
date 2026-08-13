@@ -1,9 +1,8 @@
 ---
-banner:
-  - - WednesdayBanner.avif
+banner: 06 Templates/Images/Monthly Notes/MonthlyBanner3.gif
 banner-y: 50
 banner-x: 30
-content-start: 200
+content-start: 336
 banner-display: cover
 banner-repeat: true
 banner-height: 400
@@ -25,6 +24,7 @@ journal-date: 2026-05-06
 journal-start-date: 2026-05-06
 journal-end-date: 2026-05-06
 aiAnswer: ""
+pixel-banner-flag-color: red-fade-light
 ---
 # ✧ Wednesday, May 06, 2026
 [[2026-W19|]]

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-  "lastSync": 1786573400339,
+  "lastSync": 1786613566663,
   "files": {
     "Projects-Python/Library Pass System.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -631,7 +631,7 @@
     "01 - Daily/20260813.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
       "contentHash": "d793443c39c6de3a84fd2394e952fc68d82396270be03be235a24a6823bb23d4",
-      "lastIndexed": 1786573384082
+      "lastIndexed": 1786613518348
     },
     "06 Templates/Components/New Progress.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
@@ -725,13 +725,23 @@
     },
     "01 Daily/2026/05-May/2026-05-06-Wednesday.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
-      "contentHash": "d5ec931d4bf9aea37fd978ed2dc1a9be3ff9fef118999fb86a8a45a6cdc306f2",
-      "lastIndexed": 1786573370989
+      "contentHash": "370956fd2dfd6bd133d0a32dc8da37cb964eeb4633a507985872f80b2527e848",
+      "lastIndexed": 1786613566663
     },
     "00 - Dashboard/Welcome.md": {
       "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
       "contentHash": "6a5726b854e80ab494d9f393d736f5e903e60bc65601f05f15fea9e2ded39b13",
       "lastIndexed": 1786573400339
+    },
+    "01 Daily/2026/08-August/2026-08-14-Friday.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "b5a8f056b54e494bd557aefc4591f42ade3c0ec0c6540b75ba1b7d2b412335f0",
+      "lastIndexed": 1786613406038
+    },
+    "05 - Second Brain & Knowledge/MOC.md": {
+      "resourceName": "fileSearchStores/obsidianobsidianvault-fjhjkismbfue",
+      "contentHash": "39f8eddc9692cd9546e8f305df428bed9017ffb942de8c28f1e6f6996ea92fee",
+      "lastIndexed": 1786613500894
     }
   },
   "indexingInProgress": false,
