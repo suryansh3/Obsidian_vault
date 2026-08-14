@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e2764dfdbcbb00fd",
+        "id": "1ef2d9881649d9e2",
         "type": "tabs",
         "children": [
           {
-            "id": "9fa66e2bc3beab9e",
+            "id": "8557f4c58651e76a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Daily/20260814.md",
+                "file": "04 - Academics & CS/05. Semester 5/DAA-lab/Day4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260814"
+              "title": "Day4"
             }
           }
         ]
@@ -300,8 +300,9 @@
       "cmdr:Time Garden Plugin: Open Time Garden Settings": false
     }
   },
-  "active": "9fa66e2bc3beab9e",
+  "active": "8557f4c58651e76a",
   "lastOpenFiles": [
+    "04 - Academics & CS/05. Semester 5/DAA-lab/Day4.md",
     "01 - Daily/20260814.md",
     "04 - Academics & CS/05. Semester 5/DAA-lab/Day2.md",
     "04 - Academics & CS/05. Semester 5/DAA-lab/Day3.md",
@@ -347,7 +348,6 @@
     "06 Templates/Components/Yearly Rating Average.md",
     "06 Templates/Components/Yearly MetaBindSummary.md",
     "06 Templates/Components/Yearly MetaBindNavBar.md",
-    "06 Templates/Components/Yearly MetaBindAlias.md",
     "Untitled.canvas"
   ]
 }
