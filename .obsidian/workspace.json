@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Academics & CS/05. Semester 5/IPA/IPA-Report (Assignment-1).md",
+                "file": "01 Daily/2026/08-August/2026-08-17-Monday.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPA-Report (Assignment-1)"
+              "title": "2026-08-17-Monday"
             }
           }
         ],
@@ -317,11 +317,27 @@
   },
   "active": "6c7a45747bad952a",
   "lastOpenFiles": [
-    "04 - Academics & CS/05. Semester 5/IPA/Tomato__healthy.JPG",
-    "04 - Academics & CS/05. Semester 5/IPA/4b9bc37a-a9af-4e3f-a4e4-1e6cfb79c673___RS_HL 0262.JPG",
-    "04 - Academics & CS/05. Semester 5/IPA/Tomato___Late_blight.JPG",
-    "04 - Academics & CS/05. Semester 5/IPA/40de149e-4734-4d63-a34a-7ab34ace1ae5___RS_Late.B 6126.JPG",
+    "01 Daily/2026/08-August/2026-08-18-Tuesday.md",
+    "01 - Daily/20260818.md",
     "01 Daily/2026/08-August/2026-08-17-Monday.md",
+    "04 - Academics & CS/05. Semester 5/IPA/report.tex",
+    "04 - Academics & CS/05. Semester 5/IPA/images/input/Tomato___Late_blight.JPG",
+    "04 - Academics & CS/05. Semester 5/IPA/images/input/Tomato__healthy.JPG",
+    "04 - Academics & CS/05. Semester 5/IPA/images/output/04_enhancement_healthy.png",
+    "04 - Academics & CS/05. Semester 5/IPA/images/output/04_enhancement_diseased.png",
+    "04 - Academics & CS/05. Semester 5/IPA/images/output/04b_histogram_comparison.png",
+    "04 - Academics & CS/05. Semester 5/IPA/images/output/03_gray_level_transforms_healthy.png",
+    "04 - Academics & CS/05. Semester 5/IPA/images/output/03_gray_level_transforms_diseased.png",
+    "04 - Academics & CS/05. Semester 5/IPA/images/output/03b_transform_curves_healthy.png",
+    "04 - Academics & CS/05. Semester 5/IPA/images/output/02_sampling_quantization_diseased.png",
+    "04 - Academics & CS/05. Semester 5/IPA/images/output/03b_transform_curves_diseased.png",
+    "04 - Academics & CS/05. Semester 5/IPA/images/input",
+    "04 - Academics & CS/05. Semester 5/IPA/images/output",
+    "04 - Academics & CS/05. Semester 5/IPA/images",
+    "04 - Academics & CS/05. Semester 5/IPA/code/dip_pipeline.py",
+    "04 - Academics & CS/05. Semester 5/IPA/code",
+    "04 - Academics & CS/05. Semester 5/IPA/report.md",
+    "04 - Academics & CS/05. Semester 5/IPA/report.pdf",
     "04 - Academics & CS/05. Semester 5/IPA/IPA-Report (Assignment-1).md",
     "01 - Daily/20260817.md",
     "04 - Academics & CS/05. Semester 5/DAA-lab/Day4.md",
@@ -345,24 +361,8 @@
     "01- Daily",
     "New folder",
     "Untitled.base",
-    "06 Templates/Scripts/utils/ui.js",
-    "06 Templates/Scripts/utils/settings.js",
-    "06 Templates/Scripts/utils/responseClean.js",
-    "06 Templates/Scripts/utils/logger.js",
-    "06 Templates/Scripts/utils/data.js",
-    "06 Templates/Scripts/utils/chunking.js",
-    "06 Templates/Scripts/utils",
     "06 Templates/Parents/Yearly.md",
     "06 Templates/Parents/Weekly.md",
-    "06 Templates/Parents/Quarterly.md",
-    "06 Templates/Parents/Monthly.md",
-    "06 Templates/Images/Yearly Notes/YearlyBanner.jpg",
-    "06 Templates/Images/Weekly Notes/WeeklyBanner4.gif",
-    "06 Templates/Images/Weekly Notes/WeeklyBanner3.gif",
-    "06 Templates/Images/Weekly Notes/WeeklyBanner2.gif",
-    "06 Templates/Images/Weekly Notes/WeeklyBanner1.gif",
-    "06 Templates/Images/Quarterly Notes/QuarterlyBanner4.gif",
-    "06 Templates/Images/Quarterly Notes/QuarterlyBanner3.gif",
     "Untitled.canvas"
   ]
 }
