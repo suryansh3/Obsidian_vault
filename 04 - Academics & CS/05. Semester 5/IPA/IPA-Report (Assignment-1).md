@@ -28,7 +28,7 @@ This is a _mid-level_ to _high-level_ image processing task in the vocabulary of
 
 ### 1.2 Why classical DIP instead of deep learning?
 
-Convolutional neural networks are the state of the art for this exact problem (the PlantVillage dataset is, in fact, the standard benchmark for CNN-based plant disease classifiers). However, the purpose of this report is to demonstrate the **fundamentals of digital image processing** taught in Unit I — sampling, quantization, gray-level transforms, histograms, restoration, colour spaces, wavelets, compression, morphology and segmentation — and to show that a surprisingly competent diagnostic tool can be built from these building blocks alone, with a transparent and explainable decision rule.
+Convolutional neural networks are the state of the art for this exact problem (the PlantVillage dataset is, in fact, the standard benchmark for CNN-based plant disease classifiers). However, the purpose of this report is to demonstrate the **fundamentals of digital image processing** taught in Unit I — sampling, quantization, gray-level transforms, histograms,— and to show that a surprisingly competent diagnostic tool can be built from these building blocks alone, with a transparent and explainable decision rule.
 
 ---
 
@@ -40,7 +40,7 @@ We use the **PlantVillage Dataset**, a large, publicly available collection of o
 - **Original paper:** Mohanty, S.P., Hughes, D.P., Salathé, M. (2016). _Using Deep Learning for Image-Based Plant Disease Detection_, Frontiers in Plant Science. `https://arxiv.org/abs/1604.03169`
 - **Kaggle mirror:** `https://www.kaggle.com/datasets/emmarex/plantdisease`
 
-From this dataset we selected two colour images (256×256 pixels, RGB, JPEG) from the `raw/color` split:
+From this dataset we selected two greyscale images (256×256 pixels, RGB, JPEG) from the `raw/greyscale` split:
 
 |Image|Class folder|Ground truth|
 |---|---|---|
