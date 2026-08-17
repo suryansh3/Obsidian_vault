@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Daily/2026/08-August/2026-08-17-Monday.md",
+                "file": "04 - Academics & CS/05. Semester 5/IPA/IPA-Report (Assignment-1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-17-Monday"
+              "title": "IPA-Report (Assignment-1)"
             }
           }
         ],
@@ -317,8 +317,9 @@
   },
   "active": "6c7a45747bad952a",
   "lastOpenFiles": [
-    "01 - Daily/20260817.md",
     "01 Daily/2026/08-August/2026-08-17-Monday.md",
+    "04 - Academics & CS/05. Semester 5/IPA/IPA-Report (Assignment-1).md",
+    "01 - Daily/20260817.md",
     "04 - Academics & CS/05. Semester 5/DAA-lab/Day4.md",
     "01 - Daily/20260814.md",
     "04 - Academics & CS/05. Semester 5/DAA-lab/Day2.md",
@@ -362,7 +363,6 @@
     "06 Templates/Images/Quarterly Notes/QuarterlyBanner1.gif",
     "06 Templates/Images/Monthly Notes/MonthlyBanner4.gif",
     "06 Templates/Images/Image Credits.md",
-    "06 Templates/Components/Yearly Rating Average.md",
     "Untitled.canvas"
   ]
 }
