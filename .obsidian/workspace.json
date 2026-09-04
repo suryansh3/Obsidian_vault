@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Daily/2026/08-August/2026-08-13-Thursday.md",
+                "file": "06 Templates/Components/Quarterly Image Retriever.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-13-Thursday"
+              "title": "Quarterly Image Retriever"
+            }
+          },
+          {
+            "id": "7aa2a3317f4a741f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Daily/20260904.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260904"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01 Daily/2026/08-August/2026-08-13-Thursday.md"
+                "file": "06 Templates/Components/Quarterly Image Retriever.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -233,9 +248,19 @@
               "icon": "lucide-file",
               "title": "20260813"
             }
+          },
+          {
+            "id": "a48c8579082f6af7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       },
       {
         "id": "78982c0501f30aa9",
@@ -291,8 +316,11 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "9afee85efb20d9d1",
+  "active": "7aa2a3317f4a741f",
   "lastOpenFiles": [
+    "01 - Daily/20260904.md",
+    "06 Templates/Components/Quarterly Image Retriever.md",
+    "01 Daily/2026/08-August/2026-08-13-Thursday.md",
     "01 - Daily/20260813.md",
     "04 - Academics & CS/03. Semester 3rd/03 - IOT/Industry 4.0 Environment & Design Principles.md",
     "conflict-files-obsidian-git.md",
@@ -336,9 +364,6 @@
     "06 Templates/Components/Yearly MetaBindAlias.md",
     "06 Templates/Components/Yearly MetaBindAiQA.md",
     "06 Templates/Components/Yearly MetaBindAiButton.md",
-    "06 Templates/Components/Yearly MetaBind WheelOfLifeChartTypePicker.md",
-    "06 Templates/Components/Yearly Banner Config.md",
-    "06 Templates/Components/Yearly AI Summarize.md",
     "Untitled.canvas"
   ]
 }
