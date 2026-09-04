@@ -1,11 +1,11 @@
 ---
-char_name: "Shadow Monarch"
-class: "Scholar / Engineer"
-title: "The System Awakened"
+char_name: Shadow Monarch
+class: Scholar / Engineer
+title: The System Awakened
 level: 5
 rank: E
-total_xp: 450
-xp_to_next_level: 500
+total_xp: 5000
+xp_to_next_level: 10000
 ---
 
 # ⚔️ CHARACTER SHEET

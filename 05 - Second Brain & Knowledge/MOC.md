@@ -14,7 +14,7 @@ Welcome to your central vault index. This Map of Content connects all your acade
   - [[INTRODUCTION]]
 - **[[3. OOPJ (Java)]]**
   - Theory: [[ASSIGNMENT - 2]], [[ASSIGNMENT - 4]], [[ASSIGNMENT_5]], [[assignment - 6]], [[Assignment-7]], [[Assignment-9]], [[Assignement-11]], [[Assignment-12]], [[LAB ASSIGNEMNT]]
-  - Lab & Practice: [[DAY 1]], [[DAY-2]], [[Day -2-24052339]], [[Day-3]], [[DAY4-24052323]], [[DAY-5]], [[Assignment-5]], [[Assignment-6]], [[Assignment-7]], [[Assignment-08]], [[ASSIGNMENT-9]], [[Assignment-10]], [[Test]], [[Test -LAB]], [[Java In Y Minutes]]
+  - Lab & Practice: [[DAY 1]], [[DAY-2]], [[Day -2-24052339]], [[Day-3]], [[DAY4-24052323]], [[04 - Academics & CS/04. Semester 4/3. OOPJ (Java)/LAB/DAY-5]], [[Assignment-5]], [[Assignment-6]], [[Assignment-7]], [[Assignment-08]], [[ASSIGNMENT-9]], [[Assignment-10]], [[Test]], [[Test -LAB]], [[Java In Y Minutes]]
   - Analysis & Makeup: [[OOPJ-ANALYSIS]], [[Test-makeup-mid]], [[Utkarsh - LAB 7]]
 - **[[4. Operating System (OS)]]**
   - [[OS Intro]]

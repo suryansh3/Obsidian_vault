@@ -36,7 +36,7 @@ If you don’t have Git installed, follow these steps:
 
 - **Windows**: Download and install Git from [git-scm.com.](https://git-scm.com/)
 - **Mac**: Install Git using Homebrew with `brew install git`.
-- **Linux**: Use `sudo apt-get install git` (for Debian-based systems) or sudo dnf install git (for Fedora-based systems).
+- **Linux**: Use `sudo apt-get install git` (for Debian-based systems) or sudo dnf install git (for Fedora-based systems). 
 
 Once installed, open your terminal (Command Prompt, PowerShell, or macOS Terminal) and verify installation by running:
 

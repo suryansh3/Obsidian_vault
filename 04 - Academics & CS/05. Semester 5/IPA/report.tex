@@ -1,0 +1,314 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{times}
+
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+
+\definecolor{codebg}{RGB}{245,245,245}
+\lstset{
+    backgroundcolor=\color{codebg},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    language=Python,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    stringstyle=\color{teal},
+    showstringspaces=false
+}
+
+\title{Preliminary Digital Image Processing Analysis of Tomato Leaf Images \\ (Healthy vs. Late Blight) \\[0.3em]
+\large A Course Project Report --- Unit I: Introduction and Digital Image Fundamentals}
+\author{Suryansh Mithu \\ Course: Image Processing and Analysis (IPA - 16) \\ Roll: 24155060}
+\date{18 August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Plant diseases such as late blight cause enormous crop losses every year, and farmers often cannot tell early on whether a leaf is genuinely sick or just dusty or sun-stressed. This report builds a small, self-contained digital image processing (DIP) pipeline, restricted to the \textbf{early, low-level stages of Unit I}, that takes a grayscale photograph of a tomato leaf and studies how its intensity structure changes under sampling, quantization, gray-level transformation, and enhancement. We use two real grayscale photographs supplied for this assignment --- one \textbf{healthy} tomato leaf and one leaf infected with \textbf{late blight} --- and process both, at every stage, entirely in single-channel grayscale (no colour, segmentation, or classification is used). All code is written in Python using OpenCV, NumPy, scikit-image, and Matplotlib. Within the scope of these four techniques alone, the two leaves are already distinguishable: the diseased leaf's histogram has a \textbf{narrower dynamic range} (183 gray levels between the 2nd and 98th percentile, versus 193 for the healthy leaf) and a \textbf{higher mean intensity after contrast stretching} (148.7 vs. 119.4), consistent with the visibly brighter, dried-out necrotic tissue on the diseased leaf. A firm health/disease diagnosis, however, is \textbf{beyond what these four stages alone can support} --- that would require the segmentation, morphology, and description/recognition stages, which are intentionally outside the scope of this report.
+\end{abstract}
+
+\section{Introduction and Problem Statement}
+
+\subsection{Why this problem?}
+
+Tomato is one of the most widely grown vegetable crops in the world, and \textbf{late blight} (caused by the oomycete \textit{Phytophthora infestans}) is one of its most destructive diseases --- it was, famously, the cause of the Irish potato famine on the related potato crop. Late blight spreads quickly in humid weather and can destroy an entire field within days if it is not caught early. Smallholder farmers frequently do not have access to a plant pathologist and must decide, just by looking at a leaf, whether it needs treatment.
+
+This report asks a narrower, more disciplined version of that question, matched to what has been covered so far in the course:
+
+\begin{quote}
+\textbf{Given a grayscale photograph of a single tomato leaf, what can the fundamental, low-level image processing operations --- acquisition, sampling and quantization, gray-level transformation, and histogram-based enhancement --- already tell us about the difference between a healthy leaf and a diseased one?}
+\end{quote}
+
+\subsection{Scope of this report}
+
+This report deliberately implements \textbf{only four stages} of the classical DIP pipeline:
+\begin{enumerate}
+    \item Image Acquisition
+    \item Sampling and Quantization
+    \item Gray-Level (Intensity) Transformations
+    \item Image Enhancement --- Contrast Stretching and Histogram Equalization
+\end{enumerate}
+
+Later-stage topics from Unit I and beyond --- restoration, colour processing, wavelets, compression, segmentation, morphology, representation/description, and recognition --- are \textbf{not} implemented here; they are left for a follow-up assignment. Every image in this report is processed as a \textbf{single-channel grayscale array}, since colour processing is out of scope.
+
+\section{Dataset}
+
+Two grayscale JPEG photographs of tomato leaves (256$\times$256 pixels) were supplied for this assignment:
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+Image file & Class & Ground truth \\
+\midrule
+\texttt{Tomato\_\_healthy.JPG} & Healthy & Healthy \\
+\texttt{Tomato\_\_\_Late\_blight.JPG} & Late blight & Diseased \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+These are consistent with the class structure of the public \textbf{PlantVillage dataset} (Mohanty, Hughes \& Salath\'e, 2016), which contains the \texttt{Tomato\_\_\_healthy} and \texttt{Tomato\_\_\_Late\_blight} classes among its 38 crop/disease categories.
+
+Both images are shown in Figure~\ref{fig:acquisition} --- this is the raw output of the \textbf{image acquisition} stage of the pipeline (Section~3.1), loaded directly as 8-bit grayscale.
+
+\section{Methodology --- The Digital Image Processing Pipeline}
+
+Following Unit I of the course, both leaf images are passed, side by side, through the four stages below. The full, runnable source code is given in Appendix~A and is also provided as a standalone file, \texttt{code/dip\_pipeline.py}.
+
+\subsection{Image Acquisition}
+
+An image is captured when a scene is illuminated, light reflects off the leaf, and a camera's sensor focuses and samples that light into a discrete grid of pixels. Because both supplied images are already grayscale photographs, ``acquisition'' here means reading each JPEG file directly as a single-channel 8-bit array:
+
+\begin{lstlisting}
+import cv2
+
+gray_healthy  = cv2.imread("images/input/Tomato__healthy.JPG",      cv2.IMREAD_GRAYSCALE)
+gray_diseased = cv2.imread("images/input/Tomato___Late_blight.JPG", cv2.IMREAD_GRAYSCALE)
+
+print(gray_healthy.shape,  gray_healthy.dtype)   # (256, 256) uint8
+print(gray_diseased.shape, gray_diseased.dtype)  # (256, 256) uint8
+\end{lstlisting}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{images/output/01_acquisition.png}
+\caption{The two leaf photographs used throughout this report, read directly as 8-bit single-channel grayscale images --- the raw output of the acquisition stage.}
+\label{fig:acquisition}
+\end{figure}
+
+The image is a function $f(x,y)$ of two spatial coordinates, and because both the coordinates and the intensity values are finite and discrete, it is --- by definition --- already a \textbf{digital image}.
+
+\subsection{Sampling and Quantization}
+
+The lecture defines \textit{sampling} as digitizing the spatial coordinates and \textit{quantization} as digitizing the amplitude (gray level). To make this concept visible, we artificially re-sample and re-quantize each grayscale leaf image:
+
+\begin{lstlisting}
+def subsample(img, factor):
+    return img[::factor, ::factor]          # keep every k-th pixel
+
+def requantize(img, levels):
+    factor = 256 // levels
+    return (img // factor) * factor          # collapse to L gray levels
+\end{lstlisting}
+
+Figures~\ref{fig:sampq_h} and \ref{fig:sampq_d} show what happens as the sampling rate is reduced (top row) and the number of quantization levels is reduced (bottom row), for the healthy and diseased leaf respectively.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{images/output/02_sampling_quantization_healthy.png}
+\caption{Healthy leaf. Top row: image sampled every 1st, 4th, 12th and 24th pixel. Bottom row: same image quantized to 256, 16, 4 and 2 gray levels.}
+\label{fig:sampq_h}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{images/output/02_sampling_quantization_diseased.png}
+\caption{Diseased leaf. Top row: image sampled every 1st, 4th, 12th and 24th pixel. Bottom row: same image quantized to 256, 16, 4 and 2 gray levels.}
+\label{fig:sampq_d}
+\end{figure}
+
+Even at only \textbf{4 gray levels}, the coarse silhouette of the leaf and the darker shadow/lesion regions remain distinguishable from the lighter tissue in both images, which is an early hint that gray-level structure alone carries some diagnostic information --- a hint we push further in the next two sections.
+
+\subsection{Gray-Level (Intensity) Transformations}
+
+Before doing anything complicated, Unit I teaches the three classical point-wise gray-level transformation functions $s = T(r)$:
+\begin{itemize}
+    \item \textbf{Negative transform:} $s = 255 - r$ (useful for highlighting dark detail in bright regions, similar to a photographic negative).
+    \item \textbf{Log transform:} $s = c \cdot \log(1+r)$ (compresses the dynamic range, brings out low-intensity detail).
+    \item \textbf{Power-law / gamma transform:} $s = c \cdot r^{\gamma}$ ($\gamma < 1$ brightens the image, $\gamma > 1$ darkens it).
+\end{itemize}
+
+\begin{lstlisting}
+gray_f = gray.astype(float) / 255.0
+
+negative     = 255 - gray
+log_img      = (np.log1p(gray_f) / np.log1p(1.0) * 255).astype("uint8")
+gamma_bright = (np.power(gray_f, 0.4) * 255).astype("uint8")   # brighten
+gamma_dark   = (np.power(gray_f, 2.5) * 255).astype("uint8")   # darken
+\end{lstlisting}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{images/output/03_gray_level_transforms_healthy.png}
+\caption{Healthy leaf. From left to right: original, negative, log transform, and two power-law (gamma) transforms --- one that brightens the leaf ($\gamma=0.4$) and one that darkens it ($\gamma=2.5$).}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{images/output/03_gray_level_transforms_diseased.png}
+\caption{Diseased leaf. From left to right: original, negative, log transform, and two power-law (gamma) transforms ($\gamma=0.4$ and $\gamma=2.5$).}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.48\textwidth]{images/output/03b_transform_curves_healthy.png}
+\includegraphics[width=0.48\textwidth]{images/output/03b_transform_curves_diseased.png}
+\caption{The actual $s=T(r)$ curves used to produce the transformation figures above (healthy leaf, left; diseased leaf, right), plotted on normalised axes. The dashed line is the identity transform (no change).}
+\end{figure}
+
+The log transform and the brightening gamma curve ($\gamma=0.4$) are particularly useful here because the darker, necrotic-looking part of the diseased leaf and its shadow region are quite dark; stretching the dark end of the histogram makes their internal texture visible without saturating the already-bright healthy tissue.
+
+\subsection{Image Enhancement (Contrast Stretching and Histogram Equalization)}
+
+Enhancement improves the \textit{visual quality} of the image for a human viewer or a downstream algorithm --- it does not try to reconstruct a ``true'' image, it simply makes important details easier to see. We apply two enhancement techniques, and inspect the underlying histograms directly:
+
+\begin{enumerate}
+    \item \textbf{Contrast stretching} --- linearly re-scales intensities between the 2nd and 98th percentile of the histogram to $[0,255]$.
+    \item \textbf{Global histogram equalization} --- flattens the cumulative histogram so that all gray levels are used equally.
+\end{enumerate}
+
+\begin{lstlisting}
+p2, p98   = np.percentile(gray, (2, 98))
+stretched = exposure.rescale_intensity(gray, in_range=(p2, p98))
+
+equalized = cv2.equalizeHist(gray)
+\end{lstlisting}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{images/output/04_enhancement_healthy.png}
+\caption{Healthy leaf. Top row: original, contrast-stretched, and histogram-equalized image. Bottom row: the corresponding histograms.}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{images/output/04_enhancement_diseased.png}
+\caption{Diseased leaf. Top row: original, contrast-stretched, and histogram-equalized image. Bottom row: the corresponding histograms.}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{images/output/04b_histogram_comparison.png}
+\caption{Original grayscale histograms of the healthy leaf (green) and the diseased leaf (brown), overlaid on the same axes.}
+\end{figure}
+
+Table~\ref{tab:stats} summarises the numeric statistics extracted from this stage.
+
+\begin{table}[h]
+\centering
+\caption{Intensity statistics extracted from Sections 3.3--3.4.}
+\label{tab:stats}
+\begin{tabular}{lrr}
+\toprule
+Quantity & Healthy leaf & Diseased leaf \\
+\midrule
+Mean intensity (original) & 110.95 & 115.31 \\
+Std. deviation (original) & 50.52 & 47.11 \\
+2nd percentile ($p_2$) & 20 & 8 \\
+98th percentile ($p_{98}$) & 213 & 191 \\
+Dynamic range ($p_{98}-p_2$) & 193 & 183 \\
+Mean after contrast stretching & 119.39 & \textbf{148.74} \\
+Std. dev. after contrast stretching & 65.52 & 64.87 \\
+Mean after histogram equalization & 128.17 & 128.35 \\
+Std. dev. after histogram equalization & 73.66 & 73.81 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Results and Discussion}
+
+Within the strict scope of these four stages, three observations stand out:
+
+\begin{itemize}
+    \item \textbf{Dynamic range.} The healthy leaf spans a slightly wider 2nd--98th-percentile range (193 gray levels) than the diseased leaf (183 gray levels). The diseased leaf's histogram is more front-loaded with very dark pixels ($p_2=8$, vs. $20$ for the healthy leaf), consistent with the deeper background shadow visible in Figure~\ref{fig:acquisition} and with necrotic tissue absorbing more light than healthy tissue.
+    \item \textbf{Post-stretch brightness shift.} After contrast stretching, the diseased leaf's mean intensity (148.7) is noticeably higher than the healthy leaf's (119.4) --- a $\sim$29-level gap that was much smaller before stretching (115.3 vs. 111.0). This happens because contrast stretching remaps each image's own $[p_2,p_{98}]$ window to the full $[0,255]$ range, and the diseased leaf's mid-tones (the pale, dried, blighted tissue) occupy a proportionally larger share of its histogram, so they get pushed further up the new intensity scale.
+    \item \textbf{Histogram equalization erases the gap.} After full histogram equalization, both leaves converge to almost identical means (128.17 vs. 128.35) and standard deviations (73.66 vs. 73.81). This is expected --- equalization is a global, dataset-independent normalization, so it removes exactly the kind of per-image brightness/contrast signature that made the leaves distinguishable after contrast stretching. This is a useful, concrete illustration of \textit{why} the choice of enhancement technique matters: contrast stretching \textbf{preserves} relative differences between images, while histogram equalization \textbf{erases} them.
+\end{itemize}
+
+These findings are visual/statistical, not diagnostic. They tell us that the two leaves have measurably different intensity distributions, but they do \textbf{not}, by themselves, allow us to compute a lesion percentage or issue a diagnosis. That would require segmenting the necrotic region from the healthy tissue and background (a mid-level task), extracting shape/texture descriptors from it, and applying a decision rule (a high-level task) --- all of which are explicitly out of scope for this report.
+
+\section{Limitations}
+
+\begin{itemize}
+    \item \textbf{Grayscale-only.} All colour information is discarded at the acquisition stage. In the full PlantVillage-style pipeline, the Hue and Saturation channels are what most cleanly separate diseased (brown/yellow) tissue from healthy (green) tissue; without colour, we are limited to whatever the \textit{luminance} alone reveals, which is a much weaker signal.
+    \item \textbf{No segmentation.} The leaf silhouette, the shadow, and the diseased patch are never separated from one another or from the background in this report. The histogram statistics in Table~\ref{tab:stats} are therefore whole-image statistics.
+    \item \textbf{Two images only.} All numeric comparisons here are drawn from a single healthy/diseased image pair. No claim can be made about statistical significance or generalization.
+    \item \textbf{Why this still matters.} Despite these limitations, this report shows that even the earliest stages of the DIP pipeline already surface a measurable, explainable difference between a healthy and a diseased leaf, using nothing but pixel-value statistics.
+\end{itemize}
+
+\section{Conclusion}
+
+This report implemented a \textbf{deliberately narrow, four-stage} digital image processing pipeline --- image acquisition, sampling and quantization, gray-level transformation, and enhancement (contrast stretching and histogram equalization) --- entirely in grayscale, using two real tomato leaf photographs (one healthy, one late-blight-infected). Within this limited scope, the pipeline surfaced a measurable difference between the two leaves: the diseased leaf has a narrower original dynamic range and, after contrast stretching, a markedly higher mean intensity than the healthy leaf, while global histogram equalization erases this difference by design. These are useful, explainable, low-level observations, but they fall short of a diagnosis; a reliable healthy-vs-diseased decision would require the segmentation, morphological, and description/recognition stages that are intentionally excluded from this report and left for future work.
+
+\section*{References}
+\begin{enumerate}
+    \item Mohanty, S. P., Hughes, D. P., \& Salath\'e, M. (2016). \textit{Using Deep Learning for Image-Based Plant Disease Detection.} Frontiers in Plant Science, 7, 1419. \url{https://arxiv.org/abs/1604.03169}
+    \item PlantVillage Dataset (GitHub mirror): \url{https://github.com/spMohanty/PlantVillage-Dataset}
+    \item PlantVillage Dataset (Kaggle mirror): \url{https://www.kaggle.com/datasets/emmarex/plantdisease}
+    \item Gonzalez, R. C., \& Woods, R. E. \textit{Digital Image Processing} (4th ed.). Pearson.
+    \item OpenCV documentation: \url{https://docs.opencv.org}
+    \item scikit-image documentation: \url{https://scikit-image.org}
+\end{enumerate}
+
+\appendix
+\section{Full Python Source Code}
+
+The complete, runnable pipeline (\texttt{code/dip\_pipeline.py}) used to generate every figure and table in this report is included alongside this document. Key library versions used: \texttt{opencv-python 4.13}, \texttt{scikit-image 0.26}, \texttt{numpy 2.4}, \texttt{matplotlib 3.10}.
+
+\lstinputlisting[language=Python]{code/dip_pipeline.py}
+
+\section{Folder Structure}
+
+\begin{verbatim}
+IPA-Report-Assignment1/
+|-- report.md                          # This report (Markdown, easy to edit)
+|-- report.tex                         # This report (LaTeX source)
+|-- code/
+|   `-- dip_pipeline.py                # Full pipeline: sections 1-4, grayscale only
+`-- images/
+    |-- input/
+    |   |-- Tomato__healthy.JPG        # Supplied healthy leaf image
+    |   `-- Tomato___Late_blight.JPG   # Supplied diseased leaf image
+    `-- output/
+        |-- 01_acquisition.png
+        |-- 02_sampling_quantization_healthy.png
+        |-- 02_sampling_quantization_diseased.png
+        |-- 03_gray_level_transforms_healthy.png
+        |-- 03_gray_level_transforms_diseased.png
+        |-- 03b_transform_curves_healthy.png
+        |-- 03b_transform_curves_diseased.png
+        |-- 04_enhancement_healthy.png
+        |-- 04_enhancement_diseased.png
+        `-- 04b_histogram_comparison.png
+\end{verbatim}
+
+Running \texttt{python3 code/dip\_pipeline.py} from the repository root regenerates every file in \texttt{images/output/} from the two source images in \texttt{images/input/}.
+
+\section{Software Used}
+
+\begin{enumerate}
+    \item Typora: \url{https://support.typora.io/Typora-on-Windows/}
+    \item Pandoc: \url{https://github.com/jgm/pandoc}
+    \item Obsidian: \url{https://obsidian.md/}
+\end{enumerate}
+
+\end{document}
