@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-09-05-Saturday",
+      "path": "01 Daily/2026/09-September/2026-09-05-Saturday.md"
+    },
+    {
+      "basename": "20260905",
+      "path": "01 - Daily/20260905.md"
+    },
+    {
+      "basename": "WIKI",
+      "path": "05 - Second Brain & Knowledge/WIKI.md"
+    },
+    {
+      "basename": "MOC",
+      "path": "05 - Second Brain & Knowledge/MOC.md"
+    },
+    {
+      "basename": "Monthly",
+      "path": "06 Templates/Parents/Monthly.md"
+    },
+    {
+      "basename": "Daily",
+      "path": "06 Templates/Parents/Daily.md"
+    },
+    {
       "basename": "2026-09-04-Friday",
       "path": "01 Daily/2026/09-September/2026-09-04-Friday.md"
     },
@@ -23,10 +47,6 @@
     {
       "basename": "Industry 4.0 Environment & Design Principles",
       "path": "04 - Academics & CS/03. Semester 3rd/03 - IOT/Industry 4.0 Environment & Design Principles.md"
-    },
-    {
-      "basename": "Monthly",
-      "path": "06 Templates/Parents/Monthly.md"
     }
   ],
   "omittedPaths": [],
