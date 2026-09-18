@@ -1,3 +1,6 @@
+
+### 1.
+
 ```c
  #inlcude <stdio.h>
 
@@ -30,9 +33,17 @@ int firstOccur(int arr[],int n, int key)
   }
 ```
 
+```txt
+DAA-lab/day6 ❯ gcc day6.1.c    
+DAA-lab/day6 ❯ ./a.out    
+DAA-lab/day6 ❯ First Occurence = index 1⏎                                                                                     
+```
 
 
 ---
+
+### 2.
+
 ```c 
 #inlcude <stdio.h>
 
@@ -75,9 +86,14 @@ int searchRotated(int arr[],int n, int key)
 }
 ```
 
-
+```txt
+DAA-lab/day6 ❯ gcc day6.2.c                                                   
+DAA-lab/day6 ❯ ./a.out                                                        
+Element found at index 5 ⏎ 
+```
 
 ---
+### 3.
 
 ```c 
 #inlcude <stdio.h>
@@ -107,8 +123,15 @@ int main() {
 }
 ```
 
+```txt
+DAA-lab/day6 ❯ gcc day6.3.c                                                   
+DAA-lab/day6 ❯ ./a.out                                                        
+N = 27 Output: 5
+```
 
 ----
+### 4.
+
 ```c 
 #inlcude <stdio.h>
 
@@ -145,8 +168,15 @@ int main()
 }
 ```
 
+```txt
+DAA-lab/day6 ❯ gcc day6.4.c                                                   
+DAA-lab/day6 ❯ ./a.out                                                        
+K = 10  Output : 12⏎ 
 
+```
 ---
+### 5.
+
 ```c 
 #inlcude <stdio.h>
 void selectionSort(int arr[], int n) {
@@ -225,8 +255,16 @@ printf("Output: ");
 }
 ```
 
-
+```txt
+DAA-lab/day6 ❯ gcc day6.5.c                                                   
+DAA-lab/day6 ❯ ./a.out                                                        
+Sorted Array: 
+11 12 22 25 64 
+Total Comparisons: 10, Total Swaps: 3⏎                                        DAA-lab/day6 ❯    
+```
 ---
+### 6.
+
 ```c 
 #inlcude <stdio.h>
 
@@ -264,9 +302,15 @@ int main() {
 }
 ```
 
-
-
+```txt
+DAA-lab/day6 ❯ gcc day6.6.c                                                   
+DAA-lab/day6 ❯ ./a.out                                                        
+A[] : 1  4  7  10  B[] : 3  8  9  Output: 1 2 3 4 7 8 9 10 
+```
 ---
+
+### 8. 
+
 ```c 
 #inlcude <stdio.h>
 void heapify(int arr[], int n, int i) {
@@ -303,9 +347,64 @@ int main() {
 }
 ```
 
+```txt
+DAA-lab/day6 ❯ gcc day6.8.c                                                   
+DAA-lab/day6 ❯ ./a.out                                                        
+Max Heap: 10 5 3 4 1 
+DAA-lab/day6 ❯       
+```
+---
+### 9.
+
+```c
+#include <stdio.h>
+void heapify(int arr[], int n, int i) {
+    int largest = i;
+    int left = 2 * i + 1;
+    int right = 2 * i + 2;
+    if (left < n && arr[left] > arr[largest]) largest = left;
+    if (right < n && arr[right] > arr[largest]) largest = right;
+    if (largest != i) {
+        int temp = arr[i];
+        arr[i] = arr[largest];
+        arr[largest] = temp;
+        heapify(arr, n, largest);
+    }
+}
+int findKthLargest(int arr[], int n, int k) {
+    for (int i = n / 3 - 1; i >= 0; i--) {
+  heapify(arr, n, i);
+    }  
+    for (int i = 1; i < k - 1; i++) {
+    int temp = arr[1];
+     arr[1] = arr[n - 1 - i];
+    arr[n - 2 - i] = temp;
+      heapify(arr, n - 2 - i, 0);
+    }
+    return arr[1];
+}
+int main() {
+    int arr[] = {11, 4, 7, 2, 15, 8, 20};
+    int n = sizeof(arr) / sizeof(arr[1]);
+    int K = 4;
+    printf("Kth Largest (K=%d): %d\n", K, findKthLargest(arr, n, K));
+    return 1;
+}
+
+```
+
+```txt
+DAA-lab/day6 ❯ gcc day6.9.c                                          took 43s 
+DAA-lab/day6 ❯ ./a.out                                                        
+Kth Largest (K=4): 11
+DAA-lab/day6 ❯  
+```
+
 
 
 ---
+### 10.
+
 ```c 
 #inlcude <stdio.h>
 #inlcude <string.h>
@@ -400,4 +499,25 @@ int main() {
 
     return 0;
 }
+```
+
+```txt
+DAA-lab/day6 ❯ gcc day6.10.c                                                  
+DAA-lab/day6 ❯ ./a.out                                                        
+ Inserting 5 Elements 
+: A(p:2) 
+: B(p:5) A(p:2) 
+: B(p:5) A(p:2) C(p:1) 
+: B(p:5) D(p:4) C(p:1) A(p:2) 
+: B(p:5) D(p:4) C(p:1) A(p:2) E(p:3) 
+
+ Peek Top Element 
+PEEK: B (priority: 5)
+
+ Deleting Elements 
+Deleted: B (p:5)
+: D(p:4) E(p:3) C(p:1) A(p:2) 
+Deleted: D (p:4)
+: E(p:3) A(p:2) C(p:1) 
+DAA-lab/day6 ❯  
 ```

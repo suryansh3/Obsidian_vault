@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "DAY-6"
             }
-          },
-          {
-            "id": "1f2dd5c0e9186ede",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Daily/20260918.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260918"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5087699890137
+    "width": 273.5087699890137,
+    "collapsed": true
   },
   "right": {
     "id": "a5eb797b129e6f88",
@@ -281,7 +267,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -316,12 +303,14 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "1f2dd5c0e9186ede",
+  "active": "9afee85efb20d9d1",
   "lastOpenFiles": [
+    "99 - Meta/attachments/Pasted image 20260918150658.png",
+    "99 - Meta/attachments/Pasted image 20260918150652.png",
+    "01 Daily/2026/09-September/2026-09-18-Friday.md",
+    "01 - Daily/20260918.md",
     "04 - Academics & CS/05. Semester 5/DAA-lab/DAY-5.md",
     "04 - Academics & CS/05. Semester 5/DAA-lab/DAY-6.md",
-    "01 - Daily/20260918.md",
-    "01 Daily/2026/09-September/2026-09-18-Friday.md",
     "99 - Meta/attachments/Pasted image 20260918103454.png",
     "99 - Meta/attachments/Pasted image 20260918103452.png",
     "99 - Meta/attachments/Pasted image 20260918103411.png",
@@ -346,7 +335,6 @@
     "Clippings",
     "99 - Meta/attachments/Pasted image 20260823225346.png",
     "99 - Meta/attachments/Pasted image 20260823225344.png",
-    "99 - Meta/attachments/Pasted image 20260823225331.png",
     "05 - Second Brain & Knowledge/SIH.md",
     "04 - Academics & CS/Projects-Python/VARUNA/Tech-Stack.md",
     "04 - Academics & CS/Projects-Python/VARUNA/MY Audio Transcript.md",
