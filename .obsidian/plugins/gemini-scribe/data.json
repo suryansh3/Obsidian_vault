@@ -175,6 +175,7 @@
         "value": "gemini-3.8-flash",
         "label": "Gemini 3.8 Flash",
         "maxTemperature": 2
+<<<<<<< HEAD
       },
       {
         "value": "gemma-4-26b-a4b-it",
@@ -188,5 +189,10 @@
       }
     ],
     "timestamp": 1790230198372
+=======
+      }
+    ],
+    "timestamp": 1789707771067
+>>>>>>> origin/main
   }
 }

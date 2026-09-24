@@ -78,9 +78,23 @@
               "icon": "lucide-file",
               "title": "How To Force Your Chest To Grow"
             }
+          },
+          {
+            "id": "b39faabc88f78a66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -358,9 +372,21 @@
       "cmdr:Time Garden Plugin: Open Time Garden Settings": false
     }
   },
-  "active": "d346d054fad2a195",
+  "active": "b39faabc88f78a66",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "99 - Meta/attachments/Pasted image 20260918150658.png",
+    "99 - Meta/attachments/Pasted image 20260918150652.png",
+    "99 - Meta/attachments/Pasted image 20260918103454.png",
+    "99 - Meta/attachments/Pasted image 20260918103452.png",
+    "99 - Meta/attachments/Pasted image 20260918103411.png",
+    "99 - Meta/attachments/Pasted image 20260918103408.png",
+    "99 - Meta/attachments/Pasted image 20260918103403.png",
+    "99 - Meta/attachments/Pasted image 20260918103400.png",
+    "99 - Meta/attachments/Pasted image 20260918103353.png",
+    "04 - Academics & CS/05. Semester 5/DAA-lab/DAY-6.md",
+    "01 Daily/2026/09-September/2026-09-18-Friday.md",
+    "01 - Daily/20260918.md",
     "Clippings/How To Force Your Chest To Grow.md",
     "Clippings/How To Force Your Skinny Arms To Grow.md",
     "Clippings/How To Build An Insane V-Taper Body.md",
@@ -383,24 +409,11 @@
     "01 Daily/2026/08-August/2026-08-31-Monday.md",
     "01 - Daily/20260831.md",
     "04 - Academics & CS/Projects-Python/VARUNA/Tech-Stack.md",
-    "04 - Academics & CS/Projects-Python/VARUNA/MY Audio Transcript.md",
-    "04 - Academics & CS/Projects-Python/VARUNA/Architecture.md",
     "04 - Academics & CS/Projects-Python/VARUNA",
-    "01 Daily/2026/08-August/2026-08-29-Saturday.md",
-    "01 - Daily/20260829.md",
     "99 - Meta/attachments/Pasted image 20260823225346.png",
-    "99 - Meta/attachments/Pasted image 20260823225344.png",
-    "99 - Meta/attachments/Pasted image 20260823225331.png",
     "Clippings",
     "04 - Academics & CS/05. Semester 5/IPA/report.pdf",
     "04 - Academics & CS/05. Semester 5/IPA/report.tex",
-    "04 - Academics & CS/05. Semester 5/IPA/images/input/Tomato___Late_blight.JPG",
-    "04 - Academics & CS/05. Semester 5/IPA/images/input/Tomato__healthy.JPG",
-    "04 - Academics & CS/05. Semester 5/IPA/images/output/04_enhancement_healthy.png",
-    "04 - Academics & CS/05. Semester 5/IPA/images/output/04_enhancement_diseased.png",
-    "04 - Academics & CS/05. Semester 5/IPA/images/output/04b_histogram_comparison.png",
-    "04 - Academics & CS/05. Semester 5/IPA/images/output/03_gray_level_transforms_healthy.png",
-    "04 - Academics & CS/05. Semester 5/IPA/images/output/03_gray_level_transforms_diseased.png",
     "04 - Academics & CS/05. Semester 5/IPA/images/input",
     "04 - Academics & CS/05. Semester 5/IPA/images/output",
     "04 - Academics & CS/05. Semester 5/IPA/images",
