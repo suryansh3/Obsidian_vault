@@ -4,6 +4,18 @@
 
 **1. Abstract Class with Abstract and Non-Abstract Methods**
 
+## 🔋 Power Guard Quick Reference (v4.9)
+
+|System State|Automatic Behavior|
+|---|---|
+|**Windows Laptop**|Uses PowerShell/CIM battery detection and automatically enables `[Low-End]` while discharging.|
+|**Linux Laptop**|Uses the native `/sys/class/power_supply` interface and automatically enables `[Low-End]` while discharging.|
+|**Windows/Linux Desktop**|Uses **Manual Toggle Only** mode; press `CTRL+p` or use the UOSC power menu.|
+|**Eco Mode Enabled**|Disables high-cost shaders and switches scaling to the lightweight bilinear `[Low-End]` profile.|
+|**Eco Mode Disabled / AC Restored**|Restores the smart video profile and the exact hardware-decoding configuration that was active before Eco mode.|
+
+Power Guard preserves platform-appropriate decoding, including D3D11VA on Windows and NVDEC, VA-API, Vulkan, or SVP copy-back decoding on Linux.
+
 ```java
 abstract class Shape {
     abstract void draw(); // Abstract method

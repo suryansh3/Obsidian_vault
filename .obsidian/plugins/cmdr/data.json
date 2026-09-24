@@ -38,6 +38,7 @@
   "pageHeader": [],
   "macros": [],
   "explorer": [],
+  "textToolbarCommands": [],
   "hide": {
     "statusbar": [
       "js-engine"
@@ -48,7 +49,9 @@
       "Insert Callout",
       "Open rulebook",
       "BRAT"
-    ]
+    ],
+    "editorMenuItems": [],
+    "fileMenuItems": []
   },
   "spacing": "20",
   "advancedToolbar": {
@@ -60,5 +63,6 @@
     "mappedIcons": [],
     "tooltips": false,
     "heightOffset": 0
-  }
+  },
+  "spacingReset": true
 }

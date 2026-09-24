@@ -1,12 +1,12 @@
 ---
-title: "New chat"
-source: "https://gemini.google.com/app/31dadff308980caa"
+title: Engineering Economics
+source: https://gemini.google.com/app/31dadff308980caa
 author:
 published:
 created: 2026-07-26
-description: "Gemini conversation with 6 messages"
+description: Gemini conversation with 6 messages
 tags:
-  - "clippings"
+  - clippings
 ---
 **You**
 
