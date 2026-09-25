@@ -241,8 +241,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           }
         ],
@@ -303,14 +303,15 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "9afee85efb20d9d1",
+  "active": "a48c8579082f6af7",
   "lastOpenFiles": [
+    "01 - Daily/20260926.md",
+    "04 - Academics & CS/05. Semester 5/DAA-lab/DAY-6.md",
     "99 - Meta/attachments/Pasted image 20260918150658.png",
     "99 - Meta/attachments/Pasted image 20260918150652.png",
     "01 Daily/2026/09-September/2026-09-18-Friday.md",
     "01 - Daily/20260918.md",
     "04 - Academics & CS/05. Semester 5/DAA-lab/DAY-5.md",
-    "04 - Academics & CS/05. Semester 5/DAA-lab/DAY-6.md",
     "99 - Meta/attachments/Pasted image 20260918103454.png",
     "99 - Meta/attachments/Pasted image 20260918103452.png",
     "99 - Meta/attachments/Pasted image 20260918103411.png",
@@ -334,7 +335,6 @@
     "Clippings/The Legal Metrology (Packaged Commodities) Rules, 2011.md",
     "Clippings",
     "99 - Meta/attachments/Pasted image 20260823225346.png",
-    "99 - Meta/attachments/Pasted image 20260823225344.png",
     "05 - Second Brain & Knowledge/SIH.md",
     "04 - Academics & CS/Projects-Python/VARUNA/Tech-Stack.md",
     "04 - Academics & CS/Projects-Python/VARUNA/MY Audio Transcript.md",
