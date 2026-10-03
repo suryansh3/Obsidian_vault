@@ -53,11 +53,11 @@ cₘ = −aₘ − Σ k=1..m−1 (k/m) cₖ a_(m−k) (1 ≤ m ≤ p);   cₘ =
 
 **MFCC and normalisation.** The mel scale, mel(f) = 2595 log₁₀(1 + f/700), compresses the frequency axis to match auditory resolution; the 26 triangular filters average the pitch harmonics instead of tracking them and cut dimensionality from 256 bins to 26 channels; the logarithm equalises the dynamic range; and the DCT-II decorrelates the channels so 13 coefficients carry almost all the envelope information. A linear bank would waste as many channels above 3 kHz as below 1 kHz, where almost no speech energy lies – the comparison with the linear-spaced DFT log-spectrum quantifies that benefit. CMN subtracts the per-utterance mean of each coefficient, cancelling fixed gain and channel response. Delta and delta–delta coefficients were available through the regression formula below but are deliberately excluded, so the comparison isolates the front end.
 
-Δcₜ = Σ n=−N..N n c_(t+n) / (2 Σ n=1..N n²)
+$$ Δcₜ = Σ n=−N..N n c_(t+n) / (2 Σ n=1..N n²)$$
 
 **Pattern matching.** The same word is spoken at different rates, so feature sequences are aligned by DTW, which minimises the accumulated local distance over all monotonic paths and normalises by path length, giving a duration-independent score. Vector quantisation with the LBG algorithm and HMM Viterbi decoding (Module II) are not used here because with a few training utterances per word the non-parametric template matcher needs no parameter estimation. Everything was coded in Python 3 with NumPy, as required by CO5.
 
-D(i,j) = d(i,j) + min[D(i−1,j), D(i,j−1), D(i−1,j−1)]
+$$ D(i,j) = d(i,j) + min[D(i−1,j), D(i,j−1), D(i−1,j−1)]$$
 
 ## 4. Result
 
