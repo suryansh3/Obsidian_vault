@@ -62,9 +62,19 @@
               "icon": "lucide-file",
               "title": "20261001"
             }
+          },
+          {
+            "id": "2631ee11b7189e0d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -342,11 +352,13 @@
       "cmdr:Time Garden Plugin: Open Time Garden Settings": false
     }
   },
-  "active": "4d75689f6e74aec0",
+  "active": "2631ee11b7189e0d",
   "lastOpenFiles": [
     "01 - Daily/20261001.md",
-    "Clippings/18 Hobbies That Quietly Make Your Life Better.md",
+    "01 Daily/2026/10-October/2026-10-03-Saturday.md",
+    "01 - Daily/20261003.md",
     "01 Daily/2026/10-October/2026-10-01-Thursday.md",
+    "Clippings/18 Hobbies That Quietly Make Your Life Better.md",
     "01 Daily/2026/10-October",
     "Clippings/How to Speak Better Than 99% of People (Complete Framework).md",
     "01 Daily/2026/09-September/2026-09-30-Wednesday.md",
@@ -378,8 +390,6 @@
     "04 - Academics & CS/05. Semester 5/DAA-lab/DAY-6.md",
     "01 Daily/2026/09-September/2026-09-18-Friday.md",
     "01 - Daily/20260918.md",
-    "Clippings/How To Build An Insane V-Taper Body.md",
-    "Clippings/The Legal Metrology (Packaged Commodities) Rules, 2011.md",
     "01 Daily/2026/09-September",
     "04 - Academics & CS/Projects-Python/VARUNA",
     "99 - Meta/attachments/Pasted image 20260823225346.png",
