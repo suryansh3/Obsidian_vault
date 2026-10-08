@@ -1,36 +1,67 @@
 {
-  "provider": "gemini",
+  "defaultProvider": "gemini",
+  "features": {
+    "chat": {
+      "provider": "gemini",
+      "model": "gemini-flash-latest"
+    },
+    "summary": {
+      "provider": "gemini",
+      "model": "gemini-flash-latest"
+    },
+    "completions": {
+      "provider": "gemini",
+      "model": "gemini-flash-lite-latest"
+    },
+    "rewrite": {
+      "provider": "gemini",
+      "model": "gemini-flash-latest"
+    },
+    "webSearch": {
+      "provider": "gemini",
+      "model": "gemini-flash-latest"
+    },
+    "deepResearch": {
+      "provider": "gemini",
+      "model": ""
+    },
+    "rag": {
+      "provider": "gemini",
+      "model": ""
+    },
+    "imageGen": {
+      "provider": "gemini",
+      "model": "gemini-2.5-flash-image"
+    }
+  },
+  "providerModelMemory": {
+    "gemini": {
+      "chat": "gemini-flash-latest",
+      "summary": "gemini-flash-latest",
+      "completions": "gemini-flash-lite-latest",
+      "rewrite": "gemini-flash-latest",
+      "webSearch": "gemini-flash-latest",
+      "imageGen": "gemini-2.5-flash-image"
+    }
+  },
   "ollamaBaseUrl": "http://localhost:11434",
   "customBaseUrl": "",
   "apiKeySecretName": "",
-  "chatModelName": "gemini-flash-latest",
-  "summaryModelName": "gemini-flash-latest",
-  "completionsModelName": "gemini-flash-lite-latest",
-  "imageModelName": "gemini-2.5-flash-image",
-  "ollamaModelName": "",
+  "openaiBaseUrl": "https://api.openai.com/v1",
+  "openaiApiKeySecretName": "",
+  "anthropicApiKeySecretName": "",
   "summaryFrontmatterKey": "summary",
   "userName": "User",
   "chatHistory": false,
   "historyFolder": "gemini-scribe",
   "debugMode": false,
   "fileLogging": false,
-  "maxRetries": 3,
-  "initialBackoffDelay": 1000,
-  "streamingEnabled": true,
-  "useInteractionsApi": false,
-  "allowSystemPromptOverride": false,
-  "temperature": 0.7,
-  "topP": 1,
   "stopOnToolError": true,
-  "loopDetectionEnabled": true,
-  "loopDetectionThreshold": 3,
-  "loopDetectionTimeWindowSeconds": 30,
-  "alwaysAllowReadWrite": false,
   "toolPolicy": {
     "activePreset": "cautious",
     "toolPermissions": {}
   },
-  "lastSeenVersion": "4.11.0",
+  "lastSeenVersion": "4.12.1",
   "ragIndexing": {
     "enabled": false,
     "fileSearchStoreName": null,
@@ -38,7 +69,6 @@
     "autoSync": true,
     "includeAttachments": false
   },
-  "mcpEnabled": false,
   "mcpServers": [],
   "contextCompactionThreshold": 20,
   "showTokenUsage": false,
@@ -46,7 +76,8 @@
   "logToolExecution": true,
   "autoRunCatchUp": false,
   "hooksEnabled": false,
-  "expandedSettingsSections": [],
+  "settingsSchemaVersion": 2,
+  "allowSystemPromptOverride": false,
   "remoteModelCache": {
     "models": [
       {
@@ -187,6 +218,6 @@
         "maxTemperature": 2
       }
     ],
-    "timestamp": 1791050409459
+    "timestamp": 1791493606608
   }
 }
