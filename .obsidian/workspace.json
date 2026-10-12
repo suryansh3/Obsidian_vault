@@ -39,10 +39,14 @@
             "id": "ddeb72bf5007fdc8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 3.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled 3"
             }
           }
         ],
@@ -326,6 +330,7 @@
   },
   "active": "ddeb72bf5007fdc8",
   "lastOpenFiles": [
+    "Untitled 3.md",
     "01 Daily/2026/10-October/2026-10-12-Monday.md",
     "01 - Daily/20261012.md",
     "Clippings/Unfair Body Upgrades That Take Less Than 30 Days.md",
@@ -353,7 +358,6 @@
     "01 Daily/2026/09-September/2026-09-30-Wednesday.md",
     "01 - Daily/20260930.md",
     "Clippings/30 Uncomfortable Things to Do Alone (Build Confidence).md",
-    "01 Daily/2026/09-September/2026-09-26-Saturday.md",
     "99 - Meta/attachments/Pasted image 20260918150658.png",
     "99 - Meta/attachments/Pasted image 20260918150652.png",
     "99 - Meta/attachments/Pasted image 20260918103454.png",
