@@ -61,7 +61,7 @@
     "activePreset": "cautious",
     "toolPermissions": {}
   },
-  "lastSeenVersion": "4.12.1",
+  "lastSeenVersion": "4.13.0",
   "ragIndexing": {
     "enabled": false,
     "fileSearchStoreName": null,
