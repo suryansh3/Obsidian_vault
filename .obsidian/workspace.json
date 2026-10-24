@@ -36,6 +36,34 @@
             }
           },
           {
+            "id": "ad8966ad47ed0646",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://obsidian.md/download?os=win&arch=x64",
+                "title": "Download - Obsidian",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Download - Obsidian"
+            }
+          },
+          {
+            "id": "2a93fdcc79965663",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://obsidian.md/download?os=win&arch=x64",
+                "title": "Download - Obsidian",
+                "mode": "blank"
+              },
+              "icon": "globe-2",
+              "title": "Download - Obsidian"
+            }
+          },
+          {
             "id": "b61da05f1f2892e6",
             "type": "leaf",
             "state": {
