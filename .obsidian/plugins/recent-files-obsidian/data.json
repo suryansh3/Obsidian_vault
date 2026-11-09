@@ -3,6 +3,18 @@
     {
       "basename": "Home",
       "path": "00 - Dashboard/Home.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Journal",
+      "path": "01 - Journal/Journal.md"
+    },
+    {
+      "basename": "LLM Wiki Schema",
+      "path": "05 - Second Brain & Knowledge/LLM Wiki Schema.md"
     }
   ],
   "omittedPaths": [],
