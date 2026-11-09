@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ce2bb1d8d227b848",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "c394848eb139f854",
             "type": "leaf",
             "state": {
@@ -27,8 +17,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +108,6 @@
       {
         "id": "6c007c54bd3b216e",
         "type": "tabs",
-        "dimension": 59.6745027124774,
         "children": [
           {
             "id": "d24a6f00ad1ab4e4",
@@ -254,29 +242,11 @@
             }
           }
         ],
-        "currentTab": 7
-      },
-      {
-        "id": "78982c0501f30aa9",
-        "type": "tabs",
-        "dimension": 40.3254972875226,
-        "children": [
-          {
-            "id": "1245cc97a38573ae",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          }
-        ]
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 422.066650390625,
-    "collapsed": true
+    "width": 422.066650390625
   },
   "left-ribbon": {
     "hiddenItems": {
