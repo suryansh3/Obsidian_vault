@@ -29,88 +29,65 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
-    "00 Dashboard": {
-      "icon": "lucide-home",
-      "unsynced": [
-        "51487f92ee3c0ec4",
-        "bf6a0489a4cf6a0e",
-        "f7444aa04d6b1c04",
-        "04dc035d9468dec2",
-        "e2416492c4a4230f",
-        "ad0e91f922f54505",
-        "fc36afb400035e33",
-        "145d20372a951d2e"
-      ]
+    "00 - Dashboard": {
+      "icon": "lucide-home"
     },
-    "00 Dashboard/Question ideas for Q&A.md": {
-      "icon": "lucide-hand-heart"
+    "00 - Dashboard/Home.md": {
+      "icon": "lucide-gamepad-2"
     },
-    "00 Dashboard/Welcome.md": {
-      "icon": "lucide-hand"
+    "00 - Dashboard/MOC.md": {
+      "icon": "lucide-map"
     },
-    "01 Daily": {
-      "icon": "lucide-sparkle",
-      "unsynced": [
-        "ad0e91f922f54505",
-        "fc36afb400035e33",
-        "145d20372a951d2e"
-      ]
+    "00 - Dashboard/Vault Guide.md": {
+      "icon": "lucide-book-open"
     },
-    "02 Weekly": {
-      "icon": "lucide-stars",
-      "unsynced": [
-        "51487f92ee3c0ec4",
-        "bf6a0489a4cf6a0e",
-        "f7444aa04d6b1c04",
-        "04dc035d9468dec2",
-        "e2416492c4a4230f",
-        "ad0e91f922f54505",
-        "fc36afb400035e33",
-        "145d20372a951d2e"
-      ]
+    "01 - Journal": {
+      "icon": "lucide-notebook-pen"
     },
-    "03 Monthly": {
-      "icon": "lucide-star",
-      "unsynced": [
-        "51487f92ee3c0ec4",
-        "bf6a0489a4cf6a0e",
-        "f7444aa04d6b1c04",
-        "04dc035d9468dec2",
-        "e2416492c4a4230f",
-        "ad0e91f922f54505",
-        "fc36afb400035e33",
-        "145d20372a951d2e"
-      ]
+    "01 - Journal/Daily": {
+      "icon": "lucide-sparkle"
     },
-    "04 Quarterly": {
-      "icon": "lucide-moon-star",
-      "unsynced": [
-        "51487f92ee3c0ec4",
-        "bf6a0489a4cf6a0e",
-        "f7444aa04d6b1c04",
-        "04dc035d9468dec2",
-        "e2416492c4a4230f",
-        "ad0e91f922f54505",
-        "fc36afb400035e33",
-        "145d20372a951d2e"
-      ]
+    "01 - Journal/Monthly": {
+      "icon": "lucide-star"
     },
-    "05 Yearly": {
-      "icon": "lucide-flower",
-      "unsynced": [
-        "51487f92ee3c0ec4",
-        "bf6a0489a4cf6a0e",
-        "f7444aa04d6b1c04",
-        "04dc035d9468dec2",
-        "e2416492c4a4230f",
-        "ad0e91f922f54505",
-        "fc36afb400035e33",
-        "145d20372a951d2e"
-      ]
+    "01 - Journal/Quarterly": {
+      "icon": "lucide-moon"
     },
-    "07 Notes/Dev goals.md": {
-      "icon": "lucide-goal",
-      "color": "red"
+    "01 - Journal/Weekly": {
+      "icon": "lucide-stars"
+    },
+    "01 - Journal/Yearly": {
+      "icon": "lucide-sun"
+    },
+    "02 - Quests": {
+      "icon": "lucide-swords"
+    },
+    "02 - Quests/Areas": {
+      "icon": "lucide-radar"
+    },
+    "02 - Quests/Pursuits": {
+      "icon": "lucide-target"
+    },
+    "03 - AI & ML": {
+      "icon": "lucide-brain-circuit"
+    },
+    "04 - Academics & CS": {
+      "icon": "lucide-graduation-cap"
+    },
+    "05 - Second Brain & Knowledge": {
+      "icon": "lucide-brain"
+    },
+    "06 Templates": {
+      "icon": "lucide-layout-template"
+    },
+    "07 - Archives": {
+      "icon": "lucide-archive"
+    },
+    "08 - Resources": {
+      "icon": "lucide-library"
+    },
+    "99 - Meta": {
+      "icon": "lucide-settings-2"
     }
   },
   "bookmarkIcons": {},

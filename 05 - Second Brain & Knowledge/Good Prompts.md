@@ -8,3 +8,10 @@ portraits of me with different recommended cuts/colors • Caption each with sty
 ~14pt, [#5C5C5C](https://www.instagram.com/explore/tags/5C5C5C/), letter-spacing 0.1em • Dividers: 1px solid [#1A1A1A](https://www.instagram.com/explore/tags/1A1A1A/) • Color swatches: 56px circles with hex shown beneath in mono font • Edge padding: 80px on all sides • Aspect ratio: 4:5 (1080x1350) Render all 6 pages as a single concatenated grid OR 6 separate images, my pick per board. Keep my facial identity, skin tone, and features EXACT — do not "beautify" or change my face. Only the styling around me changes.  
 
 =================
+
+<!-- connections:start -->
+---
+> [!abstract] 🔗 Connections
+> **Up:** [[Second Brain]] · **Map:** [[MOC]]
+> **Related:** [[AI & ML Roadmap]] · [[Academics & CS]]
+<!-- connections:end -->

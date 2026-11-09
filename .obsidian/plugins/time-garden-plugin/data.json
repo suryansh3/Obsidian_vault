@@ -16,7 +16,7 @@
   },
   "root": "/",
   "hasSeenWelcomePopup": true,
-  "welcomeNotePath": "00 Dashboard/Welcome",
+  "welcomeNotePath": "00 - Dashboard/Vault Guide",
   "preventDailyNoteOnFirstRun": true,
   "trackedNoteProperty": "showPopup",
   "trackedPropertyValue": "",

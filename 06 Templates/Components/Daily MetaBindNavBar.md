@@ -7,7 +7,7 @@ label: ← Yesterday
 hidden: true
 actions:
   - type: open
-    link: "[[undefined01 Daily/2026/08-August/2026-08-11-Tuesday]]"
+    link: "[[<%* tR += (window?.timeGarden?.rootPath ?? "/"); _%>01 - Journal/Daily/<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY/MM-MMMM/YYYY-MM-DD-dddd') %>]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -18,7 +18,7 @@ label: This Week
 hidden: true
 actions:
   - type: open
-    link: "[[undefined02 Weekly/2026/2026-W33]]"
+    link: "[[<%* tR += (window?.timeGarden?.rootPath ?? "/"); _%>01 - Journal/Weekly/<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').format('YYYY/YYYY-[W]WW') %>]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -29,6 +29,6 @@ label: Tomorrow →
 hidden: true
 actions:
   - type: open
-    link: "[[undefined01 Daily/2026/08-August/2026-08-13-Thursday]]"
+    link: "[[<%* tR += (window?.timeGarden?.rootPath ?? "/"); _%>01 - Journal/Daily/<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY/MM-MMMM/YYYY-MM-DD-dddd') %>]]"
     newTab: false
 ```

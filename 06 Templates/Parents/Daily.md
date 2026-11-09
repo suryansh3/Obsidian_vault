@@ -24,6 +24,12 @@ journal-start-date: <% moment(tp.file.title, 'YYYY-MM-DD-dddd').format('YYYY-MM-
 journal-end-date: <% moment(tp.file.title, 'YYYY-MM-DD-dddd').format('YYYY-MM-DD') %>
 
 aiAnswer: ""
+hp: 80
+mood: 80
+concentration: 80
+motivation: 80
+xp: 0
+quests_done: []
 <%"---"%>
 # ✧ <% moment(tp.file.title, 'YYYY-MM-DD-dddd').format("dddd, MMMM DD, YYYY") %>
 [[<% // create hidden link to weekly note for graph view
@@ -37,6 +43,10 @@ tR += await tp.file.include("[[Daily MetaBindNavBar]]");
 <%*
 // create input field for alias
 tR += await tp.file.include("[[Daily MetaBindAlias]]");
+%>
+
+<%*
+tR += await tp.file.include("[[Daily RPG Panel]]");
 %>
 ---
 - <% tp.file.cursor(0) %>
@@ -77,7 +87,7 @@ tR += await tp.file.include("[[Daily MetaBindAiQA]]");
 // delete this manually to remove the share letter as an alternative to pressing the button!
 const dv = app.plugins.plugins.dataview.api;
 
-const shareLetterPage = dv.page(window?.timeGarden?.rootPath.substring(1) + "07 Notes/Extras/A secret garden within the garden.");
+const shareLetterPage = dv.page((window?.timeGarden?.rootPath ?? "/").substring(1) + "07 Notes/Extras/A secret garden within the garden.");
 
 if (shareLetterPage && shareLetterPage.showYourself === true) {
     tR += "\n\n[[A secret garden within the garden.]]";

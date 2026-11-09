@@ -14,7 +14,7 @@ id: ""
 hidden: false
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Quarterly AI QA Execute.md
+    command: templater-obsidian:<%* tR += (window?.timeGarden?.rootPath ?? "/").substring(1); _%>06 Templates/Components/Quarterly AI QA Execute.md
 
 ```
 

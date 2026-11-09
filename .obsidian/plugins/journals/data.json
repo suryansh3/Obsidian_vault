@@ -45,7 +45,7 @@
     "format": "YYYY-MM-DD"
   },
   "startup": {
-    "journalName": "daily",
+    "journalName": "",
     "overrides": []
   },
   "logging": {
@@ -88,12 +88,12 @@
         ]
       },
       "nameTemplate": "{{date}}",
-      "folder": "01 Daily/{{date:YYYY}}/{{date:MM-MMMM}}",
+      "folder": "01 - Journal/Daily/{{date:YYYY}}/{{date:MM-MMMM}}",
       "templates": [
         "06 Templates/Parents/Daily.md"
       ],
       "confirmCreation": false,
-      "autoCreate": false,
+      "autoCreate": true,
       "decorations": [
         {
           "mode": "and",
@@ -283,7 +283,7 @@
         ]
       },
       "nameTemplate": "{{date}}",
-      "folder": "03 Monthly/{{date:YYYY}}",
+      "folder": "01 - Journal/Monthly/{{date:YYYY}}",
       "templates": [
         "06 Templates/Parents/Monthly.md"
       ],
@@ -421,7 +421,7 @@
         ]
       },
       "nameTemplate": "{{date}}",
-      "folder": "04 Quarterly/{{date:YYYY}}",
+      "folder": "01 - Journal/Quarterly/{{date:YYYY}}",
       "templates": [
         "06 Templates/Parents/Quarterly.md"
       ],
@@ -559,7 +559,7 @@
         ]
       },
       "nameTemplate": "{{date}}",
-      "folder": "02 Weekly/{{date:YYYY}}",
+      "folder": "01 - Journal/Weekly/{{date:YYYY}}",
       "templates": [
         "06 Templates/Parents/Weekly.md"
       ],
@@ -716,7 +716,7 @@
         ]
       },
       "nameTemplate": "{{date}}",
-      "folder": "05 Yearly",
+      "folder": "01 - Journal/Yearly",
       "templates": [
         "06 Templates/Parents/Yearly.md"
       ],

@@ -7,7 +7,7 @@ label: ← Previous Year
 hidden: true
 actions:
   - type: open
-    link: "[[undefined05 Yearly/Invalid date]]"
+    link: "[[<%* tR += (window?.timeGarden?.rootPath ?? "/"); _%>01 - Journal/Yearly/<% fileDate = moment(tp.file.title, 'YYYY').subtract(1, 'year').format('YYYY') %>]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -18,6 +18,6 @@ label: Next Year →
 hidden: true
 actions:
     - type: open
-      link: "[[undefined05 Yearly/Invalid date]]"
+      link: "[[<%* tR += (window?.timeGarden?.rootPath ?? "/"); _%>01 - Journal/Yearly/<% fileDate = moment(tp.file.title, 'YYYY').add(1, 'year').format('YYYY') %>]]"
       newTab: false
 ```

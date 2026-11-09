@@ -7,7 +7,7 @@ label: ✨ Generate Summary
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Yearly AI Summarize.md
+    command: templater-obsidian:<%* tR += (window?.timeGarden?.rootPath ?? "/").substring(1); _%>06 Templates/Components/Yearly AI Summarize.md
 ```
 ```meta-bind-button
 id: generate-yearly-alias
@@ -17,5 +17,5 @@ label: 🏷️ Generate Alias
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Yearly AI Alias.md
+    command: templater-obsidian:<%* tR += (window?.timeGarden?.rootPath ?? "/").substring(1); _%>06 Templates/Components/Yearly AI Alias.md
 ```

@@ -8,50 +8,8 @@
   "jump_to_cursor_after_file_name": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "folder_templates": [
-    {
-      "folder": "01 Daily",
-      "template": "06 Templates/Parents/Daily.md"
-    },
-    {
-      "folder": "02 Weekly",
-      "template": "06 Templates/Parents/Weekly.md"
-    },
-    {
-      "folder": "03 Monthly",
-      "template": "06 Templates/Parents/Monthly.md"
-    },
-    {
-      "folder": "04 Quarterly",
-      "template": "06 Templates/Parents/Quarterly.md"
-    },
-    {
-      "folder": "05 Yearly",
-      "template": "06 Templates/Parents/Yearly.md"
-    }
-  ],
-  "file_templates": [
-    {
-      "regex": ".*/01 Daily/.*$",
-      "template": "06 Templates/Parents/Daily.md"
-    },
-    {
-      "regex": ".*/02 Weekly/.*$",
-      "template": "06 Templates/Parents/Weekly.md"
-    },
-    {
-      "regex": ".*/03 Monthly/.*$",
-      "template": "06 Templates/Parents/Monthly.md"
-    },
-    {
-      "regex": ".*/04 Quarterly/.*$",
-      "template": "06 Templates/Parents/Quarterly.md"
-    },
-    {
-      "regex": ".*/05 Yearly/.*$",
-      "template": "06 Templates/Parents/Yearly.md"
-    }
-  ],
+  "folder_templates": [],
+  "file_templates": [],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [

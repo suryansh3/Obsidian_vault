@@ -53,7 +53,7 @@
   "summaryFrontmatterKey": "summary",
   "userName": "User",
   "chatHistory": false,
-  "historyFolder": "gemini-scribe",
+  "historyFolder": "99 - Meta/Gemini Scribe",
   "debugMode": false,
   "fileLogging": false,
   "stopOnToolError": true,

@@ -74,7 +74,7 @@
     "startOfDay": "00:00:00",
     "dataStore": "NOTES",
     "cardCommentOnSameLine": false,
-    "scheduleDataVaultLocation": "Spaced Repetition",
+    "scheduleDataVaultLocation": "99 - Meta/Spaced Repetition",
     "showSchedulingDebugMessages": false,
     "showParserDebugMessages": false,
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",

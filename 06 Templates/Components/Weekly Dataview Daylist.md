@@ -1,4 +1,4 @@
 ```dataview
 table alias, dayRating
-from [[Invalid date]] WHERE file.name != "tp.file.title"
+from [[<% fileDate = moment(tp.file.title).format('YYYY-[W]WW') %>]] WHERE file.name != "tp.file.title"
 ```

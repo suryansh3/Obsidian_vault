@@ -6,7 +6,7 @@ label: ← Previous Quarter
 hidden: true
 actions:
   - type: open
-    link: "[[undefined04 Quarterly/Invalid date]]"
+    link: "[[<%* tR += (window?.timeGarden?.rootPath ?? "/"); _%>01 - Journal/Quarterly/<% fileDate = moment(tp.file.title, 'YYYY-[Q]Q').subtract(1, 'quarter').format('YYYY/YYYY-[Q]Q') %>]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -16,7 +16,7 @@ label: This Year
 hidden: true
 actions:
     - type: open  
-      link: "[[undefined05 Yearly/Invalid date]]"
+      link: "[[<%* tR += (window?.timeGarden?.rootPath ?? "/"); _%>01 - Journal/Yearly/<% fileDate = moment(tp.file.title, 'YYYY-[Q]Q').format('YYYY') %>]]"
       newTab: false
 ```
 ```meta-bind-button
@@ -26,6 +26,6 @@ label: Next Quarter →
 hidden: true
 actions:
     - type: open
-      link: "[[undefined04 Quarterly/Invalid date]]"
+      link: "[[<%* tR += (window?.timeGarden?.rootPath ?? "/"); _%>01 - Journal/Quarterly/<% fileDate = moment(tp.file.title, 'YYYY-[Q]Q').add(1, 'quarter').format('YYYY/YYYY-[Q]Q') %>]]"
       newTab: false
 ```
