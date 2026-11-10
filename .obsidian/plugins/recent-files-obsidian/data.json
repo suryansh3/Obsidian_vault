@@ -5,8 +5,20 @@
       "path": "00 - Dashboard/Home.md"
     },
     {
+      "basename": "MOC",
+      "path": "00 - Dashboard/MOC.md"
+    },
+    {
+      "basename": "Vault Guide",
+      "path": "00 - Dashboard/Vault Guide.md"
+    },
+    {
       "basename": "20260320",
       "path": "01 - Daily/20260320.md"
+    },
+    {
+      "basename": "Quest Config",
+      "path": "02 - Quests/Quest Config.md"
     },
     {
       "basename": "README",
