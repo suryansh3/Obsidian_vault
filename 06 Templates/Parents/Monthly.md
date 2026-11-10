@@ -29,7 +29,7 @@ label: ← Previous Month
 hidden: true
 actions:
   - type: open
-    link: "[[undefined03 Monthly/Invalid date]]"
+    link: "[[/01 - Journal/Monthly/Invalid date]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -40,7 +40,7 @@ label: This Quarter
 hidden: true
 actions:
     - type: open  
-      link: "[[undefined04 Quarterly/Invalid date]]"
+      link: "[[/01 - Journal/Quarterly/Invalid date]]"
       newTab: false
 ```
 ```meta-bind-button
@@ -51,7 +51,7 @@ label: Next Month →
 hidden: true
 actions:
     - type: open
-      link: "[[undefined03 Monthly/Invalid date]]"
+      link: "[[/01 - Journal/Monthly/Invalid date]]"
       newTab: false
 ```
 
@@ -71,7 +71,7 @@ label: ✨ Generate Summary
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Monthly AI Summarize.md
+    command: templater-obsidian:06 Templates/Components/Monthly AI Summarize.md
 ```
 ```meta-bind-button
 id: generate-monthly-alias
@@ -80,7 +80,7 @@ label: 🏷️ Generate Alias
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Monthly AI Alias.md
+    command: templater-obsidian:06 Templates/Components/Monthly AI Alias.md
 ```
 
 ## Ratings ✮⋆˙
@@ -97,7 +97,7 @@ summary:
 ```
 
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/monthly/monthlyRatingChart", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/monthly/monthlyRatingChart", {container: this.container})
 ```
 
 ### <p hidden>PicturesHeader</p>
@@ -110,18 +110,18 @@ dv.view("undefined06 Templates/Scripts/templater/dataviewjs/monthly/monthlyRatin
 ## Week Overview
 ---
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/monthly/monthlyWeekDisplay", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/monthly/monthlyWeekDisplay", {container: this.container})
 ```
 ## Wheel of Life Overview
 ---
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/monthly/monthlyWheelOfLifeChart", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/monthly/monthlyWheelOfLifeChart", {container: this.container})
 ```
 
 **Chart Type:** `INPUT[suggester(title('chart type'), option(line), option(bar), option(pie), option(radar)):monthlyWheelOfLifeCategoryChartType]`
 
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/monthly/monthlyWheelOfLifeProgression", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/monthly/monthlyWheelOfLifeProgression", {container: this.container})
 ```
 
 ## Q&A
@@ -142,7 +142,7 @@ id: ""
 hidden: false
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Monthly AI QA Execute.md
+    command: templater-obsidian:06 Templates/Components/Monthly AI QA Execute.md
 
 ```
 

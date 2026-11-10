@@ -7,7 +7,7 @@ label: ← Yesterday
 hidden: true
 actions:
   - type: open
-    link: "[[undefined01 Daily/2026/08-August/2026-08-11-Tuesday]]"
+    link: "[[/01 - Journal/Daily/Invalid date]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -18,7 +18,7 @@ label: This Week
 hidden: true
 actions:
   - type: open
-    link: "[[undefined02 Weekly/2026/2026-W33]]"
+    link: "[[/01 - Journal/Weekly/Invalid date]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -29,6 +29,6 @@ label: Tomorrow →
 hidden: true
 actions:
   - type: open
-    link: "[[undefined01 Daily/2026/08-August/2026-08-13-Thursday]]"
+    link: "[[/01 - Journal/Daily/Invalid date]]"
     newTab: false
 ```

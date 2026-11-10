@@ -7,7 +7,7 @@ label: ← Previous Month
 hidden: true
 actions:
   - type: open
-    link: "[[undefined03 Monthly/Invalid date]]"
+    link: "[[/01 - Journal/Monthly/Invalid date]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -18,7 +18,7 @@ label: This Quarter
 hidden: true
 actions:
     - type: open  
-      link: "[[undefined04 Quarterly/Invalid date]]"
+      link: "[[/01 - Journal/Quarterly/Invalid date]]"
       newTab: false
 ```
 ```meta-bind-button
@@ -29,6 +29,6 @@ label: Next Month →
 hidden: true
 actions:
     - type: open
-      link: "[[undefined03 Monthly/Invalid date]]"
+      link: "[[/01 - Journal/Monthly/Invalid date]]"
       newTab: false
 ```

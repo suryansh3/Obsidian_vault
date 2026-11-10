@@ -29,7 +29,7 @@ label: ← Previous Quarter
 hidden: true
 actions:
   - type: open
-    link: "[[undefined04 Quarterly/Invalid date]]"
+    link: "[[/01 - Journal/Quarterly/Invalid date]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -39,7 +39,7 @@ label: This Year
 hidden: true
 actions:
     - type: open  
-      link: "[[undefined05 Yearly/Invalid date]]"
+      link: "[[/01 - Journal/Yearly/Invalid date]]"
       newTab: false
 ```
 ```meta-bind-button
@@ -49,7 +49,7 @@ label: Next Quarter →
 hidden: true
 actions:
     - type: open
-      link: "[[undefined04 Quarterly/Invalid date]]"
+      link: "[[/01 - Journal/Quarterly/Invalid date]]"
       newTab: false
 ```
 
@@ -69,7 +69,7 @@ label: ✨ Generate Summary
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Quarterly AI Summarize.md
+    command: templater-obsidian:06 Templates/Components/Quarterly AI Summarize.md
 ```
 ```meta-bind-button
 id: generate-quarterly-alias
@@ -78,7 +78,7 @@ label: 🏷️ Generate Alias
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Quarterly AI Alias.md
+    command: templater-obsidian:06 Templates/Components/Quarterly AI Alias.md
 ```
 
 ## Ratings ✮⋆˙
@@ -95,7 +95,7 @@ summary:
 ```
 
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyRatingChart", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyRatingChart", {container: this.container})
 ```
 ### <p hidden>PicturesHeader</p>
 > [! pictures]- Gallery of QInvalid date
@@ -107,19 +107,19 @@ dv.view("undefined06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyR
 ## Month Overview
 ---
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyMonthDisplay", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyMonthDisplay", {container: this.container})
 ```
 
 ## Wheel of Life Overview
 ---
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyWheelOfLifeChart", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyWheelOfLifeChart", {container: this.container})
 ```
 
 **Chart Type:** `INPUT[suggester(title('chart type'), option(line), option(bar), option(pie), option(radar)):quarterlyWheelOfLifeCategoryChartType]`
 
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyWheelOfLifeProgression", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/quarterly/quarterlyWheelOfLifeProgression", {container: this.container})
 ```
 
 ## Q&A
@@ -140,7 +140,7 @@ id: ""
 hidden: false
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Quarterly AI QA Execute.md
+    command: templater-obsidian:06 Templates/Components/Quarterly AI QA Execute.md
 
 ```
 

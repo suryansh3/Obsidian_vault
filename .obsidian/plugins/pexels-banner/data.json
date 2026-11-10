@@ -113,7 +113,7 @@
   "bannerFadeInAnimationDuration": 300,
   "borderRadius": 17,
   "showPinIcon": true,
-  "pinnedImageFolder": "pixel-banner-images",
+  "pinnedImageFolder": "99 - Meta/Pixel Banner Images",
   "pinnedImageFilename": "pixel-banner-image",
   "imagePropertyFormat": "image",
   "showReleaseNotes": true,

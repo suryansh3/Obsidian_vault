@@ -7,7 +7,7 @@ label: ← Previous Year
 hidden: true
 actions:
   - type: open
-    link: "[[undefined05 Yearly/Invalid date]]"
+    link: "[[/01 - Journal/Yearly/2025]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -18,6 +18,6 @@ label: Next Year →
 hidden: true
 actions:
     - type: open
-      link: "[[undefined05 Yearly/Invalid date]]"
+      link: "[[/01 - Journal/Yearly/2027]]"
       newTab: false
 ```

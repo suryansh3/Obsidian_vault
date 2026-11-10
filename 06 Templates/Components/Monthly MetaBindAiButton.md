@@ -6,7 +6,7 @@ label: ✨ Generate Summary
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Monthly AI Summarize.md
+    command: templater-obsidian:06 Templates/Components/Monthly AI Summarize.md
 ```
 ```meta-bind-button
 id: generate-monthly-alias
@@ -15,5 +15,5 @@ label: 🏷️ Generate Alias
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Monthly AI Alias.md
+    command: templater-obsidian:06 Templates/Components/Monthly AI Alias.md
 ```

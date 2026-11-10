@@ -4,7 +4,7 @@ const content = editor.getValue().split('\n');
 
 // Build template string using concatenation to avoid immediate execution
 const cursorTag = '<' + '% tp.file.cursor(1) %' + '>';
-const thoughtLine = '- [[idea]] ' + cursorTag;
+const thoughtLine = '- #idea ' + cursorTag;
 
 // Find marker with escaped HTML
 const headerLine = content.findIndex(line => line.includes('<p hidden>placer</p>'));

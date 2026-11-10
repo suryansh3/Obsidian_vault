@@ -7,7 +7,7 @@ label: ← Previous Week
 hidden: true
 actions:
   - type: open
-    link: "[[undefined02 Weekly/Invalid date/Invalid date-Invalid date]]"
+    link: "[[/01 - Journal/Weekly/2026/2026-W06]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -18,7 +18,7 @@ label: This Month
 hidden: true
 actions:
     - type: open  
-      link: "[[undefined03 Monthly/Invalid date]]"
+      link: "[[/01 - Journal/Monthly/2026/2026-02-February]]"
       newTab: false
 ```
 ```meta-bind-button
@@ -29,6 +29,6 @@ label: Next Week →
 hidden: true
 actions:
     - type: open
-      link: "[[undefined02 Weekly/Invalid date/Invalid date-Invalid date]]"
+      link: "[[/01 - Journal/Weekly/2026/2026-W08]]"
       newTab: false
 ```

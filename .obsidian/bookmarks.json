@@ -1,3 +1,40 @@
 {
-  "items": []
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1794207470200,
+      "path": "00 - Dashboard/Home.md",
+      "title": "🎮 Home Dashboard"
+    },
+    {
+      "type": "file",
+      "ctime": 1794207470201,
+      "path": "00 - Dashboard/MOC.md",
+      "title": "🗺️ Map of Content"
+    },
+    {
+      "type": "file",
+      "ctime": 1794207470202,
+      "path": "02 - Quests/Quest Board.md",
+      "title": "⚔️ Quest Board"
+    },
+    {
+      "type": "file",
+      "ctime": 1794207470203,
+      "path": "00 - Dashboard/Vault Guide.md",
+      "title": "📘 Vault Guide"
+    },
+    {
+      "type": "file",
+      "ctime": 1794207470204,
+      "path": "04 - Academics & CS/Academics & CS.md",
+      "title": "🎓 Academics & CS"
+    },
+    {
+      "type": "file",
+      "ctime": 1794207470205,
+      "path": "05 - Second Brain & Knowledge/Second Brain.md",
+      "title": "🧠 Second Brain"
+    }
+  ]
 }

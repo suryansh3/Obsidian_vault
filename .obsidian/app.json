@@ -5,7 +5,8 @@
   "attachmentFolderPath": "99 - Meta/attachments",
   "promptDelete": false,
   "userIgnoreFilters": [
-    "99 - Meta/"
+    "99 - Meta/",
+    "07 - Archives/"
   ],
   "showFrontmatter": true,
   "propertiesInDocument": "visible",
@@ -20,6 +21,6 @@
     "margin": "2",
     "downscalePercent": 100
   },
-  "openBehavior": "daily",
+  "openBehavior": "last",
   "showLineNumber": false
 }

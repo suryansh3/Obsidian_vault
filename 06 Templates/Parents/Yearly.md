@@ -6,16 +6,25 @@ cssclasses:
   - image-small
   - yearly
   - timegarden-yearly
-# Not a yearly note - banner not applied
-date: Invalid date
+banner:
+  - - YearlyBanner.jpg
+banner-y: 50
+banner-x: 30
+content-start: 200
+banner-display: cover
+banner-repeat: true
+banner-height: 400
+banner-fade: -75
+banner-radius: 25
+date: 2026-01-01
 alias:
 aiAnswer: ""
 YearSummary: ""
 yearlyWheelOfLifeCategoryChartType: line
 journal: yearly
-journal-date: Invalid date
+journal-date: 2026-01-01
 ---
-# ✧ weekly MetaBindWheelOfLifeDisplay
+# ✧ 2026-07-25 Vault Cross-Linking & Organisation
 
 `BUTTON[prev-year, next-year]`
 ```meta-bind-button
@@ -26,7 +35,7 @@ label: ← Previous Year
 hidden: true
 actions:
   - type: open
-    link: "[[undefined05 Yearly/Invalid date]]"
+    link: "[[/01 - Journal/Yearly/2025]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -37,7 +46,7 @@ label: Next Year →
 hidden: true
 actions:
     - type: open
-      link: "[[undefined05 Yearly/Invalid date]]"
+      link: "[[/01 - Journal/Yearly/2027]]"
       newTab: false
 ```
 
@@ -58,7 +67,7 @@ label: ✨ Generate Summary
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Yearly AI Summarize.md
+    command: templater-obsidian:06 Templates/Components/Yearly AI Summarize.md
 ```
 ```meta-bind-button
 id: generate-yearly-alias
@@ -68,7 +77,7 @@ label: 🏷️ Generate Alias
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Yearly AI Alias.md
+    command: templater-obsidian:06 Templates/Components/Yearly AI Alias.md
 ```
 
 ## Ratings ✮⋆˙
@@ -78,8 +87,8 @@ searchType: frontmatter
 searchTarget: dayRating
 dateFormat: YYYY-MM-DD-dddd
 datasetName: yearRating
-startDate: Invalid date
-endDate: Invalid date
+startDate: 2026-01-01-Thursday
+endDate: 2026-12-31-Thursday
 summary:
     template: "Average Rating: {{average()}}" 
 ```
@@ -92,7 +101,7 @@ dv.view("06 Templates/Scripts/templater/dataviewjs/yearly/yearlyRatingChart", {c
 ---
 ```dataview
 TABLE WITHOUT ID file.link as Date, alias as Day
-FROM "undefined01 Daily"
+FROM "01 - Journal/Daily"
 WHERE date.year = date(this.file.day).year
 AND dayRating >= 9
 SORT dayRating DESC
@@ -101,16 +110,16 @@ SORT dayRating DESC
 ## Gallery
 ---
 > [! pictures]- Yearly Gallery
-> ![[Invalid date/Invalid date-Q1#<p hidden>PicturesHeader</p>]]
-> ![[Invalid date/Invalid date-Q2#<p hidden>PicturesHeader</p>]]
-> ![[Invalid date/Invalid date-Q3#<p hidden>PicturesHeader</p>]]
-> ![[Invalid date/Invalid date-Q4#<p hidden>PicturesHeader</p>]]
+> ![[2026/2026-Q1#<p hidden>PicturesHeader</p>]]
+> ![[2026/2026-Q2#<p hidden>PicturesHeader</p>]]
+> ![[2026/2026-Q3#<p hidden>PicturesHeader</p>]]
+> ![[2026/2026-Q4#<p hidden>PicturesHeader</p>]]
 
 ## Quarters Overview
 ---
 ```dataview
 TABLE without id file.link as Quarter, alias
-FROM "undefined04 Quarterly"
+FROM "01 - Journal/Quarterly"
 WHERE date.year = date(this.file.day).year
 SORT file.day ASC
 ```
@@ -144,7 +153,7 @@ id: ""
 hidden: false
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Yearly AI QA Execute.md
+    command: templater-obsidian:06 Templates/Components/Yearly AI QA Execute.md
 
 ```
 

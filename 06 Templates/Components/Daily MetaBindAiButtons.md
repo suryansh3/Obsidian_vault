@@ -7,7 +7,7 @@ label: ⚡ AI Rating + Alias
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Daily AI RateAndAlias.md
+    command: templater-obsidian:06 Templates/Components/Daily AI RateAndAlias.md
 ```
 ```meta-bind-button
 id: ai-rate-only
@@ -17,7 +17,7 @@ label: ⭐ AI Rating
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Daily AI Rate.md
+    command: templater-obsidian:06 Templates/Components/Daily AI Rate.md
 ```
 ```meta-bind-button
 id: ai-alias-only
@@ -27,5 +27,5 @@ label: 🏷️ AI Alias
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Daily AI Alias.md
+    command: templater-obsidian:06 Templates/Components/Daily AI Alias.md
 ```

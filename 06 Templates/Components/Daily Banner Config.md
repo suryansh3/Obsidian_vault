@@ -1,6 +1,6 @@
 banner:
-  - - Invalid dateBanner.avif
-banner-y: undefined
+  - - SaturdayBanner.avif
+banner-y: 0
 banner-x: 30
 content-start: 200
 banner-display: cover

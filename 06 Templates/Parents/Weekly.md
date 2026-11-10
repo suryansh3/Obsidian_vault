@@ -6,13 +6,13 @@ cssclasses:
 - image-small
 - weekly
 - timegarden-weekly
-- week-invalid date
+- week-7
 # Not a weekly note - banner not applied
-date: Invalid date
+date: 2026-02-09
 journal: weekly
-journal-date: Invalid date
-journal-start-date: Invalid date
-journal-end-date: Invalid date
+journal-date: 2026-02-09
+journal-start-date: 2026-02-09
+journal-end-date: 2026-02-15
 alias:
 aiAnswer: ""
 WeekSummary: ""
@@ -34,8 +34,8 @@ wheelOfLife:
   finance: 
   financeSummary: ""
 ---
-# ✧ weekly MetaBindWheelOfLifeDisplay
-[[Invalid date|]] 
+# ✧ 2026-07-25 Vault Cross-Linking & Organisation
+[[2026-W07|]] 
 `BUTTON[prev-week, current-month, next-week]`
 ```meta-bind-button
 id: prev-week
@@ -45,7 +45,7 @@ label: ← Previous Week
 hidden: true
 actions:
   - type: open
-    link: "[[undefined02 Weekly/Invalid date/Invalid date-Invalid date]]"
+    link: "[[/01 - Journal/Weekly/2026/2026-W06]]"
     newTab: false
 ```
 ```meta-bind-button
@@ -56,7 +56,7 @@ label: This Month
 hidden: true
 actions:
     - type: open  
-      link: "[[undefined03 Monthly/Invalid date]]"
+      link: "[[/01 - Journal/Monthly/2026/2026-02-February]]"
       newTab: false
 ```
 ```meta-bind-button
@@ -67,7 +67,7 @@ label: Next Week →
 hidden: true
 actions:
     - type: open
-      link: "[[undefined02 Weekly/Invalid date/Invalid date-Invalid date]]"
+      link: "[[/01 - Journal/Weekly/2026/2026-W08]]"
       newTab: false
 ```
 
@@ -88,7 +88,7 @@ label: ✨ Generate Summary
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Weekly AI Summarize.md
+    command: templater-obsidian:06 Templates/Components/Weekly AI Summarize.md
 ```
 ```meta-bind-button
 id: generate-weekly-alias
@@ -98,7 +98,7 @@ label: 🏷️ Generate Alias
 hidden: true
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Weekly AI Alias.md
+    command: templater-obsidian:06 Templates/Components/Weekly AI Alias.md
 ```
 
 ## Ratings ✮⋆˙
@@ -108,23 +108,23 @@ searchType: frontmatter
 searchTarget: dayRating
 dateFormat: YYYY-MM-DD-dddd
 datasetName: dayRating
-startDate: Invalid date
-endDate: Invalid date
+startDate: 2026-02-10-Tuesday
+endDate: 2026-02-16-Monday
 summary:
     template: "Average Rating: {{average()}}" 
 ```
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/weekly/weeklyRatingChart", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/weekly/weeklyRatingChart", {container: this.container})
 ```
 ### <p hidden>PicturesHeader</p>
 > [! pictures]- Pictures of Wundefined
-> ![[Invalid date#📁 Pictures]]
-> ![[Invalid date#📁 Pictures]]
-> ![[Invalid date#📁 Pictures]]
-> ![[Invalid date#📁 Pictures]]
-> ![[Invalid date#📁 Pictures]]
-> ![[Invalid date#📁 Pictures]]
-> ![[Invalid date#📁 Pictures]]
+> ![[2026-02-09-Monday#📁 Pictures]]
+> ![[2026-02-10-Tuesday#📁 Pictures]]
+> ![[2026-02-11-Wednesday#📁 Pictures]]
+> ![[2026-02-12-Thursday#📁 Pictures]]
+> ![[2026-02-13-Friday#📁 Pictures]]
+> ![[2026-02-14-Saturday#📁 Pictures]]
+> ![[2026-02-15-Sunday#📁 Pictures]]
 ## Logs
 ---
 Error: Unable to extract date range from filename.
@@ -143,7 +143,7 @@ from [[Invalid date]] WHERE file.name != "tp.file.title"
 ## Wheel of Life
 ---
 ```dataviewjs
-dv.view("undefined06 Templates/Scripts/templater/dataviewjs/weekly/weeklyWheelOfLifeChart", {container: this.container})
+dv.view("06 Templates/Scripts/templater/dataviewjs/weekly/weeklyWheelOfLifeChart", {container: this.container})
 ```
 ```meta-bind-button
 id: generate-wheel-of-life
@@ -152,7 +152,7 @@ class: centered-button phone-responsive
 label: 🌟 Generate Wheel of Life Analysis
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Weekly AI WheelOfLife.md
+    command: templater-obsidian:06 Templates/Components/Weekly AI WheelOfLife.md
 ```
 
 <span style="color: rgba(103, 58, 183, 0.8); font-weight: bold; font-size: 35px;">Spiritual</span> | `INPUT[number(class(centeredNumberInput), placeholder('🧘 Spiritual Rating')):wheelOfLife.spiritual]` | `INPUT[slider(minValue(1), maxValue(10)):wheelOfLife.spiritual]`
@@ -197,7 +197,7 @@ id: ""
 hidden: false
 actions:
   - type: command
-    command: templater-obsidian:undefined06 Templates/Components/Weekly AI QA Execute.md
+    command: templater-obsidian:06 Templates/Components/Weekly AI QA Execute.md
 
 ```
 

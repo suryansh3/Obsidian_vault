@@ -1,4 +1,1 @@
-/* src/styles.css */
-.is-mobile div.awesome-reader-epub button {
-  width: auto !important;
-}
+.awesome-reader-epub{border:none;height:100%;overflow:hidden;width:100%}.is-mobile .awesome-reader-epub button{width:auto}

@@ -7,7 +7,7 @@ label: 🎯 Progress
 hidden: true
 actions:
   - type: command
-    command: "templater-obsidian:undefined06 Templates/Components/New Progress.md"
+    command: "templater-obsidian:06 Templates/Components/New Progress.md"
   - type: sleep 
     ms: 2
   - type: command
@@ -21,7 +21,7 @@ label: ✨ Highlight
 hidden: true
 actions:
   - type: command
-    command: "templater-obsidian:undefined06 Templates/Components/New Highlight.md"
+    command: "templater-obsidian:06 Templates/Components/New Highlight.md"
   - type: sleep 
     ms: 2
   - type: command
@@ -35,7 +35,7 @@ label: 💡 Idea
 hidden: true
 actions:
   - type: command
-    command: "templater-obsidian:undefined06 Templates/Components/New Idea.md"
+    command: "templater-obsidian:06 Templates/Components/New Idea.md"
   - type: sleep 
     ms: 2
   - type: command
