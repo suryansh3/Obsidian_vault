@@ -1,0 +1,116 @@
+---
+course: "DBMS"
+semester: 4
+tags:
+  - course/dbms
+up: "[[DBMS]]"
+---
+-- 7.2. Create a view to include all employee and school, but hide INJECTED_DATE
+ CREATE OR REPLACE VIEW VW_EMP_SCHOOL AS
+ SELECT E.ID, E.FIRST_NAME, E.LAST_NAME, S.NAME AS SCHOOL_NAME
+ FROM EMPLOYEE E
+ JOIN EMPLOYEE_ALIGNMENT EA ON E.ID = EA.EMPLOYEE_ID
+ JOIN SCHOOL S ON EA.SCHOOL_ID = S.ID;
+
+View created.
+
+-- 7.3. Create a view to include all employee and JOB, but hide INJECTED_DATE
+
+ CREATE OR REPLACE VIEW VW_EMP_JOB AS
+   SELECT E.ID, E.FIRST_NAME, E.LAST_NAME, J.TITLE, J.NAME AS JOB_NAME
+   FROM EMPLOYEE E
+   JOIN EMPLOYEE_PAY EP ON E.ID = EP.EMPLOYEE_ID
+  JOIN JOB J ON EP.JOB_ID = J.ID;
+
+View created.
+
+CREATE OR REPLACE VIEW VW_EMP_PAY AS
+  SELECT E.ID, E.FIRST_NAME, E.LAST_NAME, J.TITLE, J.NAME AS JOB_NAME
+   FROM EMPLOYEE E
+   JOIN EMPLOYEE_PAY EP ON E.ID = EP.EMPLOYEE_ID
+  JOIN JOB J ON EP.JOB_ID = J.ID
+
+-- 7.4. Create a view to include all employee and PAY, but hide INJECTED_DATE
+CREATE OR REPLACE VIEW VW_EMP_PAY AS
+   SELECT E.ID, E.FIRST_NAME, E.LAST_NAME, EP.JOB_ID, EP.SALARY_DATE
+   FROM EMPLOYEE E
+   JOIN EMPLOYEE_PAY EP ON E.ID = EP.EMPLOYEE_ID;
+
+View created.
+
+-- 7.5. Create a view to include school name, employee count and avg salary
+SQL> CREATE OR REPLACE VIEW VW_SCHOOL_STATS AS
+  SELECT S.NAME AS SCHOOL_NAME, 
+   COUNT(EA.EMPLOYEE_ID) AS EMP_COUNT, 
+  AVG(J.SALARY) AS AVG_SALARY
+  FROM SCHOOL S
+  JOIN EMPLOYEE_ALIGNMENT EA ON S.ID = EA.SCHOOL_ID
+ JOIN EMPLOYEE_PAY EP ON EA.EMPLOYEE_ID = EP.EMPLOYEE_ID
+  JOIN JOB J ON EP.JOB_ID = J.ID
+  GROUP BY S.NAME;
+
+View created.
+
+-- 7.6. Grant only select privilege to another user for EMPLOYEE table
+SQL> GRANT SELECT ON EMPLOYEE TO OTHER_USER;
+
+Grant succeeded.
+
+-- 7.7. Grant only update privilege to another user for SCHOOL table
+SQL> GRANT UPDATE ON SCHOOL TO OTHER_USER;
+
+Grant succeeded.
+
+-- 7.8. Grant only delete privilege to another user for JOB table
+SQL> GRANT DELETE ON JOB TO OTHER_USER;
+
+Grant succeeded.
+
+-- 7.9. Create a synonym for employee and school (using the view from 7.2)
+SQL> CREATE SYNONYM SYN_EMP_SCHOOL FOR VW_EMP_SCHOOL;
+
+Synonym created.
+
+-- 7.10. Create a synonym for employees, schools and jobs
+-- First, we create the complex view, then the synonym
+SQL> CREATE OR REPLACE VIEW VW_EMP_SCH_JOB AS
+  2  SELECT E.FIRST_NAME, S.NAME AS SCHOOL, J.TITLE
+  3  FROM EMPLOYEE E
+  4  JOIN EMPLOYEE_ALIGNMENT EA ON E.ID = EA.EMPLOYEE_ID
+  5  JOIN SCHOOL S ON EA.SCHOOL_ID = S.ID
+  6  JOIN EMPLOYEE_PAY EP ON E.ID = EP.EMPLOYEE_ID
+  7  JOIN JOB J ON EP.JOB_ID = J.ID;
+
+View created.
+
+SQL> CREATE SYNONYM SYN_EMP_SCH_JOB FOR VW_EMP_SCH_JOB;
+
+Synonym created.
+
+-- 7.11. Create a synonym for employees, schools, jobs, and pay
+SQL> CREATE OR REPLACE VIEW VW_EMP_ALL_DETAILS AS
+  2  SELECT E.FIRST_NAME, S.NAME AS SCHOOL, J.TITLE, J.SALARY
+  3  FROM EMPLOYEE E
+  4  JOIN EMPLOYEE_ALIGNMENT EA ON E.ID = EA.EMPLOYEE_ID
+  5  JOIN SCHOOL S ON EA.SCHOOL_ID = S.ID
+  6  JOIN EMPLOYEE_PAY EP ON E.ID = EP.EMPLOYEE_ID
+  7  JOIN JOB J ON EP.JOB_ID = J.ID;
+
+View created.
+
+SQL> CREATE SYNONYM SYN_FULL_INFO FOR VW_EMP_ALL_DETAILS;
+
+Synonym created.
+
+-- 7.12. Create index on Sex in Employee
+SQL> CREATE INDEX IDX_EMP_SEX ON EMPLOYEE(SEX);
+
+Index created.
+
+<!-- connections:start -->
+---
+> [!abstract] 🔗 Connections
+> **Up:** [[DBMS]] · **Semester:** [[Semester 4]] · **Map:** [[MOC]]
+> **Prev:** [[04 - Academics & CS/Semester 4/DBMS/DAY - 5|DAY - 5]] · **Next:** -
+> **Related:** [[OOPJ (Java)]] · [[DAWR]] · [[Projects]]
+<!-- connections:end -->

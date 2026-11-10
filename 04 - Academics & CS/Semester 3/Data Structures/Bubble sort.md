@@ -1,0 +1,124 @@
+---
+course: "Data Structures"
+semester: 3
+tags:
+  - course/data-structures
+up: "[[Data Structures]]"
+---
+Bubble sort algorithm :
+
+```c
+void bubbleSort(int *A, int n){
+    int temp;
+    int isSorted = 0;
+    for (int i = 0; i < n-1; i++) // For number of pass
+    {
+        printf("Working on pass number %d\n", i+1); 
+        for (int j = 0; j <n-1-i ; j++) // For comparison in each pass
+        {
+            if(A[j]>A[j+1]){
+                temp = A[j];
+                A[j] = A[j+1];
+                A[j+1] = temp; 
+            }
+        }  
+    } 
+}
+```
+
+
+Making bubble sort adaptive :
+```c
+void bubbleSortAdaptive(int *A, int n){
+    int temp;
+    int isSorted = 0;
+    for (int i = 0; i < n-1; i++) // For number of pass
+    {
+        printf("Working on pass number %d\n", i+1);
+        isSorted = 1;
+        for (int j = 0; j <n-1-i ; j++) // For comparison in each pass
+        {
+            if(A[j]>A[j+1]){
+                temp = A[j];
+                A[j] = A[j+1];
+                A[j+1] = temp;
+                isSorted = 0;
+            }
+        } 
+        if(isSorted){
+            return;
+        }
+    } 
+}
+```
+
+Bubble sort full algorithm :
+
+```c
+[[include]]<stdio.h>
+ 
+void printArray(int* A, int n){
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", A[i]);
+    }
+    printf("\n");
+}
+void bubbleSort(int *A, int n){
+    int temp;
+    int isSorted = 0;
+    for (int i = 0; i < n-1; i++) // For number of pass
+    {
+        printf("Working on pass number %d\n", i+1); 
+        for (int j = 0; j <n-1-i ; j++) // For comparison in each pass
+        {
+            if(A[j]>A[j+1]){
+                temp = A[j];
+                A[j] = A[j+1];
+                A[j+1] = temp; 
+            }
+        }  
+    } 
+}
+ 
+void bubbleSortAdaptive(int *A, int n){
+    int temp;
+    int isSorted = 0;
+    for (int i = 0; i < n-1; i++) // For number of pass
+    {
+        printf("Working on pass number %d\n", i+1);
+        isSorted = 1;
+        for (int j = 0; j <n-1-i ; j++) // For comparison in each pass
+        {
+            if(A[j]>A[j+1]){
+                temp = A[j];
+                A[j] = A[j+1];
+                A[j+1] = temp;
+                isSorted = 0;
+            }
+        } 
+        if(isSorted){
+            return;
+        }
+    } 
+}
+ 
+int main(){
+    // int A[] = {12, 54, 65, 7, 23, 9};
+    int A[] = {1, 2, 5, 6, 12, 54, 625, 7, 23, 9, 987};
+    // int A[] = {1, 2, 3, 4, 5, 6};
+    int n = 11;
+    printArray(A, n); // Printing the array before sorting
+    bubbleSort(A, n); // Function to sort the array
+    printArray(A, n); // Printing the array before sorting
+    return 0;
+}
+```
+
+<!-- connections:start -->
+---
+> [!abstract] 🔗 Connections
+> **Up:** [[Data Structures]] · **Semester:** [[Semester 3]] · **Map:** [[MOC]]
+> **Prev:** [[04 - Academics & CS/Semester 3/Data Structures/Array|Array]] · **Next:** [[04 - Academics & CS/Semester 3/Data Structures/DSA 16 Question Co-Pilot|DSA 16 Question Co-Pilot]]
+> **Related:** [[DAA]] · [[Discrete Mathematics]] · [[OOPJ (Java)]]
+<!-- connections:end -->

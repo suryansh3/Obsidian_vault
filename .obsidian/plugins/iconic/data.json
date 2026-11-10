@@ -1,0 +1,101 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": false,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "useSearchKeywords": "on",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "maxBackups": 2,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "folder"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "00 - Dashboard": {
+      "icon": "lucide-home"
+    },
+    "00 - Dashboard/Home.md": {
+      "icon": "lucide-gamepad-2"
+    },
+    "00 - Dashboard/MOC.md": {
+      "icon": "lucide-map"
+    },
+    "00 - Dashboard/Vault Guide.md": {
+      "icon": "lucide-book-open"
+    },
+    "01 - Journal": {
+      "icon": "lucide-notebook-pen"
+    },
+    "01 - Journal/Daily": {
+      "icon": "lucide-sparkle"
+    },
+    "01 - Journal/Monthly": {
+      "icon": "lucide-star"
+    },
+    "01 - Journal/Quarterly": {
+      "icon": "lucide-moon"
+    },
+    "01 - Journal/Weekly": {
+      "icon": "lucide-stars"
+    },
+    "01 - Journal/Yearly": {
+      "icon": "lucide-sun"
+    },
+    "02 - Quests": {
+      "icon": "lucide-swords"
+    },
+    "02 - Quests/Areas": {
+      "icon": "lucide-radar"
+    },
+    "02 - Quests/Pursuits": {
+      "icon": "lucide-target"
+    },
+    "03 - AI & ML": {
+      "icon": "lucide-brain-circuit"
+    },
+    "04 - Academics & CS": {
+      "icon": "lucide-graduation-cap"
+    },
+    "05 - Second Brain & Knowledge": {
+      "icon": "lucide-brain"
+    },
+    "06 Templates": {
+      "icon": "lucide-layout-template"
+    },
+    "07 - Archives": {
+      "icon": "lucide-archive"
+    },
+    "08 - Resources": {
+      "icon": "lucide-library"
+    },
+    "99 - Meta": {
+      "icon": "lucide-settings-2"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": [],
+  "biggerSearchResults": "mobile",
+  "rememberDeletedItems": false
+}

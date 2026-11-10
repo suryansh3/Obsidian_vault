@@ -1,12 +1,62 @@
 {
   "collapse-filter": false,
-  "search": "",
-  "showTags": false,
+  "search": "-path:\"06 Templates\" -path:\"99 - Meta\" -path:\"07 - Archives\" -path:\"01 - Journal/Daily\"",
+  "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"00 - Dashboard\"",
+      "color": {
+        "a": 1,
+        "rgb": 3725737
+      }
+    },
+    {
+      "query": "path:\"01 - Journal\"",
+      "color": {
+        "a": 1,
+        "rgb": 5090295
+      }
+    },
+    {
+      "query": "path:\"02 - Quests\"",
+      "color": {
+        "a": 1,
+        "rgb": 16498468
+      }
+    },
+    {
+      "query": "path:\"03 - AI & ML\"",
+      "color": {
+        "a": 1,
+        "rgb": 9926138
+      }
+    },
+    {
+      "query": "path:\"04 - Academics & CS\"",
+      "color": {
+        "a": 1,
+        "rgb": 14317554
+      }
+    },
+    {
+      "query": "path:\"05 - Second Brain\"",
+      "color": {
+        "a": 1,
+        "rgb": 16746429
+      }
+    },
+    {
+      "query": "path:\"08 - Resources\"",
+      "color": {
+        "a": 1,
+        "rgb": 8818326
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -2.2,
@@ -17,6 +67,6 @@
   "repelStrength": 11.4204444444444,
   "linkStrength": 0.578607407407408,
   "linkDistance": 118,
-  "scale": 0.22571941662214995,
+  "scale": 0.22909798440991425,
   "close": true
 }

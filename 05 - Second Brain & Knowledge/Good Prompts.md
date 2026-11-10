@@ -1,0 +1,17 @@
+Here’s the exact prompt I used: 
+
+================= 
+Act as a senior personal stylist + colorist. Analyze the attached selfie and generate a 6-page "personal style consultancy board" carousel. Each board is a single 4:5 portrait image, off-white paper-textured background, thin black hairline dividers, modern serif headings (Playfair-style) in title case, small-caps sans-serif sub-labels (Inter-style). Page 1 — COLOR ANALYSIS • Top: my portrait, cleaned + brightened, head-and-shoulders • Below: a 6-swatch palette under "Best Palette" with hex labels • Below that: 4 muted swatches under "Avoid" with hex labels • Right column: 60-word note on undertone, contrast, value (warm/cool, high/low) Page 2 — FACE SHAPE & FEATURES • Centered portrait with thin geometric overlay tracing face shape • Label the shape (oval/round/square/heart/diamond) • 3 short bullets: dominant features, balance recommendations, what to flatter Page 3 — HAIRSTYLES (4-up grid) • 4 small
+
+portraits of me with different recommended cuts/colors • Caption each with style name + 1-line why-it-works • Bottom strip: "AVOID" row with 2 unflattering options struck through Page 4 — OUTFITS (side-by-side) • Left column "Best Looks": 3 stacked portraits in flattering outfits, each labeled with occasion (work / casual / event) • Right column "Less Flattering": 3 stacked portraits with subtle red X • Footer: "Why" — 2 sentences on silhouette, fabric, neckline Page 5 — MAKEUP (only if applicable, otherwise GROOMING) • Half-face split: bare vs. enhanced • 4 small product swatches with hex codes (foundation undertone, blush, lip, eye) • 2-line technique note Page 6 — TAKEAWAYS • Top: portrait in the single best recommended look • 5 bullet "rules to live by" in small caps • Bottom-right corner: tiny watermark "@sys.mithu" Style tokens to apply on every page: • Background: [#F5F1EA](https://www.instagram.com/explore/tags/F5F1EA/) (warm off-white) with subtle paper grain • Headings: serif, ~48pt, [#1A1A1A](https://www.instagram.com/explore/tags/1A1A1A/) • Sub-labels: small-caps sans,
+
+~14pt, [#5C5C5C](https://www.instagram.com/explore/tags/5C5C5C/), letter-spacing 0.1em • Dividers: 1px solid [#1A1A1A](https://www.instagram.com/explore/tags/1A1A1A/) • Color swatches: 56px circles with hex shown beneath in mono font • Edge padding: 80px on all sides • Aspect ratio: 4:5 (1080x1350) Render all 6 pages as a single concatenated grid OR 6 separate images, my pick per board. Keep my facial identity, skin tone, and features EXACT — do not "beautify" or change my face. Only the styling around me changes.  
+
+=================
+
+<!-- connections:start -->
+---
+> [!abstract] 🔗 Connections
+> **Up:** [[Second Brain]] · **Map:** [[MOC]]
+> **Related:** [[AI & ML Roadmap]] · [[Academics & CS]]
+<!-- connections:end -->

@@ -1,5 +1,5 @@
 {
-  "format": "YYYYMMDD",
-  "folder": "01 - Daily",
-  "template": "99 - Meta/00 - Templates/(TEMPLATE) Daily"
+  "format": "YYYY/MM-MMMM/YYYY-MM-DD-dddd",
+  "folder": "01 - Journal/Daily",
+  "template": "06 Templates/Parents/Daily.md"
 }
