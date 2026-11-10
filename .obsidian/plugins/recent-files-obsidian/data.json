@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian Git Sync Guide",
+      "path": "08 - Resources/Obsidian Git Sync Guide.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Home",
       "path": "00 - Dashboard/Home.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "Quest Config",
       "path": "02 - Quests/Quest Config.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],

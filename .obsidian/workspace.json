@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Dashboard/Home.md",
+                "file": "08 - Resources/Obsidian Git Sync Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Obsidian Git Sync Guide"
             }
           }
         ]
@@ -220,7 +220,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -258,10 +258,13 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "d346d054fad2a195",
   "lastOpenFiles": [
-    "00 - Dashboard/MOC.md",
+    "08 - Resources/Devore Solutions Ed9.pdf",
+    "08 - Resources/Obsidian Git Sync Guide.md",
+    "README.md",
     "00 - Dashboard/Home.md",
+    "00 - Dashboard/MOC.md",
     "00 - Dashboard/Vault Guide.md",
     "01 - Daily/20260320.md",
     "02 - Quests/Quest Config.md",
@@ -303,9 +306,6 @@
     "06 Templates/Components/Yearly MetaBindSummary.md",
     "06 Templates/Components/Yearly MetaBindNavBar.md",
     "06 Templates/Components/Yearly MetaBindAlias.md",
-    "06 Templates/Components/Yearly MetaBindAiQA.md",
-    "06 Templates/Components/Yearly MetaBindAiButton.md",
-    "06 Templates/Components/Yearly MetaBind WheelOfLifeChartTypePicker.md",
     "Untitled.canvas"
   ]
 }
