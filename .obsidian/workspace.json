@@ -119,7 +119,6 @@
       {
         "id": "6c007c54bd3b216e",
         "type": "tabs",
-        "dimension": 72.5,
         "children": [
           {
             "id": "d24a6f00ad1ab4e4",
@@ -256,23 +255,6 @@
           }
         ],
         "currentTab": 9
-      },
-      {
-        "id": "78982c0501f30aa9",
-        "type": "tabs",
-        "dimension": 27.500000000000004,
-        "children": [
-          {
-            "id": "1245cc97a38573ae",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -310,8 +292,9 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "a48c8579082f6af7",
   "lastOpenFiles": [
+    "01 - Journal/Daily/2026/11-November/2026-11-13-Friday.md",
     "00 - Dashboard/Home.md",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Prompts/example-expert.md",
